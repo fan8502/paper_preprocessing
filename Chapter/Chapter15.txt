@@ -1,0 +1,763 @@
+15
+{{{
+Sourcing Decisions in a Supply Chain
+LEARNING OBJECTIVES After reading this chapter, you will be able to 1. Understand the role of sourcing in a supply chain. 2. Discuss factors that affect the decision to outsource a supply chain function. 3. Identify dimensions of supplier performance that affect total cost. 4. Structure successful auctions and negotiations. 5. Describe the impact of risk sharing on supplier performance and information distortion. 6. Design a tailored supplier portfolio.
+In this chapter, we explore various factors that influence decisions about whether a supply chain activity is performed within the firm or outsourced. We also discuss performance characteristics of suppliers that affect total cost. Our goal is to enable managers to consider all the trade-offs involved when making sourcing decisions to maximize value extracted from every stage of a sourcing relationship.
+15.1 THE ROLE OF SOURCING IN A SUPPLY CHAIN Purchasing, also called procurement, is the process by which companies acquire raw materials, components, products, services, or other resources from suppliers to execute their operations. Sourcing is the entire set of business processes required to purchase goods and services. For any supply chain function, the most significant decision is whether to outsource the function or perform it in-house. Outsourcing results in the supply chain function being performed by a third party. Outsourcing is one of the most important issues facing a firm, and actions across industries tend to be varied. For example, W.W. Grainger, an MRO distributor, has consistently owned and managed its distribution centers. In contrast, outbound transportation of packages from distribution centers to customers has consistently been outsourced to a third party. For less-than-truckload (LTL) outbound transportation, Grainger is moving from a scenario under which it was all outsourced to a third party to a hybrid model under which Grainger owns some trucks. What factors can explain Grainger's decisions?
+Until 2005, Dell was credited with improving profits by keeping the retail function in-house and selling directly to customers. Since 2007, however, Dell has started to outsource retailing to firms such as Wal-Mart. Dell 428
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 429
+has also increased the fraction of assembly that it outsources to contract manufacturers. Why was vertical integration into retailing a good idea for Dell until about 2005 but not after 2007? Was Dell right in outsourcing a greater fraction of assembly to contract manufacturers? In contrast to Dell, Apple has significantly expanded the insourcing of retailing during the same period by growing Apple retail stores. Procter & Gamble (P&G) has never attempted to sell detergent directly to customers, and nobody is calling on it to bring the retail function in-house. What made vertical integration into retailing a good idea for Dell but a bad idea for P&G? Motorola uses a distributor for the sale of its cell phones in most of Latin America. In contrast, most of its sales in the United States do not go through distributors. Why is the outsourcing of distribution for Motorola beneficial in Latin America but not in the United States?
+It is important to clarify the distinction between outsourcing and offshoring before we proceed. A firm offshores a supply chain function if it moves the production facility offshore (even if it maintains ownership). In contrast, a firm outsources if the firm hires an outside firm to perform an operation rather than executing the operation within the firm. The offshoring decision has been discussed in detail in Chapter 6. In this chapter, our focus is on the issue of outsourcing rather than offshoring. We address the outsourcing of supply chain activities by a firm based on the following three questions:
+1. Will the third party increase the supply chain surplus relative to performing the activity in-house?
+2. How much of the increase in surplus does the firm get to keep? 3. To what extent do risks grow upon outsourcing?
+Recall that the supply chain surplus is the difference between the value of a product for the customer and the total cost of all supply chain activities involved in bringing the product to the customer. The supply chain surplus is the total size of the pie that all supply chain participants (including the customer) get to share. Our basic premise is that outsourcing makes sense if it increases the supply chain surplus (assuming we get to keep some of the increase) without significantly affecting risks. We go further and claim that a supply chain participant can survive in the long term only if its presence increases the supply chain surplus. One can then argue that each party's profit in a supply chain is correlated with the extent to which it increases the surplus.
+Once a decision to outsource has been made, sourcing processes include the selection of suppliers, design of supplier contracts, product design collaboration, procurement of material or services, and evaluation of supplier performance, as shown in Figure 15-1.
+Supplier scoring and assessment is the process used to rate supplier performance. Suppliers should be compared based on their impact on the supply chain surplus and total cost. Unfortunately, sourcing decisions are often driven based solely on the price charged by a supplier. Many other supplier characteristics, such as lead time, reliability, quality, and design capability also affect the total cost of doing business with a supplier. A good supplier scoring and assessment process must identify and track performance along all dimensions and evaluate the impact on the total cost of using a supplier. Supplier selection uses the output from supplier scoring and assessment to identify the appropriate supplier(s). A supply contract is then negotiated with the supplier. A good contract should account for all factors that affect supply chain performance and should be designed to increase supply chain profits in a way that benefits both the supplier and the buyer.
+
+Supplier
+
+Supplier
+
+Selection
+
+Scoring
+
+and
+
+and Assessment Contract
+
+Negotiation
+
+Design Collaboration
+
+Procurement
+
+Sourcing Planning
+and Analysis
+
+FIGURE 15-1 Key Sourcing-Related Processes
+
+430 Chapter 15 · Sourcing Decisions in a Supply Chain
+Given that about 80 percent of the cost of a product is determined during design, it is crucial that suppliers be actively involved at this stage. Design collaboration allows the supplier and the manufacturer to work together when designing components for the final product. Design collaboration also ensures that any design changes are communicated effectively to all parties involved with designing and manufacturing the product. Once the product has been designed, procurement is the process whereby the supplier sends product in response to orders placed by the buyer. The goal of procurement is to enable orders to be placed and delivered on schedule at the lowest possible overall cost. Finally, the role of sourcing planning and analysis is to analyze spending across various suppliers and component categories to identify opportunities for decreasing the total cost.
+Cost of goods sold (COGS) represents well over 50 percent of sales for most major manufacturers. Within COGS, purchased parts are now a much higher fraction than they were several decades ago. This change has occurred because companies have reduced vertical integration and outsourced the manufacture of many components. Companies such as Cisco have gone further and also outsourced a significant fraction of the assembly capacity. As there is greater pressure on firms to achieve lower costs and the suppliers' share of the COGS grows, good sourcing decisions will have greater impact on the cost leadership and competitive advantage enjoyed by a firm.
+Effective sourcing processes within a firm can improve profits for the firm and total supply chain surplus in a variety of ways. It is important that the drivers of improved profits be clearly identified when making sourcing decisions. Some of the benefits from effective sourcing decisions follow:
+· Better economies of scale can be achieved if orders within a firm are aggregated. · More efficient procurement transactions can significantly reduce the overall cost of
+purchasing. This is most important for items for which a large number of low-value transactions occur. · Design collaboration can result in products that are easier to manufacture and distribute, resulting in lower overall costs. This factor is most important for components that contribute a significant amount to product cost and value. · Good procurement processes can facilitate coordination with the supplier and improve forecasting and planning. Better coordination lowers inventories and improves the matching of supply and demand. · Appropriate supplier contracts can allow for the sharing of risk, resulting in higher profits for both the supplier and the buyer. · Firms can achieve a lower purchase price by increasing competition through the use of auctions.
+When designing a sourcing strategy, it is important for a firm to be clear on the factors that have the greatest influence on performance and target improvement on those areas. For example, if most of the spending for a firm is on materials with only a few high-value transactions, improving the efficiency of procurement transactions will provide little value, whereas improving design collaboration and coordination with the supplier will provide significant value. In contrast, when sourcing items with many low-value transactions, increasing the efficiency of procurement transactions will be valuable.
+In the next section, we discuss factors that influence the outsourcing decision.
+15.2 IN-HOUSE OR OUTSOURCE
+The decision to outsource is based on the growth in supply chain surplus provided by the third party and the increase in risk incurred by using a third party. A firm should consider outsourcing if the growth in surplus is large with a small increase in risk. Performing the function in-house is preferable if the growth in surplus is small or the increase in risk is large.
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 431
+How Do Third Parties Increase the Supply Chain Surplus?
+Third parties increase the supply chain surplus if they either increase value for the customer or decrease the supply chain cost relative to a firm performing the task in-house. Third parties can increase the supply chain surplus effectively if they are able to aggregate supply chain assets or flows to a higher level than a firm itself can. We discuss various mechanisms that third parties can use to grow the surplus.
+1. Capacity aggregation. A third party can increase the supply chain surplus by aggregating demand across multiple firms and gaining production economies of scale that no single firm can on its own. This is the most common reason for outsourcing production in a supply chain. One of the reasons that Dell (and every other PC manufacturer) outsources design and production of the processors in its PCs to Intel is that Intel supplies many computer manufacturers and gains economies of scale that are not available to Dell if it designs and produces its own processors. The growth in surplus from outsourcing is highest when the needs of the firm are significantly lower than the volumes required to gain economies of scale. A good example in this context is Magna Steyr, a third party that has taken over assembly of automobiles for several manufacturers. Magna Steyr has developed flexible capacity and labor that allows it to produce economically cars that sell in low volumes. It has produced the X3 for BMW, the G class for Mercedes, and the Grand Cherokee for Chrysler. In each case, the models had relatively low demand volume. Each firm would not have gained sufficient economies of scale for assembling its model. There is a cost to this flexibility that cannot be justified based on one model, but Magna Steyr gains economies of scale by serving many auto firms. A third party is unlikely to increase the surplus through capacity aggregation if the volume requirements of a firm are large and stable. This is substantiated by the fact that no auto manufacturer outsources production of its best-selling cars to a third party.
+2. Inventory aggregation. A third party can increase the supply chain surplus by aggregating inventories across a large number of customers. W.W. Grainger and McMaster-Carr are MRO suppliers that provide value primarily by aggregating inventory for hundreds of thousands of customers. Aggregation allows them to significantly lower overall uncertainty and improve economies of scale in purchasing and transportation. As a result, these MRO distributors carry significantly less safety and cycle inventory than would be required if each customer decided to carry inventory on its own. Another example of inventory aggregation is provided by Brightstar, a distributor that facilitates postponement for cell phones. These phones are manufactured in the Far East and shipped to the Brightstar warehouse in Miami, where software and accessories are added as customer orders arrive from South America. High product variety and many small customers allow Brightstar to increase the supply chain surplus through inventory aggregation and postponement. The third party performing inventory aggregation adds most to the supply chain surplus when demand from customers is fragmented and uncertain. When demand is large and predictable, an intermediary adds little to the surplus by holding inventory. The consolidation of retailing and the resulting scale and predictability of demand for retailers explain why distributors play a much smaller role in the United States compared to developing countries.
+3. Transportation aggregation by transportation intermediaries. A third party may increase the surplus by aggregating the transportation function to a higher level than any shipper can on its own. UPS, FedEx, and a host of LTL carriers are examples of transportation intermediaries that increase the supply chain surplus by aggregating transportation across a variety of shippers. The value provided in each case is driven by the inherent economies of scale in transportation. Each shipper wants to send less than the capacity of the transportation mode. The transportation intermediary aggregates shipments across multiple shippers, thus lowering the cost of each shipment below what could be achieved by the shipper alone. A transportation intermediary increases the supply chain surplus when shippers are sending packages or LTL quantities to customers that are geographically distributed. A transportation intermediary can also grow the surplus for TL shipping by aggregating across multiple firms having unbalanced
+
+432 Chapter 15 · Sourcing Decisions in a Supply Chain
+transportation flows, with the quantity coming into a region very different from the quantity leaving the region. An excellent example of a transportation intermediary increasing the supply chain surplus is provided by a pilot program involving Chrysler and Ford. Exel, a third-party logistics (3PL) provider, operated a dedicated fleet for the distribution of spare parts for Chrysler. In tests in Michigan and Mexico, Ford added its own truck parts for delivery on the same fleet. Given the relatively low density of dealers in Northern Michigan and Mexico (outside Mexico City), the aggregation provided by Exel was a benefit for both Ford and Chrysler. A transportation intermediary is likely to add the least to the supply chain surplus for a company such as Wal-Mart, for which shipment sizes are large and the company also achieves aggregation across the many retail stores that it owns. The only possibility for a transportation intermediary in such a setting would be to obtain better backhauls than Wal-Mart.
+4. Transportation aggregation by storage intermediaries. A third party that stores inventory can also increase the supply chain surplus by aggregating inbound and outbound transportation. Storage intermediaries such as W.W. Grainger and McMaster-Carr stock products from more than a thousand manufacturers each and sell to hundreds of thousands of customers. On the inbound side, they are able to aggregate shipments from several manufacturers onto a single truck. This results in a lower transportation cost than could be achieved by each manufacturer independently. On the outbound side, they aggregate packages for customers at a common destination, resulting in a significantly lower transportation cost than can be achieved by each customer separately. For example, the Chicago distribution center for Grainger fills separate trucks with packages destined for each adjacent state. As soon as a truck destined for Michigan (for instance) is filled, it is sent to the UPS sorting facility in Michigan. This level of aggregation cannot be achieved by customers on their own. Thus, the storage of goods by Grainger and McMaster-Carr increases the supply chain surplus by aggregating inbound and outbound transportation. A similar service is provided by distributors in countries such as India. Given the small size of retail outlets, a distributor aggregates delivery for several manufacturers, significantly lowering the outbound transportation cost. This form of aggregation is most effective if the intermediary stocks products from many suppliers and serves many customers, each ordering in small quantities. This form of aggregation becomes less effective as the scale of shipment from a supplier to customer grows. This is seen in the decreased use of distributors by U.S. supermarket chains. The supermarkets typically get full trucks delivered on their own and do not need a distributor for further aggregation.
+5. Warehousing aggregation. A third party may increase the supply chain surplus by aggregating warehousing needs over several customers. The growth in surplus is achieved in terms of lower real estate costs and lower processing costs within the warehouse. Savings through warehousing aggregation arise if a supplier's warehousing needs are small or if its needs fluctuate over time. In either case, the intermediary with the warehouse can exploit economies of scale in warehouse construction and operation by aggregating across multiple customers. An example is Safexpress, a third-party logistics provider in India. Safexpress owns warehouses distributed throughout the country that are used by many of its customers. Most of its customers do not have warehousing needs that are large enough to justify a warehouse of their own in each region. Warehousing aggregation by an intermediary adds a lot to the surplus for small suppliers and for companies that are starting out in a geographic location. Warehousing aggregation is unlikely to add much to the surplus for a large supplier or customer whose warehousing needs are large and relatively stable over time. The warehousing needs of Wal-Mart, Amazon, and Grainger are sufficiently large and stable to justify their own warehouse, and a third party is unlikely to increase the surplus.
+6. Procurement aggregation. A third party increases the supply chain surplus if it aggregates procurement for many small players and facilitates economies of scale in ordering, production, and inbound transportation. Procurement aggregation is most effective across many small buyers. A good example is FleetXchange, a firm that offers small truck fleets lower prices for truck equipment and services through aggregate buying. Procurement aggregation is not likely to be a big factor with a few large customers. For example, contract manufacturers in the
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 433
+electronics industry have not convinced their large customers, such as HP and Motorola, to outsource the procurement function. Both HP and Motorola are large enough that little marginal benefit can be expected from further aggregation, whereas there is a potential downside in that they would cede the relationship with the supplier to the contract manufacturer if they outsourced procurement. For a small electronics company, however, the procurement aggregation offered by a contract manufacturer could add significantly to the supply chain surplus.
+7. Information aggregation. A third party may increase the surplus by aggregating information to a higher level than can be achieved by a firm performing the function in-house. All retailers aggregate information on products from many manufacturers in a single location. This information aggregation reduces search costs for customers. eBags is an example of a retailer that primarily provides information aggregation. eBags holds little inventory but is a single point of display for information on bags from many manufacturers. By aggregating product information, eBags significantly reduces search costs for the online customer. Relative to eBags, if each manufacturer set up its own Web site and online store, search costs for the customer would be higher, and each manufacturer would have to invest in the information infrastructure. Thus, eBags increases the supply chain surplus through information aggregation by making search cheaper and reducing investment in information technology. Two other examples of companies using information aggregation are W.W. Grainger and McMaster-Carr. Both provide a product catalog and a detailed Web site. This simplifies search by the customer and aggregates product information for more than a thousand manufacturers. Another excellent example of information aggregation is provided by the various online sites, such as Freight Zone and Echo Global Logistics, that bring together shippers and truckers looking for shipments. Information aggregation reduces search costs and allows better matching of truckers and shipments. Information aggregation increases the surplus if both buyers and sellers are fragmented and buying is sporadic. Information aggregation is not likely to be a big factor for a car manufacturer that regularly buys steel from a single supplier.
+8. Receivables aggregation. A third party may increase the supply chain surplus if it can aggregate the receivables risk to a higher level than the firm or it has a lower collection cost than the firm. Brightstar is a distributor for Motorola in most Latin American countries other than Brazil. Cell phones in the area are sold through many small, independently owned retail outlets. Collecting receivables from each retail outlet is an expensive proposition for a manufacturer. Given that a retailer buys from many manufacturers, the power of each manufacturer to collect is also reduced. Brightstar, as a distributor, is able to aggregate collection across all manufacturers (that it serves), reducing the collection cost. By aggregating collection to a greater extent than any one manufacturer can, Brightstar also lowers the default risk. Reduced collection cost and risk allow Brightstar to increase the supply chain surplus relative to having this activity performed by manufacturers. The same is true with distributors in India that often distribute for a large number of manufacturers to the same retailer. Given their ability to aggregate across many manufacturers and small retailers, distributors in India typically take responsibility for managing receivables from the retailers. Receivables aggregation is likely to increase the supply chain surplus if retail outlets are small and numerous and each outlet stocks products from many manufacturers that are all served by the same distributor. Such a scenario is more likely in developing countries where retailing is fragmented. It is less likely in developed countries such as the United States and most of Western Europe, where retailing is consolidated.
+9. Relationship aggregation. An intermediary can increase the supply chain surplus by decreasing the number of relationships required between multiple buyers and sellers. Without an intermediary, connecting a thousand sellers to a million buyers requires a billion relationships. The presence of an intermediary lowers the number of relationships required to just over a million. Most retailers and MRO distributors such as W.W. Grainger improve supply chain surplus through relationship aggregation. Relationship aggregation increases the supply chain surplus by increasing the size of each transaction and decreasing their number. Relationship aggregation is most effective when many buyers sporadically purchase small amounts at a time,
+
+434 Chapter 15 · Sourcing Decisions in a Supply Chain
+but each order often has products from multiple suppliers. Thus, Grainger can increase the surplus by being a relationship aggregator for MRO products. A third party, however, does not increase the surplus by being a relationship aggregator between a few buyers and sellers for which the relationships are longer term and large. For example, Covisint has failed to become a relationship aggregator in the automotive industry, especially for direct materials.
+10. Lower costs and higher quality. A third party can increase the supply chain surplus if it provides lower cost or higher quality relative to the firm. If these benefits come from specialization and learning, they are likely to be sustainable over the longer term. A specialized third party that is further along the learning curve for some supply chain activity is likely to maintain its advantage over the long term. A common scenario, however, is one in which the third party has a low-cost location that the firm does not. In such a situation, lower labor and overhead costs are temporary reasons for outsourcing, because if the wage differential is persistent and the third party offers none of the other advantages discussed earlier, it is best for the firm to maintain ownership and offshore production to the low-cost location.
+Key Point
+A third party may be able to provide a sustainable growth of the surplus by aggregating to a higher level than the firm itself. The growth in surplus comes from aggregating capacity, inventory, inbound or outbound transportation, warehousing, procurement, information, receivables, or relationships to a level that the firm cannot on its own. A growth in surplus may also occur if the third party has lower costs or higher quality because of specialization or learning.
+Factors Influencing Growth of Surplus by a Third Party
+Three important factors affect the increase in surplus that a third party provides: scale, uncertainty, and the specificity of assets. If the scale is large, it is likely that sufficient economies of scale are achieved internal to the firm itself. In this case, it is unlikely that a third party can achieve further scale economies and increase the surplus. Wal-Mart has sufficient scale in terms of its transportation needs that it achieves economies of scale on trucking by itself. Going to a third party would not increase the surplus and would result in some loss of control. In contrast, if a firm's needs do not provide sufficient economies of scale, the third party can increase the surplus by a large amount. Even though Grainger has a large number of outbound packages, given their geographical dispersion, it would not be able to achieve economies of scale for door-to-door delivery. A third-party package carrier adds to the surplus in this case.
+The second important factor is the uncertainty of a firm's needs. If the needs are predictable, the increase in surplus from a third party is limited, especially if the firm has sufficient scale. In contrast, if the firm's needs are highly variable over time, the third party can increase the surplus through aggregation with other customers. For example, Grainger has predictable needs in terms of warehouse space required. Given sufficient scale, it owns and operates its own distribution centers. In contrast, most firms have very uncertain demand for MRO products. They prefer not to hold these items in stock and use Grainger as an intermediary.
+Finally, the growth in surplus is influenced by the specificity of assets required by the third party. If the assets required are specific to a firm and cannot be used for others, a third party is unlikely to increase the surplus because all it does is move the assets from one firm to another. The third party has no opportunity to aggregate across other customers. For example, if a distributor holds inventory that is specific to a customer, the distributor is unable to aggregate it to a higher level than the customer. The presence of the distributor does not increase the surplus in this case. Similarly, if a third-party logistics provider manages a warehouse exclusively for a single firm, it has few opportunities to increase the surplus unless it can aggregate the use of management or information systems across other warehouses. In contrast, if assets (inventory or warehouses in the previous examples) are less specific and can be used across multiple firms,
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 435
+
+Table 15-1 Growth in Surplus by Third Party as a Function of Scale, Uncertainty, and Specificity
+Specificity of Assets Involved in Function
+
+Low
+
+High
+
+Firm scale
+Demand uncertainty for firm
+
+Low High
+Low High
+
+High growth in surplus Low growth in surplus
+Low to medium growth in surplus High growth in surplus
+
+Low to medium growth in surplus No growth in surplus unless cost of capital is lower for third party Low growth in surplus
+Low to medium growth in surplus
+
+a third party can increase the surplus by aggregating uncertainty across multiple customers or improving economies of scale.
+One instance wherein a firm may outsource to a third party even when none of the mentioned factors suggests outsourcing is shortage of capital or a third party with a much lower cost of capital. In either of these scenarios, the third party can grow the surplus by bringing lower cost capital to the supply chain. This discussion on how and when a third party can increase the supply chain surplus is summarized in Table 15-1.
+
+Key Point
+A firm gains the most by outsourcing to a third party if its needs are small, highly uncertain, and shared by other firms sourcing from the same third party.
+
+Risks of Using a Third Party
+Firms must evaluate the following risks when they move any function to a third party:
+1. The process is broken. The biggest problems arise when a firm outsources supply chain functions simply because it has lost control of the process. Keep in mind that introducing a third party into a broken supply chain process only makes it worse and harder to control. The first step should be to get the process under control, then do a cost-benefit analysis, and only then decide on outsourcing.
+2. Underestimation of the cost of coordination. A common mistake when outsourcing is to underestimate the effort required to coordinate activities across multiple entities performing supply chain tasks. This is especially true if a firm plans to outsource specific supply chain functions to different third parties. Outsourcing functions to many third parties is feasible (and can be very effective) if the firm views being a coordinator as one of its core strengths. A good example of a strong coordinator is Cisco. However, even Cisco ran into trouble in the early 2000s and was left with a lot of surplus inventory because of coordination problems. An example of when coordination caused problems was between Nike and i2 Technologies in 2000. Nike blamed its loss of $100 million on inventory management glitches that it attributed to the supply chain planning software from i2; i2 in turn blamed the problems on Nike's execution of the software. Clearly, insufficient coordination between the two firms played a role in this failure.
+3. Reduced customer/supplier contact. A firm may lose customer/supplier contact by introducing an intermediary. The loss of customer contact is particularly significant for firms that sell directly to consumers but decide to use a third party to either collect incoming orders or deliver outgoing product. A good example is Boise Cascade, which outsourced all its outbound
+
+436 Chapter 15 · Sourcing Decisions in a Supply Chain
+distribution to third parties. This led to a significant loss of customer contact. Boise Cascade decided to bring outbound delivery for customers located close to its distribution centers in-house. Given the high density of customers around its distribution centers, the additional gain in surplus that a third party could provide was minimal, while the gain from improved customer contact was significant. Boise Cascade did not bring distribution beyond this point in-house because the gain in surplus provided by a third party was significant.
+4. Loss of internal capability and growth in third-party power. A firm may choose to keep a supply chain function in-house if outsourcing will significantly increase the third party's power. An example can be found in the electronics industry. Companies such as HP and Motorola have moved most of their manufacturing to contract manufacturers but are reluctant to move either procurement or design, even though contract manufacturers have developed both capabilities. Given the commonality of components, it can be argued that a contract manufacturer can achieve a higher level of aggregation in procurement as well as design assets. HP and Motorola, however, are reluctant to move procurement to contract manufacturers because the potential loss in power is large, whereas the aggregation gains are small given the relatively large size of both firms. Keeping part of a supply chain function in-house is also important if a complete loss of capability significantly strengthens the third party's bargaining position. The in-house capability then serves as an option that can be exercised when the need arises. The option also limits how much of the supply chain surplus the third party can keep for itself.
+5. Leakage of sensitive data and information. Using a third party requires a firm to share demand information and in some cases intellectual property. If the third party also serves competitors, leakage is always a danger. Firms have often insisted on firewalls within the third party, but a firewall increases the specificity of assets, limiting the growth in surplus that the third party can provide. When leakage is an issue, especially with regard to intellectual property, firms often choose to keep the function in-house.
+6. Ineffective contracts. Contracts with performance metrics that distort the third party's incentives often significantly reduce any gains from outsourcing. For example, cost-plus pricing of third-party services presents incentive problems even if the third party opens its books. This form of pricing eliminates incentives for the third party to innovate further to reduce costs. The onus for improvement falls back on the firm. Another example occurs when firms require suppliers or distributors to maintain a certain number of days of inventory as part of the contract. Such a contract reduces the third party's incentive to take actions that reduce inventories. In such a situation, it is better for the firm to contract on a desired service level and leave the third party more freedom with regard to the amount of inventory. The third party then has an incentive to work on reducing the inventory required to provide a given level of service.
+7. Loss of supply chain visibility. Introducing third parties reduces the visibility of supply chain operations, making it harder for the firm to respond quickly to local customer and market demands. This loss of visibility can be particularly harmful for long supply chains.
+8. Negative reputational impact. In many instances, actions regarding labor or the environment taken by the third party can have a significant negative impact on the reputation of the firm. Nike has had difficulty with several of its suppliers regarding labor practices and the environment. In 2008, Nike produced its first supply chain report on suppliers in China and reported several questionable labor practices, including underage workers, unpaid wages, and falsified documents. The reputational loss from actions by a supplier can be particularly damaging to firms like Nike with strong brands.
+15.3 THIRD- AND FOURTH-PARTY LOGISTICS PROVIDERS
+A third-party logistics (3PL) provider performs one or more of the logistics activities relating to the flow of product, information, and funds that could be performed by the firm itself. Traditionally, 3PLs focused on specific functions such as transportation, warehousing, and
+
+Table 15-2 Services Provided by 3PLs
+
+Service Category
+
+Basic Service
+
+Transportation Warehousing
+
+Inbound, outbound by ship, truck, rail, air
+Storage, facilities management
+
+Information technology
+
+Provide and maintain advanced information/computer systems
+
+Reverse logistics Other 3PL services
+
+Handle reverse flows
+
+International
+Special skills/handling
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 437
+Some Specific Value-Added Services
+Tendering, track/trace, mode conversion, dispatch, freight pay, contract management Cross-dock, in-transit merge, pool distribution across firms, pick/pack, kitting, inventory control, labeling, order fulfillment, home delivery of catalog orders Transportation management systems, warehousing management, network modeling and site selection, freight bill payment, automated broker interfaces, end-to-end matching, forecasting, EDI, worldwide track and trace, global visibility Recycling, used-asset disposition, customer returns, returnable container management, repair/refurbish Brokering, freight forwarding, purchase-order management, order taking, loss and damage claims, freight bill audits, consulting, time-definite delivery Customs brokering, port services, export crating, consolidation Hazardous materials, temperature controlled, package/parcel delivery, food-grade facilities/equipment, bulk
+
+information technology within the supply chain. Armstrong's Guide to 3PLs & Global Logistics Services (Armstrong & Associates, Inc., 2001) describes some of the services offered by 3PLs, as shown in Table 15-2.
+Most 3PLs started out by focusing on one of the functions in the supply chain. For example, UPS started out as a small-package carrier. Schneider started out as a truckload carrier. Over the years, however, as the basic functions have become commoditized, 3PLs have expanded their range of services. Several customers still use 3PLs to perform a specific function. For example, Grainger handles most of the order-to-delivery cycle itself, except for outbound transportation, which is outsourced to UPS. UPS clearly increases the surplus in this case given the geographic dispersion of Grainger's customers and the small order sizes. UPS has now expanded to include warehousing, information technology, international, and a variety of other services and aims to perform a broader range of functions for its customers. The wider range of service allowed UPS to sign a contract to manage the global supply chain for National Semiconductor Corporation. UPS manages the movement of chips from National Semiconductor's plants to a global distribution center and on to customers around the world.
+Similarly, Schneider Logistics offers a wide variety of services beyond truckload transportation. For the General Motors Spare Parts Operations (GMSPO), Schneider provides comprehensive logistics services from order placement to final payment. Several 3PLs such as UPS and FedEx have also added minor repairs and simple assembly to the set of services they offer their clients. Managing simple PC repairs at a UPS hub significantly cuts down on the supply chain effort when the product is under warranty because the product never has to travel beyond the UPS hub.
+The trend of outsourcing a broader range of supply chain services has been growing since the late 1990s. With the increased globalization of supply chains, customers are looking for players that can manage virtually all aspects of their supply chain. This has led to the concept of a fourth-party logistics (4PL) provider. A 4PL was first defined by Andersen Consulting (now Accenture) as "an integrator that assembles the resources, capabilities and technology of its own organization and other organizations to design, build and run
+
+438 Chapter 15 · Sourcing Decisions in a Supply Chain
+comprehensive supply chain solutions."1 Whereas a 3PL targets a function or a set of functions, a 4PL targets management of the entire process. Some have described a 4PL as a general contractor who manages other 3PLs, truckers, forwarders, custom brokers, and others, essentially taking responsibility of a complete process for the customer. When the idea was first formulated, Andersen conceived a neutral 4PL that did not own any logistics assets itself but only managed various logistics providers. The reality has been somewhat different. Hardly any neutral 4PLs have managed to establish themselves. Many 3PLs, however, have started providing integrated services by which they serve as a 4PL and a lead logistics provider, covering some of the functions themselves.
+One example of a lead logistics provider is Kuehne & Nagel AG, a Swiss freight forwarder. It has formed Kuehne & Nagel Lead Logistics (K&N), which is positioned as a 4PL. In 2002, Nortel Networks hired K&N to handle all its outbound logistics from factories to customers. K&N now manages 35 to 40 forwarders, warehouse managers, truckers, and other logistics providers worldwide for Nortel. K&N itself provides some of these services to Nortel.
+A fundamental question is how a 4PL adds value relative to a firm managing its own logistics providers. Another related question is the extent of resources that the 4PL is dedicating to a particular firm (asset specificity) and if these resources can be used elsewhere. This is particularly relevant in the case of K&N and Nortel because K&N took on nearly 100 Nortel employees who were managing the supply chain earlier. One answer often put forth is that outsourcing to K&N allows Nortel to apply its limited capital toward its core business. Keep in mind, however, that outsourcing a noncore activity such as logistics does not guarantee any growth in the supply chain surplus. The K&N and Nortel relationship can survive in the long term only if K&N can increase the surplus in a way that Nortel cannot and K&N does not have significant resources dedicated solely to Nortel. In fact, in 2010, K&N had to lay off 115 employees at its warehouse in Chapel Hill, North Carolina, because of the downsizing of Nortel in that area. In this instance, K&N could not repurpose resources that were earlier dedicated to Nortel.
+The fundamental advantage that a 4PL may provide comes from greater visibility and coordination over a firm's supply chain and improved handoffs between logistics providers. Greater visibility and coordination require the use of sophisticated information technology. Given the high cost of development or purchase of this technology and the expertise required for implementation, a 4PL can increase the surplus by spreading this cost across multiple customers. Many 4PLs have developed their own suite of IT applications, whereas others integrate across IT applications from multiple providers. For example, Schneider Logistics has a suite called SUMIT, whereas Exel plc Americas uses applications from a variety of providers such as i2 Technologies and CAPS. A 4PL can also increase the supply chain surplus by effectively aggregating demands from customers and capacity of logistics providers.
+An excellent example of a firm that does both is Li & Fung, which has built a multi-billiondollar business helping global companies such as Reebok manage sourcing and production across many locations in the developing world. The company has been an intermediary between suppliers in the developing world and global buyers since it was founded in 1906. Li & Fung originally exported jade, porcelain, and silk from China to the United States. In the 1970s, the firm expanded its network of suppliers and is now able to get around regional trade umbrellas such as the European Union and NAFTA by sourcing appropriately. Li & Fung is an information hub that is able to link thousands of factories in 32 countries to almost a thousand customers in an optimal manner. Li & Fung reserves 30 to 70 percent of a supplier's capacity. These factories are accustomed to reliable repeat business from Li & Fung and are thus willing to commit this capacity. Li & Fung maintains detailed capability information for each factory that is used to match it to appropriate customer orders as they arrive. For its customers, Li & Fung facilitates short lead time production. This allows customers to observe sales trends before committing to
+1 Retrieved from http://en.wikipedia.org/wiki/4PL on January 29, 2006.
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 439
+an order. When an order arrives, Li & Fung procures yarn from one supplier, gets on the production schedule of a weaving mill, and finally farms out production of the garment to ensure that the delivery schedule is met. All of this is done to minimize production cost while meeting delivery schedules. Clearly, Li & Fung is an integrator that adds to the supply chain surplus in ways that no individual customer or supplier could. The firm aggregates demand across hundreds of customers and capacity across thousands of suppliers and uses detailed information on both to match supply and demand in the most cost-effective manner.
+As supply chains become more global, 3PLs with a broad range of services are enjoying an advantage in the marketplace. This has led to a series of mergers, with large 3PLs getting even larger. With the increasing use of postponement, especially in the electronics industry, intermediaries are being asked to take on partial manufacturing responsibilities. This has led to a blurring of the distinction between 3PLs and contract manufacturers. The larger 3PLs are increasingly trying to offer some form of final assembly as part of their service. For example, UPS has offered a variety of assembly and basic repair services to its clients. Contract manufacturers in turn are expanding their logistics capabilities by either buying or partnering with logistics providers. Celestica, a contract manufacturer, has partnered with Exel Logistics, FedEx, Kuehne & Nagel, and Panalpina as its logistics providers. Another contract manufacturer, Flextronics, bought a few logistics providers in the early 2000s. In each case, the goal was to provide a complete production and distribution service to the customer.
+15.4 USING TOTAL COST TO SCORE AND ASSESS SUPPLIERS
+When making the outsourcing decision or comparing suppliers, many firms make the fundamental mistake of focusing only on the quoted price, ignoring the fact that many factors affect the total cost of using a supplier. For instance, suppliers have different replenishment lead times. Does it pay to select a more expensive supplier with a shorter lead time? Or consider suppliers that have different on-time performance. Is the more reliable supplier worth the few extra pennies it charges per piece?
+In each of these instances, the price charged by the supplier is only one of many factors that affect the supply chain surplus. When scoring and assessing suppliers, one can organize the factors influencing total cost as shown in Table 15-3.
+The performance of each potential source (including in-house production) must be rated on each of these factors because all affect the total supply chain cost. It is important to consider
+
+Table 15-3 Factors Influencing Total Cost and Supplier Performance
+
+Performance Category
+
+Category Components
+
+Supplier price Supplier terms Delivery costs Inventory costs
+Warehousing cost Quality costs Reputation Other costs Support Supplier capabilities
+
+Labor, material, overhead, local taxes, and compliance costs Net payment terms, delivery frequency, minimum lot size, quantity discounts All transportation costs from source to destination, packaging costs Supplier inventory, including raw material, in process and finished goods, in-transit inventory, finished goods inventory in supply chain Warehousing and material handling costs to support additional inventory Cost of inspection, rework, product returns Reputation impact of quality problems Exchange rate trends, taxes, duties Management overhead and administrative support Replenishment lead time, on-time performance, flexibility, information coordination capability, design coordination capability, supplier viability
+
+Quantifiable? Yes Yes Yes
+Yes Yes Yes No Yes Difficult
+To some extent
+
+440 Chapter 15 · Sourcing Decisions in a Supply Chain
+trends that may exist especially if some of the sources are located overseas. Trends include exchange rates, local inflation in material and labor cost, transportation costs, and tariffs. This is especially true today given that rapid change in these factors. Goel, Moussavi, and Srivatsan (2008) point out that producing a mid-range server in Asia in 2003 would have produced significant savings in 2003 relative to producing it in the United States. Between 2005 and 2008, ocean freight costs increased by 135 percent, the Chinese yuan appreciated by 18 percent, and Chinese manufacturing wages went up by 44 percent. By 2008, freight and labor costs had increased enough to make production in the United States cheaper than production in Asia. Until 2008, many manufacturers viewed offshoring as a necessity, given that the offshore prices were 25 to 40 percent lower than those of local suppliers. By 2008, however, many executives realized that longer supply chains, lack of visibility, quality problems, growing transportation costs, and rising wages in developing countries made sourcing from local suppliers much more attractive. The lower transportation distance further increases the attractiveness of local suppliers from an environmental perspective. Given that a sourcing decision is unlikely to be changed quickly, it is important to include trends and scenarios (see Chapter 6) in the total cost analysis.
+Key Point
+Supplier performance should be compared based on the impact on total cost. In addition to purchase price, the total cost is influenced by supplier terms, delivery costs, inventory costs, warehousing costs, quality costs, reputational impact, support costs, other costs such as exchange rates, taxes, and supplier capabilities.
+In Example 15-1, we illustrate a simple comparison of two suppliers with different prices and other performance characteristics. This example considers only some of the quantifiable factors.
+EXAMPLE 15-1 Comparing Suppliers Based on Total Cost
+Green Thumb, a manufacturer of lawn mowers and snowblowers has historically purchased a thousand bearings per week from a local supplier who charges $1.00 per bearing. The purchasing manager has identified another potential source willing to supply the bearings at $0.97 per bearing. Before making his decision, the purchasing manager evaluates the performance of the two suppliers. The local supplier has an average lead time of two weeks and has agreed to deliver the bearings in batches of 2,000. Based on past on-time performance, the purchasing manager estimates that the lead time has a standard deviation of one week. The new source has an average lead time of six weeks with a standard deviation of four weeks. The new source requires a minimum batch size of 8,000 bearings. Which supplier should the purchasing manager go with (ignore ordering cost and focus on material cost and holding cost when making your decision)? Green Thumb has a holding cost of 25 percent. It currently uses a continuous review policy for managing inventory and aims for a cycle service level of 95 percent. Weekly demand has a mean of 1,000 and a standard deviation of 300.
+Analysis: The suppliers' performance along lead time and lead time variability affects the safety inventory that Green Thumb must hold, and the minimum batch-size requirement affects the cycle inventory held. Thus, the purchasing manager should evaluate the total cost of using each supplier. First consider the cost of using the current local supplier:
+Annual material cost = 1,000 * 52 * 1 = $52,000 Average cycle inventory 1using Equation 11.12 = 2,000/2 = 1,000
+Annual cost of holding cycle inventory = 1,000 * 1 * 0.25 = $250
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 441
+Standard deviation of demand during lead time 1using Equation 12.112 = 22 * 3002 + 1,0002 * 12 = 1,086.28
+Safety inventory required with current supplier 1using Equation 12.92 = NORMSINV10.952 * 1,086.28 = 1,787 Annual cost of holding safety inventory = 1,787 * 1 * 0.25 = $447 Annual cost of using current supplier = 52,000 + 250 + 447 = $52,697
+Next consider the cost of using the new supplier:
+Annual material cost = 1,000 * 52 * 0.97 = $50,440 Average cycle inventory 1using Equation 11.12 = 8,000/2 = 4,000
+Annual cost of holding cycle inventory = 4,000 * 0.97 * 0.25 = $970 Standard deviation of demand
+during lead time1using Equation 12.112 = 26 * 3002 + 1,0002 * 42 = 4,066.94 Safety inventory required with
+current supplier 1using Equation 12.92 = NORMSINV10.952 * 4,066.94 = 6,690 Annual cost of holding safety inventory = 6,690 * 0.97 * 0.25 = $1,622
+Annual cost of using new supplier = 50,440 + 970 + 1,622 = $53,032
+Observe that the new supplier has a lower annual material cost but a higher annual total cost. Taking all performance characteristics into account, the purchasing manager should continue to use the current supplier.
+15.5 SUPPLIER SELECTION--AUCTIONS AND NEGOTIATIONS
+Before selecting suppliers, a firm must decide whether to use single sourcing or multiple suppliers. Single sourcing guarantees the supplier sufficient business when the supplier has to make a significant buyer-specific investment. The buyer-specific investment may take the form of plant and equipment designed to produce a part that is specific to the buyer or may take the form of expertise that needs to be developed. Single sourcing is also used in the automotive industry for parts such as seats that must arrive in the sequence of production. Coordinating such sequencing is impossible with multiple sources. As a result, auto companies have a single seat source for each plant but multiple seat sources across their manufacturing network. Having multiple sources ensures a degree of competition and also lowers risk by providing a backup should a source fail to deliver.
+A good test of whether a firm has the right number of suppliers is to analyze what impact deleting or adding a supplier will have. Unless each supplier has a somewhat different role, it is likely that the supply base is too large. In contrast, unless adding a supplier with a unique and valuable capability clearly adds to total cost, the supply base may be too small.
+The selection of suppliers is done using a variety of mechanisms, including offline competitive bids, reverse auctions, or direct negotiations. No matter what mechanism is used, supplier selection should be based on the total cost of using a supplier and not just the purchase price. Next, we discuss some auction mechanisms that are often used in practice and highlight some of their properties.
+Auctions in the Supply Chain
+When outsourcing to a third party, firms have historically obtained competitive bids and in recent years have used reverse auctions on the Internet. Competitive bids are a form of auction in which the bids are not revealed to the other bidders. In the following discussion, we treat them as
+
+442 Chapter 15 · Sourcing Decisions in a Supply Chain
+auctions. An excellent discussion on auctions can be found in Krishna (2002) and Milgrom (2004). Much of the following discussion is a summary of their ideas.
+In many supply chain settings, a buyer looks to outsource a supply chain function such as production or transportation. Potential suppliers are first qualified and then allowed to bid on how much they would charge to perform the function. The qualification process is important because there are multiple attributes of performance (as outlined in Table 15-3) that the buyer cares about. When conducting an auction based primarily on unit price, it is thus important for the buyer to specify performance expectations along all dimensions other than price. In reality, a buyer may be better off with a multi-attribute auction, but in most cases buyers end up with specifications on various attributes and a price-only auction. The qualification process is used to identify suppliers that meet performance expectations along the non-price attributes. From the buyer's perspective, the purpose of the auction is to get bidders to reveal their underlying cost structure so that the buyer can select the supplier with the lowest costs. Commonly used mechanisms for these auctions are as follows:
+· Sealed-bid first-price auctions require each potential supplier to submit a sealed bid for the contract by a specified time. These bids are then opened and the contract is assigned to the lowest bidder.
+· In English auctions, the auctioneer starts with a price and suppliers can make bids as long as each successive bid is lower than the previous bid. The supplier with the last (lowest) bid receives the contract. The difference in this case is that all suppliers get to see the current lowest bid as the auction unfolds.
+· In Dutch auctions, the auctioneer starts with a low price and then raises it slowly until one of the suppliers agrees to the contract at that price.
+· In second-price (Vickrey) auctions, each potential supplier submits a bid. The contract is assigned to the lowest bidder but at the price quoted by the second-lowest bidder.
+When identifying the auction to use, the firm wants to minimize the price it pays. It may also care about ending up with the supplier with the lowest underlying costs because it makes it more likely that the supplier will actually be able to supply at the price it has committed to. A related issue is whether suppliers have any incentive to make false bids that are not consistent with their cost structure. Such bids may increase what the firm pays and also lead to the contract being given to a firm that does not have the lowest costs.
+An important issue with the sealed-bid first-price auction is what is known as the "winner's curse." Once selected based on sealed bids, the winner quickly realizes that it could have raised its bid slightly and still won, because other suppliers bid at a higher level. In this sense, winning the bid leads the winner to realize that it left money on the table. Thus, bidders adjust their initial sealed bids upward, taking this phenomenon into account. This issue does not arise in any open auction, where bidders see the current best bid when planning their next bid. This issue also does not arise in the second-price auction because the winner gets the price quoted by the secondlowest bidder and thus has no incentive to hide its true cost.
+The following factors influence the performance of an auction:
+· Is the supplier's cost structure private (not affected by factors that are common to other bidders)?
+· Are suppliers symmetric or asymmetric; that is, ex ante, are they expected to have similar cost structures?
+· Do suppliers have all the information they need to estimate their cost structure? · Does the buyer specify a maximum price it is willing to pay?
+Let us start with the cost structures for suppliers. In most instances, it is reasonable to assume that part of the supplier's cost arises from how it has structured its processes and part of its cost arises from market factors such as raw material and labor costs that are common across suppliers. In other words, the suppliers' cost structure is likely to be interdependent and correlated to some extent. This interdependence and correlation are likely to be higher for suppliers with
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 443
+similar processes located in similar markets. If suppliers are symmetric with costs that are interdependent and correlated, the expected price that a firm has to pay using an English auction is no more than that in a second-price auction, which is no more than in a sealed-bid first-price auction. In other words, under these conditions the English auction is likely to fetch the lowest price for the firm. If suppliers are asymmetric, however, it is possible that a second-price auction may do better than an English auction.
+If the buyer firm has some information that has a direct bearing on suppliers' costs, and the suppliers are aware that the firm has this information but do not know the information themselves, it is in the best interest of the firm to reveal this information. Under all auction mechanisms (with symmetric bidders), the buyer pays less with all information revealed than with less information revealed. Thus, it is in the best interest of the buyer to specify its needs clearly and reveal all information related to the supply chain task of which it is aware. Not revealing this information leads the bidders to shade their bids to guard against the winner's curse, resulting in an increase in the price paid by the buyer. Thus, it is in the buyer's interest not only to reveal all public information before bidding but also to convince potential suppliers that all information has been revealed.
+A significant factor that must be accounted for when designing an auction is the possibility of collusion among bidders. Second-price auctions are particularly vulnerable to collusion among bidders. Consider an agreement among bidders under which the bidder with the lowest cost agrees to bid its true cost, with all other bidders bidding a high number (say, the cost of the most expensive bidder or the reserve price of the buyer). In a second-price auction, the lowest-cost bidder gets to perform the supply chain function but the buyer has to a pay a higher price than the cost of the second-lowest-cost supplier. This collusion strategy results in an equilibrium because none of the other bidders has anything to gain by deviating from the collusion agreement. Observe that this collusion strategy can be avoided with any first-price auction, either sealed bid or English. In either case, a collusion agreement with a high price will not hold, because many bidders will have the temptation to join the bidding if they have a lower cost. Ultimately, any first-price auction will bring more than the lowest-cost bidder into the auction.
+Collusion results in suppliers suppressing their desire to provide the supply chain function and raising their bids from what would be appropriate given their cost. This is often the case in multiunit auctions, in which the buyer wants suppliers to bid on a certain quantity of the supply chain function. In multiunit Dutch auctions, the buyer starts by announcing a low price and then raises it slowly until a supplier is willing to provide one unit of the goods or services. The price is raised slowly until suppliers have committed to all units of goods or services desired by the buyer. In this auction, each unit is supplied at a different price. In a multiunit English auction, the buyer starts at a high price and bidders announce the quantity they are willing to supply. If the total quantity that suppliers are willing to supply exceeds the desired quantity, the buyer lowers the price until the quantity for which suppliers bid equals the desired quantity. All suppliers then get to supply at this price. This auction is also referred to as the uniform-price auction. Suppliers in either auction can raise the final price by colluding and forming a bidding ring that assigns only one bidder to enter the auction process for the entire ring. After the initial auction, the ring then has a separate auction to divide up the quantity it has been assigned among its members. An excellent discussion on collusion can be found in Porter (2004).
+Key Point
+Buyers should structure auctions to minimize their cost and have the lowest-cost supplier(s) win with their bid. Open auctions such as the English auction are likely to achieve this outcome. Sealed first-price auctions are subject to the winner's curse because the winner knows ex post that it could have lowered its bid and still won. This causes it to adjust its initial bid higher. Auctioneers must take care to avoid collusion among bidders and make an effort to detect collusion if it has occurred.
+
+444 Chapter 15 · Sourcing Decisions in a Supply Chain
+Basic Principles of Negotiation
+In some instances, the third party that will perform a given supply chain function has been identified, and the firm enters into a negotiation to set the terms of the contract. Negotiation is likely to result in a positive outcome only if the value the buyer places on outsourcing the supply chain function to this supplier is at least as large as the value the supplier places on performing the function for the buyer. The value that a supplier places on performing a function is influenced by its cost as well as other alternatives that are available for its existing capacity. Similarly, the value that the buyer places is influenced by the cost of performing the function in-house and the price available from alternative suppliers. The difference between the values of the buyer and seller is referred to as the bargaining surplus. The goal of each negotiating party is to capture as much of the bargaining surplus as possible.
+An excellent discussion on negotiations is available in Thompson (2005). We mention some of the highlights from her discussion. The first recommendation is to have a clear idea of your own value and as good an estimate of the third party's value as possible. A good estimate of the bargaining surplus improves the chance of a successful outcome. Suppliers of Toyota have often mentioned that "Toyota knows our costs better than we do," which leads to better negotiations. The second recommendation is to look for a fair outcome based on equally or equitably dividing the bargaining surplus or dividing it based on needs. Equity here refers to a division of the surplus in proportion to the contribution by each party.
+The key to a successful negotiation, however, is to make it a win-win outcome. It is impossible to obtain a win-win outcome if the two parties are negotiating on a single dimension such as price. In this setting, one party can only "win" at the expense of the other. To create a win-win negotiation, the two parties have to identify more than one issue to negotiate. Identifying multiple issues allows the opportunity to expand the pie if the two parties have different preferences. This is often easier than it seems in a supply chain setting. A buyer typically cares not just about the price of performing the supply chain function but also about the responsiveness and quality (two of the dimensions identified in Table 15-3). If the supplier finds it harder to lower the price but easier to reduce the response time, there is an opportunity for a win-win resolution in which the supplier offers better responsiveness without changing the price. Thompson discusses many hurdles in the negotiation process and also suggests effective strategies.
+15.6 CONTRACTS, RISK SHARING, AND SUPPLY CHAIN PERFORMANCE
+A supply contract specifies parameters governing the buyer-supplier relationship. In addition to making the terms of the buyer-supplier relationship explicit, contracts have significant impact on the behavior and performance of all stages in a supply chain. Contracts should be designed to facilitate desirable supply chain outcomes by growing the supply chain surplus and minimizing actions that hurt performance. A manager should ask the following three questions when designing a supply chain contract:
+1. How will the contract affect the firm's profits and total supply chain profits? 2. Will the incentives in the contract introduce any information distortion? 3. How will the contract influence supplier performance along key performance measures?
+Ideally, a contract should be structured to increase the firm's profits and supply chain profits, discourage information distortion, and offer incentives to the supplier to improve performance along key dimensions. Many shortcomings in supply chain performance occur because the buyer and supplier are different entities, each trying to optimize its own profits.
+Contracts for Product Availability and Supply Chain Profits
+Independent actions taken by two parties in a supply chain often result in profits that are lower than those that could be achieved if the supply chain were to coordinate its actions with a
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 445
+common objective of maximizing supply chain profits. As discussed in Chapter 11, double marginalization reduces supply chain profits because the supply chain margin is divided between the two parties, and each stage makes its decisions considering only its own margin. We now discuss several other instances in which double marginalization leads to a loss in supply chain performance in the presence of demand uncertainty.
+Given demand uncertainty, a manufacturer wants the retailer to carry a large inventory of its product to ensure that any surge in demand can be satisfied. The retailer, on the other hand, loses money on any unsold inventory. As a result, the retailer prefers to carry a lower level of inventory. This tension leads to a supply chain outcome that is suboptimal.
+In a contract in which the supplier specifies a fixed price and the buyer decides on the quantity to be purchased, the most common cause for suboptimal supply chain performance is double marginalization. The retailer makes its buying decision before demand is realized and thus bears all the demand uncertainty. If demand is less than the retailer's inventory, the retailer has to liquidate unsold product at a discount. Given uncertain demand, the retailer decides on the purchase quantity based on its margin and the cost of overstocking as discussed in Chapter 13. The retailer's margin, however, is lower than the contribution margin for the entire supply chain, whereas its cost of overstocking is higher than that for the entire supply chain. As a result, the retailer is conservative and aims for a lower level of product availability than is optimal for the supply chain leading to a loss of supply chain surplus.
+Consider a music store that sells compact discs. The supplier buys (or manufactures) compact discs at $1 per unit and sells them to the music store at $5 per unit. The retailer sells each disc to the end consumer at $10. At this retail price, market demand is normally distributed, with a mean of 1,000 and a standard deviation of 300. The retailer has a margin of $5 per disc and can potentially lose $5 for each unsold disc. Using Equation 13.1, it is optimal for the retailer to aim for a service level of 0.5 and order 1,000 discs. From Equation 13.3, the retailer's expected profits are $3,803, and the manufacturer makes $4,000 from selling 1,000 discs. For the supply chain, however, the supplier and the retailer together have a margin of $9 and can lose a maximum of only $1 per unsold disc. For the entire supply chain, it is thus optimal to aim for a service level of 0.9 and stock 1,384 discs. The expected supply chain profit in this case is $8,474. The music store is thus conservative and carries fewer discs than are optimal for the supply chain. As a result, the supply chain makes $670 less than it would expect to if the retailer and the supplier worked together.
+To improve overall profits, the supplier must design a contract that encourages the buyer to purchase more and increase the level of product availability. This requires the supplier to share in some of the buyer's demand uncertainty. Three contracts that increase overall profits by making the supplier share some of the buyer's demand uncertainty are as follows:
+1. Buyback or returns contracts 2. Revenue-sharing contracts 3. Quantity flexibility contracts
+We illustrate each of the three contracts using the example of the music store and discuss their performance in terms of the three questions raised earlier.
+BUYBACK CONTRACTS A buyback or returns clause in a contract allows a retailer to return unsold inventory up to a specified amount, at an agreed-upon price. In a buyback contract, the manufacturer specifies a wholesale price c along with a buyback price b at which the retailer can return any unsold units at the end of the season. We assume that the manufacturer can salvage $sM for any units that the retailer returns. The manufacturer has a cost of v per unit produced. The retail price is p.
+The optimal order quantity O* for a retailer in response to a buyback contract is evaluated using Equations 13.1 and 13.2, where the salvage value for the retailer is s = b. The cost of overstocking for the retailer is given by Co  c  b, and the cost of understocking for the retailer is given by Cu  p  c. Using Equation 13.1, the optimal service level that the retailer
+
+446 Chapter 15 · Sourcing Decisions in a Supply Chain
+targets is thus given by CSL* = (p-c)  (p-b). Using Equation 13.2, the optimal order size by the retailer is given by O*  NORMINV(CSL*, , ). The expected retailer profit is evaluated using Equation 13.3 with the salvage value s equal to the buyback price b. The expected profit at the manufacturer depends on the overstock at the retailer (evaluated using Equation 13.4) that is returned. We obtain
+Expected manufacturer profit = O*1c - v2 - 1b - sM2 * expected overstock at retailer
+Continuing with the example of the music store, we have production cost v  $1, wholesale price c  $5, retail price p  $10, and the manufacturer's salvage value of unsold items sM 0. Retail demand at a retail price of $10 is assumed to be normally distributed, with a mean of m = 1,000 and a standard deviation of s = 300. Recall that without a buyback clause, that is b  0,
+the retailer finds it optimal to target a service level of CSL* = 0.5 and order O*  1,000 units because the cost of overstocking is Co  c ­ b  5 ­ 0  $5, and the cost of understocking is Cu  p ­ c  10 ­ 5  $5. If the supplier to the music store agrees to buy back discs that have not sold at b  $3 per disc, the cost of overstocking for the retailer for each unsold disc decreases from $5 to $2 (5 ­ 3) while the cost of understocking stays at $5. The presence of the buyback clause makes it optimal for the retailer to increase the service level from 0.5 to 5  (52)  0.71 and the order size from 1,000 to 1,170. This change results in higher product availability and higher profits for both the retailer ($4,286 instead of $3,803) and the supplier ($4,009 instead of $4,000) as shown in Table 15-4 (constructed using worksheet Table15-4 in spreadsheet Ch15Contracts). It is clear that the retailer's profits increase because his cost of overstocking has decreased. Despite buying back unsold inventory at $3, the supplier's profits increase because the retailer, on average, sells more product (on which the supplier makes $4 per unit) as shown in Table 15-4. Buyback contracts are most effective for products with a low variable cost. Examples include music, software, books, magazines, and newspapers.
+From Table 15-4, observe that the use of buyback contracts increases total supply chain profits by about 20 percent when the wholesale price is $7 per disc. For a fixed wholesale price, increasing the buyback price always increases retailer profits. In general, there exists a positive buyback price that is a fraction of the wholesale price, at which the manufacturer makes a higher profit compared to offering no buyback. Also observe that buybacks increase profits for the manufacturer more as the manufacturer's margin increases. In Table 15-4, buybacks are found to be more helpful to the manufacturer when the wholesale price is $7 relative to when the wholesale price is $5. Thus, the greater the manufacturer's margin, the more she stands to benefit through the use of some mechanism such as buybacks.
+
+Table 15-4 Order Sizes and Profits in Music Supply Chain Under Different Buyback Contracts
+
+Wholesale Buyback Optimal Order Size Expected Profit Expected Returns Expected Profit Expected Supply
+
+Price c Price b for Music Store for Music Store to Supplier
+
+for Supplier
+
+Chain Profit
+
+$5 $0
+
+1,000
+
+$3,803
+
+120
+
+$4,000
+
+$7,803
+
+$5 $2
+
+1,096
+
+$4,090
+
+174
+
+$4,035
+
+$8,125
+
+$5 $3
+
+1,170
+
+$4,286
+
+223
+
+$4,009
+
+$8,295
+
+$6 $0
+
+924 $2,841
+
+86
+
+$4,620
+
+$7,461
+
+$6 $2
+
+1,000
+
+$3,043
+
+120
+
+$4,761
+
+$7,804
+
+$6 $4
+
+1,129
+
+$3,346
+
+195
+
+$4,865
+
+$8,211
+
+$7 $0
+
+843 $1,957
+
+57
+
+$5,056
+
+$7,013
+
+$7 $4
+
+1,000
+
+$2,282
+
+120
+
+$5,521
+
+$7,803
+
+$7 $6
+
+1,202
+
+$2,619
+
+247
+
+$5,732
+
+$8,351
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 447
+For a fixed wholesale price, as the buyback price increases, the retailer orders more and also returns more. In our analysis in Table 15-4, we have not considered the cost associated with a return. As the cost associated with a return increases, buyback contracts become less attractive because the cost of returns reduces supply chain profits. If return costs are high, buyback contracts can reduce the total profits of the supply chain far more than is the case without any buyback.
+In 1932, Viking Press was the first book publisher to accept returns. Today, buyback contracts are common in the book industry, and publishers accept unsold books from retailers. To minimize the cost associated with a return, retailers do not have to return the book, only the cover. When publishers can verify retailer sales electronically, nothing has to be returned. The goal in either case is for the publisher to get proof that the book did not sell while reducing the cost of the return. Over the years, considerable debate has taken place about the impact of publishers' returns policy on profits in the industry. Our discussion provides some justification for the approach taken by the publishers.
+Key Point
+Manufacturers can use buyback contracts to increase their own profits as well as total supply chain profits. Buybacks encourage retailers to increase the level of product availability.
+In some instances, manufacturers use holding-cost subsidies or price protection to encourage retailers to order more. With holding-cost subsidies, manufacturers pay retailers a certain amount for every unit held in inventory over a given period. Holding-cost subsidies are prevalent in automotive supply chains. In the high-tech industry, in which products lose value rapidly, manufacturers share the risk of product becoming obsolete by providing price support to retailers. Many manufacturers guarantee that in the event they drop prices, they will also lower prices for all inventories that the retailer is currently carrying and compensate the retailer accordingly. As a result, the cost of overstocking at the retailer is limited to the cost of capital and physical storage and does not include obsolescence, which can be more than 100 percent a year for high-tech products. The retailer thus increases the level of product availability in the presence of price support. Both holding-cost subsidies and price support are forms of buyback.
+A downside to the buyback clause (or any equivalent practice such as holding-cost subsidy or price support) is that it leads to surplus inventory that must be salvaged or disposed. The task of returning unsold product increases supply chain costs. The cost of returns can be eliminated if the manufacturer gives the retailer a markdown allowance and allows it to sell the product at a significant discount. Publishers today generally do not ask retailers to return unsold books. Instead, they give a markdown allowance for them. Retailers mark them down and sell them for a considerable discount.
+For a given level of product availability at the retailer, the presence of a buyback clause can also hurt sales because it leads the retailer to exert less effort to sell than it would without buybacks. The reduction in retailer effort in the presence of buyback occurs because its loss from unsold inventory is higher when there is no buyback, leading to a higher sales effort for products with no buyback. The supplier can counter the reduction in sales effort by limiting the amount of buyback permitted.
+The structure of a buyback clause leads to the entire supply chain reacting to the order placed by the retailer and not actual customer demand. If a supplier is selling to multiple retailers, it produces based on the orders placed by each retailer. Each retailer bases its order on its cost of overstocking and understocking (see Chapter 13). After actual sales materialize, unsold inventory is returned to the supplier separately from each retailer. As a result, the structure of the buyback clause increases information distortion when a supplier is selling to multiple retailers. At the end of the sales season, however, the supplier does obtain information on actual sales. Information distortion is driven primarily by the fact that inventory is disaggregated at the retailers. If inventory
+
+448 Chapter 15 · Sourcing Decisions in a Supply Chain
+is centralized at the supplier and sent out only as needed to the retailers, information distortion can be reduced. With centralized inventory, the supplier can exploit independence of demand across retailers to carry a lower level of inventory. In practice, however, most buyback contracts have decentralized inventory at retailers. As a result, there is a high level of information distortion.
+
+Key Point
+Buyback contracts lead to a lower retailer effort in case of overstocking and increased information distortion within the supply chain. Buybacks are best limited to products with small per unit production cost.
+
+REVENUE-SHARING CONTRACTS In revenue-sharing contracts, the manufacturer charges the
+retailer a low wholesale price c, and shares a fraction f of the retailer's revenue. Even if no returns
+are allowed, the lower wholesale price decreases the cost to the retailer in case of an overstock.
+The retailer thus increases the level of product availability resulting in higher profits for both the
+manufacturer and the retailer.
+Assume that the manufacturer has a production cost v; the retailer charges a retail price p
+and can salvage any leftover units for sR. The optimal order quantity O* ordered by the retailer is evaluated using Equations 13.1 and 13.2, where the cost of understocking is Cu = 11 - f2p - c and the cost of overstocking is Co = c - sR. We thus obtain
+
+CSL* = probability1demand ... O*2 =
+
+Cu Cu + Co
+
+=
+
+11 - f2p - c 11 - f2p - sR
+
+The manufacturer obtains the wholesale price c for each unit purchased by the retailer and a share of the revenue for each unit sold by the retailer. The expected overstock at the retailer is obtained using Equation 13.4. The manufacturer's profits are thus evaluated as
+
+Expected manufacturers profits = 1c - v2 O* + fp1O* - expected overstock at retailer2
+
+The retailer pays a wholesale price c for each unit purchased and obtains a revenue of
+11 - f2p for each unit sold and a revenue of sR for each unit overstocked. The retailer's expected profit is thus evaluated as
+
+Expected retailer profit = 11 - f2p1O* - expected overstock at retailer2 + sR * expected overstock at retailer - cO*
+We return to the example of the music store. The supplier agrees to sell each disc to the music store at c = $1, but the music store agrees to share 45 percent of the revenue from each disc sold. If each disc is priced at $10, the supplier gets $4.5 for each disc sold and the music store keeps $5.5. Recall that at a retail price of $10, demand for discs is normally distributed, with a mean of m = 1,000 and a standard deviation of s = 300. The music store has a cost of overstocking of Co = c - sR = 1 - 0 = $1 and a cost of understocking of Cu = 11 - f2p - c = (1 - 0.45) * 10 - 1 = $4.5. The music store targets a service level of CSL*  4.5  (4.5  1)  0.818 or 81.8 percent (see Equation 13.1) and orders 1,273 discs. Observe that this is much larger than when the wholesale price was $5 and there was no revenue sharing. The increase in order size occurs because the retailer loses only $1 per unsold disc (instead of $5 per disc without revenue sharing), while making a margin of $4.5 for each disc that sells.
+Table 15-5 (constructed using worksheet Table15-5 in spreadsheet Ch15Contracts) provides the outcome in terms of order sizes and profits for different wholesale prices and
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 449
+
+Table 15-5 Order Sizes and Profits in Music Supply Chain Under Different Revenue-Sharing Contracts
+
+Wholesale Price c
+
+Revenue-Sharing Fraction f
+
+Optimal Order Size for Music
+Store
+
+Expected Overstock at Music Store
+
+Expected Profit for Music Store
+
+$1 0.30 $1 0.45 $1 0.60 $2 0.30 $2 0.45 $2 0.60
+
+1,320 1,273 1,202 1,170 1,105 1,000
+
+342 $5,526 302 $4,064 247 $2,619 223 $4,286 179 $2,881 120 $1,521
+
+Expected Profit for Supplier
+$2,934 $4,367 $5,732 $4,009 $5,269 $6,282
+
+Expected Supply
+Chain Profit
+$8,460 $8,431 $8,350 $8,295 $8,150 $7,803
+
+revenue-sharing fractions f. From Tables 15-4 and 15-5, observe that revenue sharing allows both the manufacturer and retailer to increase their profits in the absence of buybacks compared to the case in which the wholesaler sells for a fixed price of $5 without buybacks. When charging a wholesale price of $5, the supplier makes profit of $4,000 and the music store makes a profit of $3,803 (see Table 15-4). With a revenue-sharing contract that has a wholesale price of c  $1 and the supplier shares 45 percent of the revenue (the supplier gets revenue of $4.5 for each jacket sold), however, the supplier makes a profit of $4,367 and the retailer makes a profit of $4,064.
+Revenue-sharing contracts also result in lower retailer effort compared to when the retailer pays an up-front wholesale price and keeps the entire revenue from a sale. The drop in effort results because the retailer gets only a fraction of the revenue from each sale. One advantage of revenue-sharing contracts over buyback contracts is that no product needs to be returned, thus eliminating the cost of returns. Revenue-sharing contracts are best suited for products with low variable cost and a high cost of return. A good example of revenue-sharing contracts was implemented between Blockbuster video rentals and movie studios for videos. A studio sold each cassette to Blockbuster at a low price and then shared in the revenue generated from each rental. Given the low price, Blockbuster purchased many copies, resulting in more rentals and higher profits for both Blockbuster and the studio.
+The revenue-sharing contract does require an information infrastructure that allows the supplier to monitor sales at the retailer. Such an infrastructure can be expensive to build. As a result, revenue-sharing contracts may be difficult to manage for a supplier selling to many small buyers.
+As in buyback contracts, revenue-sharing contracts also result in the supply chain producing to retailer orders rather than actual consumer demand. This information distortion results in excess inventory in the supply chain and a greater mismatch of supply and demand. The information distortion increases as the number of retailers to which the supplier sells grows. As with buyback contracts, information distortion from revenue-sharing contracts can be reduced if retailers reserve production capacity or inventory at the supplier rather than buying product and holding it in inventory themselves. This allows aggregation of the variability across multiple retailers, and the supplier has to hold a lower level of capacity or inventory. In practice, however, most revenuesharing contracts are implemented with the retailer buying and holding inventory.
+
+Key Point
+Revenue-sharing contracts counter double marginalization by decreasing the cost per unit charged to the retailer, thus effectively decreasing the cost of overstocking. Revenue-sharing contracts increase information distortion and lead to a lower retailer effort in case of overstocking, just as buyback contracts do.
+
+450 Chapter 15 · Sourcing Decisions in a Supply Chain
+
+QUANTITY FLEXIBILITY CONTRACTS Under quantity flexibility contracts, the manufacturer allows the retailer to change the quantity ordered (within limits) after observing demand. If a retailer orders O units, the manufacturer commits to providing up to Q = 11 + a2O units, whereas the retailer is committed to buying at least q = 11 - b2O units. Both a and b are between 0 and 1. The retailer can purchase anywhere between q and Q units, depending on the demand it observes. These contracts are similar to buyback contracts in that the manufacturer now bears some of the risk of having excess inventory. Because no returns are required, these contracts can be more effective than buyback contracts when the cost of returns is high. When the supplier is selling to multiple retailers, these contracts are more effective than buyback contracts because they allow the supplier to aggregate uncertainties across multiple retailers and thus lower the level of excess inventory. Quantity flexibility contracts increase the average amount the retailer purchases and may increase total supply chain profits when structured appropriately.
+Assume that the manufacturer incurs a production cost of $v per unit and charges a wholesale price of $c from the retailer. The retailer in turn sells to customers for a price of $p. The retailer salvages any leftover units for sR. The manufacturer salvages any leftover units for sM. If retailer demand is normally distributed, with a mean of m and a standard deviation of s, we can evaluate the impact of a quantity flexibility contract. If the retailer orders O units, the manufacturer is committed to supplying Q units. As a result, we assume that the manufacturer produces Q units. The retailer purchases q units if demand D is less than q, D units if demand D is between q and Q, and Q units if demand D is greater than Q. Note that in the following formulas, FS is the standard normal cumulative distribution function and fS is the standard normal density function discussed in Appendix 12A of Chapter 12. We thus obtain
+
+Expected quantity purchased by retailer, QR = qF1q2 + Q[1 - F1Q2]
+
+Q-m
+
+q-m
+
++ m c Fs a s b - Fs a s b d
+
+Q-m
+
+q-m
+
+- s c fs a s b - fs a s b d
+
+Expected quantity sold by retailer, DR = Q[1 - F1Q2]
+
+Q-m
+
+q-m
+
++ mFs a s b - sfs a s b
+
+Expected overstock at manufacturer = QR - DR Expected retailer profit = DR * p + 1QR - DR2sR - QR * c
+Expected manufacturer profit = QR * c + 1Q - QR2sM - Q * v
+
+In our example, the music store would place an initial order for, say, 1,000 discs. Closer to the release date, as the store got a better idea of actual demand, it would be allowed to modify its order to any number between (say) 950 and 1,050. In this contract, the retailer modifies its order as it gains better market intelligence over time. The supplier in turn sends only the modified order quantity. The amount ordered by the retailer is more in line with actual demand, resulting in higher profits for the supply chain. For a supplier, the quantity flexibility contract makes sense if it has flexible capacity that can be used to produce at least the uncertain part of the order after the retailer has decided on the modification. A quantity flexibility contract is also effective if a supplier is selling to multiple retailers with independent demand because it allows uncertainties to be aggregated by the supplier.
+In Table 15-6, we show the impact of different quantity flexibility contracts on profitability for the music supply chain when demand is normally distributed, with a mean of m = 1,000 and a standard deviation of s = 300 (see worksheet Table 15-6 in spreadsheet Ch15Contracts). We assume a wholesale price of c = $5 and a retail price of p = $10. All contracts considered are such that a = b. The results in Table 15-6 are built in two steps. We
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 451
+
+Table 15-6 Profits at Music Supply Chain Under Different Quantity Flexibility Contracts
+
+Expected Expected Expected Expected
+
+Wholesale
+
+Order
+
+Purchase
+
+Sale by Profits for Profits for
+
+
+
+Price c
+
+Size O by Retailer Retailer
+
+Retailer
+
+Supplier
+
+0.00 0.00 0.05 0.05 0.20 0.20 0.00 0.00 0.20 0.20 0.30 0.30 0.00 0.00 0.20 0.20 0.40 0.40
+
+$5 $5 $5 $6 $6 $6 $7 $7 $7
+
+1,000 1,017 1,047
+924 1,000 1,021
+843 947 1,000
+
+1,000 1,014 1,023
+924 1,000 1,006
+843 972 1,000
+
+880
+
+$3,803
+
+$4,000
+
+966
+
+$4,038
+
+$4,004
+
+967
+
+$4,558
+
+$3,858
+
+838
+
+$2,841
+
+$4,620
+
+955
+
+$3,547
+
+$4,800
+
+979
+
+$3,752
+
+$4,711
+
+786
+
+$1,957
+
+$5,056
+
+936
+
+$2,560
+
+$5,666
+
+987
+
+$2,873
+
+$5,600
+
+Expected Supply
+Chain Profit
+$7,803 $8,416 $8,416 $7,461 $8,347 $8,463 $7,013 $8,226 $8,473
+
+first fix  and  (say     0.2). The next step is to identify the optimal order size for the retailer. This is done using Excel by selecting an order size that maximizes expected retailer profits given  and . For example, when     0.05 and c  $5, retailer profits are maximized for an order size of O  1,017. For this order size, we obtain a supplier commitment to deliver up to Q  (1  0.05)  1,017  1,067 and a retailer commitment to buy at least q  (1  0.05)  1,017  966 discs. In our analysis, we assume that the supplier produces Q  1,067 discs and sends the precise number (between 966 and 1,067) demanded by the retailer. Such a policy results in retailer profits of $4,038 and supplier profits of $4,004.
+From Table 15-6, observe that quantity flexibility contracts allow both the manufacturer and the retailer to increase their profits. Observe that as the manufacturer increases the wholesale price, it is optimal for it to offer greater quantity flexibility to the retailer.
+Quantity flexibility contracts are common for components in the electronics and computer industry. In the previous discussion, we considered fairly simple quantity flexibility contracts. Benetton has used sophisticated quantity flexibility contracts with its retailers successfully to increase supply chain profits. We describe such a contract in the context of colored knit garments.2
+Seven months before delivery, Benetton retailers were required to place their orders. Consider a retailer placing an order for 100 sweaters each in red, blue, and yellow. One to three months before delivery, retailers could alter up to 30 percent of the quantity ordered in any color and assign it to another color. The aggregate order, however, could not be adjusted at this stage. Potentially, the retailer could change the order to 70 red, 70 blue, and 160 yellow sweaters. After the start of the sales season, retailers were allowed to order up to 10 percent of their previous order in any color. Potentially, the retailer could order another 30 yellow sweaters. In this quantity flexibility contract, Benetton retailers had a flexibility of up to 10 percent on the aggregate order across all colors and of about 40 percent for individual colors. Retailers could increase the aggregate quantity ordered by up to 10 percent and the quantity for any individual color could be adjusted by up to 40 percent. This flexibility is consistent with the fact that aggregate forecasts are more accurate than forecasts for individual colors. As a result, retailers could better match product availability with demand. The guaranteed portion of the order was manufactured by Benetton using an inexpensive but long lead time production process. The flexible part of the order (about 35 percent) was manufactured using postponement. The result was a better matching of supply and demand at lower cost than in the absence of such a contract. The quantity flexibility contract allowed both the retailers and Benetton to increase their profits.
+2 See Heskett and Signorelli (1984).
+
+452 Chapter 15 · Sourcing Decisions in a Supply Chain
+If the supplier has flexible capacity, a quantity flexibility contract increases profits for the entire supply chain and also each party. The quantity flexibility contract requires either inventory or excess flexible capacity to be available at the supplier. If the supplier is selling to multiple retailers with independent demand, the aggregation of inventory leads to a smaller surplus inventory (see Chapter 12) with a quantity flexibility contract compared to either a buyback or revenue-sharing contract. Inventories can be further reduced if the supplier has excess flexible capacity. Quantity flexibility contracts are thus preferred for products with high marginal cost or when surplus capacity is available. To be effective, quantity flexibility contracts require the retailer to be good at gathering market intelligence and improving its forecasts closer to the point of sale.
+Relative to buyback and revenue-sharing contracts, quantity flexibility contracts have less information distortion. Consider the case with multiple retailers. With a buyback contract, the supply chain must produce based on the retailer orders that are placed well before actual demand arises. This leads to surplus inventory being disaggregated at each retailer. With a quantity flexibility contract, retailers specify only the range within which they will purchase, well before actual demand arises. If demand at various retailers is independent, the supplier does not need to plan production to the high end of the order range for each retailer. It can aggregate uncertainty across all retailers and build a lower level of surplus inventory than would be needed if inventory were disaggregated at each retailer. Retailers then order closer to the point of sale, when demand is more visible and less uncertain. The aggregation of uncertainty results in less information distortion with a quantity flexibility contract.
+Like the other contracts discussed, quantity flexibility contracts result in lower retailer effort. In fact, any contract that gets retailers to provide a higher level of product availability by not making them fully responsible for overstocking will result in a lowering of retailer effort for a given level of inventory.
+Key Point
+Quantity flexibility contracts counter double marginalization by giving the retailer the ability to modify the order based on improved forecasts closer to the point of sale. These contracts result in lower information distortion than buyback or revenue-sharing contracts when a supplier sells to multiple buyers or the supplier has excess, flexible capacity.
+Contracts to Coordinate Supply Chain Costs
+Differences in costs at the buyer and supplier also lead to decisions that increase total supply chain costs. An example is the replenishment lot size decision typically made by the buyer as discussed in Chapter 11. The buyer decides on its optimal lot size based on its fixed cost per lot and the cost of holding inventory. The buyer does not account for the supplier's costs. If the supplier has a high fixed cost per lot, the optimal lot size for the buyer increases total cost for the supplier and the supply chain. In such a situation, the supplier can use a quantity discount contract to encourage the buyer to order in lot sizes that minimize total costs (see Chapter 11). The objective of such a contract is to encourage the retailer to buy in larger lot sizes that lower cost for the supplier and the entire supply chain.
+A quantity discount contract decreases overall costs but leads to higher lot sizes and thus higher levels of inventory in the supply chain. It is typically justified only for commodity products for which the supplier has high fixed costs per lot. It is important to modify the terms of the contract as operational improvements are made at the supplier, resulting in lower fixed costs per batch.
+Quantity discounts increase information distortion in the supply chain because such contracts increase order batching. Retailers order less frequently, and any demand variations are exaggerated when orders are placed. The supplier receives information less frequently and all variations are increased because of this batching. This information distortion is discussed in greater detail in Chapter 10.
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 453
+Key Point
+Quantity discounts can coordinate supply chain costs if the supplier has large fixed costs per lot. Quantity discounts, however, increase information distortion as a result of order batching.
+Contracts to Increase Agent Effort
+In many supply chains, agents act on behalf of a principal and the agents' efforts affect the reward for the principal. As an example, consider a car dealer (the agent) selling cars for Chrysler (the principal). The dealer also sells other brands and used cars. Every month, the dealer allocates its sales effort (advertising, promotions, etc.) across all brands it sells and the used cars. Earnings for Chrysler are based on sales of its brands, which in turn are affected by the effort exerted by the dealer. Sales can be observed directly, whereas effort is hard to observe and measure. Given double marginalization, the dealer always exerts less effort than is optimal from the perspective of Chrysler and the supply chain. Thus, Chrysler must offer an incentive contract that encourages the dealer to increase effort.
+In theory, a two-part tariff offers the right incentives for the dealer to exert the appropriate amount of effort. In a two-part tariff, Chrysler extracts its profits up front as a franchise fee and then sells cars to the dealer at cost. The dealer's margin is then the same as the supply chain margin, and the dealer exerts the right amount of effort.
+Another contract, observed more frequently in practice, increases the margin for the dealer as sales cross certain thresholds. Chrysler offered such a contract to dealers in the first quarter of 2001, which was structured roughly as follows. Dealers would keep the margin made from customers if sales for the month were less than 75 percent of an agreed-upon target. However, if sales reached or exceeded 75 percent but were less than 100 percent, the dealer would get an additional $150 per car sold. If sales reached or exceeded 100 percent but were less than 110 percent, the dealer would get an additional $250 per car sold. If sales reached or exceeded 110 percent, the dealer would get an additional $500 per car sold. Chrysler's hope was that by increasing the margin for higher thresholds, the dealer would have an incentive to increase effort on sales of Chrysler cars.
+Although threshold contracts clearly encourage the dealer to try to reach higher thresholds, they can significantly increase information distortion by encouraging the agent to exacerbate demand variability. The first month after the new contract was announced, the U.S. car industry saw sales drop. Chrysler, however, saw sales drop by twice the industry average. There are two potential causes for this behavior. First, under the contract, the dealer makes more money selling 900 cars one month and 1,100 the next month compared to selling a thousand cars each month. The dealer has an incentive to shift demand over time to achieve such an outcome, thus increasing information distortion and observed demand variation. The second cause is that within the first week of the month, the dealer has an idea of the threshold range it is likely to reach. For example, if the dealer believes that it can easily cross the 75 percent threshold but has little chance of crossing the 100 percent threshold, it will decrease its effort for the month and save it for later, because the marginal benefit of selling an additional car is only $150. In contrast, if demand for the month is high and the dealer believes it can easily cross the 100 percent threshold, it is likely to exert additional effort to reach the 110 percent threshold because the marginal benefit from reaching that threshold is high. Thus, Chrysler's incentive contract increases variation in dealer effort, further exaggerating any existing demand variation.
+Information distortion is also observed in threshold contracts offered by companies to their sales staff. Under these contracts, staff is offered rewards for crossing sales thresholds during a specified period of time (e.g., a quarter). The problem observed is that sales effort and orders peak during the last week or two of the quarter, as salespeople try to cross the threshold. Observed sales are thus highly uneven during the quarter. This information distortion arises
+
+454 Chapter 15 · Sourcing Decisions in a Supply Chain
+because the incentive is offered over a fixed time period, making the last week or two of each quarter a period of intense activity for all sales staff.
+Given the information distortion arising from threshold contracts, a key question is how a firm can decrease information distortion while maintaining the incentive for the agent to exert extra effort. One approach is to offer threshold incentives over a rolling horizon. For example, if a firm offers its sales staff weekly incentives based on sales over the past 13 weeks, each week becomes the last week of a 13-week period. Sales effort thus becomes more even compared to when the entire sales staff has the same last week for their bonus evaluation. Given the presence of enterprise resource planning (ERP) systems, implementing a rolling horizon contract is much easier today than it once was.
+Key Point
+Two-part tariffs and threshold contracts can be used to counter double marginalization and increase agent effort in a supply chain. Threshold contracts, however, increase information distortion and are best implemented on a rolling horizon.
+Contracts to Induce Performance Improvement
+In many instances, a buyer wants performance improvement from a supplier that has little incentive to do so. A buyer with sufficient power in the supply chain may be able to force the supplier to comply. A buyer without sufficient power requires an appropriate contract to induce the supplier to improve performance. Even for a powerful buyer, however, an appropriate contract designed to encourage supplier cooperation results in a better outcome.
+As an example, consider a buyer that wants the supplier to improve performance by reducing lead time for a seasonal item. This is an important component of all quick response (QR) initiatives in a supply chain. With a shorter lead time, the buyer hopes to have better forecasts and be better able to match supply and demand. Most of the work to reduce lead time has to be done by the supplier, whereas most of the benefit accrues to the buyer in terms of reduced inventories and overstocking. In fact, the supplier will lose sales because the buyer will now carry less safety inventory because of shorter lead times and better forecasts. To induce the supplier to reduce lead time, the buyer can use a shared-savings contract, with the supplier getting a fraction of the savings that result from reducing lead time. As long as the supplier's share of the savings compensates for any effort it has to put in, its incentive will be aligned with that of the buyer, resulting in an outcome that benefits both parties.
+A similar issue arises when a buyer wants to encourage the supplier to improve quality. Improving supply quality improves the buyer's costs but requires additional effort from the supplier. Once again, a shared-savings contract is a good way to align incentives between the buyer and supplier. The buyer can share savings from improved quality with the supplier. This will encourage the supplier to improve quality to a higher level than what the supplier would choose in the absence of the shared savings.
+Another example arises in the context of toxic chemicals that may be used by a manufacturer. The manufacturer would like to decrease the use of these toxic chemicals. Generally, the supplier is better equipped to identify ways of reducing use of these chemicals because this is its core business. It has no incentive to work with the buyer on reducing use of these chemicals because that will reduce the supplier's sales. A shared-savings contract can be used to align incentives between the supplier and the manufacturer. If the manufacturer shares the savings that result from a reduction in the use of toxic chemicals with the supplier, the supplier will make the effort to reduce use of the chemicals as long as its share of the savings compensates for the loss in margin from reduced sales.
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 455
+In general, shared-savings contracts are effective in aligning supplier and buyer incentives when the supplier is required to improve performance along a particular dimension and most of the benefits of improvement accrue to the buyer. A powerful buyer may couple shared savings with penalties for a lack of improvement to further encourage the supplier to improve performance. Such contracts will increase profits for both the buyer and the supplier while achieving outcomes that are beneficial to the supply chain.
+Key Point
+Shared-savings contracts can be used to induce performance improvement from a supplier along dimensions, such as lead time, where the benefit of improvement accrues primarily to the buyer but the effort for improvement comes primarily from the supplier.
+15.7 DESIGN COLLABORATION
+Two statistics highlight the importance of design collaboration between a manufacturer and suppliers. Today, typically between 50 and 70 percent of the spending at a manufacturer comes from procurement, compared to only about 20 percent several decades ago. Second, it is generally accepted that about 80 percent of the cost of a purchased part is fixed during the design stage. Thus, it is crucial for a manufacturer to collaborate with suppliers during the design stage if product costs are to be kept low. Design collaboration can lower the cost of purchased material and also lower logistics and manufacturing costs. Design collaboration is also important for a company trying to provide variety and customization, because failure to do so can significantly raise the cost of variety.
+Working with suppliers can speed up product development time significantly. This is crucial in an era when product life cycles are shrinking and bringing a product to market before the competition offers a significant advantage. Finally, integrating the supplier into the design phase allows the manufacturer to focus on system integration, resulting in a higher quality product at lower cost. For example, auto manufacturers are increasingly playing the role of system integrators rather than component designers. This is an approach that has been used even more extensively in the high-tech industry.
+Billington and Jager (2008) provide an excellent example of innovation through collaboration. They discuss Goldcorp Inc., one of the world's largest gold producers, whose mines were performing poorly. The company broadcast its entire geological data record and offered companies a prize for the most effective way of mining the gold. Two Australian companies collaborated to come up with a three-dimensional depiction of the mine. The 3D data allowed Goldcorp to improve production from 53,000 ounces at a cost of $360 an ounce in 1996 to 504,000 ounces at a cost of $59 per ton in 2001. The risk that Goldcorp took when sharing its data with potential suppliers clearly paid off handsomely.
+As suppliers take on a bigger design role, it is important for manufacturers also to become design coordinators for the supply chain. Common part descriptions should be available to all parties involved in the design, and any design changes by one party should be communicated to all suppliers affected. A good database of existing parts and designs can save significant amounts of money and time. For example, when Johnson Controls finds a seat frame from its database that fulfills all customer requirements, it saves the customer about $20 million on the design, development, tooling, and prototyping expense.
+A survey by the Procurement and Supply Chain Benchmarking Consortium at Michigan State University dramatically demonstrated the impact of successfully integrating suppliers in product design. The most successful integration efforts have seen costs decrease by 20 percent, quality improve by 30 percent, and time to market decrease by 50 percent.
+
+456 Chapter 15 · Sourcing Decisions in a Supply Chain
+Key themes that must be communicated to suppliers as they take greater responsibility for design are design for logistics and design for manufacturability. Design for logistics attempts to reduce transportation, handling, and inventory costs during distribution by taking appropriate actions during design. To reduce transportation and handling costs, the manufacturer must convey expected order sizes from retailers and the end consumer to the designer. Packages can then be designed so that transportation costs are lowered and handling is minimized. To reduce transportation cost, packaging is kept as compact as possible and is also designed to ensure easy stacking. To reduce handling costs, package sizes are designed to minimize the need to break open a pack to fulfill an order.
+To reduce inventory costs, the primary approach is to design the product for postponement and mass customization (see Chapters 12 and 13). Postponement strategies aim to design a product and production process so that features that differentiate end products are introduced late in the manufacturing phase. As discussed in Chapter 12, Dell designed its PCs so that all components about which customers have a choice are assembled after the customer order arrives. This allowed Dell to lower inventories by aggregating them as components. Mass customization strategies use a similar approach by designing the product so that inventory can be carried in a form that aggregates across multiple end products. The goal is to design a product so that customization occurs along a combination of three customization categories: modular, adjustable, and dimensional. To provide modular customization, the product is designed as an assembly of modules that fit together. All inventory is then maintained as modules that are assembled to order. A good example of modular customization is the design of tables and bookshelves at IKEA, where the customer typically assembles the modules. An example of adjustable customization is a washing machine designed by Matsushita that can automatically select from among 600 cycles. All inventory is thus maintained as a single product, and each customer uses the machine to match its specific needs. An example of dimensional customization given by Joseph Pine (1999) is a machine that makes onsite custom house gutters that can then be cut to fit the dimensions of the house. Another example is National Bicycle, which cuts the frame tubing to fit the body size of the customer.
+Design for manufacturability attempts to design products for ease of manufacture. Some of the key principles used include part commonality, eliminating right-hand and left-hand parts, designing symmetrical parts, combining parts, using catalog parts rather than designing a new part, and designing parts to provide access for other parts and tools.
+Key Point
+Design collaboration with suppliers can help a firm reduce cost, improve quality, and decrease time to market. As design responsibility moves to suppliers, it is important to ensure that design for logistics and design for manufacturability principles are followed. To be successful, manufacturers must become effective design coordinators in the supply chain.
+A good area in which to view design collaboration efforts is the automotive industry. Car manufacturers all over the world are asking suppliers to participate in every aspect of product development, from conceptual design to manufacturing. Ford asked suppliers for the Thunderbird not only to manufacture the components and subsystems, but also to be responsible for their design. Solid integration throughout the supply chain allowed Ford to bring the new model to market within 36 months of program approval. To ensure effective communication, Ford required all its vendors to be on the same software platform for design. Ford also opened all its internal databases to its suppliers and located many of the suppliers at its offices. Ford engineers were in constant communication with the suppliers and helped coordinate the overall design. The result was a significant improvement in cost, time, and quality.
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 457
+15.8 THE PROCUREMENT PROCESS
+Once suppliers have been selected, contracts are in place, and the product has been designed, the buyer and suppliers engage in procurement transactions that begin with the buyer placing the order and end with the buyer receiving and paying for the order. In designing the procurement process, it is important to consider goods that the process will be used to purchase. There are two main categories of purchased goods: direct and indirect materials. Direct materials are components used to make finished goods. For example, memory, hard drives, and CD drives are direct materials for a PC manufacturer. Indirect materials are goods used to support the operations of a firm. PCs are examples of indirect materials for an automotive manufacturer. All procurement processes within a company relate to the purchase of direct and indirect materials. Important differences between direct and indirect materials that affect procurement are shown in Table 15-7.
+Given the direct link to production, the procurement process for direct materials should be designed to ensure that components are available in the right place, in the right quantity, and at the right time. The primary goal of the procurement process for direct materials is to coordinate the entire supply chain and ensure matching of supply and demand (as discussed in Chapters 9 and 10). The procurement process should thus be designed to make production plans and current levels of component inventory at the manufacturer visible to the supplier. This visibility allows suppliers to schedule component production to match the needs of the manufacturer. The available capacity at the suppliers should be made visible to the manufacturer so that orders for components may be allocated to the appropriate supplier to ensure on-time delivery. The procurement process should also have alerts built into it that warn both the buyer and the supplier of potential mismatches between supply and demand.
+A good example of a procurement process that focuses on these objectives is the eHub initiative at Cisco. eHub is designed to provide synchronized planning and end-to-end supply chain visibility. Another example is the relationship between Johnson Controls and Chrysler for the 2002 Jeep Liberty. Johnson Controls integrated components from 35 suppliers and delivered the assembly to Chrysler as a cockpit module. As soon as Chrysler notified it of an order for a Jeep, Johnson Controls had 204 minutes in which to build and deliver the module. This was done 900 times every day for about 200 color and interior combinations. The focus of the procurement process was to completely synchronize production at Chrysler and Johnson Controls. The result was a significant reduction in inventory and a better matching of product supply with end customer demand.
+Given the focus on numerous low-value transactions, the procurement process for indirect materials should focus on reducing the transaction cost of each order. Transaction costs for indirect materials are high because of the difficulty of selecting goods (many catalogs, which are often out of date), getting approval, and creating and sending a purchase order. The problem is
+
+Table 15-7 Differences Between Direct and Indirect Materials
+
+Direct Materials
+
+Indirect Materials
+
+Use Accounting
+Impact on production
+Processing cost relative to value of transaction Number of transactions
+
+Production Cost of goods sold
+Any delay will delay production Low
+Low
+
+Maintenance, repair, and support operations Selling, general, and administrative expenses (SG&A) Less direct impact
+High
+High
+
+458 Chapter 15 · Sourcing Decisions in a Supply Chain
+often exaggerated because companies do not have one system for indirect materials. Instead, they use several processes that are not streamlined or integrated. A good online procurement process that makes search easy and automates approval and transmission of the purchase order can help reduce transaction costs. The online process should also update other interested parties such as accounts payable and receiving. Clearly this is possible only with suppliers that implement online catalogs and automate all transactions with the buyer. Successful examples of online procurement implementations for indirect materials include Johnson Controls and Pfizer. Both firms built their online solutions by integrating existing software. Johnson Controls integrated a Commerce One solution with existing Oracle accounting software, whereas Pfizer integrated an Ariba system with an American Express corporate purchasing card program. Both claim to have seen significant savings as a result.
+Another important requirement for the procurement process for both direct and indirect materials is the ability to aggregate orders by product and supplier. For direct materials, the consolidation of orders improves economies of scale at the supplier and during transport and allows the firm to take advantage of any quantity discounts that may be offered by the supplier. For indirect materials, the consolidation of spending with a supplier often allows the firm to negotiate better purchasing discounts.
+
+Key Point
+The procurement process for direct materials should focus on improving coordination and visibility with the supplier. The procurement process for indirect materials should focus on decreasing the transaction cost for each order. The procurement process in both cases should consolidate orders to take advantage of economies of scale and quantity discounts.
+
+In addition to the categorization of materials into direct and indirect, all products purchased may also be categorized as shown in Figure 15-2, based on their value/cost and how critical they are.
+Most indirect materials are included in general items. The goal of procurement in this case should be to lower the cost of acquisition or the transaction cost. Direct materials can be further classified into bulk purchase, critical, and strategic items. For most bulk purchase items, such as packaging materials and bulk chemicals, suppliers tend to have the same selling price. It is thus important for purchasing to make a distinction between suppliers based on the services they
+High
+
+Critical Items
+
+Strategic Items
+
+Critical
+
+General Items
+
+Bulk Purchase Items
+
+Low Low
+
+Value/Cost
+
+High
+
+FIGURE 15-2 Product Categorization by Value and Criticality
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 459
+provide and their performance along all dimensions that affect the total cost of ownership. The use of well-designed auctions is likely to be most effective for bulk purchase items. Critical items include components with long lead times and specialty chemicals. The key sourcing objective for critical items is not low price but ensuring availability. In this case, purchasing should work to improve coordination of production plans at both the buyer and the supplier. The presence of a responsive, even if high-cost, supply source as an alternative can be valuable for critical items. The last category, strategic items, includes examples such as electronics for an auto manufacturer. For strategic items, the buyer-supplier relationship is long term. Thus suppliers should be evaluated based on the lifetime cost/value of the relationship. Purchasing should look for suppliers that can collaborate in the design phase and coordinate design and production activities with other players in the supply chain.
+15.9 DESIGNING A SOURCING PORTFOLIO: TAILORED SOURCING
+When structuring a supplier portfolio, firms have many options with regard to whom to source from and where to source from. With regard to the "whom," a company must decide on whether to produce in-house or outsource to a third party. The company must also decide whether the supply source will be cost efficient or responsive. With regard to the "where," a company can choose between onshoring, near-shoring, and offshoring. Onshoring refers to producing the product in the market where it is sold, even when it is a high-cost location. Near-shoring refers to producing the product at a lower cost location near the market. For the U.S. market, producing in Mexico is near-shoring. For the market in Europe, producing in Eastern Europe is near-shoring. Offshoring refers to producing the product at a low-cost location that may be far from the market. In this section, we discuss a variety of factors that influence the design of the sourcing portfolio.
+Most companies need to tailor their supplier portfolio based on a variety of product and market characteristics. For example, Zara uses responsive sources out of Europe to produce trendy products that must be in stores quickly to meet customer demand. In contrast, basics such as a white t-shirt are sourced out of lower-cost facilities in Asia. Table 15-8 identifies factors that favor the selection of a responsive or low-cost source.
+As with Zara, a tailored portfolio consists of a combination of responsive and low-cost suppliers. To use a tailored portfolio effectively, demand should be allocated among suppliers in a way that is consistent with their capabilities. Low-cost suppliers should be given large, steady orders of mature, low-value products that do not require significant engineering or design support. Responsive suppliers, in contrast, should be responsible for high-value, volatile products that are often early in their life cycle and need significant engineering/design support.
+In general, responsive sources will tend to be located onshore or near-shore to facilitate a quick response. Low-cost sources could be located anywhere but low cost is often the main reason for going offshore or near-shore. In Table 15-9, we identify some factors that influence the sourcing location decision.
+
+Table 15-8 Factors Favoring Selection of a Responsive or Low-Cost Source
+
+Responsive Source
+
+Low-Cost Source
+
+Product life cycle Demand volatility Demand volume Product value Rate of product obsolescence Desired quality Engineering / design support
+
+Early phase High Low High High High High
+
+Mature phase Low High Low Low Low to medium Low
+
+460 Chapter 15 · Sourcing Decisions in a Supply Chain
+
+Table 15-9 Factors Favoring Onshoring, Near-shoring, or Offshoring
+
+Onshore Near-shore
+
+Offshore
+
+Rate of innovation/product variety Demand volatility Labor content Volume or weight-to-value ratio Impact of supply chain disruption Inventory costs Engineering/management support
+
+High High Low High High High High
+
+Medium to High Medium to High Medium to High High Medium to High Medium to High High
+
+Low Low High Low Low Low Low
+
+Large, bulky items such as washing machines and refrigerators are best onshored or nearshored because they have high transportation costs relative to value. In contrast, small items like consumer electronics, especially those that sell in large amounts (say the iPad), can be offshored. As transportation costs increase, the onshore and near-shore options become more attractive relative to offshoring. High-value routers with high demand volatility, high inventory costs, and the need for significant management support are outsourced by Cisco to an onshore supplier. Low value routers with stable designs and low demand volatility, in contrast, are offshored to low-cost countries. As these examples illustrate, it is important for a firm to plan a tailored sourcing strategy whereby the product and market characteristics match with the responsiveness and location of the source.
+China and other parts of Asia were popular offshore sources for the two decades between 1990 and 2010. Some trends currently in place, however, are making American managers rethink their offshoring choices. One is the change in Chinese wages and the strengthening yuan, both of which diminish the labor cost advantage of China, especially when compared to near-shore locations such as Mexico. The other is the increase in oil prices and transportation cost that acts like a tariff barrier making offshoring somewhat less attractive. Finally, the increase in volatility and the need to mitigate risk have also encouraged supply chain designers to include an onshore or near-shore source to complement a low-cost offshore source.
+
+Key Point
+Firms must consider a tailored sourcing strategy that couples responsive onshore or near-shore sources with low-cost offshore sources. The responsive onshore sources should focus on high-value products with high demand volatility, while the low-cost, offshore sources should focus on lower-value, high-volume products with high labor content.
+
+15.10 RISK MANAGEMENT IN SOURCING
+Sourcing risks may result in an inability to meet demand on time, an increase in procurement costs, or the loss of intellectual property. It is important to develop mitigation strategies that help mitigate a significant part of the risk.
+An inability to meet demand on time arises because of disruption or delay from the supply source. The risk of supply disruption may be serious, especially with a single or few sources. This was particularly evident after the earthquake and tsunami in Japan in early 2011. Supply chains with a single source based in the tsunami-affected region faced significant disruption. Disruption risk can be mitigated by developing multiple sources. Given the high cost of developing multiple sources and the resulting loss of economies of scale, it is best to do so for products with relatively high demand. Developing multiple sources is expensive for products with low demand. Carrying inventory or developing a backup source that is more responsive can mitigate delays from a supply source.
+
+Chapter 15 · Sourcing Decisions in a Supply Chain 461
+Carrying inventory is best for low-value products that do not become obsolete quickly, whereas developing a responsive backup source is preferred for high-value, short life cycle products.
+The risk of higher procurement costs can be significant when industry-wide demand for the product exceeds available supply, exchange rates are unfavorable, or there is a single supply source. For example, commodity prices for steel and crude oil were very high in 2004­2005 because of high global demand in the face of limited supply capacity. A portfolio of long- and short-term contracts can help mitigate the risk of higher procurement costs. For example, a significant contributor to the profits at Southwest Airlines in 2004­2005 was the long-term contracts it had in place for the purchase of fuel. Exchange-rate risk can be mitigated using financial hedges or by developing a global supply network that is flexible enough to be reconfigured based on exchange-rate fluctuations. The risk of holdup because of a single source can be countered by developing alternative sources or bringing part of the supply capability in-house.
+Intellectual property risk can be mitigated by bringing or keeping sensitive production in-house. Even when production is outsourced, firms can maintain ownership of part of the equipment if it is viewed as having significant intellectual property value. This is a reason that Motorola owns some testing equipment at its contract manufacturers.
+15.11 MAKING SOURCING DECISIONS IN PRACTICE
+1. Use multifunctional teams. Effective strategies for sourcing result from multifunctional collaboration within the firm. A sourcing strategy from the purchasing group is likely to be relatively narrow and focus on purchase price. A strategy developed with the collaboration of purchasing, manufacturing, engineering, and planning is much more likely to identify the correct drivers of total cost. The collaboration must be continued beyond strategy formulation to the procurement phase, because that is where manufacturing and engineering are most likely to realize the full benefits of good sourcing strategy.
+2. Ensure appropriate coordination across regions and business units. Coordination of purchasing across all regions and business units allows a firm to maximize economies of scale in purchasing and also to reduce transaction costs. Other opportunities from improved sourcing, such as better supply chain coordination and design collaboration, however, may require strong involvement at the business-unit level to be effective. Mandating global coordination across all business units may complicate these efforts. Items such as MRO supplies, for which transaction costs and total purchase volume have a significant impact on total cost, benefit most from coordinated purchasing across geography and business units. On the other hand, items for which most of the value is extracted from better design collaboration and coordinated supply chain forecasting and fulfillment are better served with somewhat more decentralized sourcing.
+3. Always evaluate the total cost of ownership. An effective sourcing strategy should not make price reduction its sole objective. All factors that influence the total cost of ownership should be identified and used in selecting suppliers. Supplier performance along all relevant dimensions should be measured, and its impact on total cost should be quantified. Focusing on the total cost of ownership also allows a buyer to better identify opportunities for better collaboration in design, planning, and fulfillment.
+4. Build long-term relationships with key suppliers. A basic principle of good sourcing is that a buyer and supplier working together can generate more opportunities for savings than the two parties working independently. Solid cooperation is likely to result only when the two parties have a long-term relationship and a degree of trust. A long-term relationship encourages the supplier to expend greater effort on issues that are important to a particular buyer. This includes investment in buyer-specific technology and design collaboration. A long-term relationship also improves communication and coordination between the two parties. These capabilities are very important when sourcing direct materials. Thus, long-term relationships should be nurtured with suppliers of critical and strategic direct materials.
+
+462 Chapter 15 · Sourcing Decisions in a Supply Chain
+15.12 SUMMARY OF LEARNING OBJECTIVES
+1. Understand the role of sourcing in a supply chain. Sourcing encompasses all processes required for a firm to purchase goods from suppliers. Over the past two decades, manufacturing firms have increased the fraction of purchased parts. Effective sourcing decisions thus have a significant impact on financial performance. Good sourcing decisions can improve supply chain performance by aggregating orders, making procurement transactions more efficient, achieving design collaboration with suppliers, facilitating coordinated forecasting and planning with suppliers, designing supply chain contracts that increase profitability while minimizing information distortion, and decreasing the purchase price through increased competition among suppliers.
+2. Discuss factors that affect the decision to outsource a supply chain function. A supply chain function should be outsourced if the third party can increase the supply chain surplus without significant risk. A third party may increase the surplus by aggregating capacity, inventory, warehousing, transportation, information, receivables, and other factors to a higher level than the firm can on its own. Outsourcing generally makes sense if a firm's needs are small and highly uncertain and can be served using resources that can serve other firms as well. Outsourcing also makes sense if the firm is short of capital or the third party has a lower cost of capital.
+3. Identify dimensions of supplier performance that affect total cost. In addition to the supplier price, the total cost of using a supplier is affected by the supplier terms; delivery costs; inventory costs; warehousing costs; quality costs; costs of management effort and administrative support; impact on reputation; supplier capabilities, such as replenishment lead time, on-time performance, and flexibility; and other costs such as exchange rate trends, taxes, and duties.
+4. Structure successful auctions and negotiations. Buyers may use sealed-bid firstprice, Dutch, English, or second-price (Vickrey) auctions. Successful auctions minimize the cost for the buyer and result in the lowest-cost supplier winning the bid. Under many circumstances, open English auctions achieve this outcome. When running an auction, buyers must work to avoid collusion among bidders. Successful negotiations are most likely when both parties are well informed about each other's positions and have multiple dimensions they can use to increase the size of the pie, resulting in a win-win outcome.
+5. Describe the impact of risk sharing on supplier performance and information distortion. Supply contracts must take into account the desired objective of the buyer and supplier and the resulting impact on supply chain performance. Contracts can be designed to increase product availability, coordinate supply chain costs, increase agent effort, and induce performance improvement from the supplier. Contracts to increase product availability include buyback, revenue-sharing, and quantity flexibility contracts. They are designed to counter the problem of double marginalization. Buyback and revenue-sharing contracts increase information distortion relative to quantity flexibility contracts. Quantity discounts coordinate supply chain costs when the supplier has significant fixed costs per lot. Quantity discounts increase information distortion because of order batching. Two-part tariffs and threshold contracts are designed to increase agent effort. Threshold contracts can significantly increase information distortion and are best implemented over a rolling horizon. Sharedsavings contracts are most effective when a buyer wants the supplier to improve performance along dimensions such as lead time and quality.
+6. Design a tailored supplier portfolio. Firms should select a combination of responsive and low-cost sources that may be onshore, near-shore, or offshore. Responsive, onshore sources are best suited for high-value products with volatile demand and relatively low labor content. Low-cost, offshore sources are best suited for products with high labor content, large predictable demand, and low transportation cost relative to product value.
+
+

@@ -1,0 +1,812 @@
+14
+{{{
+Transportation in a Supply Chain
+
+LEARNING OBJECTIVES
+After reading this chapter, you will be able to 1. Understand the role of transportation in a supply chain. 2. Evaluate the strengths and weaknesses of different modes of transportation. 3. Discuss the role of infrastructure and policies in transportation. 4. Identify the relative strengths and weaknesses of various transportation network design options. 5. Identify trade-offs that shippers need to consider when designing a transportation network.
+
+In this chapter, we discuss the role of transportation within a supply chain and identify trade-offs that need to be considered when making transportation decisions. Our goal is to enable managers to make transportation strategy and design, planning, and operational decisions with an understanding of all the important pros and cons of their choices.
+14.1 THE ROLE OF TRANSPORTATION IN A SUPPLY CHAIN
+Transportation refers to the movement of product from one location to another as it makes its way from the beginning of a supply chain to the customer. Transportation is an important supply chain driver because products are rarely produced and consumed in the same location. Transportation is a significant component of the costs incurred by most supply chains. According to the Bureau of Transportation Statistics (BTS), "over 19 billion tons of freight, valued at $13 trillion, was carried over 4.4 trillion ton-miles in the United States in 2002."1 Only three sectors-- housing, health care, and food--contributed a larger share to the gross domestic product (GDP) than transportation. Transportation-related jobs employed nearly 20 million people in 2002, accounting for 16 percent of U.S. total occupational employment.
+The role of transportation is even more significant in global supply chains. According to the BTS, the U.S. freight transportation network carried export and import merchandise worth more than $2.2 trillion in 2004, an increase of 168 percent from $822 billion in 1990. During the same period, the ratio of exports from and imports into the United States to the GDP increased from 12 percent to 21 percent.
+
+1 Freight in America, Bureau of Transportation Statistics, January 2006.
+
+397
+
+398 Chapter 14 · Transportation in a Supply Chain
+Any supply chain's success is closely linked to the appropriate use of transportation. IKEA, the Scandinavian home furnishings retailer, has built a global network with about 270 stores in 26 countries primarily on the basis of effective transportation. IKEA's sales for the year ending August 2009 reached 21.5 billion euros. Its strategy is built around providing good-quality products at low prices. Its goal is to cut prices by 2 to 3 percent each year. As a result, IKEA works hard to find the most inexpensive global source for each of its products. Modular design of its furniture allows IKEA to transport its goods worldwide much more cost effectively than a traditional furniture manufacturer. The large size of IKEA stores and shipments allows inexpensive transportation of home furnishings all the way to the retail store. Effective sourcing and inexpensive transportation allow IKEA to provide high-quality home furnishings at low prices globally.
+Seven-Eleven Japan is another firm that has used transportation to achieve its strategic goals. The company has a goal of carrying products in its stores to match the needs of customers as they vary by geographic location or time of day. To help achieve this goal, Seven-Eleven Japan uses a responsive transportation system that replenishes its stores several times a day so that the products available match customers' needs. Products from different suppliers are aggregated on trucks according to the required temperature to help achieve frequent deliveries at a reasonable cost. Seven-Eleven Japan uses a responsive transportation system along with aggregation to decrease its transportation and receiving costs while ensuring that product availability closely matches customer demand.
+Supply chains also use responsive transportation to centralize inventories and operate with fewer facilities. For example, Amazon relies on package carriers and the postal system to deliver customer orders from centralized warehouses. Transportation has allowed Netflix to operate a movie rental business without any stores. The company uses responsive transportation provided by the postal system along with suitably located warehouses to allow its customers to receive and return movies they want to watch.
+The shipper is the party that requires the movement of the product between two points in the supply chain. The carrier is the party that moves or transports the product. For example, when Netflix uses USPS to ship its DVDs from the warehouse to the customer, Netflix is the shipper and USPS is the carrier. Besides the shipper and the carrier, two other parties have a significant impact on transportation: (1) the owners and operators of transportation infrastructure such as roads, ports, canals, and airports and (2) the bodies that set transportation policy worldwide. Actions by all four parties influence the effectiveness of transportation.
+To understand transportation in a supply chain, it is important to consider the perspectives of all four parties. A carrier makes investment decisions regarding the transportation equipment (locomotives, trucks, airplanes, etc.) and in some cases infrastructure (rail) and then makes operating decisions to try to maximize the return from these assets. A shipper, in contrast, uses transportation to minimize the total cost (transportation, inventory, information, sourcing, and facility) while providing an appropriate level of responsiveness to the customer. The effectiveness of carriers is influenced by infrastructure such as ports, roads, waterways, and airports. Most transportation infrastructure throughout the world is owned and managed as a public good. It is important that infrastructure be managed in such a way that monies are available for maintenance and investment in further capacity as needed. Transportation policy sets direction for the amount of national resources that go into improving transportation infrastructure. Transportation policy also aims to prevent abuse of monopoly power; promote fair competition; and balance environmental, energy, and social concerns in transportation.
+In the following sections, we discuss issues that are important from the perspective of carriers, infrastructure owners and operators, transportation policy makers, and shippers. In the next section, we discuss different modes of transportation and their cost and performance characteristics.
+
+Chapter 14 · Transportation in a Supply Chain 399
+14.2 MODES OF TRANSPORTATION AND THEIR PERFORMANCE CHARACTERISTICS
+Supply chains use a combination of the following modes of transportation:
+· Air · Package carriers · Truck · Rail · Water · Pipeline · Intermodal
+Commercial freight activity in the United States by mode in 2002 and the value added by each mode to GDP in 2009 is summarized in Table 14-1.
+Before discussing the various modes, it is important to highlight some important trends in the U.S. economy. Between 1970 and 2002, U.S. real GDP, measured in year 2000 dollars, grew by 176 percent. Over the same period, U.S. freight transportation measured in ton-miles grew by only 73 percent. In 1970, it took 2.1 ton-miles of freight transportation to produce $1 of goods GDP. In 2002, it took only 1.1 ton-miles to produce $1 of GDP. This trend reflects the downsizing of products with new technology and the improved efficiency of the freight transportation system. This trend has continued since 2002.
+The effectiveness of any mode of transport is affected by equipment investments and operating decisions by the carrier and the available infrastructure and transportation policies. The carrier's primary objective is to ensure good utilization of its assets while providing customers with an acceptable level of service. Carrier decisions are affected by equipment cost, fixed operating cost, variable operating costs, the responsiveness the carrier seeks to provide its target segment, and the prices that the market will bear. For example, FedEx designed a hub-and-spoke airline network for transporting packages to provide fast, reliable delivery times. UPS, in contrast, uses a combination of aircrafts, rail, and trucks to provide less expensive transportation with somewhat longer delivery times. The difference between the two transportation networks is reflected in the pricing schedule. FedEx next day delivery charges are based primarily on package size. UPS, in contrast, charges based on both size and destination. From a supply chain perspective, a hub-and-spoke air network is more appropriate when prices are independent of destination and rapid delivery is important, whereas a trucking network is more appropriate when prices vary with destination and a somewhat slower delivery is acceptable.
+Air
+Major airlines in the United States that carry both passenger and cargo include American, Southwest, United, and Delta. Airlines have three cost components: (1) a fixed cost of infrastructure
+
+Table 14-1 Transportation Facts
+
+Mode
+
+Freight Value
+
+Freight Tons Freight Ton-Miles
+
+($ billions) in 2002 (billions) in 2002 (millions) in 2002
+
+Air (includes truck and air) Truck Rail Water Pipeline Multimodal
+
+563 9,075
+392 673 896 1,121
+
+6 11,712 1,979
+1,668 3,529
+229
+
+13 1,515 1,372
+485 688 233
+
+Source: Adapted from Bureau of Transportation Statistics, Freight in America, January 2006.
+
+Value Added to GDP (Billion $) in 2009
+61.9 113.1 30.8
+14.3 12.0
+
+400 Chapter 14 · Transportation in a Supply Chain
+and equipment, (2) cost of labor and fuel that is independent of the passengers or cargo on a flight but is fixed for a flight, and (3) a variable cost that depends on the passengers or cargo carried. Given that most of the cost of a flight is incurred when it takes off, an important objective of an airline is to maximize the revenue generated per flight. As a result, revenue management (see Chapter 16) is a significant factor in the success of passenger airlines.
+Air carriers offer a fast and fairly expensive mode of transportation for cargo. Small, high-value items or time-sensitive emergency shipments that have to travel a long distance are best suited for air transport. Air carriers normally move shipments under 500 pounds, including high-value but lightweight high-tech products. Given the growth in high technology, the weight of freight carried by air has diminished over the past two decades even as the value of the freight has increased somewhat. In 2002, the goods U.S. businesses moved by air were valued at $75,000 per ton, by far the highest among all modes.
+The airline industry in Asia has seen significant growth in the 21st century, especially in China and India. In the United States, the industry has had a difficult time, with several carriers declaring bankruptcy in the first decade of the 21st century. This was followed by consolidation in the industry in the United States and Western Europe. After steep losses in 2008 and 2009, the industry has been profitable since 2010.
+Key issues that air carriers face include identifying the location and number of hubs, assigning planes to routes, setting up maintenance schedules for planes, scheduling crews, and managing prices and availability at different prices.
+Package Carriers
+Package carriers are transportation companies such as FedEx, UPS, and the U.S. Postal Service, which carry small packages ranging from letters to shipments weighing about 150 pounds. Package carriers use air, truck, and rail to transport time-critical smaller packages. Package carriers are expensive and cannot compete with LTL carriers on price for large shipments. The major service they offer shippers is rapid and reliable delivery. Thus, shippers use package carriers for small and time-sensitive shipments. Package carriers also provide other value-added services such as package tracking and in some cases processing and assembly of products.
+Package carriers are the preferred mode of transport for online businesses such as Amazon and Dell, as well as for companies such as W.W. Grainger and McMaster-Carr that send small packages to customers. With the growth in online sales, the use of package carriers has increased significantly over the past few years. Package carriers seek out smaller and more time-sensitive shipments than air cargo carriers, especially when tracking and other value-added services are important to the shipper.
+Given the small size of packages and several delivery points, consolidation of shipments is a key factor in increasing utilization and decreasing costs for package carriers. Package carriers have trucks that make local deliveries and pick up packages. Packages are then taken to large sorting centers from which they are sent by full truckload, rail, or air to the sorting center closest to the delivery point. From the delivery-point sorting center, the package is sent to customers on small trucks making milk runs (discussed later in the chapter). Key issues in this industry include the location and capacity of transfer points and information capability to facilitate and track package flow. For the final delivery to a customer, an important consideration is the scheduling and routing of the delivery trucks.
+Truck
+In most of the world, trucks carry a significant fraction of the goods moved. In 2002, trucks moved 69.5 percent of U.S commercial freight by value and 60.1 percent by weight.2 The trucking industry consists of two major segments--truckload (TL) or less than truckload (LTL). Trucking
+2 Freight in America, Bureau of Transportation Statistics, 2006.
+
+Chapter 14 · Transportation in a Supply Chain 401
+is more expensive than rail but offers the advantage of door-to-door shipment and a shorter delivery time. It also has the advantage of requiring no transfer between pickup and delivery.
+TL operations have relatively low fixed costs, and owning a few trucks is often sufficient to enter the business. This industry is characterized by shipments of 10,000 pounds or more, and more than 50,000 carriers offer TL services in the United States. The challenge in the TL business is that most markets have an imbalance of inbound and outbound flows. For example, New York has a significantly higher inflow of material than outflow. The goal of a TL carrier is to schedule shipments that provide high revenue while minimizing trucks' idle and empty travel time. This is best done by designing routes that pick up loads from markets where outbound demand exceeds inbound supply because these markets tend to offer the highest prices.
+LTL operations are priced to encourage shipments in small lots, usually less than half a TL, as TL tends to be cheaper for larger shipments. LTL is suited for shipments that are too large to be mailed as small packages (typically more than 150 lbs.) but that constitute less than half a TL. LTL operators tend to run regional or national hub-and-spoke networks that allow consolidation of partial loads. LTL shipments take longer than TL shipments because of other loads that need to be picked up and dropped off.
+To reduce accidents on the road caused by driver fatigue, the U.S. Department of Transportation issues hours-of-service regulations that limit work periods for truck drivers. Fatiguerelated accidents correlate with the number of hours of driving and increase with the total length of the driver's trip. Both TL and LTL carriers must design their routes taking these rules into account.
+Rail
+In 2002, rail carried about 3 percent of U.S. shipments by value, 10 percent by weight, and more than 30 percent of total ton-miles. These figures reflect the use of rail to move commodities over large distances. Rail carriers incur a high fixed cost in terms of tracks, locomotives, cars, and yards. A significant trip-related labor and fuel cost is independent of the number of cars (fuel costs do vary somewhat with the number of cars) but does vary with the distance traveled and the time taken. Any idle time, once a train is powered, is expensive because labor and fuel costs are incurred even though trains are not moving. Idle time occurs when trains exchange cars for different destinations. It also occurs because of track congestion. Labor and fuel together account for more than 60 percent of railroad expense. From an operational perspective, it is thus important for railroads to keep locomotives and crews well utilized.
+The price structure and the heavy load capability make rail an ideal mode for carrying large, heavy, or high-density products over long distances. Transportation time by rail, however, can be long. Rail is thus ideal for heavy, low-value shipments that are not time sensitive. Coal, for example, is a major part of each railroad's shipments. Small, time-sensitive, short-distance or short lead time shipments rarely go by rail.
+A major goal for railroad firms is to keep locomotives and crews well utilized. Major operational issues at railroads include vehicle and staff scheduling, track and terminal delays, and poor on-time performance. Railroad performance is hurt by the large amount of time taken at each transition. The travel time is usually a small fraction of the total time for a rail shipment. Delays get exaggerated because trains today are typically not scheduled but "built." In other words, a train leaves once there are enough cars to constitute the train. Cars wait for the train to build, adding to the uncertainty of the delivery time for a shipper. A railroad can improve on-time performance by scheduling some of the trains instead of building all of them. In such a setting, a more sophisticated pricing strategy that includes revenue management (see Chapter 16) needs to be instituted for scheduled trains.
+Water
+Major global ocean carriers include Maersk, Evergreen Group, American President Lines, and Hanjin Shipping Co. Water transport, by its nature, is limited to certain areas. Within the
+
+402 Chapter 14 · Transportation in a Supply Chain
+United States, water transport takes place via the inland waterway system (the Great Lakes and rivers) or coastal waters. Water transport is ideally suited for carrying large loads at low cost. Within the United States, water transport is used primarily for the movement of large bulk commodity shipments and is the cheapest mode for carrying such loads. It is, however, the slowest of all the modes, and significant delays occur at ports and terminals. This makes water transport difficult to operate for short-haul trips, although it is used effectively in Japan and parts of Europe for daily short-haul trips of a few miles.
+Within the United States, the passage of the Ocean Shipping Reform Act of 1998 has been a significant event for water transport. This act allows carriers and shippers to enter into confidential contracts, effectively deregulating the industry. The act is similar to the deregulation that occurred in the trucking and airline industries more than two decades ago and is likely to have a similar impact on the shipping industry.
+In global trade, water transport is the dominant mode for shipping all kinds of products. Cars, grain, apparel, and other products are shipped by sea. In 2001, merchandise trade valued at more than $718 billion moved between the United States and foreign seaports. Maritime transportation accounted for 78 percent of the U.S. international merchandise freight by weight in 2002. For the quantities shipped and the distances involved in international trade, water transport is by far the cheapest mode of transport. A significant trend in maritime trade worldwide has been the growth in the use of containers. This has led to a demand for larger, faster, and more specialized vessels to improve the economics of container transport. Delays at ports, customs, and security and the management of containers used are major issues in global shipping. Port congestion in particular has been a big problem in the United States.
+Pipeline
+Pipeline is used primarily for the transport of crude petroleum, refined petroleum products, and natural gas. In the United States, pipeline accounted for about 16 percent of total ton-miles in 2002. A significant initial fixed cost is incurred in setting up the pipeline and related infrastructure that does not vary significantly with the diameter of the pipeline. Pipeline operations are typically optimized at about 80 to 90 percent of pipeline capacity. Given the nature of the costs, pipelines are best suited when relatively stable and large flows are required. Pipeline may be an effective way of getting crude oil to a port or a refinery. Sending gasoline to a gas station does not justify investment in a pipeline and is done better with a truck. Pipeline pricing usually consists of two components--a fixed component related to the shipper's peak usage and a second charge relating to the actual quantity transported. This pricing structure encourages the shipper to use the pipeline for the predictable component of demand with other modes often being used to cover fluctuations.
+Intermodal
+Intermodal transportation is the use of more than one mode of transport to move a shipment to its destination. A variety of intermodal combinations are possible, with the most common being truck/rail. Intermodal traffic has grown considerably with the increased use of containers for shipping and the rise of global trade. Containers are easy to transfer from one mode to another, and their use facilitates intermodal transportation. Containerized freight often uses truck/ water/rail combinations, particularly for global freight. For global trade, intermodal is often the only option because factories and markets may not be next to ports. As the quantity shipped using containers has grown, the truck/water/rail intermodal combination has also grown. By 2001, intermodal activity contributed more than 20 percent of rail revenues.3 On land, the rail/truck
+3 "The Value of Rail Intermodal to the U.S. Economy," accessed on April 29, 2011, from http://intermodal.transportation. org/Documents/brown.pdf.
+
+Chapter 14 · Transportation in a Supply Chain 403
+intermodal system offers the benefit of lower cost than TL and delivery times that are better than rail, thereby bringing together different modes of transport to create a price/service offering that cannot be matched by any single mode. It also creates convenience for shippers who now deal with only one entity representing all carriers that together provide the intermodal service.
+Key issues in the intermodal industry involve the exchange of information to facilitate shipment transfers between different modes because these transfers often involve considerable delays, hurting delivery time performance.
+14.3 TRANSPORTATION INFRASTRUCTURE AND POLICIES
+Roads, seaports, airports, rail, and canals are some of the major infrastructural elements that exist along nodes and links of a transportation network. In almost all countries, the government has either taken full responsibility or played a significant role in building and managing these infrastructure elements. Improved infrastructure has played a significant role in the development of transportation and the resulting growth of trade. The role of the railroads and canals in the economic development of the United States is well documented. More recently, the impact of improved road, air, and port infrastructure on the development in China is very visible.
+Before considering policy questions related to transportation infrastructures, it is worth looking at the history of rail and road infrastructure in the United States to see some of the issues involved. We summarize some of the discussion by Ellison (2002) of the history of railroads and regulation in the industry. The construction of railroads in the United States occurred rapidly during the 1850s. The railroads were privately owned but were built with significant government subsidy, often in the form of land grants. By the 1870s, the railroad network connected most of the United States. Each railroad was the exclusive provider of carriage over its track. This monopoly allowed railroads to determine the price they charged as well as the level of service they provided their customers. Initial construction of new railroads led to some competition over rates. The railroad companies responded by entering into agreements with each other that effectively ended competition and raised rates. Protests by farmers and other users of the railroads led eventually to the establishment of the Interstate Commerce Commission (ICC), which prohibited discriminatory pricing. The ICC required railroads to file their rates with the ICC and made them public. The railroads responded by forming cartels to restrict supply. This led to the passage of the Sherman Antitrust Act in 1890. Responding to the financial difficulties of railways in the 1940s, the government allowed them some degree of coordination and exempted them from the antitrust regulations. With the growth of other modes of transport and the need to revitalize their assets, the railroads were in bad financial shape in the early 1970s. The Staggers Rail Act of 1980 deregulated the railroads, allowed them some rate-making powers, and eased entry and exit. The act also removed the antitrust immunity of the railroads. Deregulation in the United States was followed by a wave of reorganization and mergers within the railroad industry. Overall, deregulation has resulted in improved financial performance of the railroad industry and increased use of rail by shippers.
+Levinson (1998) provides an excellent discussion of the history of road construction and pricing. In the late 1700s, turnpikes were built using public funds in Virginia, Maryland, and Pennsylvania but were then turned over to private companies that collected tolls. Over time, other turnpikes were built as a result of competition between towns to gain trade. Other than federal land grants, these roads were typically built with local effort and money. The tolls on these turnpikes were generally structured to keep local travel free and make people traveling across an area pay for this right. With the growth in railroads and canals, turnpikes suffered financially in the mid-1800s and were eventually converted into public roads. In the 20th century, as the modes of transport changed, there was a need for higher quality roads. A network of national toll-free highways was built, largely using gasoline taxes as the source of funding. At the same time, other facilities such as tunnels and bridges were often constructed as toll facilities. In many other countries, such as France and Spain, concessions were granted to private companies that received toll revenue. More recently, private toll roads have also been built in Malaysia, Indonesia, and Thailand.
+
+404 Chapter 14 · Transportation in a Supply Chain
+From these examples, it seems reasonable that the government has to either own or regulate a monopolistic transportation infrastructure asset. When the transportation infrastructure asset has competition either within a mode or across modes, private ownership, deregulation, and competition seem to work well. The deregulation of the transportation industry within the United States is a case in point. Keep in mind, however, that roads, ports, and airports are largely public and not private because of the inherently monopolistic nature of these transportation infrastructure assets. In such a setting, the public ownership of these assets is justified. This raises the policy question of financing the construction and maintenance of these publicly owned transportation assets. Should roads be financed through a gasoline tax, or is some other form of financing such as tolls more appropriate?
+Some economists have argued for public ownership of these assets with the setting of quasi-market prices to improve overall efficiency. Quasi-market prices need to take into account the discrepancy between the incentives of an individual using the transportation infrastructure and the public as a whole that owns the infrastructure. This discrepancy is illustrated in Figure 14-1 in the context of road traffic.
+A vehicle driver bases his or her decision to use a highway on the cost and benefit of doing so. Figure 14-1 assumes that different people have different value for making the trip and this value is uniformly distributed over an interval. The number of users whose value from a trip exceeds a particular cost is thus defined by the demand curve. We assume a simple demand curve given by traffic f  1,000  cost. The costs incurred by a motorist include any tolls and the cost of time spent on the highway and the cost of operating and maintaining the vehicle. It is well known that the time spent increases with congestion on a highway. Thus, the average cost to each motorist increases with traffic flow as shown in Figure 14-1. We start with the case when there are no tolls and motorists only incur costs related to congestion, operation, and maintenance. We assume that the total cost grows with traffic f and is given by total cost  3f 2. The average cost per motorist is thus given by cost = 3f 2 f  3f. Since there are no tolls for accessing the highway, demand will materialize based on the average congestion, operation, and maintenance cost incurred by people on the road. Given people's valuation of the trip, the number of motorists using the road is determined by the intersection of the demand curve with the average cost curve at point A as shown in Figure 14-1. For our demand curve f  1,000 ­ cost and average cost function cost  3f, we obtain f  1,000  cost  1,000 ­ 3f. Solving this equation for f, we obtain f  1,0004  250 motorists at equilibrium. This results in an average cost to motorists of P0  3f  3 × 250  750 and a traffic flow of Q0  f  250.
+Marginal cost of time + operation
+B Average cost of PP10 A time + operation
+Demand Curve
+Q1 Q0 Vehicle Flow Rate
+FIGURE 14-1 Impact of Average and Marginal Cost on Vehicle Flow
+
+Price of Trip
+
+Chapter 14 · Transportation in a Supply Chain 405
+From the perspective of the public, however, it is more appropriate to consider how each additional motorist impacts the total cost, not just the average cost. Observe that an additional motorist increases the average cost 3f by a small amount but increases the total cost 3f 2 across all motorists by a much larger amount. This is represented in Figure 14-1 by the marginal cost curve, which measures the marginal increase in total cost as a result of additional traffic flow. For a total cost curve total cost  3f 2, the marginal cost is given by taking the derivative d(total cost)df  6f. Observe that the marginal cost curve 6f is higher than the average cost curve 3f. In other words, the marginal impact of a motorist on total cost is much higher than his or her average share of the impact. Ideally, we should charge motorists a toll for highway use based on this marginal cost that they add to the system. If we were to do so for our example (i.e., somehow charge 3f as additional toll to raise the total marginal cost to 6f), from our demand curve, we obtain f  1,000  marginal cost  1,000  6f. Solving this equation for f, we obtain an equilibrium traffic of f  1,000/7  143 motorists. Motorists should be charged a toll 3f that depends on the amount of traffic on the highway. If the traffic is at a level below 143, motorists pay a lower toll. As traffic increases, the toll rises in proportion and this increase in costs now discourages motorists from joining the highway. At equilibrium, there are f  143 motorists on the highway, each is charged a congestion-related toll of 3f  3 × 143  429, and each incurs average congestion-related costs of 3f  429 for a total cost of 838 per motorist. With a toll in place, fewer motorists join the highway because they bear the true cost they are imposing on the highway system. This toll lowers the vehicle flow rate from Q0  250 to Q1  143 and reduces the average congestion cost per motorist from 750 to 429. In other words, the absence of a congestion toll results in an overuse of the transportation infrastructure and a higher resulting congestion cost on all users.
+The problem is well illustrated by a simple illustration given by Vickrey (see Button and Verhoef, 1998). Each member of a group going out to dinner is likely to order an expensive item if the plan is to share the bill equally at the end instead of having each person pay his or her true charge. Thus, it is fair to say that the overall bill is higher if it is shared equally compared to each person paying based on actual consumption. The same is true with transportation infrastructure if pricing is not linked to congestion.
+Quasi-market prices for transportation infrastructure thus result in higher prices at peak locations and times and lower prices otherwise. Such pricing is not commonly observed for transportation infrastructure except for roads in Singapore and city centers in a few European cities. Congestion is a major factor at several ports and airports. The Los Angeles­Long Beach port, for example, experienced significant congestion in 2004. Several factors affected the congestion, including capacity problems on railroads taking containers away, labor shortages, and technology issues. However, congestion was also affected by the desire of many shippers to bring weekly shipments from Asia over the weekend to ensure supply for the entire week. This created a peak time with significant congestion. The peak workload also becomes exaggerated as container ships get larger. In such a situation, the use of peak tolls to level out the arrivals can be an effective policy. Overall, it is important to keep in mind that transportation infrastructure faces congestion-related problems unless users are forced to internalize the marginal impact on society of their actions. It may be most effective to charge a congestion toll and use the money generated to improve the effectiveness of the transportation infrastructure.
+Key Point
+Transportation infrastructures often require government ownership or regulation because of their inherently monopolistic nature. In the absence of a monopoly, deregulation and market forces help create an effective industry structure. When the infrastructure is publicly owned, it is important to price usage to reflect the marginal impact on the cost to society. If this is not done, overuse and congestion result because the cost borne by a user is less than his or her marginal impact on total cost.
+
+406 Chapter 14 · Transportation in a Supply Chain
+14.4 DESIGN OPTIONS FOR A TRANSPORTATION NETWORK
+The design of a transportation network affects the performance of a supply chain by establishing the infrastructure within which operational transportation decisions regarding scheduling and routing are made. A well-designed transportation network allows a supply chain to achieve the desired degree of responsiveness at a low cost. Three basic questions need to be considered when designing a transportation network between two stages of a supply chain:
+1. Should transportation be direct or through an intermediate site? 2. Should the intermediate site stock product or only serve as a cross-docking location? 3. Should each delivery route supply a single destination or multiple destinations (milk run)?
+Based on the answers to these questions, the supply chain ends up with a variety of transportation networks. We discuss these options and their strengths and weaknesses in the context of a buyer with multiple locations sourcing from several suppliers.
+
+Direct Shipment Network to Single Destination
+With the direct shipment network to a single destination option, the buyer structures the transportation network so that all shipments come directly from each supplier to each buyer location, as shown in Figure 14-2. With a direct shipment network, the routing of each shipment is specified, and the supply chain manager needs to decide only the quantity to ship and the mode of transportation to use. This decision involves a trade-off between transportation and inventory costs, as discussed later in the chapter.
+The major advantage of a direct shipment transportation network is the elimination of intermediate warehouses and its simplicity of operation and coordination. The shipment decision is completely local, and the decision made for one shipment does not influence others. The transportation time from supplier to buyer location is short because each shipment goes direct.
+A direct shipment network to single destination is justified only if demand at buyer locations is large enough that optimal replenishment lot sizes are close to a truckload from each supplier to each location. Home Depot started with a direct shipment network, given that most of the stores it opened until about 2002 were large stores. The stores ordered in quantities that were large enough that ordering was managed locally within the store and delivery to the store arrived directly from the supplier. The direct shipment network to single destination, however, proved to be problematic as Home Depot started to open smaller stores that did not have large enough orders to justify a direct shipment.
+
+Suppliers
+
+Buyer Locations
+
+FIGURE 14-2 Direct Shipment Network
+
+Suppliers
+
+Buyer Locations Suppliers
+
+Chapter 14 · Transportation in a Supply Chain 407 Buyer Locations
+
+FIGURE 14-3 Milk Runs from Multiple Suppliers or to Multiple Buyer Locations
+Direct Shipping with Milk Runs
+A milk run is a route on which a truck either delivers product from a single supplier to multiple retailers or goes from multiple suppliers to a single buyer location, as shown in Figure 14-3. In direct shipping with milk runs, a supplier delivers directly to multiple buyer locations on a truck or a truck picks up deliveries destined for the same buyer location from many suppliers. When using this option, a supply chain manager has to decide on the routing of each milk run.
+Direct shipping provides the benefit of eliminating intermediate warehouses, whereas milk runs lower transportation cost by consolidating shipments to multiple locations on a single truck. Milk runs make sense when the quantity destined for each location is too small to fill a truck but multiple locations are close enough to each other such that their combined quantity fills the truck. Companies such as Frito-Lay that make direct store deliveries use milk runs to lower their transportation cost. If frequent small deliveries are needed on a regular basis and either a set of suppliers or a set of retailers is in geographic proximity, the use of milk runs can significantly reduce transportation costs. For example, Toyota uses milk runs from suppliers to support its just-in-time (JIT) manufacturing system in both Japan and the United States. In Japan, Toyota has many assembly plants located close together and thus uses milk runs from a single supplier to many plants. In the United States, however, Toyota uses milk runs from many suppliers to each assembly plant given the large distance between assembly plants.
+All Shipments via Intermediate Distribution Center with Storage
+Under this option, product is shipped from suppliers to a central distribution center where it is stored until needed by buyers when it is shipped to each buyer location, as shown in Figure 14-4. Storing product at an intermediate location is justified if transportation economies require large shipments on the inbound side or shipments on the outbound side cannot be coordinated. In such a situation, product comes into a DC in large quantities where it is held in inventory and sent to buyer locations in smaller replenishment lots when needed.
+The presence of a DC allows a supply chain to achieve economies of scale for inbound transportation to a point close to the final destination, because each supplier sends a large shipment to the DC that contains product for all locations the DC serves. Because DCs serve locations nearby, the outbound transportation cost is not very large. For example, W.W. Grainger has its suppliers ship products to one of nine DCs (typically in large quantities), with each DC in turn replenishing stores in its vicinity with the smaller quantities they need.
+
+408 Chapter 14 · Transportation in a Supply Chain Suppliers
+
+Buyer Locations DC
+
+FIGURE 14-4 All Shipments via DC
+It would be expensive for suppliers to try and serve each store directly. Similarly, when Home Depot sources from an overseas supplier, the product is held in inventory at the DC because the lot size on the inbound side is much larger than the sum of the lot sizes for the stores served by the DC.
+All Shipments via Intermediate Transit Point with Cross-Docking
+Under this option, suppliers send their shipments to an intermediate transit point (could be a DC) where they are cross-docked and sent to buyer locations without storing them. The product flow is similar to that shown in Figure 14-4 except that there is no storage at the intermediate facility. When a DC cross-docks product, each inbound truck contains product from suppliers for several buyer locations, whereas each outbound truck contains product for a buyer location from several suppliers. Major benefits of cross-docking are that little inventory needs to be held and product flows faster in the supply chain. Cross-docking also saves on handling cost because product does not have to be moved into and out of storage. Cross-docking is appropriate when economies of scale in transportation can be achieved on both the inbound and outbound sides and both inbound and outbound shipments can be coordinated.
+Wal-Mart has used cross-docking successfully to decrease inventories in the supply chain without incurring excessive transportation costs. Wal-Mart builds many large stores in a geographic area supported by a DC. As a result, the total lot size to all stores from each supplier fills trucks on the inbound side to achieve economies of scale. On the outbound side, the sum of the lot sizes from all suppliers to each retail store fills up the truck to achieve economies of scale.
+Another good example of the use of a transit point with cross-docking comes from Peapod in the Chicago area. Peapod has a DC in Lake Zurich from which it delivers to its customers using milk runs. This approach proved effective for customers in the northern and western suburbs of Chicago. Peapod, however, wanted to increase its reach to the city of Chicago and the city of Milwaukee. Both are far enough from the Lake Zurich DC that a milk run wasted about two hours in transit making no productive deliveries. These markets were also small enough that they did not justify a local DC. Peapod's response has been to set up a cross-docking facility (which tends to be cheaper than a DC because no storage is involved) at each location. Peapod then sends out all deliveries to the local cross-dock facility in a larger truck and uses smaller trucks for local deliveries. The use of cross-docking at a transit point has allowed Peapod to increase the reach of the Lake Zurich DC without significantly increasing transportation expense.
+
+Suppliers
+
+Chapter 14 · Transportation in a Supply Chain 409 Buyer Locations
+DC
+
+FIGURE 14-5 Milk Runs from DC
+Shipping via DC Using Milk Runs
+As shown in Figure 14-5, milk runs can be used from a DC if lot sizes to be delivered to each buyer location are small. Milk runs reduce outbound transportation costs by consolidating small shipments. For example, Seven-Eleven Japan cross-docks deliveries from its fresh-food suppliers at its DCs and sends out milk runs to the retail outlets because the total shipment to a store from all suppliers does not fill a truck. The use of cross-docking and milk runs allows Seven-Eleven Japan to lower its transportation cost while sending small replenishment lots to each store. The use of cross-docking with milk runs requires a significant degree of coordination and suitable routing and scheduling.
+The online grocer Peapod uses milk runs from DCs when making customer deliveries to help reduce transportation costs for small shipments to be delivered to homes. OshKosh B'Gosh, a manufacturer of children's wear, has used this idea to virtually eliminate LTL shipments from its DC in Tennessee to retail stores.
+Tailored Network
+The tailored network option is a suitable combination of previous options that reduces the cost and improves responsiveness of the supply chain. Here transportation uses a combination of cross-docking, milk runs, and TL and LTL carriers, along with package carriers in some cases. The goal is to use the appropriate option in each situation. High-demand products to highdemand retail outlets may be shipped directly, whereas low-demand products or shipments to low-demand retail outlets are consolidated to and from the DC. The complexity of managing this transportation network is high because different shipping procedures are used for each product and retail outlet. Operating a tailored network requires significant investment in information infrastructure to facilitate the coordination. Such a network, however, allows for the selective use of a shipment method to minimize the transportation as well as inventory costs.
+Table 14-2 summarizes the pros and cons of the various transportation network options discussed. We illustrate some of these choices in Example 14-1.
+EXAMPLE 14-1 Selecting a Transportation Network
+A retail chain has eight stores in a region supplied from four supply sources. Trucks have a capacity of 40,000 units and cost $1,000 per load plus $100 per delivery. Thus, a truck making two deliveries charges $1,200. The cost of holding one unit in inventory at retail for a year is $0.20.
+
+410 Chapter 14 · Transportation in a Supply Chain
+
+Table 14-2 Pros and Cons of Different Transportation Networks
+
+Network Structure
+
+Pros
+
+Cons
+
+Direct shipping
+Direct shipping with milk runs
+All shipments via central DC with inventory storage
+All shipments via central DC with cross-dock
+Shipping via DC using milk runs
+Tailored network
+
+No intermediate warehouse Simple to coordinate
+Lower transportation costs for small lots Lower inventories
+Lower inbound transportation cost through consolidation
+Low inventory requirement Lower transportation cost through
+consolidation
+Lower outbound transportation cost for small lots
+Transportation choice best matches needs of individual product and store
+
+High inventories (due to large lot size)
+Significant receiving expense
+Increased coordination complexity
+Increased inventory cost Increased handling at DC
+Increased coordination complexity
+Further increase in coordination complexity
+Highest coordination complexity
+
+The vice president of supply chain is considering whether to use direct shipping from suppliers to retail stores or setting up milk runs from suppliers to retail stores. What network do you recommend if annual sales for each product at each retail store are 960,000 units? What network do you recommend if sales for each product at each retail store are 120,000 units?
+Analysis:
+We provide a detailed analysis when annual sales of each product at each retail store are 960,000 units. Our analysis assumes that all trucks travel full. A more sophisticated analysis can be performed for which the optimal load on each truck is calculated and used in the analysis.
+We first analyze the direct shipping network and assume that full truckloads will be shipped from suppliers to retail stores. In this case, we have the following:
+Batch size shipped from each supplier to each store  40,000 units Number of shipments  year from each supplier to each store  960,000  40,000  24 Annual trucking cost for direct network  24  1,100 × 4  8  $844,800 Average inventory at each store for each product  40,000  2  20,000 units Annual inventory cost for direct network  20,000  0.2  4 × 8  $128,000 Total annual cost of direct network  $844,800  $128,000  $972,800
+Now we analyze the network in which suppliers run milk runs to retail stores. Milk runs increase the transportation cost but decrease the level of inventory each store has to hold. We provide a detailed analysis for the instance of suppliers running milk runs to two stores on each truck. In this case, we have the following:
+Batch size shipped from each supplier to each store  40,000  2  20,000 units Number of shipments  year from each supplier to each store  960,000  20,000  48 Transportation cost per shipment per store (two stores / truck)  1,000  2  100  $600 Annual trucking cost for milk run network  48  600 × 4  8  $921,600 Average inventory at each store for each product  20,000 / 2  10,000 units Annual inventory cost for direct network  10,000  0.2 × 4  8  $64,000 Total annual cost of direct network  $921,600  $64,000  $985,600
+
+Chapter 14 · Transportation in a Supply Chain 411
+This analysis shows that when demand per product per store is 960,000 units, the direct network is cheaper than running milk runs with two stores per route. Increasing the number of stores on a milk run ends up costing even more because it raises transportation costs more than it saves in holding costs.
+When demand per product per store is 120,000, we first provide the detailed costs for the direct shipping network as follows (assuming all trucks travel full):
+Batch size shipped from each supplier to each store  40,000 units Number of shipments  year from each supplier to each store  120,000  40,000  3 Annual trucking cost for direct network  3  1,100 × 4 × 8  $105,600 Average inventory at each store for each product  40,000  2  20,000 units Annual inventory cost for direct network  20,000  0.2 × 4  8  $128,000 Total annual cost of direct network  $105,600  $128,000  $233,600
+For the direct network, it turns out that it is better not to fill each truck but to send only 36,332 units per truck to minimize total annual costs. The optimal loading increases transportation costs a bit but decreases total costs to $232,524 per year.
+Now we analyze the network in which suppliers use milk runs to retail stores. We provide a detailed analysis for the instance of suppliers running milk runs to four stores on each truck and each truck travels full. In this case, we have the following:
+Batch size shipped from each supplier to each store  40,000  4  10,000 units Number of shipments  year from each supplier to each store  120,000  10,000  12 Transportation cost per shipment per store (four stores  truck)  1,000  4  100  $350 Annual trucking cost for milk run network  12  350 × 4 × 8  $134,400 Average inventory at each store for each product  10,000  2  5,000 units Annual inventory cost for direct network  5,000  0.2 × 4  8  $32,000 Total annual cost of direct network  $134,400  $32,000  $166,400
+This analysis shows that when demand per product per store is 120,000 units, the milk run network with four stores per route is cheaper than the direct network (even when truck loads are optimized). The direct network ends up costing more because of increased inventory holding costs even though transportation is cheaper. Observe that milk runs become more attractive as the amount flowing through the system decreases. In the next section, we discuss a variety of trade-offs that supply chain managers need to consider when designing and operating a transportation network.
+14.5 TRADE-OFFS IN TRANSPORTATION DESIGN
+All transportation decisions made by shippers in a supply chain network need to take into account their impact on inventory costs, facility and processing costs, the cost of coordinating operations, and the level of responsiveness provided to customers. For example, Amazon's use of package carriers to deliver products to customers increases transportation cost but allows Amazon to centralize its facilities and reduce inventory costs. If Amazon wants to reduce its transportation costs, the company must either sacrifice responsiveness to customers or increase the number of facilities and resulting inventories to move closer to customers.
+The cost of coordinating operations is generally hard to quantify. Shippers should evaluate different transportation options in terms of various costs and revenues and then rank them according to coordination complexity. A manager can then make the appropriate transportation decision. Managers must consider the following trade-offs when making transportation decisions:
+· Transportation and inventory cost trade-off · Transportation cost and customer responsiveness trade-off
+
+412 Chapter 14 · Transportation in a Supply Chain
+Transportation and Inventory Cost Trade-Off
+The trade-off between transportation and inventory costs is significant when designing a supply chain network. Two fundamental supply chain decisions involving this trade-off are
+· Choice of transportation mode · Inventory aggregation
+CHOICE OF TRANSPORTATION MODE Selecting a transportation mode is both a planning and an operational decision in a supply chain. The decision regarding carriers with which a company contracts is a planning decision, whereas the choice of transportation mode for a particular shipment is an operational decision. For both decisions, a shipper must balance transportation and inventory costs. The mode of transportation that results in the lowest transportation cost does not necessarily lower total costs for a supply chain. Cheaper modes of transport typically have longer lead times and larger minimum shipment quantities, both of which result in higher levels of inventory in the supply chain. Modes that allow for shipping in small quantities lower inventory levels but tend to be more expensive. Apple, for example, airfreights several of its products from Asia. This choice cannot be justified on the basis of transportation cost alone. It can be justified only because the use of a faster mode of transportation for shipping valuable components allows Apple to carry low levels of inventory and still be responsive to its customers.
+The impact of using different modes of transportation on inventories, response time, and costs in the supply chain is shown in Table 14-3. Each transportation mode is ranked along various dimensions, with 1 being the worst and 6 being the best.
+Faster modes of transportation are preferred for products with a high value-to-weight ratio (an iPad is a good example of such a product) for which reducing inventories is important, whereas cheaper modes are preferred for products with a small value-to-weight ratio (e.g., furniture imported by IKEA) for which reducing transportation cost is important. The choice of transportation mode should take into account cycle, safety, and in-transit inventory costs besides the cost of transportation. The purchase price must also be included if it changes with the choice of transportation mode (perhaps because of a change in lot sizes). Ignoring inventory costs when making transportation decisions can result in choices that worsen the performance of a supply chain, as illustrated in Example 14-2.
+EXAMPLE 14-2 Trade-offs When Selecting Transportation Mode
+Eastern Electric (EE) is a major appliance manufacturer with a large plant in the Chicago area. EE purchases all the motors for its appliances from Westview Motors, located near Dallas. EE currently purchases 120,000 motors each year from Westview at a price of $120 per motor.
+
+Table 14-3 Ranking of Transportation Modes in Terms of Supply Chain Performance (1: Worst, 6: Best)
+
+Mode
+
+Cycle Inventory
+
+Safety Inventory
+
+In-Transit Cost
+
+Transportation Time
+
+Transportation Cost
+
+Rail 5 5 5
+
+TL 4 4 4
+
+LTL 3 3 3
+
+Package
+
+1
+
+1
+
+1
+
+Air 2 2 2
+
+Water
+
+6
+
+6
+
+6
+
+2 3 4 6 5 1
+
+5 3 4 1 2 6
+
+Chapter 14 · Transportation in a Supply Chain 413
+Demand has been relatively constant for several years and is expected to stay that way. Each motor averages about 10 pounds in weight, and EE has traditionally purchased lots of 3,000 motors. Westview ships each EE order within a day of receiving it (lead time is one day more than transit time). At its assembly plant, EE carries a safety inventory equal to 50 percent of the average demand for motors during the delivery lead time.
+The plant manager at EE has received several proposals for transportation and must decide on the one to accept. The details of various proposals are provided in Table 14-4, where one cwt is equal to a hundred pounds.
+Golden's pricing represents a marginal unit quantity discount (see Chapter 11). Golden's representative has proposed lowering the marginal rate for the quantity over 250 cwt in a shipment from $4/cwt to $3/cwt and suggested that EE increase its batch size to 4,000 motors to take advantage of the lower transportation cost. What should the plant manager do?
+Analysis:
+Golden's new proposal will result in low transportation costs for EE if the plant manager orders in lots of 4,000 motors. The plant manager, however, decides to include inventory costs in the transportation decision. EE's annual cost of holding inventory is 25 percent, which implies an annual holding cost of H  $120  0.25  $30 per motor. Shipments by rail require a five-day transit time, whereas shipments by truck have a transit time of three days. The transportation decision affects the cycle inventory, safety inventory, and in-transit inventory for EE. Therefore, the plant manager decides to evaluate the total transportation and inventory cost for each transportation option.
+The AM Rail proposal requires a minimum shipment of 20,000 pounds or 2,000 motors. The replenishment lead time in this case is L  5  1  6 days. For a lot size of Q  2,000 motors, the plant manager obtains the following:
+Cycle inventory = Q>2 = 2,000>2 = 1,000 motors
+Safety inventory = L > 2 days of demand = (6>2)(120,000>365) = 986 motors
+In-transit inventory = 120,000(5>365) = 1,644 motors
+Total average inventory = 1,000 + 986 + 1,644 = 3,630 motors
+Annual holding cost using AM Rail = 3,630 * $30 = $108,900
+AM Rail charges $6.50 per cwt, resulting in a transportation cost of $0.65 per motor because each motor weighs 10 pounds. Here we have approximated the holding cost because we have not included the transportation cost in the cost of the product. A more precise evaluation would set the holding cost of in-transit inventory to be $30 (because transportation cost has not yet been incurred) and the holding cost of cycle and safety inventory to be 120.65 × 0.25  $30.16 because transportation cost has been incurred by this stage. The precise evaluation
+
+Table 14-4 Transportation Proposals for EE Electric
+
+Carrier
+
+Range of Quantity Shipped (cwt)
+
+Shipping Cost ($/cwt)
+
+AM Railroad Northeast Trucking Golden Freightways Golden Freightways Golden Freightways
+
+200 100 50150 150250 250
+
+6.50 7.50 8.00 6.00 4.00
+
+414 Chapter 14 · Transportation in a Supply Chain
+
+Table 14-5 Analysis of Transportation Options for Eastern Electric
+
+Alternative
+
+Lot Size Transportation
+
+Cycle
+
+Safety
+
+In-Transit
+
+(Motors)
+
+Cost
+
+Inventory Inventory Inventory
+
+AM Rail
+
+2,000
+
+$78,000
+
+1,000
+
+986
+
+1,644
+
+Northeast
+
+1,000
+
+$90,000
+
+500 658
+
+986
+
+Golden
+
+500 $96,000
+
+250 658
+
+986
+
+Golden
+
+1,500
+
+$96,000
+
+750 658
+
+986
+
+Golden
+
+2,500
+
+$86,400
+
+1,250
+
+658
+
+986
+
+Golden
+
+3,000
+
+$80,000
+
+1,500
+
+658
+
+986
+
+Golden (old proposal)
+
+4,000
+
+$72,000
+
+2,000
+
+658
+
+986
+
+Golden (new proposal)
+
+4,000
+
+$67,500
+
+2,000
+
+658
+
+986
+
+Inventory Cost
+$108,900 $64,320 $56,820 $71,820 $86,820 $94,320
+$109,320
+$109,320
+
+Total Cost $186,900 $154,320 $152,820 $167,820 $173,220 $174,320
+$181,320
+$176,820
+
+would result in an inventory holding cost of 1,644  30  1,986  30.16  $109,218. The annual transportation is obtained as follows:
+Annual transportation cost using AM Rail = 120,000 * 0.65 = $78,000
+The total annual cost for inventory and transportation using AM Rail is thus $186,900. The plant manager then evaluates the cost associated with each transportation option as shown in Table 14-5 (we have used the approximate inventory cost in this analysis, applying the holding cost only to the unit cost and not the unit cost plus transportation cost / unit). Based on the analysis in Table 14-5 (the inventory numbers are rounded to the closest integer), the plant manager decides to sign a contract with Golden Freightways and order motors in lots of 500. This option has the highest transportation cost but the lowest overall cost. If the selection of the transportation option was made using only the transportation cost incurred, Golden's new proposal lowering the price for large shipments would look attractive. In reality, EE pays a high overall cost for this proposal because of the high inventory costs that result. Thus, considering the trade-off between inventory and transportation costs allows the plant manager to make a transportation decision that minimizes EE's total cost.
+
+Key Point
+When selecting a mode of transportation, managers must account for unit costs and cycle, safety, and in-transit inventory costs that result from using each mode. Modes with high transportation cost can be justified if they result in significantly lower inventory costs.
+INVENTORY AGGREGATION Firms can significantly reduce the safety inventory they require by physically aggregating inventories in one location (see Chapter 12). Most online businesses use this technique to gain advantage over firms with facilities in many locations. For example, Amazon has focused on decreasing its facility and inventory costs by holding inventory in a few warehouses, whereas booksellers such as Barnes & Noble have to hold inventory in many retail stores.
+Transportation cost, however, generally increases when inventory is aggregated. If inventories are highly disaggregated, some aggregation can also lower transportation costs. Beyond a point, however, aggregation of inventories raises total transportation costs. Consider a bookstore chain such as Barnes & Noble. The inbound transportation cost to Barnes & Noble is due to the
+
+Chapter 14 · Transportation in a Supply Chain 415
+replenishment of bookstores with new books. There is no outbound cost because customers transport their own books home. If Barnes & Noble decides to close all its bookstores and sell only online, it will have to incur both inbound and outbound transportation costs. The inbound transportation cost to warehouses will be lower than to all bookstores. On the outbound side, however, transportation cost will increase significantly because the outbound shipment to each customer will be small and will require an expensive mode such as a package carrier. The total transportation cost will increase on aggregation because each book travels the same distance as when it was sold through a bookstore, except that a large fraction of the distance is on the outbound side using an expensive mode of transportation. As the degree of inventory aggregation increases, total transportation cost goes up. Another comparison is in the video rental business between Netflix and Redbox. Netflix aggregates its inventories, thus lowering facility and inventory expense. It does, however, have to pay to ship DVDs between its DCs and customer homes. Redbox, in contrast has many vending machines that carry DVDs but incurs low transportation costs. Thus, all firms planning inventory aggregation must consider the trade-offs among transportation, inventory, and facility costs when making this decision.
+Inventory aggregation is a good idea when inventory and facility costs form a large fraction of a supply chain's total costs. Inventory aggregation is useful for products with a large value-to-weight ratio and for products with high demand uncertainty. For example, inventory aggregation is valuable for new products in the PC industry, because PCs have a large value-to-weight ratio and demand for new products is uncertain. Inventory aggregation is also a good idea if customer orders are large enough to ensure sufficient economies of scale on outbound transportation. When products have a low value-to-weight ratio and customer orders are small, however, inventory aggregation may hurt a supply chain's performance because of high transportation costs. Compared to PCs, the value of inventory aggregation is smaller for best-selling books that have a lower value-to-weight ratio and more predictable demand.
+We illustrate the trade-off involved in making aggregation decisions in Example 14-3.
+EXAMPLE 14-3 Tradeoffs When Aggregating Inventory
+HighMed, a manufacturer of medical equipment used in heart procedures, is located in Madison, Wisconsin, and cardiologists use its products all over North America. The medical equipment is not sold through purchasing agents but directly to doctors. HighMed currently divides the United States into 24 territories, each with its own sales force. All product inventories are maintained locally and replenished from Madison every four weeks using UPS. The average replenishment lead time using UPS is one week. UPS charges at a rate of $0.66  0.26x, where x is the quantity shipped in pounds. The products sold fall into two categories--Highval and Lowval. Highval products weigh 0.1 pounds and cost $200 each. Lowval products weigh 0.04 pounds and cost $30 each.
+Weekly demand for Highval products in each territory is normally distributed, with a mean of H  2 and a standard deviation of H  5. Weekly demand for Lowval products in each territory is normally distributed, with a mean of L  20 and a standard deviation of L  5. HighMed maintains sufficient safety inventories in each territory to provide a CSL of 0.997 for each product. Holding cost at HighMed is 25 percent.
+In addition to the current approach, the management team at HighMed is considering two other options:
+Option A. Keep the current structure but replenish inventory once a week rather than once every four weeks.
+Option B. Eliminate inventories in the territories, aggregate all inventories in a finishedgoods warehouse at Madison, and replenish the warehouse once a week.
+If inventories are aggregated at Madison, orders will be shipped using FedEx, which charges $5.53  0.53x per shipment, where x is the quantity shipped in pounds. The factory
+
+416 Chapter 14 · Transportation in a Supply Chain
+requires a one-week lead time to replenish finished-goods inventories at the Madison warehouse. An average customer order is for 1 unit of HighVal and 10 units of LowVal. What should HighMed do?
+Analysis: HighMed can reduce transportation cost by aggregating the quantity shipped at a time because prices for both UPS and FedEx display economies of scale. When comparing Option A with the current system, the management team must trade off the savings in transportation cost through less frequent replenishment with the savings in inventory cost with more frequent replenishment. When considering Option B, the management team must trade off the increase in transportation cost upon aggregation of inventories and the use of a faster but more expensive carrier (FedEx) with the decrease in inventory cost.
+The management team first analyzes the current situation. For each territory,
+Replenishment lead time, L  1 week Reorder interval, T  4 weeks CSL  0.997
+1. HighMed inventory costs (current scenario): For HighVal in each territory, the management team obtains the following:
+Average lot size, QH = expected demand during T weeks = TmH = 4 * 2 = 8 units
+Safety inventory, ssH = F-11CSL2 * sT+L = F-11CSL2 * 1T + L * sH = F-110.9972 * 14 + 1 * 5 = 30.7 units 1see Equation 12.182
+Total High Val inventory = QH>2 + ssH = 18>22 + 30.7 = 34.7 units
+Across all 24 territories, HighMed thus carries HighVal inventory of 24  34.7  832.8 units (the true number is 833.3 units if we do not round inventory values to the first decimal). For LowVal in each territory, the management team obtains the following:
+Average lot size, QL = expected demand during T weeks = TmL = 4 * 20 = 80 units Safety inventory, ssL = F-11CSL2 * sT+L = F-11CSL2 * 1T + L * sL
+= F-110.9972 * 14 + 1 * 5 = 30.7 units Total LowVal inventory = QL >2 + ssL = 180/22 + 30.7 = 70.7 units
+Across all 24 territories, HighMed thus carries LowVal inventory  24  70.7  1696.8 units (the true number is 1697.3 if we do not round safety inventory to the first decimal).
+The management team thus obtains the following:
+Annual inventory holding cost for HighMed = (average HighVal inventory * $200 + average LowVal inventory * $30) * 0.25
+= (832.8 * $200 + 1696.8 * $30) * 0.25 = $54,366($54,395 without rounding)
+2. HighMed transportation cost (current scenario): The average replenishment order from each territory consists of QH units of HighVal and QL units of LowVal. Thus
+Average weight of each replenishment order = 0.1QH + 0.04QL = 0.1 * 8 + 0.04 * 80 = 4 pounds
+Shipping cost per replenishment order = $0.66 + 0.26 * 4 = $1.70
+
+Chapter 14 · Transportation in a Supply Chain 417
+Each territory has 13 replenishment orders per year and there are 24 territories. Thus,
+Annual transportation cost = $1.70 * 13 * 24 = $530
+3. HighMed total cost (current scenario): Annual inventory and transportation cost at HighMed  inventory cost  transportation cost  $54,366  $530  $54,896 ($54,926 without rounding).
+The HighMed management team evaluates the costs for Option A and Option B similarly, and the results are summarized in Table 14-6. The results in Table 14-6 are reported without rounding and can be obtained from the associated spreadsheet Table 14-6.
+From Table 14-6, observe that increasing the replenishment frequency under Option A decreases total cost at HighMed. The increase in transportation costs is much smaller than the decrease in inventory costs resulting from smaller lots. HighMed is able to reduce total cost most by aggregating all inventories and using FedEx for transportation, because the decrease in inventories upon aggregation is larger than the increase in transportation costs.
+The value of aggregation is affected by transportation costs, uncertainty of demand, holding cost, and the size of customer orders. If transportation costs were to double for HighMed, the decentralized Option A becomes cheaper than the centralized Option B (in this setting, Option A costs $32,109 whereas Option B costs $37,402). As transportation cost increases, it becomes cheaper to decentralize inventories even though inventory costs increase.
+If demand uncertainty decreases (e.g., the standard deviation of weekly demand for HighVal decreases from 5 to 2), the decentralized Option A again becomes cheaper than the centralized Option B. As demand uncertainty decreases, it becomes cheaper to decentralize inventories.
+If holding cost decreases (e.g., the holding cost drops to 12.5 percent from 25 percent), the decentralized Option A again becomes cheaper than the centralized Option B. As product value or holding cost decreases it becomes cheaper to decentralize inventories.
+If customer order sizes are small, the increase in transportation cost upon aggregation can be significant, and inventory aggregation may increase total costs. Reconsider the case of HighMed, but now each customer order averages 0.5 HighVal and 5 LowVal (half the size considered earlier). The costs for the current option as well as Option A remain unchanged because HighMed does not pay for outbound transportation and incurs only the cost of transporting replenishment orders under
+
+Table 14-6 HighMed Costs Under Different Network Options
+
+Current Scenario
+
+Option A
+
+Number of stocking locations Reorder interval HighVal cycle inventory HighVal safety inventory HighVal inventory LowVal cycle inventory LowVal safety inventory LowVal inventory Annual inventory cost Shipment type Shipment size Shipment weight Annual transport cost Total annual cost
+
+24 4 weeks 96 units 737.3 units 833.3 units 960 units 737.3 units 1,697.3 units $54,395 Replenishment
+8 HighVal  80 LowVal 4 lbs. $530 $54, 926
+
+24 1 week 24 units 466.3 units 490.3 units 240 units 466.3 units 706.3 units $29,813 Replenishment
+2 HighVal  20 LowVal 1 lb. $1,148 $30,961
+
+Option B
+1 1 week 24 units 95.2 units 119.2 units 240 units 95.2 units 335.2 units $8,473 Customer order 1 HighVal  10 LowVal 0.5 lb. $14,464 $22,938
+
+418 Chapter 14 · Transportation in a Supply Chain
+both options. Option B, however, becomes more expensive because outbound transportation costs increase with a decrease in customer order size. With smaller customer orders, the costs under Option B are as follows:
+Average weight of each customer order = 0.1 * 0.5 + 0.04 * 5 = 0.25 pounds Shipping cost per customer order = $5.53 + 0.53 * 0.25 = $5.66
+Number of customer orders per territory per week = 4 Total customer orders per year = 4 * 24 * 52 = 4,992 Annual transportation cost = 4,992 * $5.66 = $28,255 ($28,267 without rounding) Total annual cost = inventory cost + transportation cost = $8,474 + $28,255 = $36,729 ($36,740 without rounding)
+Thus, with small customer orders, inventory aggregation is no longer the lowest-cost option for HighMed because of the large increase in transportation costs. The company is better off maintaining inventory in each territory and using Option A, which gives a lower total cost.
+The lessons from Example 14-3 (and also Chapter 12) with regard to inventory aggregation are summarized in Table 14-7.
+Key Point
+Inventory aggregation decisions must account for inventory and transportation costs. Inventory aggregation decreases supply chain costs if the product has a high value-to-weight ratio, high demand uncertainty, low transportation cost, and customer orders are large. If a product has a low value-to-weight ratio, low demand uncertainty, large transportation cost, or small customer orders, inventory aggregation may increase supply chain costs.
+
+Trade-off Between Transportation Cost and Customer Responsiveness
+The transportation cost a supply chain incurs is closely linked to the degree of responsiveness the supply chain aims to provide. If a firm has high responsiveness and ships all orders within a day of receipt from the customer, it will have small outbound shipments resulting in a high transportation cost. If it decreases its responsiveness and aggregates orders over a longer time horizon before shipping them out, it will be able to exploit economies of scale and incur a lower transportation cost because of larger shipments. Temporal aggregation is the process of combining orders across time. Temporal aggregation decreases a firm's responsiveness because of shipping delay but also decreases transportation costs because of economies of scale that result from larger shipments. Thus, a firm must consider the trade-off between responsiveness and transportation cost when designing its transportation network, as illustrated in Example 14-4.
+
+Table 14-7 Conditions Favoring Aggregation or Disaggregation of Inventory
+
+Aggregate Disaggregate
+
+Transport cost Demand uncertainty Holding cost Customer order size
+
+Low High High Large
+
+High Low Low Small
+
+Chapter 14 · Transportation in a Supply Chain 419
+EXAMPLE 14-4 Trade-off Between Transportation Cost and Responsiveness
+Alloy Steel is a steel service center in the Cleveland area. All orders are shipped to customers using an LTL carrier that charges $100  0.01x, where x is the number of pounds of steel shipped on the truck. Currently, Alloy Steel ships orders on the day they are received. Allowing for two days in transit, this policy allows Alloy to achieve a response time of two days. Daily demand at Alloy Steel over a two-week period is shown in Table 14-8.
+The general manager at Alloy Steel believes that customers do not really value the two-day response time and would be satisfied with a four-day response. What are the cost advantages of increasing the response time?
+Analysis:
+As the response time increases, Alloy Steel has the opportunity to aggregate demand over multiple days for shipping. For a response time of three days, Alloy Steel can aggregate demand over two successive days before shipping. For a response time of four days, Alloy Steel can aggregate demand over three days before shipping. The manager evaluates the quantity shipped and transportation costs for different response times over the two-week period, as shown in Table 14-9.
+From Table 14-9, observe that the transportation cost for Alloy Steel decreases as the response time increases. The benefit of temporal consolidation, however, diminishes rapidly upon increasing the response time. As the response time increases from two to three days, transportation cost over the two-week window decreases by $700. Increasing the response time from three to four days reduces the transportation cost by only $200. Thus, Alloy Steel may be better off offering a three-day response, because the marginal benefit from further increasing the response time is small.
+In general, a limited amount of temporal aggregation can be effective in reducing transportation cost in a supply chain. In choosing response time, however, firms must trade off the decrease in transportation cost upon temporal aggregation with the loss of revenue because of poorer responsiveness. Temporal consolidation also improves transportation performance because it results in more stable shipments. For example, in Table 14-9, when Alloy Steel sends daily shipments, the coefficient of variation is 0.44, whereas temporal aggregation across three days (achieved with a four-day response time) has a coefficient of variation of only 0.16. More stable shipments allow both the shipper and the carrier to better plan operations and improve utilization of their assets.
+
+Key Point
+Temporal aggregation of demand results in a reduction of transportation costs because it entails larger shipments and also reduces the variation in shipment sizes from one shipment to the next. It does, however, hurt customer response time. The marginal benefit of temporal aggregation declines as the time window over which aggregation takes place increases.
+
+In the next section, we discuss how transportation networks can be tailored to supply customers with differing needs.
+
+Table 14-8 Daily Demand at Alloy Steel over Two-Week Period
+
+Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+
+Week 1 Week 2
+
+19,970 39,171
+
+17,470 2,158
+
+11,316 20,633
+
+26,192 23,370
+
+20,263 24,100
+
+8,381 19,603
+
+25,377 18,442
+
+420 Chapter 14 · Transportation in a Supply Chain
+
+Table 14-9 Quantity Shipped and Transportation Cost as a Function of Response Time
+
+Two-Day Response Three-Day Response Four-Day Response
+
+Quantity
+
+Quantity
+
+Quantity
+
+Day Demand Shipped Cost ($) Shipped Cost ($) Shipped Cost ($)
+
+1 19,970 19,970
+
+299.70
+
+0--
+
+0--
+
+2 17,470 17,470
+
+274.70 37,440
+
+474.40
+
+0--
+
+3 11,316 11,316
+
+213.16
+
+0
+
+--
+
+48,756
+
+587.56
+
+4 26,192 26,192
+
+361.92 37,508
+
+475.08
+
+0--
+
+5 20,263 20,263
+
+302.63
+
+0--
+
+0--
+
+6 8,381 8,381
+
+183.81 28,644
+
+386.44 54,836
+
+648.36
+
+7 25,377 25,377
+
+353.77
+
+0--
+
+0--
+
+8 39,171 39,171
+
+491.71 64,548
+
+745.48
+
+0--
+
+9 2,158 2,158
+
+121.58
+
+0
+
+--
+
+66,706
+
+767.06
+
+10 20,633 20,633
+
+306.33 22,791
+
+327.91
+
+0--
+
+11 23,370 23,370
+
+333.70
+
+0--
+
+0--
+
+12 24,100 24,100
+
+341.00 47,470
+
+574.70 68,103
+
+781.03
+
+13 19,603 19,603
+
+296.03
+
+0--
+
+0--
+
+14 18,442 18,442
+
+284.42 38,045
+
+480.45 38,045
+
+480.45
+
+$4,164.46
+
+3,464.46
+
+3,264.46
+
+14.6 TAILORED TRANSPORTATION
+Tailored transportation is the use of different transportation networks and modes based on customer and product characteristics. Most firms sell a variety of products and serve many different customer segments. For example, W.W. Grainger sells more than 200,000 MRO supply products to both small contractors and large firms. Products vary in size and value, and customers vary in the quantity purchased, responsiveness required, uncertainty of the orders, and distance from W.W. Grainger branches and DCs. Given these differences, a firm such as W.W. Grainger should not design a common transportation network to meet all needs. A firm can meet customer needs at a lower cost by using tailored transportation to provide the appropriate transportation choice based on customer and product characteristics. In the following sections, we describe various forms of tailored transportation in supply chains.
+Tailored Transportation by Customer Density and Distance
+Firms must consider customer density and distance from warehouse when designing transportation networks. The ideal transportation options based on density and distance are shown in Table 14-10.
+When a firm serves a high density of customers close to the DC, it is often best for the firm to own a fleet of trucks that are used with milk runs originating at the DC to supply customers, because this scenario makes good use of the vehicles and provides customer contact. If customer density is high but distance from the warehouse is large, it does not pay to send milk runs from the warehouse because empty trucks will travel a long distance on the return trip. In such a situation, it is better to use a public carrier with large trucks to haul the shipments to a cross-dock center close to the customer area, where the shipments are loaded onto smaller trucks that deliver product to customers using milk runs. In this situation, it may not be ideal for a firm to own its own fleet. As customer density decreases, use of an LTL carrier or a third party doing milk runs is more economical because the third-party carrier can aggregate shipments across many firms.
+
+Chapter 14 · Transportation in a Supply Chain 421
+
+Table 14-10 Transportation Options Based on Customer Density and Distance
+
+Short Distance
+
+Medium Distance
+
+Long Distance
+
+High density
+Medium density Low density
+
+Private fleet with milk runs
+Third-party milk runs
+Third-party milk runs or LTL carrier
+
+Cross-dock with milk runs
+LTL carrier
+LTL or package carrier
+
+Cross-dock with milk runs
+LTL or package carrier
+Package carrier
+
+If a firm wants to serve an area with a low density of customers far from the warehouse, even LTL carriers may not be feasible and the use of package carriers may be the best option as long as loads are small. Boise Cascade Office Products, an industrial distributor of office supplies, has designed a transportation network consistent with the suggestion in Table 14-10.
+Customer density and distance should also be considered when firms decide on the degree of temporal aggregation (which affects response time) to use when supplying customers. Firms should serve areas with high customer density more frequently because these areas are likely to provide sufficient economies of scale in transportation, making temporal aggregation less valuable. To lower transportation costs, firms should use a higher degree of temporal aggregation and aim for somewhat lower responsiveness when serving areas with a low customer density.
+Tailored Transportation by Size of Customer
+Firms must consider customer size and location when designing transportation networks. Large customers can be supplied using a TL carrier, whereas smaller customers will require an LTL carrier or milk runs. When using milk runs, a shipper incurs two types of costs:
+· Transportation cost based on total route distance · Delivery cost based on number of deliveries
+The transportation cost is the same whether going to a large or small customer. If a delivery is to be made to a large customer, including other small customers on the same truck can save on transportation cost. For each small customer, however, the delivery cost per unit is higher than for large customers. Thus, it is not optimal to deliver to small and large customers with the same frequency at the same price. One option firms have is to charge a higher delivery cost for smaller customers. Another option is to tailor milk runs so that they visit larger customers with a higher frequency than smaller customers. Firms can partition customers into large (L), medium (M), and small (S) based on the demand at each. The optimal frequency of visits can be evaluated based on the transportation and delivery costs (see Section 11.2). If large customers are to be visited every milk run, medium customers every other milk run, and low-demand customers every third milk run, suitable milk runs can be designed by combining large, medium, and small customers on each run. Medium customers would be partitioned into two subsets (M1, M2), and small customers would be partitioned into three subsets (S1, S2, S3). The firm can sequence the following six milk runs to ensure that each customer is visited with the appropriate frequency: (L, M1, S1), (L, M2, S2), (L, M1, S3), (L, M2, S1), (L, M1, S2), (L, M2, S3). This tailored sequence has the advantage that each truck carries about the same load and larger customers are provided more frequent delivery than smaller customers, consistent with their relative costs of delivery.
+Tailored Transportation by Product Demand and Value
+The degree of inventory aggregation and the modes of transportation used in a supply chain network should vary with the demand and value of a product, as shown in Table 14-11. The cycle inventory for high-value products with high demand is disaggregated to save on transportation costs because this allows replenishment orders to be transported less expensively. Safety
+
+422 Chapter 14 · Transportation in a Supply Chain
+
+Table 14-11 Aggregation Strategies Based on Value/Demand
+
+Product Type High Value
+
+Low Value
+
+High demand Low demand
+
+Disaggregate cycle inventory. Aggregate safety inventory. Inexpensive mode of transportation for replenishing cycle inventory and fast mode when using safety inventory.
+Aggregate all inventories. If needed, use fast mode of transportation for filling customer orders.
+
+Disaggregate all inventories and use inexpensive mode of transportation for replenishment.
+Aggregate only safety inventory. Use inexpensive mode of transportation for replenishing cycle inventory.
+
+inventory for such products can be aggregated to reduce inventories (see Chapter 12), and a fast mode of transportation can be used if the safety inventory is required to meet customer demand. For high-demand products with low value, all inventories should be disaggregated and held close to the customer to reduce transportation costs. For low-demand, high-value products, all inventories should be aggregated to save on inventory costs. For low-demand, low-value products, cycle inventories can be held close to the customer and safety inventories aggregated to reduce transportation costs while taking some advantage of aggregation. Cycle inventories are replenished using an inexpensive mode of transportation to save costs.
+
+Key Point
+Tailoring transportation based on customer density and distance, customer size, or product demand and value allows a supply chain to achieve appropriate responsiveness and low cost.
+14.7 THE ROLE OF IT IN TRANSPORTATION
+The complexity and scale of transportation makes it an excellent area within the supply chain for the use of IT systems. The use of software to determine transportation routes has been the most common IT application in transportation. This software takes the location of customers, shipment size, desired delivery times, information on the transportation infrastructure (such as distances between points), and vehicle capacity as inputs. These inputs are formulated into an optimization problem whose solution is a set of routings and a packing list for each vehicle that minimize costs while meeting delivery constraints.
+Along with routing, vehicle load optimization software helps improve fleet utilization. By accounting for the size of the container and the size and sequence of each delivery, this software develops a plan to pack the vehicle efficiently while allowing for the greatest ease of unloading and/or loading along the route. Synchronization between the packing and routing software is important because how much is packed on a truck affects the routing, while the routing obviously affects what is packed on a truck.
+IT also comes into play in the use of global positioning systems (GPS) for tracking realtime location of vehicles and electronic notification of impending arrivals. The availability of current information also allows for real-time dynamic optimization of transportation routes and deliveries. Electronic notifications and tracking improve customer service and preparedness throughout the supply chain.
+The Internet has also been used by companies such as Freightzone and Echo Global Logistics to help match shipper loads with available capacity with carriers in the trucking industry.
+The most common problems in the use of IT in transportation relate to cross-enterprise collaboration and the narrow view taken by some transportation software. Given that transportation
+
+Chapter 14 · Transportation in a Supply Chain 423
+is often outsourced, successful collaboration in transportation requires three or more firms to work together, making it much more difficult. Other problems arise because much of the transportation software is focused on efficient routings. The software often overlooks other factors such as customer service and promised delivery times, which should constrain the route selected.
+IT in transportation has been around for the longest and has the largest number of vendors in supply chain software. There has also been a large amount of in-house development that has focused on transportation management.
+14.8 RISK MANAGEMENT IN TRANSPORTATION
+There are three main types of risk to consider when transporting a shipment between two nodes on the network:
+1. The risk that the shipment is delayed 2. The risk that the shipment does not reach its destination because intermediate nodes or
+links are disrupted by external forces 3. The risk of hazardous material
+In each case, it is important to identify the sources of risk and their consequences and plan suitable mitigation strategies.
+Delay arises either because of congestion along links such as roads or nodes such as ports and airports. When congestion is the cause of delay, mitigation strategies for the shipper include moving inventories closer to the destination, using alternative lanes, and building a buffer into the lead time. Congestion delays can be mitigated by designing a network with multiple routes to the destination and changing routes in real time based on congestion. Congestion delays can also be mitigated through the use of congestion pricing by the owner of the transportation node or link. Delay may also arise because of the limited availability of transportation or infrastructure capacity. Such delays are more likely when the assets are owned by a third party that is serving multiple customers. These delays may be mitigated by owning some transportation capacity or by signing long-term contracts for transportation capacity with the third party. Given the high cost of owning these assets, it is best to do so for parts of the network where utilization is high.
+Disruption at transportation links or nodes may occur because of natural events such as hurricanes or human-made events such as terrorism. The best mitigation strategy in this case is to design alternative routings into the transportation network. For example, the 2011 earthquake and tsunami in Japan disrupted the flow of product in many supply chains. As a result of the earthquake, Toyota announced the delay of two new additions to the Prius line, a wagon and a minivan. Companies such as UPS and FedEx helped clients design alternative routes if there were other factories they could move production to. Similarly, during the California dockworkers' strike in 2002, many companies arranged for alternative ports to bring in product.
+When considering both delay and disruption risk, it is important to identify sources that are likely to be correlated across the network. For example, the events on September 11, 2001, caused a disruption in air transportation across the entire United States. Alternative routings were useless as mitigation strategies in this case because no alternative route was available. For such correlated sources of risk, the only option is to decrease the probability of such a disruption.
+Hazardous material can be harmful when people and the environment are exposed. The goal of risk mitigation here is to minimize the probability of exposure, and in the event of exposure, to minimize the impact. Mitigation strategies include using modified containers and low-risk transportation modes, selecting routes with low accident probability or reduced population and environmental exposure, and modifying the physical or chemical properties of the material being transported to make it less dangerous.
+
+424 Chapter 14 · Transportation in a Supply Chain
+14.9 MAKING TRANSPORTATION DECISIONS IN PRACTICE
+1. Align transportation strategy with competitive strategy. Managers should ensure that a firm's transportation strategy supports its competitive strategy. They should design functional incentives that help achieve this goal. Historically, the transportation function within firms has been evaluated based on the extent to which it can lower transportation costs. Such a focus leads to decisions that lower transportation costs but hurt the level of responsiveness provided to customers and may raise the firm's total cost. If the dispatcher at a DC is evaluated based solely on the extent to which trucks are loaded, he or she is likely to delay shipments and hurt customer responsiveness to achieve a larger load. Firms should evaluate the transportation function based on total cost and the level of responsiveness achieved with customers.
+2. Consider both in-house and outsourced transportation. Managers should consider an appropriate combination of company-owned and outsourced transportation to meet their needs. This decision should be based on a firm's ability to handle transportation profitably as well as the strategic importance of transportation to the success of the firm. In general, outsourcing is a better option when shipment sizes are small, whereas owning the transportation fleet is better when shipment sizes are large and responsiveness is important. For example, Wal-Mart uses responsive transportation to reduce inventories in its supply chain. Given the importance of transportation to the success of its strategy, it owns and manages its transportation fleet itself. This is made easier by the fact that it achieves good utilization from its transportation assets because most of its shipments are large. In contrast, firms such as W.W. Grainger and McMaster-Carr send small shipments to customers; inventory management rather than transportation is the key to their success. A third-party carrier can lower costs for them by aggregating their shipments with those of other companies. As a result, both companies use third-party carriers for their transportation.
+3. Use technology to improve transportation performance. Managers must use information technology to decrease costs and improve responsiveness in their transportation networks. Software helps managers do transportation planning and modal selection and build delivery routes and schedules. Real-time tracking allows carriers to communicate with each vehicle and identify its precise location and contents. These technologies help carriers lower costs and become more responsive to changes.
+4. Design flexibility into the transportation network. When designing transportation networks, managers should take into account uncertainty in demand as well as availability of transportation. Ignoring uncertainty encourages a greater use of inexpensive and inflexible transportation modes that perform well when everything goes as planned. Such networks, however, perform poorly when plans change. When managers account for uncertainty, they are more likely to include flexible, though more expensive, modes of transportation within their network. Although these modes may be more expensive for a particular shipment, including them in the transportation options allows a firm to reduce the overall cost of providing a high level of responsiveness.
+14.10 SUMMARY OF LEARNING OBJECTIVES
+1. Understand the role of transportation in a supply chain. Transportation refers to the movement of product from one location to another within a supply chain. The importance of transportation has grown with the increasing globalization in supply chains and the growth in online sales because both trends increase the distance products travel. Transportation decisions impact supply chain profitability and influence both inventory and facility decisions within a supply chain.
+2. Evaluate the strengths and weaknesses of different modes of transportation. The various modes of transportation include water, rail, intermodal, truck, air, pipeline, and package carriers. Water is typically the least expensive mode but is also the slowest, whereas air and
+
+Chapter 14 · Transportation in a Supply Chain 425
+package carriers are the most expensive and the fastest. Rail and water are best suited for low-value, large shipments that do not need to be moved in a hurry. Air and package carriers are best suited for small, high-value, emergency shipments. Intermodal and TL carriers are faster than rail and water but somewhat more expensive. LTL carriers are best suited for small shipments that are too large for package carriers but much smaller than a TL.
+3. Discuss the role of infrastructure and policies in transportation. Infrastructure such as ports, roads, and airports has a significant impact on transportation. Given its inherent monopolistic nature, most transportation infrastructure requires public ownership or regulation. In the case of public ownership, pricing based on average cost leads to overutilization and congestion. It is important to use some form of congestion pricing under which users are forced to internalize the increase in network cost they cause.
+4. Identify the relative strengths and weaknesses of various transportation network design options. Networks are designed to either ship directly from origin to destination or move the product through a consolidation point. Direct shipments are most effective when large quantities are to be moved. When shipments are small, use of an intermediate warehouse or DC lowers transportation cost by aggregating smaller shipments even though it takes longer and is more complex. Shipments may also be consolidated with milk runs either picking up from multiple locations or dropping off in multiple locations.
+5. Identify trade-offs that shippers need to consider when designing a transportation network. When designing transportation networks, shippers need to consider the trade-offs among transportation cost, inventory cost, operating cost, and customer responsiveness. The supply chain goal is to minimize the total cost while providing the desired level of responsiveness to customers.
+
+Discussion Questions
+1. What modes of transportation are best suited for large, lowvalue shipments? Why?
+2. Why is it important to account for congestion when pricing the use of transportation infrastructure?
+3. Wal-Mart designs its networks so that a DC supports several large retail stores. Explain how the company can use such a network to reduce transportation costs while replenishing inventories frequently.
+4. Compare the transportation costs for an online business such as Amazon and a retailer such as Home Depot when selling home-improvement materials.
+
+5. What transportation challenges does online grocer Peapod face? Compare transportation costs at online grocers and supermarket chains.
+6. Do you expect aggregation of inventory at one location to be more effective when a company such as Dell sells computers or when a company such as Amazon sells books? Explain by considering transportation and inventory costs.
+7. Discuss key drivers that may be used to tailor transportation. How does tailoring help?
+
+Exercises
+1. A power plant in California uses coal at the rate of 100,000 pounds each day. It also uses MRO material at the rate of 1,000 pounds each day. The coal comes from Wyoming and the MRO material comes from Chicago. Coal costs $0.01 per pound, whereas MRO material costs $10 per pound, on average. Holding costs at the power plant are 25 percent. Transportation choices available are as follows:
+Train Lead time  15 days Carload (100,000 pounds) at $400 per carload Full train (70 cars) at $15,000 per train
+
+Truck Lead time  4 days Minimum cost  $100 Up to 10,000 pounds at $0.08 per pound Between 10,000 and 20,000 pounds at $0.07 per pound for
+entire load Between 25,000 and 40,000 pounds at $0.06 per pound for
+entire load Small TL (40,000 pounds) for $2,000 Large TL (60,000 pounds) for $2,600
+
+

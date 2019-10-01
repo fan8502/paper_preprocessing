@@ -1,0 +1,401 @@
+3
+{{{
+Supply Chain Drivers and Metrics
+
+LEARNING OBJECTIVES
+After reading this chapter, you will be able to 1. Describe key financial measures of firm performance. 2. Identify the major drivers of supply chain performance. 3. Discuss the role of each driver in creating strategic fit between the supply chain strategy and the competitive
+strategy. 4. Define the key metrics that track the performance of the supply chain in terms of each driver.
+
+In this chapter, our goal is to link key financial measures of firm performance to supply chain performance. We introduce the three logistical drivers--facilities, inventory, and transportation--and the three cross-functional drivers--information, sourcing, and pricing--that determine the performance of any supply chain. We discuss how these drivers are used in the design, planning, and operation of the supply chain. We define several metrics that can be used to gauge the performance of each driver and its impact on financial performance.
+
+3.1 FINANCIAL MEASURES OF PERFORMANCE
+In Chapter 1,we discussed how growing the supply chain surplus is the ultimate goal of a supply chain. Our premise was that growing the surplus allows for a growth of supply chain profitability, which facilitates an improvement in the financial performance of each member of the supply chain. In this section, we define important financial measures that are reported by a firm and impacted by supply chain performance. In later sections, we then link supply chain drivers and associated metrics to the various financial measures. The definitions of financial measures in this section are taken from Dyckman, Magee, and Pfeiffer (2011).
+From a shareholder perspective, return on equity (ROE) is the main summary measure of a firm's performance.
+
+ROE =
+
+Net Income
+
+Average Shareholder Equity
+
+38
+
+Chapter 3 · Supply Chain Drivers and Metrics 39
+
+Whereas ROE measures the return on investment made by a firm's shareholders, return on assets (ROA) measures the return earned on each dollar invested by the firm in assets.
+
+Earnings before interest Net income + [Interest expense * (1 - Tax rate)]
+
+ROA =
+
+=
+
+Average total assets
+
+Average total assets
+
+Consider Amazon.com's financial performance shown in Table 3-1. In 2009, Amazon achieved ROE  9025,257  17.2 percent {1,1526,864  16.8 percent in 2010} and ROA  [90234*(1.35)]13,813  6.7 percent {[1,152  39*(1 ­ .35)]18,797  6.3 percent in 2010}. The difference between ROE and ROA is referred to as return on financial leverage (ROFL). In 2009, Amazon had ROFL  17.2  6.7  10.5 percent {16.86.3  10.5 percent in 2010}. ROFL captures the amount of ROE that can be attributed to financial leverage (accounts payable, debt, etc.). In Amazon's case, a significant portion of the financial leverage in 2009 and 2010 came from accounts payable rather than debt. Thus, an important ratio that defines financial leverage is accounts payable turnover (APT).
+
+Cost of goods sold APT =
+Accounts payable
+
+Table 3-1 Selected Financial Data for Amazon.com Inc.
+
+Year ended December 31 ($ millions)
+
+2010
+
+2009
+
+Net operating revenues Cost of goods sold Gross profit Selling, general, and administrative expense Operating income Interest expense Other income (loss) ­ net Income before income taxes Income taxes Net income
+Assets
+Cash and cash equivalents Short-term investments Net receivables Inventories Total current assets Property, plant and equipment Goodwill Other assets Total assets
+Liabilities and Stockholder Equity
+Accounts payable Short-term debt Total current liability Long-term debt Other liabilities Total liabilities Stockholder equity
+
+34,204 26,561
+7,643 6,237 1,406
+39 130 1,497 352 1,152
+3,777 4,985 1,783 3,202 13,747 2,414 1,349 1,265 18,797
+10,372
+10,372
+1,561 11,933 6,864
+
+24,509 18,978
+5,531 4,402 1,129
+34 66 1,161 253 902
+3,444 2,922 1,260 2,171 9,797 1,290 1,234 1,492 13,813
+7,364
+7,364 109
+1,083 8,556 5,257
+
+2008
+19,166 14,896
+4,270 3,428
+842 71
+130 901 247 645
+2,769 958
+1,031 1,399 6,157
+854 438 705 8,314
+4,687 59
+4,746 533 363
+5,642 2,672
+
+40 Chapter 3 · Supply Chain Drivers and Metrics
+In Amazon's case, in 2009 APT  18,9787,364  2.58 {26,561/10,372  2.56 in 2010}. A small APT indicates that Amazon was able to use the money it owed suppliers to finance a considerable fraction of its operations. In 2009, Amazon effectively financed its own operations for about 522.58  20.18 {522.56  20.31 in 2010} weeks with its suppliers' money. A low value of APT helps Amazon improve its financial performance.
+ROA can be written as the product of two ratios--profit margin and asset turnover--as shown below:
+
+ROA =
+
+Earnings before interest 1Profit margin2
+
+*
+
+Sales revenue 1Asset turnover2
+
+Sales revenue
+
+Total assets
+
+Thus, a firm can increase ROA by growing the profit margin and/or increasing the asset turnover. In 2009, Amazon achieved a profit margin of [902  34*(1.35)]/24,509  3.8 percent {[1,152  39*(1  .35)]34,204  3.4 percent in 2010}. Profit margin can be improved by getting better prices or by reducing the various expenses incurred. A responsive supply chain can allow a firm to provide high value to a customer, thus potentially getting higher prices. Good supply chain management can also allow a firm to decrease the expenses incurred to serve customer demand. In Amazon's case, a significant expense is outbound shipping cost. In its 2009 annual report, the company reported outbound shipping costs of $1.77 billion. After accounting for shipping revenue, the net loss on outbound shipping was reported to be $849 million, about the same order of magnitude as net income. Clearly, a reduction in outbound shipping costs can have a significant impact on Amazon's profit margin.
+The key components of asset turnover are accounts receivable turnover (ART); inventory turnover (INVT); and property, plant and equipment turnover (PPET). These are defined as follows:
+
+ART =
+
+Sales revenue
+
+; INVT =
+
+Cost of goods sold ; PPET
+
+=
+
+Sales revenue
+
+Accounts receivable
+
+Inventories
+
+PP&E
+
+Amazon achieved accounts receivable turnover of 24,5091,260  19.45 {34,2041,783  19.18 in 2010} in 2009. Amazon collected its money from sales relatively quickly (in about 5219.45  2.7 weeks on average in 2009) after it made a sale. Amazon turned its inventory about 18,978/2,171  8.74 {26,561/3,202  8.30 in 2010} times and had PPET  24,5091,290  19.00 {34,204/2,414  14.17 in 2010} in 2009. Thus, inventory sat with Amazon in 2009 for about 52/8.74  5.95 {52/8.30  6.27 in 2010} weeks on average, and each dollar invested in property, plant and equipment supported about $19 {$14.17 in 2010} of sales in 2009. Observe that Amazon saw its inventory turns and PPET decrease in 2010 relative to 2009. Amazon can improve its asset turnover by turning its inventory more quickly or using its existing warehousing and technology infrastructure to support a higher level of sales (or decreasing the warehousing and technology infrastructure needed to support the existing level of sales).
+Another useful metric is the cash-to-cash (C2C) cycle, which roughly measures the average amount of time from when cash enters the process as cost to when it returns as collected revenue.
+
+C2C = - weeks payable (1/APT) + weeks in inventory (1/INVT) + weeks receivable (1/ART)
+
+In Amazon's case, we obtain C2C  ­20.18  5.95  2.70  ­11.53 {­20.31  6.27  2.71  ­11.33 in 2010} in 2009. In 2009 and 2010, Amazon was collecting its money from the sale of products more than 11 weeks before it had to pay its suppliers. As we discussed earlier, this allowed Amazon to achieve significant financial leverage without having to take on debt.
+There are two important measures, however, that are not explicitly part of a firm's financial statements. They are markdowns and lost sales. Markdowns represent the discounts required to convince customers to buy excess inventory. Financial statements show only the revenue received from sales, not the revenue that "could" have been received. For General Motors (GM), one of the biggest problems in the early part of the 21st century was the discounts required to move excess inventory from dealer lots. These discounts significantly hurt financial performance. In 2010, one
+
+Chapter 3 · Supply Chain Drivers and Metrics 41
+of the biggest improvements in financial performance for GM was its ability to sell its cars with much smaller discounts because the supply chain had far less excess inventory. Lost sales represent customer sales that did not materialize because of the absence of products the customer wanted to buy. Every lost sale corresponds to product margin that is lost. Both markdowns and lost sales reduce net income and arguably represent the biggest impact of supply chain performance on the financial performance of a firm.
+Firms like Amazon, Wal-Mart, and Zara that achieve strong financial performance do so in large part because their supply chains allow them to better match supply and demand, thereby reducing markdowns and lost sales. From our brief discussion of Amazon's financial statements, supply chain management activities such as planning, transportation, inventory, and warehousing clearly have a significant impact on financial performance. In the next section, we identify key drivers of supply chain performance that influence the financial performance of a firm.
+3.2 DRIVERS OF SUPPLY CHAIN PERFORMANCE
+The strategic fit discussed in Chapter 2 requires that a company's supply chain achieve the balance between responsiveness and efficiency that best supports the company's competitive strategy. To understand how a company can improve supply chain performance in terms of responsiveness and efficiency, we must examine the logistical and cross­functional drivers of supply chain performance: facilities, inventory, transportation, information, sourcing, and pricing. These drivers interact to determine the supply chain's performance in terms of responsiveness and efficiency. These drivers also impact the financial measures discussed in Section 3.1. The goal is to structure the drivers to achieve the desired level of responsiveness at the lowest possible cost, thus improving the supply chain surplus and the firm's financial performance.
+First we define each driver and discuss its impact on the performance of the supply chain.
+1. Facilities are the actual physical locations in the supply chain network where product is stored, assembled, or fabricated. The two major types of facilities are production sites and storage sites. Decisions regarding the role, location, capacity, and flexibility of facilities have a significant impact on the supply chain's performance. For example, in 2009, Amazon increased the number of warehousing facilities (observe increase in Property, plant and equipment, in Table 3-1) located close to customers to improve its responsiveness. In contrast, Blockbuster tried to improve its efficiency in 2010 by shutting down many facilities even though it reduced responsiveness. Facility costs show up under property, plant and equipment, if facilities are owned by the firm or under selling, general, and administrative if they are leased.
+2. Inventory encompasses all raw materials, work in process, and finished goods within a supply chain. The inventory belonging to a firm is reported under assets. Changing inventory policies can dramatically alter the supply chain's efficiency and responsiveness. For example, W.W. Grainger makes itself responsive by stocking large amounts of inventory and satisfying customer demand from stock even though the high inventory levels reduce efficiency. Such a practice makes sense for Grainger because its products hold their value for a long time. A strategy using high inventory levels can be dangerous in the fashion apparel business where inventory loses value relatively quickly with changing seasons and trends. Rather than hold high levels of inventory, Spanish apparel retailer Zara has worked hard to shorten new product and replenishment lead times. As a result, the company is very responsive but carries low levels of inventory. Zara thus provides responsiveness at low cost.
+3. Transportation entails moving inventory from point to point in the supply chain. Transportation can take the form of many combinations of modes and routes, each with its own performance characteristics. Transportation choices have a large impact on supply chain responsiveness and efficiency. For example, a mail-order catalog company can use a faster mode of transportation such as FedEx to ship products, thus making its supply chain more responsive, but also less efficient given the high costs associated with using FedEx. McMaster-Carr and
+
+42 Chapter 3 · Supply Chain Drivers and Metrics
+W.W. Grainger, however, have structured their supply chain to provide next-day service to most of their customers using ground transportation. They are providing a high level of responsiveness at lower cost. Outbound transportation costs of shipping to the customer are typically included in selling, general, and administrative expense, while inbound transportation costs are typically included in the cost of goods sold.
+4. Information consists of data and analysis concerning facilities, inventory, transportation, costs, prices, and customers throughout the supply chain. Information is potentially the biggest driver of performance in the supply chain because it directly affects each of the other drivers. Information presents management with the opportunity to make supply chains more responsive and more efficient. For example, Seven-Eleven Japan has used information to better match supply and demand while achieving production and distribution economies. The result is a high level of responsiveness to customer demand while production and replenishment costs are lowered. Information technology­related expenses are typically included under either operating expense (typically under selling, general, and administrative expense) or assets. For example, in 2009, Amazon included $1.24 billion in technology expense under operating expense and another $551 million under fixed assets to be depreciated.
+5. Sourcing is the choice of who will perform a particular supply chain activity such as production, storage, transportation, or the management of information. At the strategic level, these decisions determine what functions a firm performs and what functions the firm outsources. Sourcing decisions affect both the responsiveness and efficiency of a supply chain. After Motorola outsourced much of its production to contract manufacturers in China, it saw its efficiency improve but its responsiveness suffer because of the long distances. To make up for the drop in responsiveness, Motorola started flying in some of its cell phones from China even though this choice increased transportation cost. Flextronics, an electronics contract manufacturer, is hoping to offer both responsive and efficient sourcing options to its customers. It is trying to make its production facilities in high-cost locations very responsive while keeping its facilities in low-cost countries efficient. Flextronics hopes to become an effective source for all customers using this combination of facilities. Sourcing costs show up in the cost of goods sold, and monies owed to suppliers are recorded under accounts payable.
+6. Pricing determines how much a firm will charge for the goods and services that it makes available in the supply chain. Pricing affects the behavior of the buyer of the good or service, thus affecting supply chain performance. For example, if a transportation company varies its charges based on the lead time provided by the customers, it is likely that customers who value efficiency will order early and customers who value responsiveness will be willing to wait and order just before they need a product transported. Differential pricing provides responsiveness to customers that value it and low cost to customers that do not value responsiveness as much. Any change in pricing impacts revenues directly but could also affect costs based on the impact of this change on the other drivers.
+Our definitions of these drivers attempt to delineate logistics and supply chain management. Supply chain management includes the use of logistical and cross-functional drivers to increase the supply chain surplus. Cross-functional drivers have become increasingly important in raising the supply chain surplus in recent years. While logistics remains a major part, supply chain management is increasingly becoming focused on the three cross-functional drivers.
+It is important to realize that these drivers do not act independently but interact to determine the overall supply chain performance. Good supply chain design and operation recognize this interaction and make the appropriate trade-offs to deliver the desired level of responsiveness. Consider, for example, the furniture industry in the United States. Low-cost furniture sourced from Asia is available at many discount retailers. The primary goal of this supply chain is to deliver a low price and acceptable quality. Variety is typically low and retailers such as Wal-Mart stock inventory of finished goods. The low variety and stable replenishment orders allow furniture manufacturers in Asia to focus on efficiency. Given the available inventory, low-cost modes
+
+Chapter 3 · Supply Chain Drivers and Metrics 43
+of transportation from Asia are used. In this instance, relatively low-cost inventory at the retailer allows the supply chain to become efficient by lowering transportation and production costs. In contrast, some U.S. furniture makers have chosen to focus on providing variety. Given the high variety and high prices, keeping inventory of all variants at a retailer would be very expensive. In this case, the supply chain has been designed so that the retailer carries little inventory. Customers place their orders with the retailer by seeing one variant of the furniture and selecting among the various options. The supply chain is made responsive by using information technology to convey order information effectively, structuring flexible manufacturing facilities to be able to produce in small lots, and using responsive transportation to deliver the furniture to the customer. In this instance, responsive facilities, transportation, and information are used to lower inventory costs. As the rest of this chapter will illustrate, the key to achieving strategic fit and strong financial performance across the supply chain is to structure the supply chain drivers appropriately to provide the desired level of responsiveness at the lowest possible cost.
+Doheny et al. (2010) point out that supply chain performance affects nearly 35 percent of the financial performance of apparel retailers. As a percentage of sales, they state that markdowns, representing 10­30 percent of sales, and lost sales, representing 5­10 percent of sales, are the dominant drivers of retailers' financial performance. They further state that transportation represents 2­5 percent, warehousing 1­3 percent, store product handling 3­5 percent, and inventory costs 2­5 percent of sales. While the precise fraction will vary for different supply chains, it is evident that supply chain performance along the six drivers has a significant influence on a firm's financial performance.
+Before we discuss each of the six drivers in detail, we put these drivers into a framework that helps clarify the role of each in improving supply chain performance.
+3.3 FRAMEWORK FOR STRUCTURING DRIVERS
+Recall from Chapter 2 that the goal of a supply chain strategy is to strike the balance between responsiveness and efficiency that fits with the competitive strategy. To reach this goal, a company must structure the right combination of the three logistical and three cross-functional drivers. The combined impact of these drivers then determines the responsiveness and the profits of the entire supply chain.
+We provide a visual framework for supply chain decision making in Figure 3-1. Most companies begin with a competitive strategy and then decide what their supply chain strategy ought to be. The supply chain strategy determines how the supply chain should perform with respect to efficiency and responsiveness. The supply chain must then use the three logistical and three cross-functional drivers to reach the performance level the supply chain strategy dictates and maximize the supply chain profits. Although this framework is generally viewed from the top down, in many instances, a study of the six drivers may indicate the need to change the supply chain strategy and potentially even the competitive strategy.
+Consider this framework using Wal-Mart as an example. Wal-Mart's competitive strategy is to be a reliable, low-cost retailer for a wide variety of mass-consumption goods. This strategy dictates that the ideal supply chain will emphasize efficiency but also maintain an adequate level of responsiveness in terms of product availability. Wal-Mart uses the three logistical and three crossfunctional drivers effectively to achieve this type of supply chain performance. With the inventory driver, Wal-Mart maintains an efficient supply chain by keeping low levels of inventory. For instance, Wal-Mart pioneered cross-docking, a system in which inventory is not stocked in a warehouse but rather is shipped to stores from the manufacturer with a brief stop at a distribution center (DCs), where product is transferred from inbound trucks from the supplier to outbound trucks to the retail store. This significantly lowers inventory because products are stocked only at stores, not at both stores and warehouses. With respect to inventory, Wal-Mart favors efficiency over responsiveness. On the transportation front, Wal-Mart runs its own fleet, to keep responsiveness high. This increases transportation cost, but the benefits in terms of reduced inventory and improved product
+
+44 Chapter 3 · Supply Chain Drivers and Metrics
+
+Competitive Strategy
+
+Efficiency
+
+Supply Chain Strategy
+Supply Chain Structure
+
+Responsiveness
+
+Logistical Drivers
+
+Facilities
+
+Inventory
+
+Transportation
+
+Information
+
+Sourcing
+
+Pricing
+
+Cross-Functional Drivers
+FIGURE 3-1 Supply Chain Decision-Making Framework
+
+availability justify this cost in Wal-Mart's case. In the case of facilities, Wal-Mart uses centrally located DCs within its network of stores to decrease the number of facilities and increase efficiency at each DC. Wal-Mart builds retail stores only where the demand is sufficient to justify having several of them supported by a DC, thereby increasing efficiency of its transportation assets. Wal-Mart has invested significantly more than its competitors in information technology, allowing the company to feed demand information across the supply chain to suppliers who manufacture only what is being demanded. As a result, Wal-Mart is a leader in its use of the information driver to improve responsiveness and decrease inventory investment. With regard to the sourcing driver, Wal-Mart identifies efficient sources for each product it sells. Wal-Mart feeds them large orders, allowing them to be efficient by exploiting economies of scale. Finally, for the pricing driver, Wal-Mart practices "every day low pricing" (EDLP) for its products. This ensures that customer demand stays steady and does not fluctuate with price variations. The entire supply chain then focuses on meeting this demand in an efficient manner. Wal-Mart uses all the supply chain drivers to achieve the right balance between responsiveness and efficiency so that its competitive strategy and supply chain strategy are in harmony.
+We devote the next six sections to a detailed discussion of each of the three logistical and three cross-functional drivers, their roles in the supply chain, and their impact on financial performance.
+3.4 FACILITIES
+In this section, we discuss the role that facilities play in the supply chain and critical facility-related decisions that supply chain managers need to make.
+
+Chapter 3 · Supply Chain Drivers and Metrics 45
+Role in the Supply Chain
+If we think of inventory as what is being passed along the supply chain and transportation as how it is passed along, then facilities are the where of the supply chain. They are the locations to or from which the inventory is transported. Within a facility, inventory is either transformed into another state (manufacturing) or it is stored (warehousing).
+Role in the Competitive Strategy
+Facilities are a key driver of supply chain performance in terms of responsiveness and efficiency. For example, companies can gain economies of scale when a product is manufactured or stored in only one location; this centralization increases efficiency. The cost reduction, however, comes at the expense of responsiveness, as many of a company's customers may be located far from the production facility. The opposite is also true. Locating facilities close to customers increases the number of facilities needed and consequently reduces efficiency. If the customer demands and is willing to pay for the responsiveness that having numerous facilities adds, however, then this facilities decision helps meet the company's competitive strategy goals.
+EXAMPLE 3-1 Toyota and Honda
+Both Toyota and Honda use facilities decisions to be more responsive to their customers. These companies have an end goal of opening manufacturing facilities in every major market that they enter. While there are other benefits to opening local facilities, such as protection from currency fluctuation and trade barriers, the increase in responsiveness plays a large role in Toyota's and Honda's decision to place facilities in their local markets. The flexibility of Honda facilities to assemble both SUVs and cars in the same plant allowed the company to keep costs down in the downturn of 2008. While competitors' SUV production facilities were idle, Honda facilities maintained a high level of utilization.
+Components of Facilities Decisions
+Decisions regarding facilities are a crucial part of supply chain design. We now identify components of facilities decisions that companies must analyze.
+ROLE Firms must decide whether production facilities will be flexible, dedicated, or a combination of the two. Flexible capacity can be used for many types of products but is often less efficient, whereas dedicated capacity can be used for only a limited number of products but is more efficient. Firms must also decide whether to design a facility with a product focus or a functional focus. A product-focused facility performs all functions (e.g., fabrication and assembly) needed for producing a single type of product. A functional-focused facility performs a given set of functions (e.g., fabrication or assembly) on many types of products. A product focus tends to result in more expertise about a particular type of product at the expense of the functional expertise that comes from a functional methodology.
+For warehouses and DCs, firms must decide whether they will be primarily cross-docking facilities or storage facilities. At cross-docking facilities, inbound trucks from suppliers are unloaded; the product is broken into smaller lots and is quickly loaded onto store-bound trucks. Each store-bound truck carries a variety of products, some from each inbound truck. For storage facilities, firms must decide on the products to be stored at each facility.
+LOCATION Deciding where a company will locate its facilities constitutes a large part of the design of a supply chain. A basic trade-off here is whether to centralize in order to gain economies of scale or to decentralize to become more responsive by being closer to the customer.
+
+46 Chapter 3 · Supply Chain Drivers and Metrics
+Companies must also consider a host of issues related to the various characteristics of the local area in which the facility is situated. These include macroeconomic factors, quality of workers, cost of workers, cost of facility, availability of infrastructure, proximity to customers, the location of that firm's other facilities, tax effects, and other strategic factors.
+CAPACITY Companies must also determine a facility's capacity to perform its intended function or functions. A large amount of excess capacity allows the facility to respond to wide swings in the demands placed on it. Excess capacity, however, costs money and therefore can decrease efficiency. A facility with little excess capacity will likely be more efficient per unit of product it produces than one with a lot of unused capacity. The high-utilization facility, however, will have difficulty responding to demand fluctuations. Therefore, a company must make a trade-off to determine the right amount of capacity to have at each of its facilities.
+FACILITY-RELATED METRICS Facility-related decisions impact both the financial performance of the firm and the supply chain's responsiveness to customers. On the financial side, facilities decisions impact the cost of goods sold and the assets in property plant and equipment. A manager should track the following facility-related metrics that influence supply chain performance:
+· Capacity measures the maximum amount a facility can process. · Utilization measures the fraction of capacity that is currently being used in the facility.
+Utilization affects both the unit cost of processing and the associated delays. Unit costs tend to decline (PPET increases) and delays increase with increasing utilization. · Processing/setup/down/idle time measure the fraction of time that the facility was processing units, being set up to process units, unavailable because it was down, or idle because it had no units to process. Ideally, utilization should be limited by demand and not setup or downtime. · Production cost per unit measures the average cost to produce a unit of output. These costs may be measured per unit, per case, or per pound depending on the product. · Quality losses measure the fraction of production lost due to defects. Quality losses hurt both financial performance and responsiveness. · Theoretical flow/cycle time of production measures the time required to process a unit if there are absolutely no delays at any stage. · Actual average flow/cycle time measures the average actual time taken for all units processed over a specified duration such as a week or month. The actual flow/cycle time includes the theoretical time and any delays. This metric should be used when setting due dates for orders. · Flow time efficiency is the ratio of the theoretical flow time to the actual average flow time. Low values for flow time efficiency indicate that a large fraction of time is spent waiting. · Product variety measures the number of products/product families processed in a facility. Processing costs and flow times are likely to increase with product variety. · Volume contribution of top 20 percent SKUs and customers measures the fraction of total volume processed by a facility that comes from the top 20 percent SKUs or customers. An 80/20 outcome in which the top 20 percent contribute 80 percent of volume indicates likely benefits from focusing the facility where separate processes are used to process the top 20 percent and the remaining 80 percent. · Average production batch size measures the average amount produced in each production batch. Large batch sizes will decrease production cost but increase inventories. · Production service level measures the fraction of production orders completed on time and in full.
+OVERALL TRADE-OFF: RESPONSIVENESS VERSUS EFFICIENCY The fundamental trade-off that managers face when making facilities decisions is between the cost of the number, location, capacity, and type of facilities (efficiency) and the level of responsiveness that these facilities
+
+Chapter 3 · Supply Chain Drivers and Metrics 47
+provide the company's customers. Increasing the number of facilities increases facility and inventory costs but decreases transportation costs and reduces response time. Increasing the flexibility or capacity of a facility increases facility costs but decreases inventory costs and response time.
+
+3.5 INVENTORY
+In this section, we discuss the role that inventory plays in the supply chain and how managers use inventory to drive supply chain performance.
+
+Role in the Supply Chain
+Inventory exists in the supply chain because of a mismatch between supply and demand. This mismatch is intentional at a steel manufacturer, where it is economical to manufacture in large lots that are then stored for future sales. The mismatch is also intentional at a retail store where inventory is held in anticipation of future demand. An important role that inventory plays in the supply chain is to increase the amount of demand that can be satisfied by having the product ready and available when the customer wants it. Another significant role that inventory plays is to reduce cost by exploiting economies of scale that may exist during production and distribution.
+Inventory impacts the assets held, the costs incurred, and responsiveness provided in the supply chain. High levels of inventory in an apparel supply chain improve responsiveness but also leave the supply chain vulnerable to the need for markdowns, lowering profit margins. Low levels of inventory improve inventory turns but may result in lost sales if customers are unable to find products they are ready to buy.
+Inventory also has a significant impact on the material flow time in a supply chain. Material flow time is the time that elapses between the point at which material enters the supply chain to the point at which it exits. For a supply chain, throughput is the rate at which sales occur. If inventory is represented by I, flow time by T, and throughput by D, the three can be related using Little's law as follows:
+
+I = DT
+
+(3.1)
+
+For example, if the flow time of an auto assembly process is 10 hours and the throughput is 60 units an hour, Little's law tells us that the inventory is 60  10  600 units. If we were able to reduce inventory to 300 units while holding throughput constant, we would reduce our flow time to 5 hours (300/60). We note that in this relationship, inventory and throughput must have consistent units.
+The logical conclusion here is that inventory and flow time are synonymous in a supply chain because throughput is often determined by customer demand. Managers should use actions that lower the amount of inventory needed without increasing cost or reducing responsiveness, because reduced flow time can be a significant advantage in a supply chain.
+
+Role in the Competitive Strategy
+The form, location, and quantity of inventory allow a supply chain to range from being very low cost to very responsive. Large amounts of finished goods inventory close to customers allow a supply chain to be responsive but at a high cost. Centralized inventory in raw material form allows a supply chain to lower cost but at the expense of responsiveness. The goal of good supply chain design is to find the right form, location, and quantity of inventory that provides the right level of responsiveness at the lowest possible cost.
+
+48 Chapter 3 · Supply Chain Drivers and Metrics
+EXAMPLE 3-2 Amazon.com
+Amazon attempts to provide a wide variety of books (among other products) to its customers. Best-selling books are stocked in many regional warehouses close to customers for high responsiveness. Slower moving books are stocked at fewer warehouses to lower the cost of inventory at the expense of some responsiveness. Some of the slowest moving books are not held in inventory but are obtained from the publisher/distributor or printed on demand when requested by a customer. Amazon changes the form, location, and quantity of inventory it holds by the level of sales of a book to provide the right balance of responsiveness and efficiency.
+Components of Inventory Decisions
+We now identify major inventory-related decisions that supply chain managers must make to effectively create more responsive and more efficient supply chains.
+CYCLE INVENTORY Cycle inventory is the average amount of inventory used to satisfy demand between receipts of supplier shipments. The size of the cycle inventory is a result of the production, transportation, or purchase of material in large lots. Companies produce or purchase in large lots to exploit economies of scale in the production, transportation, or purchasing process. With the increase in lot size, however, comes an increase in carrying costs. As an example of a cycle stock decision, consider an online book retailer. This retailer's sales average around 10 truckloads of books a month. The cycle inventory decisions the retailer must make are how much to order for replenishment and how often to place these orders. The e-retailer could order 10 truckloads once each month or it could order one truckload every three days. The basic trade-off supply chain managers face is the cost of holding larger lots of inventory (when cycle inventory is high) versus the cost of ordering product frequently (when cycle inventory is low).
+SAFETY INVENTORY Safety inventory is inventory held in case demand exceeds expectation; it is held to counter uncertainty. If the world were perfectly predictable, only cycle inventory would be needed. Because demand is uncertain and may exceed expectations, however, companies hold safety inventory to satisfy an unexpectedly high demand. Managers face a key decision when determining how much safety inventory to hold. For example, a toy retailer such as Toys "R" Us must calculate its safety inventory for the holiday buying season. If it has too much safety inventory, toys go unsold and may have to be discounted after the holidays. If the company has too little safety inventory, however, then Toys "R" Us loses sales, along with the margin those sales would have brought. Therefore, choosing safety inventory involves making a trade-off between the costs of having too much inventory and the costs of losing sales due to not having enough inventory.
+SEASONAL INVENTORY Seasonal inventory is built up to counter predictable seasonal variability in demand. Companies using seasonal inventory build up inventory in periods of low demand and store it for periods of high demand when they will not have the capacity to produce all that is demanded. Managers face key decisions in determining whether to build seasonal inventory, and if they do build it, in deciding how much to build. If a company can rapidly change the rate of its production system at very low cost, then it may not need seasonal inventory, because the production system can adjust to a period of high demand without incurring large costs. However, if changing the rate of production is expensive (e.g., when workers must be hired or fired), then a company would be wise to establish a smooth production rate and build up its inventory during periods of low demand. Therefore, the basic trade-off supply chain managers face in determining how much seasonal inventory to build is the cost of carrying the additional seasonal inventory versus the cost of having a more flexible production rate.
+
+Chapter 3 · Supply Chain Drivers and Metrics 49
+LEVEL OF PRODUCT AVAILABILITY Level of product availability is the fraction of demand that is served on time from product held in inventory. A high level of product availability provides a high level of responsiveness but increases cost because much inventory is held but rarely used. In contrast, a low level of product availability lowers inventory holding cost but results in a higher fraction of customers who are not served on time. The basic trade-off when determining the level of product availability is between the cost of inventory to increase product availability and the loss from not serving customers on time.
+INVENTORY-RELATED METRICS Inventory-related decisions affect the cost of goods sold, the cashto-cash cycle, and the assets held by the supply chain and its responsiveness to customers. A manager should track the following inventory-related metrics that influence supply chain performance:
+· Cash-to-cash cycle time is a high-level metric that includes inventories, accounts payable, and receivables.
+· Average inventory measures the average amount of inventory carried. Average inventory should be measured in units, days of demand, and financial value.
+· Inventory turns measure the number of times inventory turns over in a year. It is the ratio of average inventory to either the cost of goods sold or sales.
+· Products with more than a specified number of days of inventory identifies the products for which the firm is carrying a high level of inventory. This metric can be used to identify products that are in oversupply or to identify reasons that justify the high inventory, such as price discounts or being a very slow mover.
+· Average replenishment batch size measures the average amount in each replenishment order. The batch size should be measured by SKU in terms of both units and days of demand. It can be estimated by averaging over time the difference between the maximum and the minimum inventory (measured in each replenishment cycle) on hand.
+· Average safety inventory measures the average amount of inventory on hand when a replenishment order arrives. Average safety inventory should be measured by SKU in both units and days of demand. It can be estimated by averaging over time the minimum inventory on hand in each replenishment cycle.
+· Seasonal inventory measures the difference between the inflow of product (beyond cycle and safety inventory) and its sales that is purchased solely to deal with anticipated spikes in demand.
+· Fill rate (order/case) measures the fraction of orders/demand that were met on time from inventory. Fill rate should not be averaged over time but over a specified number of units of demand (say, every thousand, million, etc.).
+· Fraction of time out of stock measures the fraction of time that a particular SKU had zero inventory. This fraction can be used to estimate the lost sales during the stock out period.
+· Obsolete inventory measures the fraction of inventory older than a specified obsolescence date.
+OVERALL TRADE-OFF: RESPONSIVENESS VERSUS EFFICIENCY The fundamental trade-off that managers face when making inventory decisions is between responsiveness and efficiency. Increasing inventory generally makes the supply chain more responsive to the customer. A higher level of inventory also facilitates a reduction in production and transportation costs because of improved economies of scale in both functions. This choice, however, increases inventory holding cost.
+3.6 TRANSPORTATION
+In this section, we discuss the role that transportation plays in the supply chain and key transportation-related decisions that supply chain managers must make.
+
+50 Chapter 3 · Supply Chain Drivers and Metrics
+Role in the Supply Chain
+Transportation moves product between different stages in a supply chain and impacts both responsiveness and efficiency. Faster transportation allows a supply chain to be more responsive but reduces its efficiency. The type of transportation a company uses also affects the inventory and facility locations in the supply chain. Dell, for example, flies some components from Asia because doing so allows the company to lower the level of inventory it holds. Clearly, such a practice also increases responsiveness but decreases transportation efficiency because it is more costly than transporting parts by ship.
+Role in the Competitive Strategy
+Transportation allows a firm to adjust the location of its facilities and inventory to find the right balance between responsiveness and efficiency. A firm selling high-value items such as pacemakers may use rapid transportation to be responsive while centralizing its facilities and inventory to lower cost. In contrast, a firm selling low-value, high-demand items like light bulbs may carry a fair amount of inventory close to the customer but then use low-cost transportation like sea, rail, and full trucks to replenish this inventory from plants located in low-cost countries.
+EXAMPLE 3-3 Blue Nile
+Blue Nile is an online retailer of diamonds that has used responsive transportation with FedEx to ship diamonds to customers in the United States, Canada, and several countries in Europe and Asia. Given the high value of diamonds, Blue Nile offers free shipping for the overnight delivery. Responsive shipping, however, allows Blue Nile to centralize its inventory of diamonds and also eliminate the need for expensive storefronts. In spite of the high transportation costs, Blue Nile has very low costs compared to bricks-and-mortar retailers because of the low facility and inventory expenses. Blue Nile is thus able to offer significantly lower prices than its bricks-and-mortar competition.
+Components of Transportation Decisions
+We now identify key components of transportation that companies must analyze when designing and operating a supply chain.
+DESIGN OF TRANSPORTATION NETWORK The transportation network is the collection of transportation modes, locations, and routes along which product can be shipped. A company must decide whether transportation from a supply source will be direct to the demand point or will go through intermediate consolidation points. Design decisions also include whether or not multiple supply or demand points will be included in a single run.
+CHOICE OF TRANSPORTATION MODE The mode of transportation is the manner in which a product is moved from one location in the supply chain network to another. Companies can choose among air, truck, rail, sea, and pipeline as modes of transport for products. Today, information goods can also be sent via the Internet. Each mode has different characteristics with respect to the speed, size of shipments (individual parcels to pallets to full trucks to entire ships), cost of shipping, and flexibility that lead companies to choose one particular mode over the others.
+TRANSPORTATION-RELATED METRICS Inbound transportation decisions impact the cost of goods sold while outbound transportation costs are part of the selling, general, and administrative
+
+Chapter 3 · Supply Chain Drivers and Metrics 51
+expenses. Thus, transportation costs affect the profit margin. A manager should track the following transportation-related metrics that influence supply chain performance:
+· Average inbound transportation cost typically measures the cost of bringing product into a facility as a percentage of sales or cost of goods sold (COGS). Ideally, this cost should be measured per unit brought in, but this can be difficult. The inbound transportation cost is generally included in COGS. It is useful to separate this cost by supplier.
+· Average incoming shipment size measures the average number of units or dollars in each incoming shipment at a facility.
+· Average inbound transportation cost per shipment measures the average transportation cost of each incoming delivery. Along with the incoming shipment size, this metric identifies opportunities for greater economies of scale in inbound transportation.
+· Average outbound transportation cost measures the cost of sending product out of a facility to the customer. Ideally, this cost should be measured per unit shipped, but it is often measured as a percentage of sales. It is useful to separate this metric by customer.
+· Average outbound shipment size measures the average number of units or dollars on each outbound shipment at a facility.
+· Average outbound transportation cost per shipment measures the average transportation cost of each outgoing delivery. Along with the outgoing shipment size, this metric identifies opportunities for greater economies of scale in outbound transportation.
+· Fraction transported by mode measures the fraction of transportation (in units or dollars) using each mode of transportation. This metric can be used to estimate if certain modes are overused or underutilized.
+OVERALL TRADE-OFF: RESPONSIVENESS VERSUS EFFICIENCY The fundamental trade-off for transportation is between the cost of transporting a given product (efficiency) and the speed with which that product is transported (responsiveness). Using fast modes of transport raises responsiveness and transportation cost but lowers the inventory holding cost.
+3.7 INFORMATION
+In this section, we discuss the role that information plays in the supply chain, as well as key information-related decisions that supply chain managers must make.
+Role in the Supply Chain
+Good information can help improve the utilization of supply chain assets and the coordination of supply chain flows to increase responsiveness and reduce costs. Seven-Eleven Japan uses information to improve product availability while decreasing inventories. Wal-Mart uses information on shipments from suppliers to facilitate cross-docking and lower inventory and transportation expense. Li & Fung, a global trading group supplying time-sensitive consumer goods such as apparel, uses information on its third party manufacturers to source each order from the most appropriate supplier. Airlines routinely use information to offer the right number of seats at a discount price, leaving sufficient seats for business customers making reservations at the last minute and willing to pay a higher price. Each of these examples illustrates the importance of information as a key driver that can be used to provide higher responsiveness while simultaneously improving efficiency.
+Role in the Competitive Strategy
+The right information can help a supply chain better meet customer needs at lower cost. The appropriate investment in information technology improves visibility of transactions and coordination of decisions across the supply chain. Coordination is essential if all stages of the
+
+52 Chapter 3 · Supply Chain Drivers and Metrics
+supply chain are to work together toward a common goal. The goal in general should be to share the minimum amount of information required to achieve coordination because, beyond a certain point, the marginal cost of handling additional information increases, whereas the marginal benefit from the additional information decreases. The following examples illustrate how information can be used to provide customized products and improve supply chain performance.
+EXAMPLE 3-4 Andersen Windows
+Andersen Windows, a major manufacturer of residential wood windows located in Bayport, Minnesota, has invested in an information system that enables the company to bring customized products to the market rapidly. This system, called "Window of Knowledge," allows distributors and customers to design windows to custom-fit their needs. Users can select from a library of more than 50,000 components that can be combined in any number of ways. The system immediately gives the customer price quotes and automatically sends the order to the factory if the customer decides to buy. This information investment not only gives the customer a much wider variety of products, it also allows Andersen to be much more responsive to the customer, as it gets the customer's order to the factory as soon as the order is placed.
+EXAMPLE 3-5 Sunsweet Growers
+Sunsweet Growers, a California-based dried fruit producer, implemented a supply chain sales and operations planning (S&OP) suite to replace its Excel-based planning system. The company has a highly seasonal supply with harvest taking place primarily during September and October. Demand is also seasonal with peak times occurring during the Christmas period. Good planning thus can be very valuable. Sunsweet's goal when implementing the suite was twofold: Each function should operate with the same data and an early warning capability should alert planners and managers about any potential mismatches in supply and demand. After the implementation, production overruns at Sunsweet dropped from 30 percent to under 15 percent. Forecast accuracy improved by 15 to 20 percent. The early warning system alerts allowed planners to react as much as two to three weeks earlier than before the implementation.
+Components of Information Decisions
+We now consider key components of information that a company must analyze to increase efficiency and improve responsiveness within its supply chain.
+PUSH VERSUS PULL When designing processes of the supply chain, managers must determine whether these processes are part of the push or pull phase in the chain. We discussed this distinction in Chapter 1, but we mention it again because different types of systems require different types of information. Push systems start with forecasts that are used to build the master production schedule and roll it back, creating schedules for suppliers with part types, quantities, and delivery dates. Pull systems require information on actual demand to be transmitted extremely quickly throughout the entire chain so that production and distribution of products can reflect the real demand accurately.
+COORDINATION AND INFORMATION SHARING Supply chain coordination occurs when all stages of a supply chain work toward the objective of maximizing total supply chain profitability based on shared information. Lack of coordination can result in a significant loss of supply chain surplus. Coordination among different stages in a supply chain requires each stage to share appropriate
+
+Chapter 3 · Supply Chain Drivers and Metrics 53
+information with other stages. For example, if a supplier is to produce the right parts in a timely manner for a manufacturer in a pull system, the manufacturer must share demand and production information with the supplier. Information sharing is thus crucial to the success of a supply chain.
+SALES AND OPERATIONS PLANNING Sales and operations planning (S&OP) is the process of creating an overall supply plan (production and inventories) to meet the anticipated level of demand (sales). The S&OP process starts with sales and marketing communicating their needs to the supply chain, which in turn communicates to sales and marketing whether the needs can be met and at what cost. The goal of S&OP is to come up with an agreed-upon sales, production, and inventory plan that can be used to plan supply chain needs and project revenues and profits. The sales and operations plan becomes a critical piece of information to be shared across the supply chain because it affects both the demand on a firm's suppliers and the supply to its customers.
+ENABLING TECHNOLOGIES Many technologies exist to share and analyze information in the supply chain. Managers must decide which technologies to use and how to integrate them into their supply chain. Some of these technologies include the following:
+1. Electronic data interchange (EDI) was developed in the 1970s to facilitate the placement of instantaneous, paperless purchase orders with suppliers. Its proprietary nature, however, required significant upfront investment and often some translation between the communicating parties. It did make transactions faster and more accurate than when they were paper based.
+2. Relative to EDI, the Internet conveys much more information using a standard infrastructure allowing supply chains to improve both efficiency and responsiveness. The beginning of the 21st century has seen the Internet become the dominant medium of communication across all the macro processes (CRM, ISCM, and SRM discussed in Chapter 1) that link the supply chain from suppliers to customers.
+3. Enterprise resource planning (ERP) systems provide the transactional tracking and global visibility of information from within a company and across its supply chain. This real-time information helps a supply chain improve the quality of its operational decisions. ERP systems keep track of the information, whereas the Internet provides one method with which to view this information. A more detailed discussion of ERP systems is in Chapter 17.
+4. Supply chain management (SCM) software uses the information in ERP systems to provide analytical decision support in addition to the visibility of information. ERP systems show a company what is going on, while SCM systems help a company decide what it should do. A more detailed discussion of SCM systems is in Chapter 17.
+5. Radio frequency identification (RFID) consists of an active or passive radio frequency (RF) tag applied to the item being tracked and an RF reader/emitter. A passive tag draws energy from the reader, whereas an active tag has its own battery and draws power from it. RFID has many potential uses. It can be used in manufacturing to check availability of the entire bill of materials. The technology can make the receiving of a truck much faster and cheaper. Full implementation of RFID could eliminate the need for manual counting and bar-code scanning at the receiving dock. It can also be used to get an exact count of incoming items and items in storage. RFID technology, however, has yet to reach 100 percent accuracy, and its cost per unit is still high enough to make global acceptance difficult, even at the case level.
+INFORMATION-RELATED METRICS A manager should track the following information-related metrics that influence supply chain performance:
+· Forecast horizon identifies how far in advance of the actual event a forecast is made. The forecast horizon must be greater than or equal to the lead time of the decision that is driven by the forecast.
+
+54 Chapter 3 · Supply Chain Drivers and Metrics
+· Frequency of update identifies how frequently each forecast is updated. The forecast should be updated somewhat more frequently than a decision will be revisited, so that large changes can be flagged and corrective action taken.
+· Forecast error measures the difference between the forecast and actual demand. The forecast error is a measure of uncertainty and drives all responses to uncertainty such as safety inventory or excess capacity.
+· Seasonal factors measure the extent to which the average demand in a season is above or below the average in the year.
+· Variance from plan identifies the difference between the planned production/inventories and the actual values. These variances can be used to raise flags that identify shortages and surpluses.
+· Ratio of demand variability to order variability measures the standard deviation of incoming demand and supply orders placed. A ratio less than one potentially indicates the existence of the bullwhip effect, which is discussed in Chapter 10.
+OVERALL TRADE-OFF: COMPLEXITY VERSUS VALUE Good information clearly helps a firm improve both its efficiency and responsiveness. There is a danger, however, in the assumption that more information is always better. As more information is shared across a supply chain, the complexity and cost of both the required infrastructure and the follow-up analysis grow exponentially. The marginal value provided by the information shared, however, diminishes as more and more information is available. It is thus important to evaluate the minimum information required to accomplish the desired objectives. For example, it may often be enough if aggregate sales are shared between a retailer and a manufacturer instead of detailed point-of-sale data. Aggregate information is cheaper to share and provides most of the value with regard to better production planning. The trade-off between complexity and value is important to consider when setting up the information infrastructure.
+3.8 SOURCING
+In this section, we discuss the role that sourcing plays in the supply chain and key sourcing-related decisions that managers need to make.
+Role in the Supply Chain
+Sourcing is the set of business processes required to purchase goods and services. Managers must first decide whether each task will be performed by a responsive or efficient source and then whether the source will be internal to the company or a third party. Sourcing from low-cost countries allows a company like IKEA to provide the basic modules for the furniture it sells at low cost. Sourcing some of its PCs sold at Wal-Mart from China has allowed Dell to lower their cost. Meanwhile, Dell continues to produce in-house those machines for which responsiveness is required. As supply chains have globalized, many more sourcing options now offer both considerable opportunity and potential risks. Thus, sourcing decisions have a significant impact on supply chain performance.
+Role in the Competitive Strategy
+Sourcing decisions are crucial because they affect the level of efficiency and responsiveness the supply chain can achieve. In some instance, firms outsource to responsive third parties if it is too expensive for them to develop this responsiveness on their own. An example is the outsourcing of next-day package delivery by all firms to a few package carriers because it is too expensive for a firm to develop next-day delivery capability on its own. In other instances, firms have kept the responsive process in-house to maintain control. An example is Zara,
+
+Chapter 3 · Supply Chain Drivers and Metrics 55
+which keeps responsive capacity in-house so it can respond quickly to orders as they arrive. Firms also outsource for efficiency if the third party can achieve significant economies of scale or has a lower underlying cost structure for other reasons. The following example illustrates how Cisco has sourced appropriately to be efficient for low-end products and responsive for high-end products.
+EXAMPLE 3-6 Cisco
+Cisco has outsourced almost all of its manufacturing. It does, however, have a sourcing strategy that varies by product type. For low-end products such as routers for home networks, Cisco aims for efficiency. These routers are produced and packed in China and shipped in bulk for sale in the United States. Cisco aims for the lowest cost manufacturing location and economies of scale in transportation because the targeted market segment values low cost. For high-end products, in contrast, Cisco outsources to contract manufacturers in the United States. These manufacturers are not low cost, but they are responsive and can serve the rapidly evolving needs of the high-end market.
+Components of Sourcing Decisions
+We now consider key sourcing decisions that are made within a firm.
+IN-HOUSE OR OUTSOURCE The most significant sourcing decision for a firm is whether to perform a task in-house or outsource it to a third party. Within a task such as transportation, managers must decide whether to outsource all of it, outsource only the responsive component, or outsource only the efficient component. This decision should be driven in part by its impact on the total supply chain surplus. It is best to outsource if the growth in total supply chain surplus is significant with little additional risk.
+SUPPLIER SELECTION Managers must decide on the number of suppliers they will have for a particular activity. They must then identify the criteria along which suppliers will be evaluated and how they will be selected. For the selection process, managers must decide whether they will use direct negotiations or resort to an auction. If an auction is used, it must be structured to ensure the desired outcome.
+PROCUREMENT Procurement is the process of obtaining goods and services within a supply chain. Managers must structure procurement with a goal of increasing supply chain surplus. For example, a firm should set up procurement for direct materials to ensure good coordination between the supplier and buyer. In contrast, the procurement of MRO products should be structured to ensure that transaction costs are low.
+SOURCING-RELATED METRICS Sourcing decisions directly impact the cost of goods sold and accounts payable. The performance of the source also impacts quality, inventories, and inbound transportation costs. A manager should track the following sourcing-related metrics that influence supply chain performance:
+· Days payable outstanding measures the number of days between when a supplier performed a supply chain task and when it was paid.
+· Average purchase price measures the average price at which a good or service was purchased during the year. The average price should be weighted by the quantity purchased at each price.
+· Range of purchase price measures the fluctuation in purchase price during a specified period. The goal is to identify if the quantity purchased correlated with the price.
+
+56 Chapter 3 · Supply Chain Drivers and Metrics
+· Average purchase quantity measures the average amount purchased per order. The goal is to identify whether a sufficient level of aggregation is occurring across locations when placing an order.
+· Supply quality measures the quality of product supplied. · Supply lead time measures the average time between when an order is placed and when
+the product arrives. Long lead times reduce responsiveness and add to the inventory the supply chain must carry. · Fraction of on-time deliveries measures the fraction of deliveries from the supplier that were on time. · Supplier reliability measures the variability of the supplier's lead time as well as the delivered quantity relative to plan. Poor supplier reliability hurts responsiveness and adds to the amount of inventory the supply chain must carry.
+OVERALL TRADE-OFF: INCREASE THE SUPPLY CHAIN SURPLUS Sourcing decisions should be made to increase the size of the total surplus to be shared across the supply chain. The total surplus is affected by the impact of sourcing on sales, service, production costs, inventory costs, transportation costs, and information costs. Outsourcing to a third party is meaningful if the third party raises the supply chain surplus more than the firm can on its own. In contrast, a firm should keep a supply chain function in-house if the third party cannot increase the supply chain surplus or if the risk associated with outsourcing is significant.
+3.9 PRICING
+In this section, we discuss the role that pricing plays in the supply chain.
+Role in the Supply Chain
+Pricing is the process by which a firm decides how much to charge customers for its goods and services. Pricing affects the customer segments that choose to buy the product, as well as the customer's expectations. This directly affects the supply chain in terms of the level of responsiveness required as well as the demand profile that the supply chain attempts to serve. Pricing is also a lever that can be used to match supply and demand especially when the supply chain is not very flexible. Short-term discounts can be used to eliminate supply surpluses or decrease seasonal demand spikes by moving some of the demand forward. In short, pricing is one of the most significant factors that affect the level and type of demand that the supply chain will face.
+Role in the Competitive Strategy
+Pricing is a significant attribute through which a firm executes its competitive strategy. For example, Costco, a membership-based wholesaler in the United States, has a policy that prices are kept steady but low. Customers expect low prices but are comfortable with a lower level of product availability. The steady prices also ensure that demand stays relatively stable. Costco serves a well-defined segment, and it can thus design an appropriate supply chain. The Costco supply chain aims to be efficient, at the expense of some responsiveness. In contrast, some manufacturing and transportation firms use pricing that varies with the response time desired by the customer. Through their pricing, these firms are targeting a broader set of customers, some of whom need responsiveness while others need efficiency. In this case, it becomes important for these firms to structure a supply chain that can meet the two divergent needs. Amazon uses a menu of shipping options and prices to identify customers who value responsiveness and those who value low cost. This identification allows the company to serve both effectively, as shown in the following example.
+
+Chapter 3 · Supply Chain Drivers and Metrics 57
+EXAMPLE 3-7 Amazon.com
+Amazon offers its customers a large menu of prices for products that are purchased from the company. For example, in July 2008, a person purchasing two books worth $30 could use standard shipping (ships in 3­5 business days) at a cost of $4.98, two-day shipping (ships in 2 business days) at a cost of $13.97, one-day shipping (ships in 1 business day) at a cost of $22.97 or use free shipping (ships in 7­14 business days). The pricing menu allows Amazon to attract customers with varying levels of desired responsiveness. Whereas customers paying for one-day shipping impose a high degree of uncertainty on Amazon, customers opting for free shipping can be used to level out the workload at the warehouse over time. Amazon can thus use its pricing to provide responsiveness to those who value it while using customers who want a low price to help it improve its efficiency.
+Components of Pricing Decisions
+We now describe key components of pricing decisions that affect supply chain performance.
+PRICING AND ECONOMIES OF SCALE Most supply chain activities display economies of scale. Changeovers make small production runs more expensive per unit than large production runs. Loading and unloading costs make it cheaper to deliver a truckload to one location than four. In each case, the provider of the supply chain activity must decide how to price it appropriately to reflect these economies of scale. A commonly used approach is to offer quantity discounts. Care must be taken to ensure that quantity discounts offered are consistent with the economies of scale in the underlying process. Otherwise, there is a danger of customer orders being driven primarily by the quantity discounts even though the underlying process does not have significant economies of scale.
+EVERYDAY LOW PRICING VERSUS HIGH­LOW PRICING A firm such as Costco practices everyday low pricing at its warehouse stores, keeping prices steady over time. Costco will go to the extent of not offering any discount on damaged books to ensure its everyday low-pricing strategy. In contrast, most supermarkets practice high­low pricing and offer steep discounts on a subset of their product every week. The Costco pricing strategy results in relatively stable demand. The high­low pricing strategy results in a peak during the discount week, often followed by a steep drop in demand during the following weeks. The two pricing strategies lead to different demand profiles that the supply chain must serve.
+FIXED PRICE VERSUS MENU PRICING A firm must decide whether it will charge a fixed price for its supply chain activities or have a menu with prices that vary with some other attribute, such as the response time or location of delivery. If marginal supply chain costs or the value to the customer vary significantly along some attribute, it is often effective to have a pricing menu. We have already discussed Amazon as an example of a firm offering a menu that is somewhat consistent with the cost of providing the particular supply chain service. An example of when the pricing menu is somewhat inconsistent is seen at many MRO suppliers. They often allow customers to have their order shipped to them or to be picked up in person. A customer pays an additional shipping fee for home delivery but pays nothing for a personal pickup. The pick, pack, and deliver cost at the warehouse, however, is higher in the case of a personal pickup compared to home delivery. The pricing policy thus can lead to customer behavior that has a negative impact on profits.
+PRICING-RELATED METRICS Pricing directly affects revenues but can also affect production costs and inventories depending upon its impact on consumer demand. A manager should track
+
+58 Chapter 3 · Supply Chain Drivers and Metrics
+the following pricing-related metrics. With menu pricing, each metric should be tracked separately for each segment in the menu:
+· Profit margin measures profit as a percentage of revenue. A firm needs to examine a wide variety of profit margin metrics to optimize its pricing, including dimensions such as type of margin (gross, net, etc.), scope (SKU, product line, division, firm), customer type, and others.
+· Days sales outstanding measures the average time between when a sale is made and when the cash is collected.
+· Incremental fixed cost per order measures the incremental costs that are independent of the size of the order. These include changeover costs at a manufacturing plant or order processing or transportation costs that are incurred independent of shipment size at a mail-order firm.
+· Incremental variable cost per unit measures the incremental costs that vary with the size of the order. These include picking costs at a mail-order firm or variable production costs at a manufacturing plant.
+· Average sale price measures the average price at which a supply chain activity was performed in a given period. The average should be obtained by weighting the price with the quantity sold at that price.
+· Average order size measures the average quantity per order. The average sale price, order size, incremental fixed cost per order, and incremental variable cost per unit help estimate the contribution from performing the supply chain activity.
+· Range of sale price measures the maximum and the minimum of sale price per unit over a specified time horizon.
+· Range of periodic sales measures the maximum and minimum of the quantity sold per period (day/week/month) during a specified time horizon. The goal is to understand any correlation between sales and price and any potential opportunity to shift sales by changing price over time.
+OVERALL TRADE-OFF: INCREASE FIRM PROFITS All pricing decisions should be made with the objective of increasing firm profits. This requires an understanding of the cost structure of performing a supply chain activity and the value this activity brings to the supply chain. Strategies such as everyday low pricing may foster stable demand that allows for efficiency in the supply chain. Other pricing strategies may lower supply chain costs, defend market share, or even steal market share. Differential pricing may be used to attract customers with varying needs, as long as this strategy helps either increase revenues or shrink costs, preferably both.
+3.10 SUMMARY OF LEARNING OBJECTIVES
+1. Describe key financial measures of firm performance. The key financial measures of firm performance include return on equity; return on assets; accounts payable turnover; profit margin; asset turnover, accounts receivable turnover; inventory turns; property, plant and equipment turns; and cash-to-cash cycle.
+2. Identify the major drivers of supply chain performance. The major drivers of supply chain performance are facilities, inventory, transportation, information, sourcing, and pricing.
+3. Discuss the role of each driver in creating strategic fit between the supply chain strategy and the competitive strategy. A company achieving strategic fit has found the right balance between responsiveness and efficiency. Each driver affects this balance. Having more facilities generally makes a chain more responsive, while having fewer, central facilities creates higher efficiency. Holding higher levels of inventory increases the responsiveness of a supply
+
+Chapter 3 · Supply Chain Drivers and Metrics 59
+chain, while keeping inventory low increases the chain's efficiency. Using faster modes of transportation increases a chain's responsiveness, while using slower modes generally increases efficiency. Investing in information can vastly improve the supply chain performance on both dimensions. This investment, however, must be made based on the strategic position supported by the other drivers. Appropriate sourcing decisions raise supply chain profits by assigning supply chain functions to the right party, which brings higher economies of scale or a higher level of aggregation of uncertainty. Pricing can be used to attract the right target customer segment. Differential pricing can be used to attract customers who value responsiveness as well as customers who want efficiency. The supply chain can then be structured to provide responsiveness to some customers while improving overall efficiency.
+4. Define the key metrics that track the performance of the supply chain in terms of each driver. Facility-related metrics are capacity, utilization, theoretical flow/cycle time of production, actual flow/cycle time, flow time efficiency, product variety, volume contribution of top 20 percent SKUs/customers, processing/setup/down/idle time, and average production batch size. Inventory-related metrics are average inventory, products with more than a specified number of days of inventory, average replenishment batch size, average safety inventory, seasonal inventory, fill rate, and fraction of time out of stock. Transportation-related metrics are average inbound transportation cost, average incoming shipment size, average inbound transportation cost per shipment, average outbound transportation cost, average outbound shipment size, average outbound transportation cost per shipment, and fraction transported by mode. Information-related metrics are forecast horizon, forecast error, seasonal factors, variance from plan, and ratio of demand variability to order variability. Sourcing-related metrics are days payable outstanding, average purchase price, range of purchase price, average purchase quantity, fraction on-time deliveries, supply quality, and supply lead time. Pricing-related metrics are profit margin, days sales outstanding, incremental fixed cost per order, incremental variable cost per unit, average sale price, average order size, range of sale price, and range of periodic sales. Each of these metrics directly or indirectly impacts the financial metrics and the responsiveness to customers.
+
+Discussion Questions
+
+1. How could a grocery retailer use inventory to increase the responsiveness of the company's supply chain?
+2. How could an auto manufacturer use transportation to increase the efficiency of its supply chain?
+3. How could a bicycle manufacturer increase responsiveness through its facilities?
+4. How could an industrial supplies distributor use information to increase its responsiveness?
+5. Motorola has gone from manufacturing all its cell phones in-house to almost completely outsourcing the manufacturing. What are the pros and cons of the two approaches?
+6. How can a home-delivery company like Peapod use pricing of its delivery services to improve its profitability?
+
+7. What are some industries in which products have proliferated and life cycles have shortened? How have the supply chains in these industries adapted?
+8. How can the full set of logistical and cross-functional drivers be used to create strategic fit for a PC manufacturer targeting both time-sensitive and price-conscious customers?
+9. On which supply chain drivers should a firm trying to shrink its cash-to-cash cycle focus?
+10. Would you expect a brick-and-mortar retailer or an online retailer to have a higher asset turnover? Which supply chain drivers impact asset turnover?
+
+Bibliography
+
+Doheny, Mike, Karl-Hendrik Magnus, Paulo Marchesan, Brian Ruwadi, Chris Turner, and Nursen Ulker. "Driving Productivity in the Apparel Supply Chain." December 17, 2010. Available at https://operations-extranet.mckinsey.com/ html/knowledge/article/20101213_apparel_supply_chain.asp.
+
+Dyckman, Thomas R., Robert P. Magee, and Glenn M. Pfeiffer. Financial Accounting. Westmont, IL: Cambridge Business Publishers, 2011.
+Hofman, Debra. "The Hierarchy of Supply Chain Metrics." Supply Chain Management Review (September 2004): 28­37.
+
+

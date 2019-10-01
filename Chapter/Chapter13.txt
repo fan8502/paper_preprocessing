@@ -1,0 +1,950 @@
+13
+{{{
+Determining the Optimal Level of Product Availability
+LEARNING OBJECTIVES After reading this chapter, you will be able to 1. Identify the factors affecting the optimal level of product availability and evaluate the optimal cycle service
+level. 2. Use managerial levers that improve supply chain profitability through optimal service levels. 3. Understand conditions under which postponement is valuable in a supply chain. 4. Allocate limited supply capacity among multiple products to maximize expected profits.
+In this chapter, we explore the process of determining the optimal level of product availability to be offered to customers. The chapter examines the components that go into the calculation of the optimal service level and the various ways that this calculation can be performed. We discuss and demonstrate how different managerial levers can be used to improve supply chain profitability by increasing the level of product availability while reducing inventories.
+13.1 THE IMPORTANCE OF THE LEVEL OF PRODUCT AVAILABILITY The level of product availability is measured using the cycle service level or the fill rate, which are metrics for the amount of customer demand satisfied from available inventory. The level of product availability, also referred to as the customer service level, is one of the primary measures of a supply chain's responsiveness. A supply chain can use a high level of product availability to improve its responsiveness and attract customers, thus increasing revenue for the supply chain. However, a high level of product availability requires large inventories, which raise supply chain costs. Therefore, a supply chain must achieve a balance between the level of availability and the cost of inventory. The optimal level of product availability is one that maximizes supply chain profitability.
+In the fourth quarter of 2008, U.S. inventories shot up by $6.2 billion because of the rapid decline in demand that hit retailers and manufacturers. For some manufacturers, the situation was exaggerated because of the excess inventory of raw materials, such as steel and plastics, they had built up anticipating price increases. Retailers were also hit hard with some, such as Saks Fifth Avenue, slashing prices by 70 percent during the holiday season to spur demand. The excess inventories and the drop in demand led to several retailers, such as Steve and Barry and Circuit
+358
+
+Chapter 13 · Determining the Optimal Level of Product Availability 359
+City, declaring bankruptcy during this period. In contrast, Nintendo missed out on an estimated $1.3 billion in sales during the 2007 holiday season because of a failure to meet soaring global demand of its Wii video game console. These examples make clear that having too high or too low a level of product availability has a significant impact on supply chain profits.
+Whether the optimal level of availability is high or low depends on where a particular company believes it can maximize profits. Nordstrom has focused on providing a high level of product availability and has used its reputation for responsiveness to become a successful department store chain. However, prices at Nordstrom are higher than at a discount store, where the level of product availability is lower. Power plants ensure that they (almost) never run out of fuel because a shutdown is extremely expensive, resulting in several days of lost production. Some power plants try to maintain several months of fuel supply to avoid any probability of running out. In contrast, most supermarkets carry only a few days' supply of product, and out-of-stock situations do occur with some frequency.
+The Internet allows a customer to easily shop at an alternative store if the first choice is out of stock. This competitive environment puts pressure on online retailers to increase their level of availability. Simultaneously, significant price competition has lowered prices online. Web retailers with excess inventory find it difficult to be profitable. Providing the optimal level of product availability is thus a key to success online.
+In the examples described earlier, firms provide different levels of product availability. Every supply chain manager must use factors that influence the optimal level of product availability to target that optimal level and identify managerial levers that increase supply chain surplus. Next, we identify factors that affect the optimal level of product availability.
+13.2 FACTORS AFFECTING OPTIMAL LEVEL OF PRODUCT AVAILABILITY
+To understand the factors that influence the optimal level of product availability, consider L.L.Bean, a large mail-order company that sells apparel. One of the products L.L.Bean sells is ski jackets. The selling season for ski jackets is from November to February. The buyer at L.L.Bean currently purchases the entire season's supply of ski jackets from the manufacturer before the start of the selling season. Providing a high level of product availability requires the purchase of a large number of jackets. Although a high level of product availability is likely to satisfy all demand that arises, it is also likely to result in a large number of unsold jackets at the end of the season, with L.L.Bean losing money on unsold jackets. In contrast, a low level of product availability is likely to result in few unsold jackets. However, it is quite likely that L.L.Bean will have to turn away customers willing to buy jackets because they are sold out. In this scenario, L.L.Bean loses potential profit by losing customers. The buyer at L.L.Bean must balance the loss from having too many unsold jackets (in case the number of jackets ordered is more than demand) and the lost profit from turning away customers (in case the number of jackets ordered is less than demand) when deciding the level of product availability.
+The cost of overstocking is denoted by Co and is the loss incurred by a firm for each unsold unit at the end of the selling season. The cost of understocking is denoted by Cu and is the margin lost by a firm for each lost sale because there is no inventory on hand. The cost of understocking should include the margin lost from current as well as future sales if the customer does not return. In summary, the two key factors that influence the optimal level of product availability are
+· Cost of overstocking the product · Cost of understocking the product
+We illustrate and develop this relationship in the context of a buying decision at L.L.Bean. The first point to observe is that deciding on an optimal level of product availability makes sense only in the context of demand uncertainty. Traditionally, many firms have forecast a consensus
+
+360 Chapter 13 · Determining the Optimal Level of Product Availability
+
+Table 13-1 Demand Distribution for Parkas at L.L.Bean
+
+Demand Di
+
+Cumulative Probability of
+
+Probability of Demand
+
+(in hundreds) Probability pi Demand Being Di or Less (Pi) Being Greater than D(1Pi)
+
+4 0.01 5 0.02 6 0.04 7 0.08 8 0.09 9 0.11 10 0.16 11 0.20 12 0.11 13 0.10 14 0.04 15 0.02 16 0.01 17 0.01
+
+0.01 0.03 0.07 0.15 0.24 0.35 0.51 0.71 0.82 0.92 0.96 0.98 0.99 1.00
+
+0.99 0.97 0.93 0.85 0.76 0.65 0.49 0.29 0.18 0.08 0.04 0.02 0.01 0.00
+
+estimate of demand without any measure of uncertainty. In this setting, firms do not make a decision regarding the level of availability; they simply order the consensus forecast. Over the past decade, firms have developed a better appreciation for uncertainty and have started developing forecasts that include a measure of uncertainty. Incorporating uncertainty and deciding on the optimal level of product availability can increase profits relative to using a consensus forecast.
+L.L.Bean has a buying committee that decides on the quantity of each product to be ordered. Based on demand over the past few years, the buyers have estimated the demand distribution for a women's red ski parka to be as shown in Table 13-1. This is a deviation from its traditional practice of using the average historical demand as the consensus forecast. To simplify the discussion, we assume that all demand is in hundreds of parkas. The manufacturer also requires that L.L.Bean place orders in multiples of 100. In Table 13-1, pi is the probability that demand equals Di, and Pi is the probability that demand is less than or equal to Di. From Table 13-1, we evaluate the expected demand of Parkas as
+Expected demand = a Dipi = 1,026
+Under the old policy of ordering the expected value, the buyers would have ordered 1,000 parkas. However, demand is uncertain and Table 13-1 shows that there is a 51 percent probability that demand will be 1,000 or less. Thus, a policy of ordering a thousand parkas results in a cycle service level of 51 percent at L.L.Bean. The buying committee must decide on an order size and cycle service level that maximizes the profits from the sale of parkas at L.L.Bean.
+The loss that L.L.Bean incurs from an unsold parka and the profit that L.L.Bean makes on each parka it sells influences the buying decision. Each parka costs L.L.Bean c  $45 and is priced in the catalog at p  $100. Any unsold parkas at the end of the season are sold at the outlet store for $50. Holding the parka in inventory and transporting it to the outlet store costs L.L.Bean $10. Thus, L.L.Bean recovers a salvage value of s  $40 for each parka that is unsold at the end of the season. L.L.Bean makes a profit of p  c  $55 on each parka it sells and incurs a loss of c  s  $5 on each unsold parka that is sold at the outlet store.
+
+Chapter 13 · Determining the Optimal Level of Product Availability 361
+The expected profit from ordering 1,000 parkas is given as
+10 17
+Expected profit = a [Di1p - c2 - 11,000 - Di21c - s2]pi + a 1,0001p - c2pi
+i = 4 i = 11
+= [400 * 55 - 600 * 5] * 0.01 + [500 * 55 - 500 * 5] * 0.02 + [600 * 55 - 400 * 5] * 0.04 + [700 * 55 - 300 * 5] * 0.08 + [800 * 55 - 200 * 5] * 0.09 + [900 * 55  100 * 5] * 0.11 + [1000 * 55 - 0 * 5] * 0.16 + 1000 * 55 * 0.20 + 1000 * 55 * 0.11 + 1000 * 55 * 0.10 + 1000 * 55 * 0.04 + 1000 * 55 * 0.02 + 1000 * 55 * 0.01 + 1000 * 55 * 0.01
+= $49,900
+To decide whether to order 1,100 parkas, the buying committee must determine the impact of buying the extra 100 units. If 1,100 parkas are ordered, the extra 100 are sold (for a profit of $5,500) if demand is 1,100 or higher. Otherwise, the extra 100 units are sent to the outlet store at a loss of $500. From Table 13-1, we see that there is a probability of 0.49 that demand is 1,100 or higher and a 0.51 probability that demand is 1,000 or less. Thus, we deduce the following:
+Expected profit from the extra 100 parkas = 5,500 * Prob(demand Ú 1,100) - 500 * Prob(demand 6 1,100) = $5,500 * 0.49 - $500 * 0.51 = $2,440
+The total expected profit from ordering 1,100 parkas is thus $52,340, which is almost 5 percent higher than the expected profit from ordering 1,000 parkas. Using the same approach, we evaluate the marginal contribution of each additional 100 parkas as in Table 13-2. Note that the expected marginal contribution is positive up to 1,300 parkas, but it is negative from that point on. Thus, the optimal order size is 1,300 parkas. From Table 13-2, we have
+Expected profit from ordering 1,300 parkas = $49,900 + $2,440 + $1,240 + $580 = $54,160
+This is more than an 8 percent increase in profitability relative to the policy of ordering the expected value of 1,000 parkas.
+A plot of total expected profits versus the order quantity is shown in Figure 13-1. The optimal order quantity maximizes the expected profit. For L.L.Bean, the optimal order quantity is 1,300 parkas, which provides a CSL of 92 percent. Observe that with a CSL of 0.92, L.L.Bean has a fill rate that is much higher. If demand is 1,300 or less, L.L.Bean achieves a fill
+
+Table 13-2 Expected Marginal Contribution of Each Additional 100 Parkas
+
+Additional Hundreds
+
+Expected Marginal Benefit
+
+Expected Marginal Cost
+
+Expected Marginal Contribution
+
+11th 12th 13th 14th 15th 16th 17th
+
+5,500 * 0.49 = 2,695 5,500 * 0.29 = 1,595 5,500 * 0.18 = 990 5,500 * 0.08 = 440 5,500 * 0.04 = 220 5,500 * 0.02 = 110 5,500 * 0.01 = 55
+
+500 * 0.51 = 255 500 * 0.71 = 355 500 * 0.82 = 410 500 * 0.92 = 460 500 * 0.96 = 480 500 * 0.98 = 490 500 * 0.99 = 495
+
+2,695 - 255 = 2,440 1,595 - 355 = 1,240
+990 - 410 = 580 440 - 460 = -20 220 - 480 = -260 110 - 490 = -380
+55 - 495 = -440
+
+362 Chapter 13 · Determining the Optimal Level of Product Availability
+Expected Profit at L.L.Bean
+R* Order Quantity
+FIGURE 13-1 Expected Profit as a Function of Order Quantity at L.L.Bean
+rate of 100 percent, because all demand is satisfied. If demand is more than 1,300 (say, D), part of the demand (D  1,300) is not satisfied. In this case, a fill rate of 1,300>D is achieved. Overall, the fill rate achieved at L.L.Bean if 1,300 parkas are ordered is given by
+fr = 1 * Prob 1demand ... 1,3002 + a 11,300>Di2pi
+Di 7 1,300
+= 1 * 0.92 + (1300>1400) * 0.04 + (1300>1500) * 0.02 + (1300>1600) * 0.01 + (1300>1700) * 0.01
+= 0.99
+Thus, with a policy of ordering 1,300 parkas, L.L.Bean satisfies, on average, 99 percent of its demand from parkas in inventory.
+In the L.L.Bean example, we have a cost of overstocking of Co  c  s  $5 and a cost of understocking of Cu  p  c  $55. As these costs change, the optimal level of product availability also changes. In the next section, we develop the relationship between the desired CSL and the cost of overstocking and understocking for seasonal items.
+Optimal Cycle Service Level for Seasonal Items with a Single Order in a Season
+In this section, we focus attention on seasonal products such as ski jackets, for which all leftover items must be disposed of at the end of the season. The assumption is that the leftover items from the previous season are not used to satisfy demand for the current season. Assume a retail price per unit of p, a cost of c, and a salvage value of s. We consider the following inputs:
+Co: Cost of overstocking by one unit, Co  c  s Cu: Cost of understocking by one unit, Cu  p  c CSL*: Optimal cycle service level O*: Corresponding optimal order size CSL* is the probability that demand during the season will be at or below O*. At the optimal cycle service level CSL*, the marginal contribution of purchasing an additional unit is zero. If the order quantity is raised from O* to O*  1, the additional unit sells if demand is larger than O*. This occurs with probability 1  CSL* and results in a contribution of p  c. We thus have
+Expected benefit of purchasing extra unit = (1 - CSL*)(p - c)
+The additional unit remains unsold if demand is at or below O*. This occurs with probability CSL* and results in a cost of c  s. We thus have
+Expected cost of purchasing extra unit = CSL*(c - s)
+
+Chapter 13 · Determining the Optimal Level of Product Availability 363
+Thus, the expected marginal contribution of raising the order size from O* to O* + 1 is given by
+(1 - CSL*)(p - c) - CSL*(c - s)
+
+Because the expected marginal contribution must be 0 at the optimal cycle service level, we have
+
+CSL* = Prob1Demand ... O*2 =
+
+p-c p-s
+
+=
+
+Cu Cu + Co
+
+=
+
+1 1 + 1Co>Cu2
+
+(13.1)
+
+A more rigorous derivation of the previously mentioned formula is provided in Appendix 13A. The optimal CSL* has also been referred to as the critical fractile. The resulting optimal order quantity maximizes the firm's profit. If demand during the season is normally distributed, with a mean of  and a standard deviation of , the optimal order quantity is given by
+
+O* = F-1(CSL*, m, s) = NORMINV(CSL*, m, s)
+
+(13.2)
+
+When demand is normally distributed, with a mean of  and a standard deviation of , the expected profit from ordering O units is given by
+
+O-m
+
+O-m
+
+Expected profit = 1p - s2mFs a s b - 1p - s2sfs a s b
+
+- O1c - s2F1O, m, s2 + O1p - c2[1 - F1O, m, s2]
+
+The derivation of this formula is provided in Appendix 13B and Appendix 13C. Here FS is the standard normal cumulative distribution function and fS is the standard normal density function discussed in Appendix 12A of Chapter 12. The expected profit from ordering O units is evaluated
+in Excel using Equations 12.21, 12.24, and 12.25 as follows:
+
+Expected profits = 1p - s2mNORMDIST[1O - m2>s, 0, 1, 1] - 1p - s2sNORMDIST[1O - m2>s, 0, 1, 0] - O1c - s2NORMDIST1O, m, s, 12 + O1p - c2[1 - NORMDIST1O, m, s, 12]
+
+(13.3)
+
+Example 13-1 illustrates the use of Equations 13.1 and 13.2 to obtain the optimal cycle service level and order quantity.
+
+EXAMPLE 13-1 Evaluating the Optimal Service Level for Seasonal Items
+The manager at Sportmart, a sporting goods store, has to decide on the number of skis to purchase for the winter season. Based on past demand data and weather forecasts for the year, management has forecast demand to be normally distributed, with a mean of m = 350 and a standard deviation of s = 100. Each pair of skis costs c  $100 and retails for p  $250. Any unsold skis at the end of the season are disposed of for $85. Assume that it costs $5 to hold a pair of skis in inventory for the season. How many skis should the manager order to maximize expected profits?
+
+364 Chapter 13 · Determining the Optimal Level of Product Availability
+Analysis: In this case, we have
+
+Salvage value = s = $85 - $5 = $80 Cost of understocking = Cu = p - c = $250 - $100 = $150 Cost of overstocking = Co = c - s = $100 - $80 = $20
+Using Equation 13.1, we deduce that the optimal CSL is
+
+CSL*
+
+=
+
+Prob1Demand
+
+...
+
+O*2
+
+=
+
+Cu Cu + Co
+
+=
+
+150 150 + 20
+
+=
+
+0.88
+
+Using Equation 13.2, the optimal order size is
+
+O* = NORMINV(CSL*, m, s) = NORMINV(0.88, 350, 100) = 468
+
+Thus, it is optimal for the manager at Sportmart to order 468 pairs of skis even though the expected number of sales is 350. In this case, because the cost of understocking is much higher than the cost of overstocking, management is better off ordering more than the expected value to cover for the uncertainty of demand.
+Using Equation 13.3, the expected profits from ordering O* units are
+Expected profits = 1p - s2mNORMDIST C1O * - m2>s, 0, 1, 1)D
+- 1p - s2sNORMDIST[1O * - m2>s, 0, 1, 0)] - O *1c - s2NORMDIST1O*, m, s, 12 + O *1p - c2[1 - NORMDIST1O*, m, s, 12]
+= 59,500 NORMDIST11.18, 0, 1, 12 - 17,000 NORMDIST11.18, 0, 1, 02
+- 9,360 NORMDIST1468, 350, 100, 12
++ 70,200 [1 - NORMDIST1468, 350, 100, 12] = $49,146
+
+The expected profit from ordering 350 pairs of skis can be evaluated as $45,718. Thus, ordering 468 pairs results in an expected profit that is almost 8 percent higher than the profit obtained from ordering the expected value of 350 pairs.
+
+When O units are ordered, a firm is left with either too much or too little inventory, depending on demand. When demand is normally distributed, with expected value  and standard deviation , the expected quantity overstocked at the end of the season is given by
+
+O-m
+
+O-m
+
+Expected overstock = 1O - m2FS a s b + sfS a s b
+
+The derivation of this formula is provided in Appendix 13D. The formula can be evaluated using Excel as follows:
+
+Expected overstock = 1O - m2NORMDIST[1O - m2>s, 0, 1, 1] + sNORMDIST[1O - m2>s, 0, 1, 02]
+
+(13.4)
+
+Chapter 13 · Determining the Optimal Level of Product Availability 365 The expected quantity understocked at the end of the season is given by
+
+O-m
+
+O-m
+
+Expected understock = 1m - O2 c 1 - FS a s b d + sfS a s b
+
+The derivation of this formula is provided in Appendix 13E. The formula can be evaluated using Excel as follows:
+
+Expected understock = 1m - O2[1 - NORMDIST[1O - m2>s, 0, 1, 1]]
+
++ sNORMDIST[1O - m2/s, 0, 1, 0]
+
+(13.5)
+
+Example 13-2 illustrates the use of Equations 13.4 and 13.5 to evaluate the quantity expected to be overstocked and understocked as a result of an ordering policy.
+
+EXAMPLE 13-2 Evaluating Expected Overstock and Understock
+Demand for skis at Sportmart is normally distributed with a mean of   350 and a standard deviation of   100. The manager has decided to order 450 pairs of skis for the upcoming season. Evaluate the expected overstock and understock as a result of this policy.
+Analysis: We have an order size O  450. An overstock results if demand during the season is less than 450. The expected overstock can be obtained using Equation 13.4 as
+Expected overstock = (O - m)NORMDIST[(O - m)>s, 0, 1, 1] + sNORMDIST[(O - m)>s, 0, 1, 0]
+= (450 - 350)NORMDIST[(450 - 350)>100, 0, 1, 1] + 100 NORMDIST[(450 - 350)>100, 0, 1, 0] = 108
+Thus, the policy of ordering 450 pairs of skis results in an expected overstock of 108 pairs. An understock occurs if demand during the season is higher than 450 pairs. The expected understock can be evaluated using Equation 13.5 as follows:
+Expected understock = (m - O)[1 - NORMDIST[(O - m)>s, 0, 1, 1)] + sNORMDIST[(O - m)>s, 0, 1, 0)]
+= (350 - 450)[1 - NORMDIST(450 - 350)>100, 0, 1, 1)] + 100 NORMDIST[(450 - 350)>100, 0, 1, 0] = 8
+Thus, the policy of ordering 450 pairs results in an expected understock of 8 pairs. Note that the expected understock and overstock are positive in virtually every case. This result may seem counterintuitive initially, but it makes sense because the values used to calculate an expected understock or overstock are always greater than or equal to zero. For example, if demand is 500 and 450 jackets are in inventory, there is an understock of 50 and an overstock of 0 (not -50). This guarantees that the expected value of each will be greater than or equal to zero.
+
+366 Chapter 13 · Determining the Optimal Level of Product Availability
+
+ONE-TIME ORDERS IN THE PRESENCE OF QUANTITY DISCOUNTS
+In this section, we consider a buyer who has to make a single order when the seller offers a price discount based on the quantity purchased. Such a situation may arise in the context of seasonal items such as apparel, for which the manufacturer offers a lower price per unit if order quantities exceed a given threshold. Such decisions also arise at the end of the life cycle for a product or spare parts. Future demand for the product or spare parts is uncertain, and the buyer has a single opportunity to order. The buyer must account for the discount when selecting the order size.
+Consider a retailer of spare parts who has one last chance to order parts before the manufacturer stops production. The part has a retail price per unit of p, a cost to the retailer (without discount) of c, and a salvage value of s. The manufacturer has offered a discounted price of cd if the retailer orders at least K units. The retailer can make its order size decision using the following steps:
+
+1. Using Co  c  s and Cu  p  c, evaluate the optimal cycle service level CSL* and order size O* without a discount using Equations 13.1 and 13.2, respectively. Evaluate the
+
+expected profit from ordering O* using Equation 13.3.
+
+2. Using Co  cd - s and Cu  p  cd, evaluate the optimal cycle service level CSLd* and
+
+order
+
+size
+
+O
+
+* d
+
+with
+
+a
+
+discount
+
+using
+
+Equations
+
+13.1
+
+and
+
+13.2,
+
+respectively.
+
+If
+
+O
+
+* d
+
+Ú
+
+K,
+
+evaluate the expected profit from ordering O*d units using Equation 13.3. If O*d 6 K,
+
+evaluate the expected profit from ordering K units using Equation 13.3.
+
+3. Order O* units if the profit in step 1 is higher. If the profit in step 2 is higher, order Od* units
+
+if
+
+Od*
+
+Ú
+
+K or K
+
+units if
+
+O
+
+* d
+
+6
+
+K.
+
+We illustrate the procedure in Example 13-3.
+
+EXAMPLE 13-3 Evaluating Service Level with Quantity Discounts
+
+SparesRUs, an auto parts retailer, must decide on the order size for a 20-year-old model of brakes. The manufacturer plans to discontinue production of these brakes after this last production run. SparesRUs has forecast remaining demand for the brakes to be normally distributed, with a mean of 150 and a standard deviation of 40. The brakes have a retail price of $200. Any unsold brakes are useless and have no salvage value. The manufacturer plans to sell each brake for $50 if the order is for less than 200 brakes and $45 if the order is for at least 200 brakes. How many brakes should SparesRUs order?
+
+Analysis: In step 1, we calculate the optimal order quantity at the regular price c  $50:
+
+Cost of understocking = Cu = p - c = $200 - $50 = $150 Cost of overstocking = Co = c - s = $50 - $0 = $50
+Using Equation 13.1, we deduce that the optimal CSL is
+
+CSL*
+
+=
+
+Prob1Demand
+
+...
+
+O*2
+
+=
+
+Cu Cu + Co
+
+=
+
+150 150 + 50
+
+=
+
+0.75
+
+Using Equation 13.2, the optimal order size is
+
+O* = NORMINV(CSL*, m, s) = NORMINV(0.75, 150, 40) = 177
+
+Using Equation 13.3, the expected profit if SparesRUs does not go after the discount is
+
+Expected profit from ordering 177 units = $19,958
+
+Chapter 13 · Determining the Optimal Level of Product Availability 367
+
+In step 2, we consider the discount price cd  $45 and obtain
+
+Cost of understocking = Cu = p - cd = $200 - $45 = $155 Cost of overstocking = Co = cd - s = $45 - $0 = $45
+
+Using Equation 13.1, we deduce that the optimal CSL with the discount price is
+
+CSLd* = Prob1Demand ... O*d2 =
+
+Cu Cu + Co
+
+=
+
+155 155 + 45
+
+= 0.775
+
+Using Equation 13.2, the optimal order size is
+
+Od* = NORMINV1CSLd*, m, s2 = NORMINV10.775, 150, 402 = 180
+
+Given that 180 < 200, the retailer must order at least 200 brakes to benefit from the discount. Thus, we calculate the expected profit from ordering 200 units using Equation 13.3 as
+
+Expected profits from ordering 200 units at $45 each = $20,595
+
+It is thus optimal for SparesRUs to order 200 brakes to take advantage of the quantity discount. The expected overstock can be calculated using Equation 13.4 to be 52.
+
+Desired Cycle Service Level for Continuously Stocked Items
+In this section, we focus on products such as detergent that are ordered repeatedly by a retail store such as Wal-Mart. Wal-Mart uses safety inventory to increase the level of availability and decrease the probability of stocking out between successive deliveries. If detergent is left over in a replenishment cycle, it can be sold in the next cycle. It does not have to be disposed of at a lower cost. However, a holding cost is incurred as the product is carried from one cycle to the next. The manager at Wal-Mart is faced with the issue of deciding the CSL to aim for.
+Two extreme scenarios should be considered:
+1. All demand that arises when the product is out of stock is backlogged and filled later, when inventories are replenished.
+2. All demand arising when the product is out of stock is lost.
+Reality in most instances is somewhere in between, with some of the demand lost and other customers returning when the product is in stock. We consider both extreme cases.
+We assume that demand per unit time is normally distributed, along with the following inputs:
+Q: Replenishment lot size S: Fixed cost associated with each order ROP: Reorder point D: Average demand per unit time : Standard deviation of demand per unit time ss: Safety inventory (recall that ss  ROP  DL) CSL: Cycle service level C: Unit cost h: Holding cost as a fraction of product cost per unit time H: Cost of holding one unit for one unit of time. H  hC
+
+368 Chapter 13 · Determining the Optimal Level of Product Availability
+DEMAND DURING STOCKOUT IS BACKLOGGED We first consider the case in which all demand arising when the product is out of stock is backlogged. Because no demand is lost, minimizing costs becomes equivalent to maximizing profits. As an example, consider a Wal-Mart store selling detergent. The store manager offers a rain check at a discount of Cu to each customer wanting to buy detergent when it is out of stock. This ensures that all these customers return when inventory is replenished. Thus, Cu is the backlogging or understocking cost per unit.
+If the store manager increases the level of safety inventory, more orders are satisfied from stock, resulting in lower backlogs. This decreases the backlogging or understocking cost. However, the cost of holding inventory increases. We start by considering the costs and benefits of holding an additional unit of safety inventory in each replenishment cycle. If the safety inventory is increased from ss (which provides a cycle service level, CSL) to ss  1, the supply chain incurs cost to hold the additional unit of inventory for a replenishment cycle (which has duration Q>D). The additional unit of safety inventory is beneficial (the benefit equals the cost of understocking Cu) if demand during the replenishment cycle is such that more than ss units of safety inventory are consumed [this happens with probability (1  CSL)]. We thus have the following:
+
+Increased cost per replenishment cycle of additional safety inventory of 1 unit = (Q>D)H Benefit per replenishment cycle of additional safety inventory of 1 unit = (1 - CSL)Cu
+
+In this case, the optimal cycle service level is obtained by equating the additional cost and benefit to be
+
+CSL* = 1 - c HQ d DCu
+
+(13.6)
+
+Given the optimal cycle service level, the required safety inventory can be evaluated using Equation 12.9 if demand is normally distributed.
+From Equation 13.6, observe that increasing the lot size Q allows the store manager at Wal-Mart to reduce the cycle service level and thus the safety inventory carried. This is because increasing the lot size increases the fill rate and thus reduces the quantity backlogged. One should be careful, however, because an increase in lot size raises the cycle inventory. In general, increasing the lot size is not an effective way for a firm to improve product availability.
+If the cost of stocking out is known, one can use Equation 13.6 to obtain the appropriate cycle service level (and thus the appropriate level of safety inventory). In many practical settings, it is hard to estimate the cost of stocking out. In such a situation, a manager may want to evaluate the cost of a stockout implied by the current inventory policy. When a precise cost of stockout cannot be found, this implied stockout cost at least gives an idea of whether inventory should be increased, decreased, or kept about the same. In Example 13-4 we show how Equation 13.6 can be used to impute a cost of stocking out given an inventory policy.
+
+EXAMPLE 13-4 Imputing Cost of Stockout from Inventory Policy
+Weekly demand for detergent at Wal-Mart is normally distributed, with a mean of   100 gallons and a standard deviation of   20. The replenishment lead time is L  2 weeks. The store manager at Wal-Mart orders 400 gallons when the available inventory drops to 300 gallons. Each gallon of detergent costs $3. The holding cost Wal-Mart incurs is 20 percent. If all unfilled demand is backlogged and carried over to the next cycle, evaluate the cost of stocking out implied by the current replenishment policy.
+
+Analysis: In this case, we have
+
+Chapter 13 · Determining the Optimal Level of Product Availability 369
+
+Lot size, Q = 400 gallons Reorder point, ROP = 300 gallons Average demand per year, D = 100 * 52 = 5,200 Standard deviation of demand per week, sD = 20
+Unit cost, C = $3 Holding cost as a fraction of product cost per year, h = 0.2
+Cost of holding one unit for one year, H = hC = $0.6 Lead time, L = 2 weeks
+
+We thus have
+
+Mean demand over lead time, DL = 200 gallons Standard deviation of demand over lead time, sL = sD 1L = 20 12 = 28.3
+Because demand is normally distributed, we can use Equations 12.4 and 12.21 to evaluate the CSL under the current inventory policy:
+CSL = F(ROP, DL, sL) = NORMDIST(300, 200, 28.3, 1) = 0.9998
+We can thus deduce that the imputed cost of stocking out (using Equation 13.6) is given by
+
+Cu
+
+=
+
+11
+
+HQ - CSL2D
+
+=
+
+0.6 * 400 0.0002 * 5,200
+
+=
+
+$230.8 per gallon
+
+The implication here is that if each shortage of a gallon of detergent costs Wal-Mart $230.8, the current CSL of 0.9998 is optimal. In this particular example, one can claim that the store manager is carrying too much inventory because the cost of stocking out of detergent is unlikely to be $230.8 per gallon.
+
+A manager can use the previous analysis to decide if the imputed cost of stocking out, and thus the inventory policy, is reasonable.
+
+DEMAND DURING STOCKOUT IS LOST When unfilled demand during the stockout period is lost, the optimal cycle service level CSL* is given as
+
+CSL*
+
+=
+
+1
+
+-
+
+HQ HQ + DCu
+
+(13.7)
+
+We have assumed that Cu is the cost of losing one unit of demand during the stockout period. From comparing Equations 13.6 and 13.7, observe that for the same cost of understocking, a supply chain should offer a higher cycle service level if sales are lost rather than backlogged. In Example 13-5, we evaluate the optimal cycle service level if demand is lost during the stockout period.
+
+370 Chapter 13 · Determining the Optimal Level of Product Availability
+
+EXAMPLE 13-5 Evaluating Optimal Service Level When Unmet Demand Is Lost
+Consider the situation in Example 13-4 but make the assumption that all demand during a stockout is lost. Assume that the cost of losing one unit of demand is $2. Evaluate the optimal cycle service level that the store manager at Wal-Mart should target.
+Analysis: In this case, we have
+Lot size, Q = 400 gallons Average demand per year, D = 100 * 52 = 5,200 Cost of holding one unit for one year, H = $0.6
+Cost of understocking, Cu = $2
+Using Equation 13.7, the optimal cycle service level is given as
+
+CSL*
+
+=
+
+1
+
+-
+
+HQ HQ + DCu
+
+=
+
+1
+
+-
+
+0.6
+
+*
+
+0.6 * 400 +
+
+400 2*
+
+5,200
+
+=
+
+0.98
+
+The store manager at Wal-Mart should target a cycle service level of 98 percent.
+
+13.3 MANAGERIAL LEVERS TO IMPROVE SUPPLY CHAIN PROFITABILITY
+Having identified the factors that influence the optimal level of product availability, we now focus on actions a manager can take to improve supply chain profitability. We have shown in Section 13.2 that the costs of overstocking and understocking have a direct impact on both the optimal cycle service level and profitability. Two obvious managerial levers to increase profitability are thus
+1. Increasing the salvage value of each unit increases profitability (as well as the optimal cycle service level).
+2. Decreasing the margin lost from a stockout increases profitability (by allowing a lower optimal cycle service level).
+Strategies to increase the salvage value include selling to outlet stores so that leftover units are not merely discarded. Some companies, such as Sport Obermeyer, which sells winter wear in the United States, sell the surplus in South America, where the winter corresponds to the North American summer. The increased salvage value of the surplus allows Sport Obermeyer to provide a higher level of product availability in the United States and increase its profits. The growth of online liquidators such as Overstock.com helps retailers by increasing their salvage value for overstocked products. Increasing the salvage value of leftover units allows a firm to grow profits by providing a higher level of product availability because the cost of excess inventory has been reduced.
+Strategies to decrease the margin lost in a stockout include arranging for backup sourcing (which may be more expensive) so customers are not lost forever. The practice of purchasing product from a competitor on the open market to satisfy customer demand is observed and justified by the earlier reasoning. In the MRO supply industry, McMaster-Carr and W.W. Grainger, two major competitors, are also large customers for each other.
+The cost of understocking can also be decreased by providing the customer with a substitute product. Decreasing the cost of understocking allows a firm to increase profits by providing
+
+CSL* 1
+
+Chapter 13 · Determining the Optimal Level of Product Availability 371
+
+Co /Cu
+FIGURE 13-2 Impact of Changing Co>Cu on Optimal Cycle Service Level
+a lower level of product availability (because there are alternatives available to serve the customer), thus decreasing the amount of excess inventory at the end of the season.
+The optimal cycle service level as a function of the ratio of the cost of overstocking and the cost of understocking is shown in Figure 13-2. Observe that as this ratio gets smaller, the optimal level of product availability increases. This fact explains the difference in the level of product availability between a high-end store such as Nordstrom and a discount store. Nordstrom has higher margins and thus a higher cost of understocking. It should thus provide a higher level of product availability than a discount store with lower margins and, as a result, a lower cost of stocking out.
+Another significant managerial lever to improve supply chain profitability is the reduction of demand uncertainty. With reduced demand uncertainty, a supply chain manager can better match supply and demand by reducing both overstocking and understocking. A manager can reduce demand uncertainty via the following means:
+1. Improved forecasting: Use better market intelligence and collaboration to reduce demand uncertainty.
+2. Quick response: Reduce replenishment lead time so that multiple orders may be placed in the selling season.
+3. Postponement: In a multiproduct setting, postpone product differentiation until closer to the point of sale.
+4. Tailored sourcing: Use a low lead time, but perhaps an expensive supplier as a backup for a low-cost but perhaps long lead time supplier.
+Next we study the impact of each of these on supply chain performance.
+Improving Forecasts: Impact on Profits and Inventories
+Companies have tried to better understand their customers and coordinate actions within the supply chain to improve forecast accuracy. The use of demand planning information systems has also helped in this regard. We show that improved forecast accuracy can help a firm significantly increase its profitability while decreasing the excess inventory overstocked as well as the sales lost because of understocking. We illustrate the impact of improving forecast accuracy in Example 13-6.
+
+372 Chapter 13 · Determining the Optimal Level of Product Availability
+
+EXAMPLE 13-6 Impact of Improved Forecasts
+Consider a buyer at Bloomingdale's who is responsible for purchasing dinnerware with Christmas patterns. The dinnerware sells only during the Christmas season, and the buyer places an order for delivery in early November. Each dinnerware set costs c  $100 and sells for a retail price of p  $250. Any sets unsold by Christmas are heavily discounted in the postChristmas sales and are sold for a salvage value of s  $80. The buyer has estimated that demand is normally distributed, with a mean of   350. Historically, forecast errors have had a standard deviation of   150. The buyer has decided to conduct additional market research to get a better forecast. Evaluate the impact of improved forecast accuracy on profitability and inventories as the buyer reduces  from 150 to 0 in increments of 30.
+Analysis: In this case, we have
+Cost of understocking  Cu  p  c  $250  $100  $150 Cost of overstocking  Co  c  s  $100  $80  $20
+Using Equation 13.1, we have
+
+CSL* = Prob1Demand ... O*2 Ú
+
+150 150 + 20
+
+=
+
+0.88
+
+The optimal order size is obtained using Equation 13.2 and the expected profit using Equation 13.3. The order size and expected profit as forecast accuracy (measured by standard deviation of forecast error) varies are shown in Table 13-3.
+
+Key Point
+An increase in forecast accuracy decreases both the overstocked and understocked quantity and increases a firm's profits.
+
+Example 13-6 illustrates that as a firm improves its forecast accuracy, expected quantity overstocked and understocked declines and expected profit increases. This relationship is shown in Figure 13-3.
+
+Table 13-3 Expected Profit and Order Size at Bloomingdale's
+
+Standard Deviation of Forecast Error 
+
+Optimal Order Size O*
+
+Expected Overstock
+
+Expected Understock
+
+150
+
+526
+
+186.7
+
+8.6
+
+120
+
+491
+
+149.3
+
+6.9
+
+90
+
+456
+
+112.0
+
+5.2
+
+60 420 74.7 3.5
+
+30 385 37.3 1.7
+
+0 350 0 0
+
+Expected Profit
+$47,469 $48,476 $49,482 $50,488 $51,494 $52,500
+
+Chapter 13 · Determining the Optimal Level of Product Availability 373
+Expected Overstock
+Expected Profit
+Expected Understock
+Standard Deviation of Forecast Error
+FIGURE 13-3 Variation of Profit and Inventories with Forecast Accuracy
+Quick Response: Impact on Profits and Inventories
+Quick response is the set of actions a supply chain takes to reduce the replenishment lead time. Supply chain managers are able to improve their forecast accuracy as lead times decrease, which allows them to better match supply with demand and increase supply chain profitability. We have discussed the benefits of lead time reduction for regularly stocked items such as detergent in Chapter 12 (see Example 12-6). We now focus on the benefits of lead time reduction for seasonal items.
+To illustrate the issues, consider the example of Saks Fifth Avenue, a high-end department store, purchasing cashmere shawls from India and Nepal. The selling season for cashmere shawls is about 14 weeks. Historically, replenishment lead times have been on the order of 25 to 30 weeks. With a 30-week lead time, the buyer at Saks must order all the store expects to sell well before the start of the sales season. It is difficult for a buyer to make an accurate forecast of demand this far in advance. This results in high-demand uncertainty, leading the buyer to order either too many or too few shawls each year.
+Typically, buyers are able to make accurate forecasts once they have observed sales for the first week or two in the season. If lead times can be shortened to facilitate the use of actual sales when placing part of the seasonal order, there can be significant benefits for the supply chain. Consider the situation in which manufacturers are able to reduce replenishment lead time to six weeks. This reduction allows the buyer at Saks to break up the entire season's purchase into two orders. The first order is placed six weeks before the start of the sales season. The buyer orders what the store expects to sell over the first seven weeks of the season. The first order has to be placed without observing any sales. Once the season starts, the buyer observes sales for the first week and places a second order after the first week. When placing the second order, the buyer can use sales information from the first week of the season. The improved accuracy of the buyer's predictions allows Saks to use the second order to better match supply and demand, resulting in higher profits.
+When multiple orders are placed in the season, it is not possible to provide formulas like Equations 13.1 to 13.5 that specify the optimal order quantity, the expected profit, expected overstock, and expected understock. Rather, we must use simulation (see Appendix 13F) or approximations to identify the impact of different ordering policies. We illustrate the impact of being able to place multiple orders in a season using approximations on the Saks example discussed earlier.
+
+374 Chapter 13 · Determining the Optimal Level of Product Availability
+
+The buyer at Saks must decide on the quantity of cashmere shawls to order from India and Nepal for the upcoming winter season. The unit cost of each shawl is $40, and the shawl retails for $150. A discount store purchases any leftover shawls at the end of the season for $30 each. After the sales season of 14 weeks, any leftover shawls are sold to the discount store.
+Before the start of the sales season, the buyer forecasts weekly demand to be normally distributed, with a mean of D  20 and a standard deviation of D  15. We compare the impact of the following two ordering policies:
+1. Supply lead time is more than 15 weeks. As a result, a single order must be placed at the beginning of the season to cover the entire season's demand.
+2. Supply lead time is reduced to six weeks. As a result, two orders are placed for the season, one to be delivered at the beginning of the season and the other to be placed at the end of week 1 and delivered at the beginning of week 8.
+For policy 2, we assume that once the buyer sees sales for the first week, she is able to forecast demand for the first seven-week period accurately (this approximation allows us to quantify the benefits of the second order). She is still not able to predict sales for the second seven-week period. In terms of her forecasting ability for the second seven-week period, we consider two scenarios--one in which the buyer's forecast accuracy does not improve for the second order (i.e., standard deviation of forecast demand stays at 15), and another in which it improves and the buyer is able to reduce the standard deviation of the forecast to 3 instead of 15. We also assume demand is independent across weeks.
+We first start with buyers placing a single order for the season. Given that the season lasts 14 weeks and demand is independent across weeks, we obtain the following (using Equation 12.1):
+
+Expected demand of shawls in the season = m = 14D = 14 * 20 = 280 Standard deviation of seasonal demand, s = 114sD = 114 * 15 = 56.1
+
+Using Equation 13.1, the optimal cycle service level is given by
+
+CSL*
+
+=
+
+p p
+
+-
+
+c s
+
+=
+
+150 150
+
+-
+
+40 30
+
+=
+
+0.92
+
+The optimal order quantity for a single order is obtained using Equation 13.2:
+
+O* = NORMINV(CSL*, m, s) = NORMINV(0.92, 280, 56.1) = 358
+
+For an order of 358 shawls, we obtain
+
+Expected profit with a single order (using Equation 13.3) = $29,767 Expected overstock (using Equation 13.4) = 79.8 Expected understock (using Equation 13.5) = 2.14
+
+Given that the cost of overstocking is $10 per shawl and the cost of understocking is $110 per shawl, we obtain
+
+Expected cost of overstocking = 79.8 * $10 = $798 Expected cost of understocking = 2.14 * $110 = $235
+
+If there were no demand uncertainty, demand over the season would be 280 shawls with a profit of 280 × $110  $30,800. Observe that expected profit is reduced by $30,800  $29,767  $1,033  $798  $235 because of uncertainty. Thus, uncertainty reduces the expected profit because of overstocking and understocking.
+
+Chapter 13 · Determining the Optimal Level of Product Availability 375
+From the above analysis, it also follows that the reduction of uncertainty as a result of shortening lead times will increase profits by at most $1,033 in the season.
+We now describe a procedure that can be used to estimate the benefit of placing two orders in a season. We assume that the first order aims to cover demand for the first seven weeks and the second order for the last seven weeks. Given that the buyer will see the first week of demand before placing the second order, we have assumed that she will accurately be able to predict sales in the first seven-week period. Thus, her second order can take into account any leftover inventory from the first order.
+First consider that no improvement in forecast accuracy occurs after observing the first period demand (standard deviation of weekly demand remains 15). For each seven-week period, we obtain the following:
+Expected demand of shawls in seven weeks = m7 = 7 * 20 = 140
+Standard deviation of demand over seven weeks = s7 = 17 * 15 = 39.7
+The optimal cycle service level is maintained at 0.92. Using Equation 13.2, we obtain the size of the first order to be
+O1 = NORMINV(CSL*, m7, s7) = NORMINV(0.92, 140, 39.7) = 195
+For an order of 195 shawls, we obtain
+Expected profit from seven weeks (using Equation 13.3) = $14,670
+Expected overstock (using Equation 13.4) = 56.4
+Expected understock (using Equation 13.5) = 1.51
+Recall that the buyer can accurately predict sales over the first seven-week period when she places the second order at the end of week 1. Thus, any overstock resulting from the first order will be used to adjust the size of the second order. Given that the desired starting inventory for the second seven-week period is 195 shawls and the expected overstock at the end of the first seven-week period is 56.4 shawls, the second order will be only 195  56.4  138.6 shawls on average. Given that all overstock from the first seven-week period is used to lower the order size for the second seven-week period, there is no overstock cost from the first order and an expected overstock at the end of the season of 56.4 shawls (this is the expected overstock when starting the seven-week period with 195 shawls).
+If we assume that all shortages from the first order are lost as sales, the expected profit at the end of the season is thus given by the sum of the expected profit from each seven-week period and the overstock cost recovered from the first seven-week period as follows:
+Expected profit from season = $14,670 + 56.4 * $10 + $14,670 = $29,904
+We add 56.4 × $10 to the expected profit from the first seven-week half because there is effectively no overstock that must be sold to the discount store at the end of the first seven weeks. Our analysis indicates that allowing for a second order in the season increases profits by $29,904  $29,767  $137 even if there is no improvement in forecast accuracy for the second seven-week period. The profit increase will be larger if we assume that customers who do not find the product at the end of the first seven weeks are willing to wait for the second order to arrive. The profit will increase from saving the understocking cost by a further 1.51  $110  $166.10. Observe that as a result of allowing a second order, the total order quantity has decreased from 358 shawls to 195  138.6  333.6 shawls. The expected overstock at the end of the season has decreased from 79.8 to 56.4 shawls.
+From our analysis, we observe three important consequences of being able to place a second replenishment order in the season after observing some sales:
+
+376 Chapter 13 · Determining the Optimal Level of Product Availability 1. The expected total quantity ordered during the season with two orders is less than that with a single order for the same cycle service level. In other words, it is possible to provide the same level of product availability to the customer with less inventory if a second, followup order is allowed after observing some sales. 2. The average overstock to be disposed of at the end of the sales season is less if a follow-up order is allowed after observing some sales. 3. The profits are higher when a follow-up order is allowed during the sales season. In other words, as the total quantity for the season is broken up into multiple smaller orders
+with the size of each order based on some observed sales, the buyer is better able to match supply and demand and increase profitability for Saks. These relationships are shown in Figures 13-4 and 13-5.
+We now consider the case in which the buyer improves her forecast accuracy for the second order after observing some of the season's demand. As a result, the standard deviation of weekly demand forecast drops from 15 to 3 for the second seven-week period. In this setting, the first order stays at 195 shawls as discussed earlier. For the second order, however, we must
+Unsold Inventory at End of Season
+Number of Order Cycles per Season
+FIGURE 13-4 Leftover Inventory versus Number of Order Cycles per Season
+Expected Profit
+Number of Order Cycles per Season
+FIGURE 13-5 Expected Profit versus Number of Order Cycles per Season
+
+Chapter 13 · Determining the Optimal Level of Product Availability 377
+account for the fact that the standard deviation of weekly demand has dropped to 3. As a result, we obtain
+Expected demand of shawls in seven weeks = m7 = 7 * 20 = 140 Standard deviation of demand over first seven weeks = s7 = 17 * 15 = 39.7 Standard deviation of demand over second seven weeks = s72 = 17 * 3 = 7.9
+The optimal cycle service level is maintained at 0.92. Using Equation 13.2, we obtain the desired number of shawls at the beginning of the first seven weeks to be O1 195 as before and that at the beginning of the second seven weeks to be O2 where:
+O2 = NORMINV(CSL*, m7, s27) = NORMINV(0.92, 140, 7.9) = 151
+As in the previous analysis, we assume that the buyer is accurately able to predict sales for the first seven-week period after observing sales for the first week. She thus accounts for the overstock at the end of the first seven week period when placing her second order. Given an overstock of 56.4 shawls from the first order, the net second order is thus 151  56.4  94.6 shawls. With 151 shawls at the start of the second seven weeks, we obtain
+Expected profit from second order (using Equation 13.3) = $15,254
+Expected overstock (using Equation 13.4) = 11.3
+Expected understock (using Equation 13.5) = 0.30
+Again observe that there is no overstock cost at the end of the first seven weeks. Thus, the net profits for the season are $14,670 (first seven weeks)  56.4  $10 (no overstock at the end of first seven weeks)  $15,254 (second seven weeks)  $30,488. If forecast accuracy improves as a result of observing early seasonal demand, the season's profit increases by $30,488  $29,767  $721. The expected overstock at the end of the season has now declined to 11.3 units. If customers who do not find the product at the end of the first seven weeks are willing to wait for the second order to arrive, the profit increases by a further $166.10 as discussed earlier. A second order and improved forecast accuracy as a result of seeing early season sales thus increase profits and decrease overstocks.
+Key Point
+If quick response allows multiple replenishment orders in the season, profits increase and the overstock and understock quantity decreases. Multiple replenishments allow the supply chain to better match supply and demand by being able to respond to trends rather than having to forecast them.
+Zara, the Spanish apparel retailer, built its entire strategy around quick response. At a time when most of its competitors were cutting costs by outsourcing production to low-cost countries, Zara focused on reducing response time by setting up production facilities in Spain. While competitors had lead times that ranged from three to nine months, Zara was able to reduce its design to shelf lead times to three to four weeks. Given a three-month sales season (for each of fall, winter, spring, and summer), competitors were forced to make sourcing decisions well before the start of a season. In contrast, Zara divided the three-month sales season into three 1-month periods. For the first month, Zara decided on quantities without knowing what sales would be like. These quantities, however, were much lower than what the competition was required to order for the entire three-month season. For the second month, Zara made its production decisions after observing the first week of demand (Zara also observed demand at its
+
+378 Chapter 13 · Determining the Optimal Level of Product Availability
+competition). For the third month, Zara made its production decisions after observing the entire first month of sales. In each instance, observing sales allowed Zara to significantly improve its forecast accuracy. The result was that Zara was able to bring in more of what was selling without wasting precious production capacity on what was not likely to sell. Quick response allowed Zara to respond to trends rather than have to predict them. This resulted in higher profits for Zara because it produced what was selling and had less overstock and understock. The New York Times reported in 2006 that "Zara books 85 percent of the full ticket price for its merchandise while the industry average is 60 percent."
+From our previous discussion, quick response is clearly advantageous to a retailer in a supply chain--with one caveat. As the manufacturer reduces replenishment lead times, allowing for a second order, we have seen that the retailer's order size drops. In effect, the manufacturer sells less to the retailer. Thus, quick response results in the manufacturer making a lower profit in the short term if all else is unchanged. This is an important point to consider, because decreasing replenishment lead times requires tremendous effort from the manufacturer, yet seems to benefit the retailer at the expense of the manufacturer. The benefits resulting from quick response should be shared appropriately across the supply chain. This was easier for Zara, which was vertically integrated into responsive manufacturing and retailing. It can be a challenge, however, for retailers who outsource manufacturing.
+Postponement: Impact on Profits and Inventories
+As discussed in Chapter 12, postponement refers to the delay of product differentiation until closer to the sale of the product. With postponement, all activities prior to product differentiation require aggregate forecasts that are more accurate than individual product forecasts. Individual product forecasts are required close to the time of sale when demand is known with greater accuracy. As a result, postponement allows a supply chain to better match supply with demand. Postponement can be a powerful managerial lever to increase profitability. It can be particularly valuable for online sales because of the lag that exists between the time customers place an order and when they expect delivery. If the supply chain can postpone product differentiation until after receiving the customer order, a significant increase in profits and reduction in inventories can be achieved.
+The major benefit of postponement arises from the improved matching of supply and demand. There is, however, a cost associated with postponement, because the production cost using postponement is typically higher than the production cost without it. For example, the production process at Benetton, where assembled knit garments are dyed, costs about 10 percent more than if dyed thread is knitted. Similarly, when retailers mix paint at stores in place of the factory, manufacturing costs increase because there is a loss of economies of scale in mixing. Given the increased production cost from postponement, a company should ensure that the inventory benefits of postponement are larger than the additional costs.
+Postponement is valuable for a firm that sells a large variety of products with demand that is unpredictable, independent, and comparable in size. We illustrate this using the example of Benetton selling knit garments in solid colors. Starting with thread, two steps are needed to complete the garment--dyeing and knitting. Traditionally, thread was dyed and then the garment was knitted (Option 1). Benetton developed a procedure whereby dyeing was postponed until after the garment was knitted (Option 2).
+Benetton sells each knit garment at a retail price p  $50. Option 1 (no postponement) results in a manufacturing cost of $20, whereas Option 2 (postponement) results in a manufacturing cost of $22 per garment. Benetton disposes of any unsold garments at the end of the season in a clearance for s  $10 each. The knitting or manufacturing process takes a total of 20 weeks. For the sake of discussion, we assume that Benetton sells garments in four colors. Twenty weeks in advance, Benetton forecasts demand for each color to be normally distributed, with a mean of   1,000 and a standard deviation of   500. Demand for each color is independent. With Option 1, Benetton makes the buying decision for each color 20 weeks before the sale period and holds separate inventories for each color. With Option 2, Benetton forecasts only the aggregate
+
+Chapter 13 · Determining the Optimal Level of Product Availability 379
+
+uncolored thread to purchase 20 weeks in advance. The inventory held is based on the aggregate demand across all four colors. Benetton decides the quantity for individual colors after demand is known. We now quantify the impact of postponement for Benetton.
+With Option 1, Benetton must decide on the quantity of colored thread to purchase for each color. For each color we have
+
+Retail price, p  $50 Manufacturing cost, c  $20 Salvage value, s  $10
+
+Using Equation 13.1, we obtain the optimal cycle service level for each color as
+
+CSL*
+
+=
+
+p p
+
+-
+
+c s
+
+=
+
+30 40
+
+=
+
+0.75
+
+Using Equation 13.2, the optimal purchase quantity of thread in each color is
+
+O* = NORMINV(CSL*, m, s) = NORMINV(0.75, 1000, 500) = 1,337
+
+Thus, it is optimal for Benetton to produce 1,337 units of each color. Using Equation 13.3, the expected profit from each color is
+
+Expected profits = $23,664
+
+Using Equations 13.4 and 13.5, the expected overstock and understock for each color is
+
+Expected overstock = 412 Expected understock = 75
+
+Using Option 1, across all four colors Benetton thus produces 4  1,337  5,348 sweaters. This results in an expected profit of 4  23,644  $94,576, with an average of 4  412  1,648 sweaters sold on clearance at the end of the season and 4  75  300 customers turned away for lack of sweaters.
+Under Option 2, Benetton has to decide only the total number of sweaters across all four colors to be produced, because they can be dyed to the appropriate color once demand is known. In this case we have
+
+Retail price, p  $50 Manufacturing cost, c  $22 Salvage value, s  $10
+
+Using Equation 13.1, the optimal cycle service level for each color is
+
+CSL* =
+
+p-c p-s
+
+=
+
+28 40
+
+= 0.70
+
+Given that demand for each color is independent, total demand across all four colors can be
+evaluated using Equation 12.13 to be normally distributed, with a mean of A and a standard deviation of A, where
+
+mA = 4 * 1,000 = 4,000 sA = 14 * 500 = 1,000
+
+Using Equation 13.2, the optimal aggregate production quantity for Benetton is given by O*A, where
+OA* = NORMINV10.7, mA, sA2 = NORMINV10.7, 4000, 10002 = 4,524
+
+380 Chapter 13 · Determining the Optimal Level of Product Availability
+Under Option 2, it is optimal for Benetton to produce 4,524 undyed sweaters to be dyed as demand by color is available. The expected profit with postponement is evaluated using Equation 13.3 as
+Expected profits = $98,092
+Using Equation 13.4, the expected overstock is 715 and the expected understock is 190. Thus, postponement increases expected profits for Benetton from $94,576 to $98,092. Expected overstock declines from 1,648 to 715, and the expected understock declines from 300 to 190. Clearly, the use of postponement and production using Option 2 is a good choice for Benetton in this case.
+The benefits of postponement decrease significantly if demand across the different colors is positively correlated. In the Benetton example, we find that postponement is not valuable if the correlation coefficient across each color is 0.2 or higher.
+The benefits of postponement also decrease significantly if demand is more predictable. If the standard deviation of demand for each color decreases to 300 or less, our analysis shows that Option 2 with postponement results in lower profits than Option 1 without postponement.
+Key Point
+Postponement allows a firm to increase profits and better match supply and demand if the firm produces a large variety of products whose demand is unpredictable and not positively correlated, and is of about the same size.
+
+Postponement is not very effective if a large fraction of demand comes from a single
+product. The benefit from aggregation is small in this case, whereas the increased production cost
+applies to all items produced. We illustrate this idea once again using Benetton as an example.
+Assume that demand for red sweaters at Benetton is forecast to be normally distributed, with a mean of red  3,100 and a standard deviation of red  800. Demand for the other three colors is forecast to be normally distributed, with a mean of   300 and a standard deviation of   200. Observe that red sweaters constitute about 80 percent of demand.
+Under Option 1, the optimal cycle service level CSL* is 0.75, as evaluated earlier. Using
+Equation 13.2, the optimal production of red sweaters is given by
+
+O
+
+* red
+
+=
+
+NORMINV(CSL*, mred,
+
+sred)
+
+=
+
+NORMINV(0.75,
+
+3100, 800)
+
+=
+
+3,640
+
+Using Equation 13.3, the expected profit from red sweaters is $82,831. Using Equation 13.4,
+the expected overstock of red sweaters is 659; using Equation 13.5, the expected understock of red
+sweaters is 119. For each of the other three colors, we can similarly evaluate the optimal production to be O* where
+
+O* = NORMINV(CSL*, m, s) = NORMINV(0.75, 300, 200) = 435
+
+This results in an expected profit of $6,458, an expected overstock of 165, and an expected understock of 30 for each of the other three colors. Across all four colors, Option 1 thus results in the following:
+Total production  3,640  3  435  4,945 Expected profit  $82,831  3  $6,458  $102,205 Expected overstock  659  3  165  1,154 Expected understock  119  3  30  209
+
+Chapter 13 · Determining the Optimal Level of Product Availability 381
+Under Option 2, Benetton has to decide only the total production across all four colors. Given that demand for each color is independent, total demand across all four colors can be evaluated using Equation 12.13 to be normally distributed, with a mean of A and a standard deviation of A, where
+mA = 3,100 + 3 * 300 = 4,000; sA = 28002 + 3 * 2002 = 872
+Under Option 2, we repeat all calculations to obtain the following:
+Total production  4,457 Expected profit  $99,872 Expected overstock  623 Expected understock  166
+In this case, Benetton sees its profits decline even though both overstock and understock have decreased as a result of postponement. This is because a large fraction of demand is from red sweaters, which can already be forecast with reasonably good accuracy. Postponement and the resulting aggregation thus do little to improve the forecasting accuracy of red sweaters. They do, however, improve the forecasting accuracy for the other three colors, but they represent a small fraction of demand. Meanwhile, the production costs increase for all sweaters (including red sweaters). As a result, the increased production costs outweigh the benefits from postponement across all colors.
+Key Point
+Postponement may reduce overall profits for a firm if a single product contributes the majority of the demand because the increased manufacturing expense due to postponement outweighs the small benefit that aggregation provides in this case.
+Next, we discuss how tailored postponement can be an effective strategy when complete postponement is not appropriate.
+Tailored Postponement: Impact on Profits and Inventories
+In tailored postponement, a firm uses production with postponement to satisfy a part of its demand, with the rest being satisfied without postponement. Tailored postponement produces higher profits than when no postponement is used or all products are manufactured using postponement. Under tailored postponement, a firm produces the amount that is likely to sell using the lower-cost production method without postponement. The firm produces the portion of demand that is uncertain using postponement. On the portion of the demand that is certain, postponement provides little value in terms of increased forecast accuracy. The firm thus produces that portion using the lower-cost method to lower manufacturing cost. On the portion of demand that is uncertain, postponement significantly improves forecast accuracy. The firm is thus willing to incur the increased production cost to achieve the benefit from the improved matching of supply and demand. We illustrate the idea of tailored postponement, returning to the example of Benetton.
+One way to implement tailored postponement is to produce high-demand, predictable products without postponement and produce only the unpredictable products using postponement. Let us return to the Benetton data with red sweaters constituting about 80 percent of demand. Recall that demand for red sweaters at Benetton is forecast to be normally distributed, with a mean of red  3,100 and a standard deviation of red  800. Demand for the other three colors is forecast to be normally distributed, with a mean of   300 and a standard deviation of   200. We evaluated that postponing all colors decreases profits for Benetton by more than
+
+382 Chapter 13 · Determining the Optimal Level of Product Availability
+$2,000 (from $102,205 to $99,872). However, if we tailor postponement so that red sweaters are made using the traditional method and only the other colors are postponed, profits actually increase by $1,009 to $103,213.
+A more sophisticated approach to postponement separates all demand into base load and variation. The base load is manufactured using the low-cost method without postponement, and only the variation is made using postponement. This more sophisticated form of tailored sourcing is more complex to implement but can be valuable even when all products being postponed have similar demand as we illustrate next. Consider the scenario in which Benetton is selling four colors, and the forecast demand for each color is normally distributed, with a mean of   1,000 and a standard deviation of   500. We have observed earlier that the use of complete postponement (every sweater is postponed) in this instance increases profits at Benetton from $94,576 to $98,092.
+We now consider a situation in which Benetton applies tailored postponement and uses both Option 1 (dye thread and then knit garment) and Option 2 (dye knit garment) for production. For each color, Benetton identifies a quantity Q1 (the base load) to be manufactured using Option 1 and an aggregate quantity QA to be manufactured using Option 2, with colors for the aggregate quantity being assigned when demand is known. We now identify the appropriate tailored postponement policy and its impact on profits and inventories. There is no formula that can be used to evaluate the optimal policy and profits in this case. We thus resort to simulations to study the impact of different policies. The results of various simulations are shown in Table 13-4. From Table 13-4, we see that Benetton can increase its expected profit to $104,603 by using a tailored postponement policy under which 800 units of each color are produced using Option 1 and 1,550 units are produced using Option 2. The resulting profit is higher than if all units are produced entirely using Option 1 (no postponement) or Option 2 (complete postponement). It is quite likely that demand for each color will be 800 or higher. The tailored postponement policy exploits this fact and produces these units using Option 1, which has a low cost. The remaining units are produced using Option 2 so that demand uncertainty can be reduced by aggregation.
+Key Point
+Tailored postponement allows a firm to increase its profitability by postponing only the uncertain part of the demand and producing the predictable part at a lower cost without postponement. Tailored postponement is more profitable than either no postponement or complete postponement but can be complex to implement.
+
+Table 13-4 Average of 500 Simulations for Tailored Postponement Policies
+
+Manufacturing Policy Q1 QA
+
+0 1,337
+700 800 900 900 1,000 1,000 1,100 1,100
+
+4,524 0
+1,850 1,550
+950 1,050
+850 950 550 650
+
+Average Profit
+$97,847 $94,377 $102,730 $104,603 $101,326 $101,647 $100,312 $100,951 $99,180 $100,510
+
+Average Overstock
+510 1,369
+308 427 607 664 815 803 1,026 1,008
+
+Average Understock
+210 282 168 170 266 230 195 149 211 185
+
+Chapter 13 · Determining the Optimal Level of Product Availability 383
+Tailored Sourcing: Impact on Profits and Inventories
+In tailored sourcing, firms use a combination of two supply sources, one focusing on cost but unable to handle uncertainty well, and the other focusing on flexibility to handle uncertainty, but at a higher cost. For tailored sourcing to be effective, having supply sources such that one serves as the backup to the other is not sufficient. The two sources must focus on different capabilities. The low-cost source must focus on being efficient and should be required to supply only the predictable portion of the demand. The flexible source should focus on being responsive and be required to supply the uncertain portion of the demand. As a result, tailored sourcing allows a firm to increase its profits and better match supply and demand. The value of tailored sourcing depends on the reduction in cost that can be achieved as a result of one source facing no variability. If this benefit is small, tailored sourcing may not be ideal because of the added complexity of implementation. Tailored sourcing may be volume based or product based, depending on the source of uncertainty.
+In volume-based tailored sourcing, the predictable part of a product's demand is produced at an efficient facility, whereas the uncertain portion is produced at a flexible facility. Benetton provides an example of volume-based tailored sourcing. Benetton requires retailers to commit to about 65 percent of their orders about seven months before the start of the sales season. Benetton subcontracts production of this portion without uncertainty to low-cost sources that have long lead times of several months. For the other 35 percent, Benetton allows retailers to place orders much closer to or even after the start of the selling season. All uncertainty is concentrated in this portion of the order. Benetton produces this portion of the order in a plant it owns that is very flexible. Production at the Benetton plant is more expensive than production at the subcontractor's. However, the plant can produce with a lead time of weeks, whereas subcontractors have a lead time of several months. A combination of the two sources allows Benetton to reduce its inventories while incurring a high cost of production for only a fraction of its demand. This allows it to increase profits.
+Volume-based tailored sourcing should be considered by firms that have moved a lot of their production overseas to take advantage of lower costs. The lower costs have also been accompanied by longer lead times. In such a situation, having a flexible local source with short lead times can be an effective complement to the long lead time overseas supplier even if the local source is more expensive. Long lead times require large safety inventories, and the resulting mismatch of supply and demand hurts profits. The presence of the local source allows the firm to carry lower safety inventories and supply any excess demand from the local source. The most effective combination is for the overseas source to focus on replenishing cycle inventories, ignoring uncertainty. The local source is used as a backup any time demand exceeds the inventory available.
+Allon and Van Mieghem (2010) describe a high-tech manufacturer of wireless transmission components with facilities in China and Mexico. The Chinese facility was cheaper but had lead times that were five to ten times longer than those from Mexico. A simulation study indicated that the use of tailored sourcing was the most effective strategy in this case. Allon and Van Mieghem (2010) recommend a tailored base-surge (TBS) inventory policy whereby a constant base load is sourced from the cheaper source (China in this case), with the responsive source (Mexico in this case) being used any time inventory dropped below a threshold. Their simulations indicate that sourcing roughly 75 percent of the demand from the cheaper source as base load with the rest coming from the responsive source as needed is a fairly effective tailored sourcing policy in practice. Their results show that the fraction of demand allocated as base load to the cheaper source increases as the demand and the cost difference with the responsive facility grows. The fraction of demand allocated as base load to the cheaper source decreases as the reliability of the cheaper source decreases or the volatility of demand and the holding cost of inventory grow.
+In product-based tailored sourcing, low-volume products with uncertain demand are obtained from a flexible source whereas high-volume products with less demand uncertainty are obtained from an efficient source. An example of product-based tailored sourcing is Levi Strauss. Levi sells
+
+384 Chapter 13 · Determining the Optimal Level of Product Availability
+standard-sized jeans as well as jeans that can be customized. Standard jeans have relatively stable demand, whereas demand for custom jeans is unpredictable. Custom jeans are produced at a flexible facility, whereas standard jeans are produced at an efficient facility. Zara also follows such a productbased tailored sourcing strategy, obtaining more than half its production from responsive plants in Europe with the rest coming from lower cost plants in Asia. Its most fashionable items that have the least predictable demand are made in responsive European facilities. Clothes that are more predictable and can sell for longer periods, such as basic T-shirts, are sourced from the cheaper Asian facilities.
+In some instances, new products have uncertain demand while well-established products have more stable demand. Product-based tailored sourcing may be implemented with a flexible facility focusing on new products, and efficient facilities focusing on the well-established products. This is often the case in the pharmaceutical industry.
+13.4 SETTING PRODUCT AVAILABILITY FOR MULTIPLE PRODUCTS UNDER CAPACITY CONSTRAINTS
+In our discussion up to this point, we have assumed that a firm can set its desired level of product availability, and no constraints interfere with this choice. A common scenario in which this assumption fails occurs when the desired level of product availability results in an order size that exceeds the available capacity at the supplier. When ordering a single product, it is optimal for the buyer to order the minimum of the available capacity and the optimal order quantity. When ordering multiple products, however, the buyer needs to consider the trade-off between ordering more of one product versus another.
+Consider a department store that plans to order two styles of sweaters from an Italian supplier. Demand for the high-end sweater is forecast to be normally distributed, with a mean of 1  1,000 and a standard deviation of 1  300. Demand for the mid-range sweater is normally distributed, with a mean of 2  2,000 and a standard deviation of 2  400. The high-end sweater has a retail price of p1  $150, a cost c1  $50, and a salvage value of s1  $35. The mid-range sweater has a retail price of p2  $100, a cost c2  $40, and a salvage value of s2  $25. Using Equation 13.1, the optimal level of product availability for the high-end sweater is 0.87 and that for the midrange sweater is 0.8. Thus, without capacity constraints, it is optimal for the department store to order 1,337 units of the high-end sweater and 2,337 units of the mid-range sweater. If the supplier has a capacity constraint of 3,000 units, the desired ordering policy is not feasible, and the department store must decrease the size of its order by a total of at least 674 units. Where should this decrease come from? Should the decrease be evenly divided between the two products?
+First let us consider the simplistic approach of decreasing the order size of each product by 337 units to get an order of 1,000 high-end sweaters and 2,000 mid-range sweaters. This order size meets the capacity constraint and the expected profit is $194,268 (using Equation 13.3). To check whether this order size is optimal, we can think in terms of how capacity is allocated to the two styles. Let us assume that we have decided to allocate 1,000 units to the high-end sweater and 1,999 units to the mid-range sweater. That leaves only the last unit of capacity to be allocated. Which sweater should this unit be assigned to? It is reasonable to make this decision based on the expected marginal contribution to profits if this unit of capacity is allocated to each of the two styles. The last unit of capacity should be allocated to the sweater with the higher expected marginal contribution. Recall that Fi(Qi) is the probability that demand for product i is Qi or less and let MCi(Qi) be the marginal contribution of a sweater of type i if quantity Qi is ordered. The expected marginal contribution is evaluated similar to that in Table 13-2 and is obtained as follows:
+Expected marginal contribution for high-end sweater = MC111,0002
+= p1[1 - F111,0002] + s1F111,0002 - c1
+= 150 * 11 - 0.52 + 35 * 0.5 - 50 = $42.50
+
+Chapter 13 · Determining the Optimal Level of Product Availability 385
+Expected marginal contribution for mid-range sweater = MC211,9992
+= p2[1 - F211,9992] + s2F211,9992 - c2
+= 100 * 11 - 0.4992 + 25 * 0.499 - 40 = $22.57
+Clearly, it is better to allocate the last unit of capacity to the high-end sweater rather than the mid-range sweater. In fact, changing the order size to 1,001 high-end sweaters and 1,999 mid-range sweaters increases the expected profits by almost $20. One can now decrease the order size for the mid-range sweater to 1,998 and ask how the last unit of capacity should be allocated. Repeating the above procedure indicates that the order size for the high-end sweaters should be increased to at least 1,002. In fact, the order size for the high-end sweater should be increased until the expected marginal contribution for the high-end sweater is the same as that for the mid-range sweater. At that point, it no longer makes sense to move capacity from one type of sweater to another. The optimal allocation of capacity turns out to be 1,089 high-end sweaters and 1,911 mid-range sweaters. The expected profits for this order size are $195,152. Observe that at optimality, the high-end sweater is allocated a relatively high share of the available capacity because its margin relative to the cost of overstocking is higher than that of the midrange sweater.
+The idea of allocating the available capacity to the product with the highest expected marginal contribution can be converted into a solution procedure. Let each product i have a mean demand of i and a standard deviation of i. Product i has a retail price of pi, a cost ci, and a salvage value of si. If quantity Qi is allocated to product i, the expected marginal contribution is obtained as
+MCi1Qi2 = pi[1 - Fi1Qi2] + siFi1Qi2 - ci
+The following procedure allocates each unit of capacity to the product with the highest expected marginal contribution. Let B be the total available capacity.
+
+1. Set quantity Qi  0 for all products i. 2. Compute the expected marginal contribution MCi(Qi) for each product i. 3. If no expected marginal contribution is positive, stop. Otherwise, let j be the product with
+the highest expected marginal contribution. Increase Qj by one unit. 4. If the total quantity across all products is less than B, return to step 2. Otherwise, the capac-
+ity constraint has been met and the current quantities are optimal.
+
+Partial results from the application of the procedure described above to the department
+store data are shown in Table 13-5.
+The order quantities under capacity constraints can also be obtained by solving an optimization problem. Let i(Qi) be the expected profit obtained using Equation 13.3 from ordering Qi units of product i. The appropriate order quantities can be obtained by solving the following optimization problem:
+
+Subject to
+
+n
+Max a ßi1Qi2
+i=1
+
+n
+a Qi ... B
+i=1
+Qi Ú 0
+
+386 Chapter 13 · Determining the Optimal Level of Product Availability
+
+Table 13-5 Application of Solution Procedure to Obtain Order Quantities Under Capacity Constraints
+
+Expected Marginal Contribution
+
+Order Quantity
+
+Capacity Left
+
+High End
+
+Mid Range
+
+High End
+
+Mid Range
+
+3,000 2,900 2,100 2,000
+800 780 300 200 180
+40 30 10
+1 0
+
+99.95 99.84 57.51 57.51 57.51 54.59 42.50 42.50 39.44 31.89 30.41 29.67 29.23 29.09
+
+60.00 60.00 60.00 60.00 57.00 57.00 43.00 36.86 36.86 30.63 30.63 29.54 29.10 29.10
+
+0 100 900 900 900 920 1,000 1,000 1,020 1,070 1,080 1,085 1,088 1,089
+
+0 0 0 100 1,300 1,300 1,700 1,800 1,800 1,890 1,890 1,905 1,911 1,911
+
+Key Point
+When ordering multiple products under a limited supply capacity, the allocation of capacity to products should be based on their expected marginal contribution to profits. This approach allocates a relatively higher fraction of capacity to products that have a high margin relative to their cost of overstocking.
+
+13.5 SETTING OPTIMAL LEVELS OF PRODUCT AVAILABILITY IN PRACTICE
+1. Beware of preset levels of availability. Often companies have a preset target of product availability without any justification. In such a situation, managers should probe the rationale for the targeted level of product availability. A manager can provide significant value by adjusting the targeted level of product availability to one that maximizes profits.
+2. Use approximate costs because profit-maximizing solutions are quite robust. Companies should avoid spending an inordinate amount of effort to get exact estimates of various costs used to evaluate optimal levels of product availability. Levels of product availability close to optimal will often produce a profit that is close to the optimal profit. Thus, it is not crucial that all costs be estimated precisely. A reasonable approximation of the costs will generally produce targeted levels of product availability that are close to optimal.
+3. Estimate a range for the cost of stocking out. Firms' efforts to set levels of product availability often get bogged down in debate over the cost of stocking out. The sometimes controversial nature of this cost and its hard-to-quantify components (such as loss of customer goodwill) make it a difficult number for people from different functions to agree on. However, it is often not necessary to estimate a precise cost of stocking out. Using a range of the cost, a manager can identify appropriate levels of availability and the associated profits. Often, profits
+
+Chapter 13 · Determining the Optimal Level of Product Availability 387
+do not change significantly in the range, thus eliminating the need for a more precise estimation of the cost of stocking out.
+4. Tailor your response to uncertainty. A manager should recognize that strategies such as quick response and postponement are most effective when the underlying unpredictability is large. Thus, for the portion of demand that is relatively predictable, one should focus on the lowest cost production method, even if it is not responsive. The unpredictable portion of demand, however, should be served using a more responsive approach (postponement or quick response), even if it is more expensive.
+13.6 SUMMARY OF LEARNING OBJECTIVES
+1. Identify the factors affecting the optimal level of product availability and evaluate the optimal cycle service level. The cost of overstocking by one unit and the lost current and future margin from understocking by one unit are the two major factors that affect the optimal level of product availability. The optimal level of availability is obtained by balancing the costs of overstocking and understocking. As the cost of overstocking increases, it is optimal to lower the targeted level of product availability. As the lost margin from being out of stock increases, it is optimal to raise the targeted level of product availability.
+2. Use managerial levers that improve supply chain profitability through optimal service levels. A manager may increase supply chain profitability by (a) increasing the salvage value of each unit overstocked, (b) decreasing the margin lost from a stockout, (c) using improved forecasting to reduce demand uncertainty, (d) using quick response to reduce lead times and allow multiple orders in a season, (e) using postponement to delay product differentiation, and (f) using tailored sourcing with a flexible short lead time supply source serving as a backup for a low-cost supply source.
+3. Understand conditions under which postponement is valuable in a supply chain. Postponement is valuable in a supply chain when a firm sells a large variety of products with highly unpredictable demand of about the same size that is not positively correlated. Postponement is not as valuable if demand becomes predictable or positively correlated. Postponement is also not as valuable if a large fraction of the demand comes from a few products. In such a setting, tailored postponement is most effective whereby base loads are not postponed but the variation is postponed.
+4. Allocate limited supply capacity among multiple products to maximize expected profits. When available supply capacity is limited, it should be allocated among products based on their expected marginal contribution to profits. At the optimal allocation, the expected marginal contribution of each product is the same. When there is no capacity constraint, the expected marginal contribution of each product at optimality is zero.
+
+Discussion Questions
+1. Consider two products with the same cost but different margins. Which product should have a higher level of product availability? Why?
+2. Consider two products with the same margin carried by a retail store. Any leftover units of one product are worthless. Leftover units of the other product can be sold to outlet stores. Which product should have a higher level of availability? Why?
+3. A firm improves its forecast accuracy using better market intelligence. What impact will this have on supply chain inventories and profitability? Why?
+
+4. How can postponement of product differentiation be used to improve supply chain profitability?
+5. What are some scenarios in which postponing product differentiation across all products may not be profitable? How can tailored postponement help in such situations?
+6. Zara has used local production in Europe to have short replenishment lead times. How does this capability of quick response help the company improve profits in a highly volatile trendy apparel marketplace?
+7. When can tailored sourcing be used to improve supply chain profits? What are some challenges with implementing tailored souring?
+
+

@@ -1,0 +1,754 @@
+5
+{{{
+Network Design in the Supply Chain
+LEARNING OBJECTIVES After reading this chapter, you will be able to 1. Understand the role of network design in a supply chain. 2. Identify factors influencing supply chain network design decisions. 3. Develop a framework for making network design decisions. 4. Use optimization for facility location and capacity allocation decisions.
+In this chapter, we start with the broad supply chain design discussed in Chapter 4 and focus on the fundamental questions of facility location, capacity allocation, and market allocation when designing a supply chain network. We identify and discuss the various factors that influence the facility location, capacity, and market allocation decisions. We then establish a framework and discuss various solution methodologies for network design decisions in a supply chain.
+5.1 THE ROLE OF NETWORK DESIGN IN THE SUPPLY CHAIN Supply chain network design decisions include the assignment of facility role; location of manufacturing-, storage-, or transportation-related facilities; and the allocation of capacity and markets to each facility. Supply chain network design decisions are classified as follows:
+1. Facility role: What role should each facility play? What processes are performed at each facility? 2. Facility location: Where should facilities be located? 3. Capacity allocation: How much capacity should be allocated to each facility? 4. Market and supply allocation: What markets should each facility serve? Which supply sources should
+feed each facility? Network design decisions have a significant impact on performance because they determine the supply chain configuration and set constraints within which the other supply chain drivers can be used either to decrease supply chain cost or to increase responsiveness. All network design decisions affect one another and must be made taking this fact into consideration. Decisions concerning the role of each facility are significant because they determine 108
+
+Chapter 5 · Network Design in the Supply Chain 109
+the amount of flexibility the supply chain has in changing the way it meets demand. For example, Toyota has plants located worldwide in each market that it serves. Before 1997, each plant was capable of serving only its local market. This hurt Toyota when the Asian economy went into a recession in the late 1990s. The local plants in Asia had idle capacity that could not be used to serve other markets that were experiencing excess demand. Toyota has added flexibility to each plant to be able to serve markets other than the local one. This additional flexibility helps Toyota deal more effectively with changing global market conditions. Similarly, the flexibility of Honda's U.S. plants to produce both SUVs and cars in the same plant was helpful in 2008 when SUV demand dropped but small car demand did not.
+Facility location decisions have a long-term impact on a supply chain's performance because it is expensive to shut down a facility or move it to a different location. A good location decision can help a supply chain be responsive while keeping its costs low. Toyota, for example, built its first U.S. assembly plant in Lexington, Kentucky, in 1988 and has continued to build new plants in the United States since then. The U.S. plants proved profitable for Toyota when the yen strengthened and cars produced in Japan were too expensive to be cost competitive with cars produced in the United States. Local plants allowed Toyota to be responsive to the U.S. market while keeping costs low.
+Whereas capacity allocation can be altered more easily than location, capacity decisions do tend to stay in place for several years. Allocating too much capacity to a location results in poor utilization and, as a result, higher costs. Allocating too little capacity results in poor responsiveness if demand is not satisfied or high cost if demand is filled from a distant facility.
+The allocation of supply sources and markets to facilities has a significant impact on performance because it affects total production, inventory, and transportation costs incurred by the supply chain to satisfy customer demand. This decision should be reconsidered on a regular basis so that the allocation can be changed as production and transportation costs, market conditions, or plant capacities change. Of course, the allocation of markets and supply sources can be changed only if the facilities are flexible enough to serve different markets and receive supply from different sources.
+Network design decisions must be revisited as market conditions change or when two companies merge. For example, as its subscriber base grew, Netflix added about 60 DCs by 2010 across the United States to lower transportation cost and improve responsiveness. With the growth in video streaming and the corresponding drop in DVD rentals, Netflix anticipated closing some of its DCs as DVD rental demand started to drop. Changing the location and demand allocation of DCs with changing demand has been critical to maintaining low cost and responsiveness at Netflix.
+Following a merger, consolidating some facilities and changing the location and role of others can often help reduce cost and improve responsiveness because of the redundancies and differences in markets served by either of the two separate firms. Network design decisions may also need to be revisited if factor costs such as transportation have changed significantly. In 2008, P&G announced that it would rethink its distribution network, which was implemented when the "cost of oil was $10 per barrel."
+We focus on developing a framework as well as methodologies that can be used for network design in a supply chain.
+5.2 FACTORS INFLUENCING NETWORK DESIGN DECISIONS
+In this section we examine a wide variety of factors that influence network design decisions in supply chains.
+Strategic Factors
+A firm's competitive strategy has a significant impact on network design decisions within the supply chain. Firms that focus on cost leadership tend to find the lowest cost location for their manufacturing facilities, even if that means locating far from the markets they serve. Electronic manufacturing service providers such as Foxconn and Flextronics have been successful in providing low-cost electronics assembly by locating their factories in low-cost countries such as
+
+110 Chapter 5 · Network Design in the Supply Chain
+China. In contrast, firms that focus on responsiveness tend to locate facilities closer to the market and may select a high-cost location if this choice allows the firm to react quickly to changing market needs. Zara, the Spanish apparel manufacturer, has a large fraction of its production capacity in Portugal and Spain despite the higher cost there. The local capacity allows the company to respond quickly to changing fashion trends in Europe. This responsiveness has allowed Zara to become one of the fastest growing apparel retailers in the world.
+Convenience store chains aim to provide easy access to customers as part of their competitive strategy. Convenience store networks thus include many stores that cover an area, with each store being relatively small. In contrast, discount stores such as Sam's Club or Costco use a competitive strategy that focuses on providing low prices. Thus, their networks have large stores, and customers often have to travel many miles to get to one. The geographic area covered by one Sam's Club store may include dozens of convenience stores.
+Global supply chain networks can best support their strategic objectives with facilities in different countries playing different roles. For example, Zara has production facilities in Europe as well as Asia. Its production facilities in Asia focus on low cost and primarily produce standardized, low-value products that sell in large amounts. The European facilities focus on being responsive and primarily produce cutting-edge designs whose demand is unpredictable. This combination of facilities allows Zara to produce a wide variety of products in the most profitable manner.
+Technological Factors
+Characteristics of available production technologies have a significant impact on network design decisions. If production technology displays significant economies of scale, a few high-capacity locations are most effective. This is the case in the manufacture of computer chips, for which factories require a large investment and the output is relatively inexpensive to transport. As a result, most semiconductor companies build a few high-capacity facilities.
+In contrast, if facilities have lower fixed costs, many local facilities are preferred because this helps lower transportation costs. For example, bottling plants for Coca-Cola do not have a high fixed cost. To reduce transportation costs, Coca-Cola sets up many bottling plants all over the world, each serving its local market.
+Macroeconomic Factors
+Macroeconomic factors include taxes, tariffs, exchange rates, and shipping costs that are not internal to an individual firm. As global trade has increased, macroeconomic factors have had a significant influence on the success or failure of supply chain networks. Thus, it is imperative that firms take these factors into account when making network design decisions.
+TARIFFS AND TAX INCENTIVES Tariffs refer to any duties that must be paid when products and/or equipment are moved across international, state, or city boundaries. Tariffs have a strong influence on location decisions within a supply chain. If a country has high tariffs, companies either do not serve the local market or set up manufacturing plants within the country to save on duties. High tariffs lead to more production locations within a supply chain network, with each location having a lower allocated capacity. As tariffs have decreased with the World Trade Organization and regional agreements such as NAFTA (North America), the European Union, and MERCOSUR (South America), global firms have consolidated their global production and distribution facilities.
+Tax incentives are a reduction in tariffs or taxes that countries, states, and cities often provide to encourage firms to locate their facilities in specific areas. Many countries vary incentives from city to city to encourage investments in areas with lower economic development. Such incentives are often a key factor in the final location decision for many plants. BMW built its U.S. factory in Spartanburg, South Carolina, mainly because of the tax incentives offered by that state.
+
+Chapter 5 · Network Design in the Supply Chain 111
+Developing countries often create free trade zones in which duties and tariffs are relaxed as long as production is used primarily for export. This creates a strong incentive for global firms to set up plants in these countries to be able to exploit their low labor costs. In China, for example, the establishment of a free trade zone near Guangzhou led to many global firms locating facilities there in the 1990s.
+A large number of developing countries also provide additional tax incentives based on training, meals, transportation, and other facilities offered to the workforce. Tariffs may also vary based on the product's level of technology. China, for example, waived tariffs entirely for "high-tech" products, in an effort to encourage companies to locate there and bring in stateof-the-art technology. Motorola located a large chip manufacturing plant in China to take advantage of the reduced tariffs and other incentives available to high-tech products.
+Many countries also place minimum requirements on local content and limits on imports to help develop local manufacturers. Such policies lead global companies to set up local facilities and source from local suppliers. For example, the Spanish company Gamesa was a dominant supplier of wind turbines to China, owning about a third of the market share in 2005. In that year, China declared that wind farms had to buy equipment in which at least 70 percent of content was local. This forced players like Gamesa and GE that wanted a piece of the Chinese market to train local suppliers and source from them. In 2009, China revoked the local content requirements. By then, Chinese suppliers had sufficiently large scale to achieve some of the lowest costs in the world. These suppliers also sold parts to Gamesa's Chinese competitors who developed into dominant global players.
+EXCHANGE-RATE AND DEMAND RISK Fluctuations in exchange rates are common and have a significant impact on the profits of any supply chain serving global markets. For example, the dollar fluctuated between a high of 124 yen in 2007 and a low of 81 yen in 2010. A firm that sells its product in the United States with production in Japan is exposed to the risk of appreciation of the yen. The cost of production is incurred in yen, whereas revenues are obtained in dollars. Thus, an increase in the value of the yen increases the production cost in dollars, decreasing the firm's profits. In the 1980s, many Japanese manufacturers faced this problem when the yen appreciated in value because most of their production capacity was located in Japan. The appreciation of the yen decreased their revenues (in terms of yen) from large overseas markets, and they saw their profits decline. Most Japanese manufacturers responded by building production facilities all over the world. The dollar fluctuated between 0.63 and 1.15 euros in the six years between 2002 and 2008, dropping to 0.63 euro in July 2008. The drop in the dollar was particularly negative for European automakers such as Daimler, BMW, and Porsche, which export many vehicles to the United States. It was reported that every one-cent rise in the euro cost BMW and Mercedes roughly $75 million each per year. By June 2010, however, the dollar had reached as high as 0.83 euro.
+Exchange-rate risks may be handled using financial instruments that limit, or hedge against, the loss due to fluctuations. Suitably designed supply chain networks, however, offer the opportunity to take advantage of exchange-rate fluctuations and increase profits. An effective way to do this is to build some overcapacity into the network and make the capacity flexible so that it can be used to supply different markets. This flexibility allows the firm to react to exchange-rate fluctuations by altering production flows within the supply chain to maximize profits.
+Companies must also take into account fluctuations in demand caused by changes in the economies of different countries. For example, 2009 was a year in which the economies of the United States and Western Europe shrank (real GDP in the United States decreased by 2.4 percent) while that in China grew by more than 8 percent and in India by about 7 percent. During this period, global companies with presence in China and India and the flexibility to divert resources from shrinking to growing markets did a lot better than those that did not have either presence in these markets or the flexibility. As the economies of Brazil, China, and India continue to grow, global supply chains will have to build more local presence in these countries along with the flexibility to serve multiple markets.
+
+112 Chapter 5 · Network Design in the Supply Chain
+FREIGHT AND FUEL COSTS Fluctuations in freight and fuel costs have a significant impact on the profits of any global supply chain. For example, in 2010 alone, the Baltic Dry Index, which measures changes in the cost to transport raw materials such as metals, grains, and fossil fuels, peaked at 4,187 in May and hit a low of 1,709 in July. Crude oil prices were as low as about $31 per barrel in February 2009 and increased to about $90 per barrel by December 2010. It can be difficult to deal with this extent of price fluctuation even with supply chain flexibility. Such fluctuations are best dealt with by hedging prices on commodity markets or signing suitable long-term contracts. During the first decade of the 21st century, a significant fraction of Southwest Airline's profits were attributed to fuel hedges it had purchased at good prices.
+When designing supply chain networks, companies must account for fluctuations in exchange rates, demand, and freight and fuel costs.
+Political Factors
+The political stability of the country under consideration plays a significant role in location choice. Companies prefer to locate facilities in politically stable countries where the rules of commerce and ownership are well defined. While political risk is hard to quantify, there are some indices like the global political risk index (GPRI) that companies can use when investing in emerging markets. The GPRI is evaluated by a consulting firm (Eurasia Group) and aims to measure the capacity of a country to withstand shocks or crises along four categories: government, society, security, and economy.
+Infrastructure Factors
+The availability of good infrastructure is an important prerequisite to locating a facility in a given area. Poor infrastructure adds to the cost of doing business from a given location. In the 1990s, global companies located their factories in China near Shanghai, Tianjin, or Guangzhou--even though these locations did not have the lowest labor or land costs--because these locations had good infrastructure . Key infrastructure elements to be considered during network design include availability of sites and labor, proximity to transportation terminals, rail service, proximity to airports and seaports, highway access, congestion, and local utilities.
+Competitive Factors
+Companies must consider competitors' strategy, size, and location when designing their supply chain networks. A fundamental decision firms make is whether to locate their facilities close to or far from competitors. The form of competition and factors such as raw material or labor availability influence this decision.
+POSITIVE EXTERNALITIES BETWEEN FIRMS Positive externalities occur when the collocation of multiple firms benefits all of them. Positive externalities lead to competitors locating close to each other. For example, retail stores tend to locate close to each other because doing so increases overall demand, thus benefiting all parties. By locating together in a mall, competing retail stores make it more convenient for customers, who need drive to only one location to find everything they are looking for. This increases the total number of customers who visit the mall, increasing demand for all stores located there.
+Another example of positive externality occurs when the presence of a competitor leads to the development of appropriate infrastructure in a developing area. In India, Suzuki was the first foreign auto manufacturer to set up a manufacturing facility. The company went to considerable effort and built a local supplier network. Given the well-established supplier base in India, Suzuki's competitors have also built assembly plants there, because they now find it more effective to build cars in India rather than import them to the country.
+
+a 1-b
+
+Chapter 5 · Network Design in the Supply Chain 113
+
+0
+FIGURE 5-1 Two Firms Locating on a Line
+
+1
+
+LOCATING TO SPLIT THE MARKET When there are no positive externalities, firms locate to be able to capture the largest possible share of the market. A simple model first proposed by Hotelling explains the issues behind this decision.1
+When firms do not control price but compete on distance from the customer, they can maximize market share by locating close to each other and splitting the market. Consider a situation in which customers are uniformly located along the line segment between 0 and 1 and two firms compete based on their distance from the customer as shown in Figure 5-1. A customer goes to the closer firm and customers who are equidistant from the two firms are evenly split between them.
+If total demand is 1, Firm 1 locates at point a, and Firm 2 locates at point 1 b, the demand at the two firms, d1 and d2, is given by
+
+d1 = a +
+
+1-b-a 2
+
+and d2 =
+
+1+b-a 2
+
+Both firms maximize their market share if they move closer to each other and locate at a  b  1/2.
+Observe that when both firms locate in the middle of the line segment (a  b  1/2), the average distance that customers have to travel is 1/4. If one firm locates at 1/4 and the other at 3/4, the average distance customers have to travel drops to 1/8 (customers between 0 and 1/2 come to Firm 1 located at 1/4 while customers between 1/2 and 1 come to Firm 2 located at 3/4). This set of locations, however, is not an equilibrium because it gives both firms an incentive to try to increase market share by moving to the middle (closer to 1/2). The result of competition is for both firms to locate close together even though doing so increases the average distance to the customer.
+If the firms compete on price and the customer incurs the transportation cost, it may be optimal for the two firms to locate as far apart as possible,2 with Firm 1 locating at 0 and Firm 2 locating at 1. Locating far from each other minimizes price competition and helps the firms split the market and maximize profits.
+
+Customer Response Time and Local Presence
+Firms that target customers who value a short response time must locate close to them. Customers are unlikely to come to a convenience store if they have to travel a long distance to get there. It is thus best for a convenience store chain to have many stores distributed in an area so that most people have a convenience store close to them. In contrast, customers shop for larger quantity of goods at supermarkets and are willing to travel longer distances to get to one. Thus, supermarket chains tend to have stores that are larger than convenience stores and not as densely distributed. Most towns have fewer supermarkets than convenience stores. Discounters such as Sam's Club target customers who are even less time sensitive. These stores are even larger than supermarkets and there are fewer of them in an area. W.W. Grainger uses about 400 facilities all over the United States to provide same-day delivery of maintenance and repair supplies to many of its customers. McMaster-Carr, a competitor, targets customers who are willing to wait for
+
+1 Jean Tirole, The Theory of Industrial Organization (Cambridge, MA: The MIT Press, 1997), 279. 2 Ibid.
+
+114 Chapter 5 · Network Design in the Supply Chain
+next-day delivery. McMaster-Carr has only five facilities throughout the United States and is able to provide next-day delivery to a large number of customers.
+If a firm is delivering its product to customers, use of a rapid means of transportation allows it to build fewer facilities and still provide a short response time. This option, however, increases transportation cost. Moreover, there are many situations in which the presence of a facility close to a customer is important. A coffee shop is likely to attract customers who live or work nearby. No faster mode of transport can serve as a substitute and be used to attract customers who are far away from the coffee shop.
+Logistics and Facility Costs
+Logistics and facility costs incurred within a supply chain change as the number of facilities, their location, and capacity allocation change. Companies must consider inventory, transportation, and facility costs when designing their supply chain networks.
+Inventory and facility costs increase as the number of facilities in a supply chain increases. Transportation costs decrease as the number of facilities increases. If the number of facilities increases to the point at which inbound economies of scale are lost, then transportation costs increase. For example, with few facilities Amazon has lower inventory and facility costs than Barnes & Noble, which has hundreds of stores. Barnes & Noble, however, has lower transportation costs.
+The supply chain network design is also influenced by the transformation occurring at each facility. When there is a significant reduction in material weight or volume as a result of processing, it may be better to locate facilities closer to the supply source rather than the customer. For example, when iron ore is processed to make steel, the amount of output is a small fraction of the amount of ore used. Locating the steel factory close to the supply source is preferred because it reduces the distance that the large quantity of ore has to travel.
+Total logistics costs are the sum of the inventory, transportation, and facility costs. The facilities in a supply chain network should at least equal the number that minimizes total logistics cost. A firm may increase the number of facilities beyond this point to improve the response time to its customers. This decision is justified if the revenue increase from improved response outweighs the increased cost from additional facilities.
+In the next section we discuss a framework for making network design decisions.
+5.3 FRAMEWORK FOR NETWORK DESIGN DECISIONS
+The goal when designing a supply chain network is to maximize the firm's profits while satisfying customer needs in terms of demand and responsiveness. To design an effective network, a manager must consider all the factors described in Section 5.2 and those discussed in Chapter 4. Global network design decisions are made in four phases as shown in Figure 5-2. We describe each phase in greater detail.
+Phase I: Define a Supply Chain Strategy/Design
+The objective of the first phase of network design is to define a firm's broad supply chain design. This includes determining the stages in the supply chain and whether each supply chain function will be performed in-house or outsourced (see Chapter 4).
+Phase I starts with a clear definition of the firm's competitive strategy as the set of customer needs that the supply chain aims to satisfy. The supply chain strategy then specifies what capabilities the supply chain network must have to support the competitive strategy (see Chapter 2). Next, managers must forecast the likely evolution of global competition and whether competitors in each market will be local or global players. Managers must also identify constraints on available capital and whether growth will be accomplished by acquiring existing facilities, building new facilities, or partnering.
+
+COMPETITIVE STRATEGY
+INTERNAL CONSTRAINTS Capital, growth strategy, existing network
+PRODUCTION TECHNOLOGIES Cost, scale/scope impact, support required, flexibility
+COMPETITIVE ENVIRONMENT
+AGGREGATE FACTOR AND LOGISTICS COSTS
+
+Chapter 5 · Network Design in the Supply Chain 115
+
+PHASE I Supply Chain
+Strategy
+
+GLOBAL COMPETITION
+
+PHASE II Regional Facility
+Configuration
+
+TARIFFS AND TAX INCENTIVES
+REGIONAL DEMAND Size, growth, homogeneity,
+local specifications
+POLITICAL, EXCHANGE RATE, AND DEMAND RISK
+
+PRODUCTION METHODS Skill needs, response time
+
+PHASE III Desirable Sites
+
+AVAILABLE INFRASTRUCTURE
+
+FACTOR COSTS Labor, materials, site specific
+
+PHASE IV Location Choices
+
+FIGURE 5-2 Framework for Network Design Decisions
+
+LOGISTICS COSTS Transport, inventory,
+coordination
+
+Based on the competitive strategy of the firm, its resulting supply chain strategy, an analysis of the competition, any economies of scale or scope, and any constraints, managers must determine the broad supply chain design for the firm.
+Phase II: Define the Regional Facility Configuration
+The objective of the second phase of network design is to identify regions where facilities will be located, their potential roles, and their approximate capacity.
+An analysis of Phase II starts with a forecast of the demand by country or region. Such a forecast must include a measure of the size of the demand and a determination of the homogeneity or variability of customer requirements across different regions. Homogeneous requirements favor large consolidated facilities, whereas requirements that vary across countries favor smaller, localized facilities.
+The next step is for managers to identify whether economies of scale or scope can play a significant role in reducing costs, given available production technologies. If economies of scale or scope are significant, it may be better to have a few facilities serving many markets. For example, semiconductor manufacturers such as Advanced Micro Devices have few plants for their global markets, given the economies of scale in production. If economies of scale or scope is not significant, it may be better for each market to have its own facility.
+
+116 Chapter 5 · Network Design in the Supply Chain
+Next, managers must identify demand risk, exchange-rate risk, and political risk associated with regional markets. They must also identify regional tariffs, any requirements for local production, tax incentives, and any export or import restrictions for each market. The tax and tariff information is used to identify the best location to extract a major share of the profits. In general, it is best to obtain the major share of profits at the location with the lowest tax rate.
+Managers must identify competitors in each region and make a case for whether a facility needs to be located close to or far from a competitor's facility. The desired response time for each market and logistics costs at an aggregate level in each region must also be identified.
+Based on all this information, managers identify the regional facility configuration for the supply chain network using network design models discussed in the next section. The regional configuration defines the approximate number of facilities in the network, regions where facilities will be set up, and whether a facility will produce all products for a given market or a few products for all markets in the network.
+Phase III: Select a Set of Desirable Potential Sites
+The objective of Phase III is to select a set of desirable potential sites within each region where facilities are to be located. Sites should be selected based on an analysis of infrastructure availability to support the desired production methodologies. Hard infrastructure requirements include the availability of suppliers, transportation services, communication, utilities, and warehousing facilities. Soft infrastructure requirements include the availability of a skilled workforce, workforce turnover, and the community receptivity to business and industry.
+Phase IV: Location Choices
+The objective of Phase IV is to select a precise location and capacity allocation for each facility. Attention is restricted to the desirable potential sites selected in Phase III. The network is designed to maximize total profits, taking into account the expected margin and demand in each market, various logistics and facility costs, and the taxes and tariffs at each location.
+In the next section, we discuss methodologies for making facility location and capacity allocation decisions during Phases II to IV.
+5.4 MODELS FOR FACILITY LOCATION AND CAPACITY ALLOCATION
+A manager's goal when locating facilities and allocating capacity should be to maximize the overall profitability of the resulting supply chain network while providing customers with the appropriate responsiveness. Revenues come from the sale of product, whereas costs arise from facilities, labor, transportation, material, and inventories. The profits of the firm are also affected by taxes and tariffs. Ideally, profits after tariffs and taxes should be maximized when designing a supply chain network.
+A manager must consider many trade-offs during network design. For example, building many facilities to serve local markets reduces transportation cost and provides a fast response time, but it increases the facility and inventory costs incurred by the firm.
+Managers use network design models in two situations. First, these models are used to decide on locations where facilities will be established and the capacity to be assigned to each facility. Managers must make this decision considering a time horizon over which locations and capacities will not be altered (typically in years). Second, these models are used to assign current demand to the available facilities and identify lanes along which product will be transported. Managers must consider this decision at least on an annual basis as demand, prices, exchange rates, and tariffs change. In both cases, the goal is to maximize the profit while satisfying customer needs. The following information ideally is available in making the design decision:
+· Location of supply sources and markets · Location of potential facility sites
+
+Chapter 5 · Network Design in the Supply Chain 117
+· Demand forecast by market · Facility, labor, and material costs by site · Transportation costs between each pair of sites · Inventory costs by site and as a function of quantity · Sale price of product in different regions · Taxes and tariffs · Desired response time and other service factors
+Given this information, either gravity models or network optimization models may be used to design the network. We organize the models according to the phase of the network design framework at which each model is likely to be useful.
+Phase II: Network Optimization Models
+During Phase II of the network design framework (see Figure 5-2), a manager considers regional demand, tariffs, economies of scale, and aggregate factor costs to decide the regions where facilities are to be located. As an example, consider SunOil, a manufacturer of petrochemical products with worldwide sales. The vice president of supply chain is considering several options to meet demand. One possibility is to set up a facility in each region. The advantage of such an approach is that it lowers transportation cost and also helps avoid duties that may be imposed if product is imported from other regions. The disadvantage of this approach is that plants are sized to meet local demand and may not fully exploit economies of scale. An alternative approach is to consolidate plants in just a few regions. This improves economies of scale but increases transportation cost and duties. During Phase II, the manager must consider these quantifiable trade-offs along with nonquantifiable factors such as the competitive environment and political risk.
+Network optimization models are useful for managers considering regional configuration during Phase II. The first step is to collect the data in a form that can be used for a quantitative model. For SunOil, the vice president of supply chain decides to view the worldwide demand in terms of five regions--North America, South America, Europe, Africa, and Asia. The data collected are shown in Figure 5-3.
+Annual demand for each of the five regions is shown in cells B9:F9. Cells B4:F8 contain the variable production, inventory, and transportation cost (including tariffs and duties) of producing in one region to meet demand in each individual region. All costs are in thousands of dollars. For example, as shown in cell C4, it costs $92,000 (including duties) to produce 1 million units in North America and sell them in South America. As shown in cell G4, it costs $6,000,000 in annualized fixed cost to build a low-capacity plant in North America. Observe that the data collected at this stage are at a fairly aggregate level.
+There are fixed as well as variable costs associated with facilities, transportation, and inventories at each facility. Fixed costs are those that are incurred no matter how much is produced or shipped from a facility. Variable costs are those that are incurred in proportion to the quantity produced or shipped from a given facility. Facility, transportation, and inventory costs
+FIGURE 5-3 Cost Data (in '000s of dollars) and Demand Data (in millions of units) for SunOil
+
+118 Chapter 5 · Network Design in the Supply Chain
+generally display economies of scale, and the marginal cost decreases as the quantity produced at a facility increases. In the models we consider, however, all variable costs grow linearly with the quantity produced or shipped.
+SunOil is considering two plant sizes in each location. Low-capacity plants can produce 10 million units a year, whereas high-capacity plants can produce 20 million units a year, as shown in cells H4:H8 and J4:J8, respectively. High-capacity plants exhibit some economies of scale and have fixed costs that are less than twice the fixed costs of a low-capacity plant, as shown in cells I4:I8. All fixed costs are annualized. The vice president wants to know what the lowest cost network should look like. To answer this question, we next discuss the capacitated plant location model, which can be used in this setting.
+
+THE CAPACITATED PLANT LOCATION MODEL The capacitated plant location network optimization model requires the following inputs:
+
+n  number of potential plant locations/capacity (each level of capacity will count as a separate location)
+m  number of markets or demand points
+Dj  annual demand from market j Ki  potential capacity of plant i fi  annualized fixed cost of keeping plant i open cij  cost of producing and shipping one unit from plant i to market j (cost includes
+production, inventory, transportation, and tariffs)
+
+The supply chain team's goal is to decide on a network design that maximizes profits after taxes. For the sake of simplicity, however, we assume that all demand must be met and taxes on earnings are ignored. The model thus focuses on minimizing the cost of meeting global demand. It can, however, be modified to include profits and taxes. Define the following decision variables:
+
+yi  1 if plant i is open, 0 otherwise xij  quantity shipped from plant i to market j
+
+The problem is then formulated as the following integer program:
+
+n nm
+Min a fiyi + a a cij xij
+i=1 i=1j=1
+
+subject to
+
+n
+a xij = Dj for j = 1, Á , m
+i=1
+m
+a xij ... Kiyi for i = 1, Á , n
+j=1
+yi  {0, 1} for i = 1, Á , n, xij Ú 0
+
+(5.1) (5.2) (5.3)
+
+The objective function minimizes the total cost (fixed  variable) of setting up and operating the network. The constraint in Equation 5.1 requires that the demand at each regional market be
+satisfied. The constraint in Equation 5.2 states that no plant can supply more than its capacity.
+(Clearly, the capacity is 0 if the plant is closed and Ki if it is open. The product of terms, Kiyi, captures this effect.) The constraint in Equation 5.3 enforces that each plant is either open (yi  1)
+
+Chapter 5 · Network Design in the Supply Chain 119
+
+FIGURE 5-4 Spreadsheet Area for Decision Variables for SunOil
+
+or closed (yi  0). The solution identifies the plants that are to be kept open, their capacity, and the allocation of regional demand to these plants.
+The model is solved using the Solver tool in Excel. Given the data, the next step in Excel is
+to identify cells corresponding to each decision variable as shown in Figure 5-4. Cells B14:F18
+correspond to the decision variables xij and determine the amount produced in a supply region and shipped to a demand region. Cells G14:G18 contain the decision variables yi corresponding to the low-capacity plants, and cells H14:H18 contain the decision variables yi corresponding to the high-capacity plants. Initially, all decision variables are set to be 0.
+The next step is to construct cells for the constraints in Equations 5.1 and 5.2 and the
+objective function. The constraint cells and objective function are shown in Figure 5-5. Cells
+B22:B26 contain the capacity constraints in Equation 5.2, and cells B28:F28 contain the demand
+constraints in Equation 5.1. The objective function is shown in cell B31 and measures the total
+fixed cost plus the variable cost of operating the network.
+The next step is to use Data Solver to invoke Solver as shown in Figure 5-6. Within Solver,
+the goal is to minimize the total cost in cell B31. The variables are in cells B14:H18. The
+constraints are as follows:
+
+B14:H18 Ú 0 EAll decision variables are nonnegativeF
+
+B22:B26 Ú 0 B28:F28 = 0
+
+m
+e Kiyi -a xij Ú 0 for i = 1, Á ,5 f
+j=1
+n
+e Dj - a xij = 0 for j = 1, Á , 5 f
+i=1
+
+G14:H18 binary ELocation variables yi are binary; that is, 0 or 1F
+
+Within the Solver Parameters dialog box, click on Solve to obtain the optimal solution as shown in Figure 5-7. From Figure 5-7, the supply chain team concludes that the lowest-cost network will have facilities located in South America (cell H15  1), Asia (cell H17  1), and Africa (cell H18  1). Further, a high-capacity plant should be planned in each region. The plant in South America meets the North American demand (cell B15), whereas the European demand is met from plants in Asia (cell D17) and Africa (cell D18).
+The model discussed earlier can be modified to account for strategic imperatives that require locating a plant in some region. For example, if SunOil decides to locate a plant in
+
+120 Chapter 5 · Network Design in the Supply Chain
+
+Cell Cell Formula
+B28 =B9 - SUM(B14:B18)
+B22 =G14*H4 + H14*J4 - SUM(B14:F14)
+B31 =SUMPRODUCT(B14:F18,B4:F8) + SUMPRODUCT(G14:G18,G4:G8) + SUMPRODUCT(H14:H18,I4:I8)
+
+Equation
+5.1
+5.2
+Objective Function
+
+Copied to C28:F28 B23:B26
+--
+
+FIGURE 5-5 Spreadsheet Area for Constraints and Objective Function for SunOil
+
+Europe for strategic reasons, we can modify the model by adding a constraint that requires one plant to be located in Europe. At this stage, the costs associated with a variety of options incorporating different combinations of strategic concerns such as local presence should be evaluated. A suitable regional configuration is then selected.
+Next we consider a model that can be useful during Phase III.
+Phase III: Gravity Location Models
+During Phase III (see Figure 5-2), a manager identifies potential locations in each region where the company has decided to locate a plant. As a preliminary step, the manager needs to identify the geographic location where potential sites may be considered. Gravity location models can be useful when identifying suitable geographic locations within a region. Gravity models are used to find locations that minimize the cost of transporting raw materials from suppliers and finished goods to the markets served. Next, we discuss a typical scenario in which gravity models can be used.
+
+Chapter 5 · Network Design in the Supply Chain 121
+
+FIGURE 5-6 Using Solver to Set Regional Configuration for SunOil
+
+Consider, for example, Steel Appliances (SA), a manufacturer of high-quality refrigerators and cooking ranges. SA has one assembly factory located near Denver, from which it has supplied the entire United States. Demand has grown rapidly and the CEO of SA has decided to set up another factory to serve its eastern markets. The supply chain manager is asked to find a suitable location for the new factory. Three parts plants located in Buffalo, Memphis, and St. Louis will supply parts to the new factory, which will serve markets in Atlanta, Boston, Jacksonville, Philadelphia, and New York. The coordinate location, the demand in each market, the required supply from each parts plant, and the shipping cost for each supply source or market are shown in Table 5-1.
+Gravity models assume that both the markets and the supply sources can be located as grid points on a plane. All distances are calculated as the geometric distance between two points on the plane. These models also assume that the transportation cost grows linearly with the quantity shipped. We discuss a gravity model for locating a single facility that receives raw material from supply sources and ships finished product to markets. The basic inputs to the model are as follows:
+
+xn, yn: coordinate location of either a market or supply source n Fn: cost of shipping one unit (a unit could be a piece, pallet, truckload or ton) for one mile between the facility and either market or supply source n
+Dn: quantity to be shipped between facility and market or supply source n
+
+If (x, y) is the location selected for the facility, the distance dn between the facility at location (x, y) and the supply source or market n is given by
+
+dn = 31x - xn22 + 1y - yn22
+
+(5.4)
+
+122 Chapter 5 · Network Design in the Supply Chain
+
+FIGURE 5-7 Optimal Regional Network Configuration for SunOil
+
+Table 5-1 Locations of Supply Sources and Markets for Steel Appliances
+
+Sources/Markets
+
+Transportation Cost $/Ton Mile (Fn)
+
+Quantity in Tons (Dn)
+
+Coordinates xn yn
+
+Supply sources Buffalo Memphis St. Louis
+
+0.90 0.95 0.85
+
+500 700 1,200 300 250 600 700 225 825
+
+Markets Atlanta Boston Jacksonville Philadelphia New York
+
+1.50 225 600 500
+
+1.50
+
+150
+
+1,050
+
+1,200
+
+1.50 250 800 300
+
+1.50 175 925 975
+
+1.50
+
+300
+
+1,000
+
+1,080
+
+and the total transportation cost (TC) is given by
+
+k
+TC = a dnDnFn
+n=1
+
+(5.5)
+
+The optimal location is one that minimizes the total TC in Equation 5.5. The optimal solution for SA is obtained using the Solver tool in Excel as shown in Figure 5-8. The first step is to
+
+Chapter 5 · Network Design in the Supply Chain 123
+
+Cell Cell Formula
+G5 =SQRT(($B$16-E5)^2+($B$17-F5)^2)
+B19 =SUMPRODUCT(G5:G12,D5:D12,C5: C12)
+
+Equation Copied to 5.1 G6:G12 5.2 --
+
+FIGURE 5-8 Using Solver to Optimize Location for Steel Appliances
+
+enter the problem data as shown in cells B5:F12. Next, we set the decision variables (x, y) corre-
+sponding to the location of the new facility in cells B16 and B17, respectively. In cells G5:G12,
+we then calculate the distance dn from the facility location (x, y) to each source or market using Equation 5.4. The total TC is then calculated in cell B19 using Equation 5.5.
+The next step is to use the Data Solver to invoke Solver. Within the Solver Parameters
+dialog box (see Figure 5-8), the following information is entered to represent the problem:
+
+Set Cell: B19 Equal To: Select Min By Changing Variable Cells: B16:B17
+
+Click on the Solve button. The optimal solution is returned in cells B16 and B17. The manager thus identifies the coordinates (x, y)  (681, 882) as the location of the factory that minimizes total cost TC. From a map, these coordinates are close to the border of North Carolina and Virginia. The precise coordinates provided by the gravity model may not correspond to a feasible location. The manager should look for desirable sites close to the optimal coordinates that have the required infrastructure as well as the appropriate worker skills available.
+
+124 Chapter 5 · Network Design in the Supply Chain The gravity model can also be solved using the following iterative procedure.
+
+1. For each supply source or market n, evaluate dn as defined in Equation 5.4. 2. Obtain a new location (x¿ , y¿ ) for the facility, where
+
+xoe =
+
+k DnFnxn
+
+a
+n=1
+
+dn
+
+k DnFn
+
+a
+n=1
+
+dn
+
+and yoe =
+
+k DnFnyn
+
+a
+n=1
+
+dn
+
+k DnFn
+
+a
+n=1
+
+dn
+
+3. If the new location (x¿ , y¿ ) is almost the same as (x, y) stop. Otherwise, set (x, y)  (x¿ , y¿ ) and go to step 1.
+
+Phase IV: Network Optimization Models
+During Phase IV (see Figure 5-2), a manager decides on the location and capacity allocation for each facility. Besides locating the facilities, a manager also decides how markets are allocated to facilities. This allocation must account for customer service constraints in terms of response time. The demand allocation decision can be altered on a regular basis as costs change and markets evolve. When designing the network, both location and allocation decisions are made jointly.
+We illustrate the relevant network optimization models using the example of two manufacturers of fiber-optic telecommunication equipment. Both TelecomOne and HighOptic are manufacturers of the latest generation of telecommunication equipment. TelecomOne has focused on the eastern half of the United States. It has manufacturing plants located in Baltimore, Memphis, and Wichita and serves markets in Atlanta, Boston, and Chicago. HighOptic has targeted the western half of the United States and serves markets in Denver, Omaha, and Portland. HighOptic has plants located in Cheyenne and Salt Lake City.
+Plant capacities, market demand, variable production and transportation cost per thousand units shipped, and fixed costs per month at each plant are shown in Table 5-2.
+ALLOCATING DEMAND TO PRODUCTION FACILITIES From Table 5-2 we calculate that TelecomOne has a total production capacity of 71,000 units per month and a total demand of 32,000 units per month, whereas HighOptic has a production capacity of 51,000 units per month and a demand of 24,000 units per month. Each year, managers in both companies must decide how to allocate the demand to their production facilities as demand and costs change.
+
+Table 5-2 Capacity, Demand, and Cost Data for TelecomOne and HighOptic
+
+Demand City Production and Transportation Cost per Thousand Units (Thousand $)
+
+Supply City
+
+Atlanta Boston Chicago Denver Omaha Portland
+
+Baltimore Cheyenne Salt Lake City Memphis Wichita Monthly demand (thousand units) Dj
+
+1,675 1,460 1,925
+380 922
+10
+
+400 1,940 2,400 1,355 1,646
+8
+
+685 970 1,425 543 700
+14
+
+1,630 100 500
+1,045 508
+6
+
+1,160 495 950 665 311
+7
+
+2,800 1,200
+800 2,321 1,797
+11
+
+Monthly Capacity (Thousand Units) K
+18 24 27 22 31
+
+Monthly Fixed Cost (Thousand
+$) f
+7,650 3,500 5,000 4,100 2,200
+
+Chapter 5 · Network Design in the Supply Chain 125
+
+The demand allocation problem can be solved using a demand allocation model. The model requires the following inputs:
+n  number of factory locations m  number of markets or demand points Dj  annual demand from market j Ki  capacity of factory i cij  cost of producing and shipping one unit from factory i to market j (cost includes
+production, inventory, and transportation)
+The goal is to allocate the demand from different markets to the various plants to minimize the total cost of facilities, transportation, and inventory. Define the decision variables:
+
+xij  quantity shipped from factory i to market j The problem is formulated as the following linear program:
+
+subject to
+
+nm
+Min a a cij xij
+i=1 j=1
+
+n
+a xij = Dj
+i=1
+m
+a xij ... Ki
+j=1
+
+for i =1, Á , m for i = 1, Á , m
+
+(5.6) (5.7)
+
+The constraints in Equation 5.6 ensure that all market demand is satisfied, and the constraints in Equation 5.7 ensure that no factory produces more than its capacity.
+For both TelecomOne and HighOptic, the demand allocation problem can be solved using the Solver tool within Excel. The optimal demand allocation is presented in Table 5-3. Observe that it is optimal for TelecomOne not to produce anything in the Wichita facility even though the facility is operational and the fixed cost is incurred. With the demand allocation as shown in Table 5-3, TelecomOne incurs a monthly variable cost of $14,886,000 and a monthly fixed cost of $13,950,000 for a total monthly cost of $28,836,000. HighOptic incurs a monthly variable cost of $12,865,000 and a monthly fixed cost of $8,500,000 for a total monthly cost of $21,365,000.
+
+LOCATING PLANTS: THE CAPACITATED PLANT LOCATION MODEL Management executives at both TelecomOne and HighOptic have decided to merge the two companies into a single entity to be called TelecomOptic. Management believes that significant benefits will result if the two networks are merged appropriately. TelecomOptic will have five factories from which to serve six markets. Management is debating whether all five factories are needed. It has assigned
+
+Table 5-3 Optimal Demand Allocation for TelecomOne and HighOptic
+
+Atlanta Boston Chicago Denver Omaha Portland
+
+TelecomOne Baltimore
+
+0
+
+8
+
+2
+
+Memphis
+
+10
+
+0
+
+12
+
+Wichita 0 0
+
+0
+
+HighOptic
+
+Salt Lake Cheyenne
+
+00 67
+
+11 0
+
+126 Chapter 5 · Network Design in the Supply Chain a supply chain team to study the network for the combined company and identify the plants that could be shut down. The problem of selecting the optimal location and capacity allocation is very similar to the regional configuration problem we have already studied in Phase II. The only difference is that instead of using costs and duties that apply over a region, we now use location-specific costs and duties. The supply chain team thus decides to use the capacitated plant location model discussed earlier to solve the problem in Phase IV. Ideally, the problem should be formulated to maximize total profits, taking into account costs, taxes, and duties by location. Given that taxes and duties do not vary among locations, the supply chain team decides to locate factories and then allocate demand to the open factories to minimize the total cost of facilities, transportation, and inventory. Define the following decision variables:
+yi  1 if factory i is open, 0 otherwise xij  quantity shipped from factory i to market j
+Recall that the problem is then formulated as the following integer program:
+n nm
+Min a fiyi + a a cijxij
+i=1 i=1j=1
+subject to x and y satisfying the constraints in Equations 5.1, 5.2, and 5.3. The capacity and demand data along with production, transportation, and inventory costs
+at different factories for the merged firm TelecomOptic are given in Table 5-2. The supply chain team decides to solve the plant location model using the Solver tool in Excel.
+The first step in setting up the Solver model is to enter the cost, demand, and capacity information as shown in Figure 5-9. The fixed costs fi for the five plants are entered in cells H4 to H8. The capacities Ki of the five plants are entered in cells I4 to I8. The variable costs from each plant to each demand city, cij, are entered in cells B4 to G8. The demands Dj of the six markets are entered in cells B9 to G9. Next, corresponding to decision variables xij and yi, cells B14 through G18 and H14 to H18, respectively, are assigned as shown in Figure 5-9. Initially all variables are set to be 0.
+The next step is to construct cells for each of the constraints in Equations 5.1 and 5.2. The constraint cells are as shown in Figure 5-10. Cells B22 to B26 contain the capacity constraints in Equation 5.7, whereas cells B29 to G29 contain the demand constraints in Equation 5.6. The
+FIGURE 5-9 Spreadsheet Area for Decision Variables for TelecomOptic
+
+Chapter 5 · Network Design in the Supply Chain 127
+
+Cell Formula
+B22 = I4*H14 - SUM(B14:G14)
+B29 = B9 - SUM(B14:B18)
+B32 = SUMPRODUCT(B4:G8, B14:G18) + SUMPRODUCT(H4:H8, H14:H18)
+
+Equation
+5.7
+5.6
+Objective function
+
+Copied to B23:B26 C29:G29
+--
+
+FIGURE 5-10 Spreadsheet Area for Constraints for TelecomOptic
+
+constraint in cell B22 corresponds to the capacity constraint for the factory in Baltimore. The cell B29 corresponds to the demand constraint for the market in Atlanta. The capacity constraints require that the cell value be greater than or equal to ( Ú ) 0, whereas the demand constraints require the cell value be equal to 0.
+The objective function measures the total fixed and variable cost of the supply chain
+network and is evaluated in Cell B32. The next step is to use Data Solver to invoke Solver as
+shown in Figure 5-11. Within Solver, the goal is to minimize the total cost in cell B32. The variables are in cells
+B14:H18. The constraints are as follows:
+
+B14:G18 Ú 0 B22:B26 Ú 0 B29:G29 = 0
+
+EAll decision variables are nonnegativeF
+m
+e Kiyi - a x ij Ú 0 for i = 1, Á , 5 f
+j=1 n
+e Dj - a x ij = 0 for j = 1, Á , 6 f
+i=1
+
+H14:H18 binary ELocation variables yi are binary; that is, 0 or 1F
+
+128 Chapter 5 · Network Design in the Supply Chain
+FIGURE 5-11 Solver Dialog Box for TelecomOptic
+Within the Solver Parameters dialog box, click on Solve to obtain the optimal solution as shown in Figure 5-12. From Figure 5-12, the supply chain team concludes that it is optimal for TelecomOptic to close the plants in Salt Lake City and Wichita while keeping the plants in Baltimore, Cheyenne, and Memphis open. The total monthly cost of this network and operation is $47,401,000. This cost represents savings of about $3 million per month compared to the situation in which TelecomOne and HighOptic operate separate supply chain networks.
+LOCATING PLANTS: THE CAPACITATED PLANT LOCATION MODEL WITH SINGLE SOURCING
+In some cases, companies want to design supply chain networks in which a market is supplied from only one factory, referred to as a single source. Companies may impose this constraint because it lowers the complexity of coordinating the network and requires less flexibility from each facility. The plant location model discussed earlier needs some modification to accommodate this constraint. The decision variables are redefined as follows:
+yi  1 if factory is located at site i, 0 otherwise xij  1 if market j is supplied by factory i, 0 otherwise The problem is formulated as the following integer program:
+n nm
+Min a fiyi + a a Djcijxij
+i=1 i=1j=1
+
+Chapter 5 · Network Design in the Supply Chain 129
+
+FIGURE 5-12 Optimal Network Design for TelecomOptic
+
+subject to
+
+n
+a xij = 1 for j = 1, Á , m
+i=1
+m
+a Dj xij ... Kiyi for i = 1, Á , n
+j=1
+xij, yi  {0,1}
+
+(5.8) (5.9) (5.10)
+
+The constraints in Equations 5.8 and 5.10 enforce that each market is supplied by exactly one factory.
+We do not describe the solution of the model in Excel because it is very similar to the model discussed earlier. The optimal network with single sourcing for TelecomOptic is as shown in Table 5-4.
+If single sourcing is required, it is optimal for TelecomOptic to close the factories in Baltimore and Cheyenne. This is different from the result in Figure 5-12, in which factories in Salt Lake City and Wichita were closed. The monthly cost of operating the network in Table 5-4 is $49,717,000. This cost is about $2.3 million higher than the cost of the network in Figure 5-12, in which single sourcing was not required. The supply chain team thus concludes that single sourcing adds about $2.3 million per month to the cost of the supply chain network, although it makes coordination easier and requires less flexibility from the plants.
+
+130 Chapter 5 · Network Design in the Supply Chain
+
+Table 5-4 Optimal Network Configuration for TelecomOptic with Single Sourcing
+
+Open/Closed Atlanta Boston Chicago Denver Omaha Portland
+
+Baltimore Cheyenne Salt Lake Memphis Wichita
+
+Closed Closed Open Open Open
+
+00 00 00 10 8 00
+
+00 00 06 00 14 0
+
+00 00 0 11 00 70
+
+LOCATING PLANTS AND WAREHOUSES SIMULTANEOUSLY A much more general form of the plant location model needs to be considered if the entire supply chain network from the supplier to the customer is to be designed. We consider a supply chain in which suppliers send material to factories that supply warehouses that supply markets as shown in Figure 5-13. Location and capacity allocation decisions have to be made for both factories and warehouses. Multiple warehouses may be used to satisfy demand at a market, and multiple factories may be used to replenish warehouses. It is also assumed that units have been appropriately adjusted such that one unit of input from a supply source produces one unit of the finished product. The model requires the following inputs:
+m  number of markets or demand points
+n  number of potential factory locations
+l  number of suppliers
+t  number of potential warehouse locations
+Dj  annual demand from customer j Ki  potential capacity of factory at site i Sh  supply capacity at supplier h We  potential warehouse capacity at site e Fi  fixed cost of locating a plant at site i fe  fixed cost of locating a warehouse at site e chi  cost of shipping one unit from supply source h to factory i cie  cost of producing and shipping one unit from factory i to warehouse e cej  cost of shipping one unit from warehouse e to customer j
+
+Suppliers Plants
+
+Warehouses
+
+Markets
+
+FIGURE 5-13 Stages in a Supply Network
+
+Chapter 5 · Network Design in the Supply Chain 131
+
+The goal is to identify plant and warehouse locations as well as quantities shipped between various points that minimize the total fixed and variable costs. Define the following decision variables:
+yi  1 if factory is located at site i, 0 otherwise ye  1 if warehouse is located at site e, 0 otherwise xej  quantity shipped from warehouse e to market j xie  quantity shipped from factory at site i to warehouse e xhi  quantity shipped from supplier h to factory at site i
+The problem is formulated as the following integer program:
+
+n t ln
+
+nt
+
+tm
+
+Min a Fiyi + a feye + a a chixhi + a a ciexie + a a cejxej
+
+i=1 e=1 h=1i=1
+
+i=1e=1
+
+e=1j=1
+
+The objective function minimizes the total fixed and variable costs of the supply chain network subject to the following constraints:
+
+n
+a x hi ... Sh for h = 1, Á , l
+i=1
+
+(5.11)
+
+The constraint in Equation 5.11 specifies that the total amount shipped from a supplier cannot exceed the supplier's capacity.
+
+lt
+a x hi - a x ie Ú 0 for i =1, Á , n
+h=1 e=1
+
+(5.12)
+
+The constraint in Equation 5.12 states that the amount shipped out of a factory cannot exceed the quantity of raw material received.
+
+t
+a xie ... Kiyi for i = 1, Á , n
+e=1
+
+(5.13)
+
+The constraint in Equation 5.13 enforces that the amount produced in the factory cannot exceed its capacity.
+
+nm
+a x ie - a x ej Ú 0 for e = 1, Á , t
+i=1 j=1
+
+(5.14)
+
+The constraint in Equation 5.14 specifies that the amount shipped out of a warehouse cannot exceed the quantity received from the factories.
+
+m
+a x ej ... Weye for e = 1, Á , t
+j=1
+
+(5.15)
+
+The constraint in Equation 5.15 specifies that the amount shipped through a warehouse cannot exceed its capacity.
+
+t
+a x ej = Dj for j = 1, Á , m
+e=1
+
+(5.16)
+
+The constraint in Equation 5.16 specifies that the amount shipped to a customer must cover the demand.
+
+yi, ye  {0,1}, x ej, x ie, x hi Ú 0
+
+(5.17)
+
+132 Chapter 5 · Network Design in the Supply Chain
+The constraint in Equation 5.17 enforces that each factory or warehouse is either open or closed.
+The model discussed earlier can be modified to allow direct shipments between factories and markets. All the models discussed previously can also be modified to accommodate economies of scale in production, transportation, and inventory costs. However, these requirements make the models more difficult to solve.
+
+Accounting for Taxes, Tariffs, and Customer Requirements
+
+Network design models should be structured such that the resulting supply chain network maximizes profits after tariffs and taxes while meeting customer service requirements. The models discussed earlier can easily be modified to maximize profits accounting for taxes, even when revenues are in different currencies. If rj is the revenue from selling one unit in market j, the objective function of the capacitated plant location model can be modified to be
+
+mn
+
+n
+
+nm
+
+Max a rj a x ij - a Fiyi - a a cij x ij
+
+j=1 i=1
+
+i=1
+
+i=1j=1
+
+This objective function maximizes profits for the firm. When using a profit maximization objective function, a manager should modify the constraint in Equation 5.1 to be
+
+n
+a x ij ... Dj for j = 1, Á , m
+i=1
+
+(5.18)
+
+The constraint in Equation 5.18 is more appropriate than the constraint in Equation 5.1
+because it allows the network designer to identify the demand that can be satisfied profitably and
+the demand that is satisfied at a loss to the firm. The plant location model with Equation 5.18
+instead of Equation 5.1 and a profit maximization objective function will serve only that portion
+of demand that is profitable to serve. This may result in some markets in which a portion of the
+demand is dropped, unless constrained otherwise, because it cannot be served profitably.
+Customer preferences and requirements may be in terms of desired response time and the
+choice of transportation mode or transportation provider. Consider, for example, two modes of
+transportation available between plant location i and market j. Mode 1 may be sea and mode 2 may be air. The plant location model is modified by defining two distinct decision variables xi1j and xi2j corresponding to the quantity shipped from location i to market j using modes 1 and 2, respectively. The desired response time using each transportation mode is accounted for by
+allowing shipments only when the time taken is less than the desired response time. For example,
+if the time from location i to market j using mode 1 (sea) is longer than would be acceptable to the customer, we simply drop the decision variable xi1j from the plant location model. The option among several transportation providers can be modeled similarly.
+
+5.5 MAKING NETWORK DESIGN DECISIONS IN PRACTICE
+Managers should keep the following issues in mind when making network design decisions for a supply chain.
+Do not underestimate the life span of facilities. It is important to think through the long-term consequences of facility decisions because facilities last a long time and have an enduring impact on a firm's performance. Managers must consider not only future demand and costs but also scenarios in which technology may change. Otherwise, facilities may become useless within a few years. For example, an insurance company moved its clerical labor from a metropolitan location to a suburban location to lower costs. With increasing automation, the need for clerical labor decreased significantly, and within a few years the facility was no longer needed. The company found it difficult to sell the facility given its distance from
+
+Chapter 5 · Network Design in the Supply Chain 133
+residential areas and airports.3 Within most supply chains, production facilities are harder to change than storage facilities. Supply chain network designers must consider that any factories that they put in place will stay there for an extended period of a decade or more. Warehouses or storage facilities, particularly those that are not owned by the company, can be changed within a year of making the decision.
+Do not gloss over the cultural implications. Network design decisions regarding facility location and facility role have a significant impact on the culture of each facility and the firm. The culture at a facility will be influenced by other facilities in its vicinity. Network designers can use this fact to influence the role of the new facility and the focus of people working there. For example, when Ford Motor Company introduced the Lincoln Mark VIII model, management was faced with a dilemma. At that time, the Mark VIII shared a platform with the Mercury Cougar. However, the Mark VIII was part of Ford's luxury Lincoln division. Locating the Mark VIII line with the Cougar would have obvious operational advantages because of shared parts and processes. However, Ford decided to locate the Mark VIII line in the Wixom, Michigan, plant, where other Lincoln cars were produced. The primary reason for doing so was to ensure that the focus on quality for the Mark VIII would be consistent with that of other Ford luxury cars that were produced in Wixom.
+The location of a facility has a significant impact on the extent and form of communication that develops in the supply chain network. Locating a facility far from headquarters will likely give it more of a culture of autonomy. This may be beneficial if the firm is starting a new division that needs to function in a manner different from that of the rest of the company. In contrast, locating two facilities closer together is likely to encourage communication between them. Extensive communication can be useful if decisions made at either facility have a strong impact on the performance of the other facility.
+Do not ignore quality-of-life issues. The quality of life at selected facility locations has a significant impact on performance because it influences the workforce available and its morale. In many instances, a firm may be better off selecting a higher cost location if it provides a much better quality of life. Failure to do so can have dire consequences. For example, an aerospace supplier decided to relocate an entire division to an area with a lower standard of living in order to reduce costs. Most of the marketing team, however, refused to relocate. As a result, customer relations deteriorated, and the company had a very difficult transition. The effort to save costs hurt the company and effectively curtailed the firm's status as a major player in its market.4
+Focus on tariffs and tax incentives when locating facilities. Managers making facility location decisions should consider tariffs and tax incentives carefully. When considering international locations, it is astounding how often tax incentives drive the choice of location, often overcoming all of the other cost factors combined. For instance, Ireland has developed a large high-tech industry by enticing companies with low taxes. Even within nations, local governments may offer generous packages of low to no taxes and free land when firms decide to locate facilities within their jurisdiction. Toyota, BMW, and Mercedes have all chosen their facility locations in the United States due in large part to tax incentives offered by different states.
+5.6 SUMMARY OF LEARNING OBJECTIVES
+1. Understand the role of network design in a supply chain. Network design decisions include identifying facility roles, locations, and capacities and allocating markets to be served by different facilities. These decisions define the physical constraints within which the network must be operated as market conditions change. Good network design decisions increase supply chain profits.
+2. Identify factors influencing supply chain network design decisions. Broadly speaking, network design decisions are influenced by strategic, technological, macroeconomic, political, infrastructure, competitive, and operational factors.
+3 Charles F. Harding, "Quantifying Abstract Factors in Facility-Location Decisions," Industrial Development (May­June 1988): 24. 4 Ibid.
+
+134 Chapter 5 · Network Design in the Supply Chain
+3. Develop a framework for making network design decisions. The goal of network design is to maximize the supply chain's long-term profitability. The process starts by defining the supply chain strategy, which must be aligned with the competitive strategy of the firm. The supply chain strategy, regional demand, costs, infrastructure, and the competitive environment are used to define a regional facility configuration. For regions where facilities are to be located, potentially attractive sites are then selected based on available infrastructure. The optimal configuration is determined from the potential sites using demand, logistics cost, factor costs, taxes, and margins in different markets.
+4. Use optimization for facility location and capacity allocation decisions. Gravity location models identify a location that minimizes inbound and outbound transportation costs. They are simple to implement but do not account for other important costs. Network optimization models can include contribution margins, taxes, tariffs, production, transportation, and inventory costs and are used to maximize profitability. These models are useful when locating facilities, allocating capacity to facilities, and allocating markets to facilities.
+
+Discussion Questions
+1. How do the location and size of warehouses affect the performance of a firm such as Amazon? What factors should Amazon take into account when deciding where and how big its warehouses should be?
+2. How do import duties and exchange rates affect the location decision in a supply chain?
+3. How is the rise in transportation costs likely to affect global supply chain networks?
+4. Amazon has built new warehouses as it has grown. How does this change affect various cost and response times in the Amazon supply chain?
+5. McMaster-Carr sells maintenance, repair, and operations equipment from five warehouses in the United States.
+
+W.W. Grainger sells products from more than 350 retail locations, supported by several warehouses. In both cases, customers place orders using the Web or on the phone. Discuss the pros and cons of the two strategies. 6. Consider a firm such as Dell, with few production facilities worldwide. List the pros and cons of this approach and why it may or may not be suitable for the computer industry. 7. Consider a firm such as Ford, with more than 150 facilities worldwide. List the pros and cons of having many facilities and why it may or may not be suitable for the automobile industry.
+
+Exercises
+1. SC Consulting, a supply chain consulting firm, must decide on the location of its home offices. Its clients are located primarily in the 16 states listed in Table 5-5. There are four potential sites for home offices: Los Angeles, Tulsa, Denver, and Seattle. The annual fixed cost of locating an office in Los Angeles is $165,428, Tulsa is $131,230, Denver is $140,000, and Seattle is $145,000. The expected number of trips to each state and the travel costs from each potential site are shown in Table 5-5. Each consultant is expected to take at most 25 trips each year.
+a. If there are no restrictions on the number of consultants at a site and the goal is to minimize costs, where should the home offices be located and how many consultants should be assigned to each office? What is the annual cost in terms of the facility and travel?
+b. If, at most, 10 consultants are to be assigned to a home office, where should the offices be set up? How many consultants should be assigned to each office? What is the annual cost of this network?
+
+c. What do you think of a rule by which all consulting projects out of a given state are assigned to one home office? How much is this policy likely to add to cost compared to allowing multiple offices to handle a single state?
+2. DryIce, Inc., is a manufacturer of air conditioners that has seen its demand grow significantly. The company anticipates nationwide demand for the next year to be 180,000 units in the South, 120,000 units in the Midwest, 110,000 units in the East, and 100,000 units in the West. Managers at DryIce are designing the manufacturing network and have selected four potential sites--New York, Atlanta, Chicago, and San Diego. Plants could have a capacity of either 200,000 or 400,000 units. The annual fixed costs at the four locations are shown in Table 5-6, along with the cost of producing and shipping an air conditioner to each of the four markets. Where should DryIce build its factories and how large should they be?
+3. Sunchem, a manufacturer of printing inks, has five manufacturing plants worldwide. Their locations and capacities are shown in Table 5-7 along with the cost of producing 1 ton of ink at each facility. The production costs are in the local currency
+
+

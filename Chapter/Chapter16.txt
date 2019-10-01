@@ -1,0 +1,408 @@
+16
+{{{
+Pricing and Revenue Management in a Supply Chain
+LEARNING OBJECTIVES After reading this chapter, you will be able to 1. Understand the role of revenue management in a supply chain. 2. Identify conditions under which revenue management tactics can be effective. 3. Describe trade-offs that must be considered when making revenue management decisions.
+Given that most supply chain assets are fixed but demand fluctuates, the matching of supply and demand is a constant challenge. In this chapter, we discuss how managers may use pricing as a lever to better match supply and demand and grow revenue derived from supply chain assets.
+16.1 THE ROLE OF PRICING AND REVENUE MANAGEMENT IN A SUPPLY CHAIN In Chapter 9, we discussed how short-term price promotions could be an effective tool to more profitably meet seasonal demand. In this chapter, we further build on the idea of using pricing as an important lever to increase supply chain profits by better matching supply and demand, especially when there are multiple customer types willing to pay different prices (based on attributes such as response time) for an asset. Revenue management is the use of pricing to increase the supply chain surplus and profit generated from a limited availability of supply chain assets. Supply chain assets exist in two forms--capacity and inventory. Capacity assets in the supply chain exist for production, transportation, and storage. Inventory assets exist throughout the supply chain and are carried to improve product availability. In the presence of multiple customer types, revenue management aims to grow profits by selling the right asset to the right customer at the right price. Besides varying capacity and inventory, revenue management suggests varying price to grow profits by better matching supply and demand. An excellent discussion of revenue management techniques in theory and practice can be found in Talluri and Van Ryzin (2004).
+466
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 467
+Consider a trucking company that owns 10 trucks. One approach that the firm can take is to set a fixed price for its services and use advertising to spur demand in case surplus capacity is available. Using revenue management, however, the firm could do much more as long as there are customers whose willingness to pay varies with some dimension of the service such as response time. One approach is to charge a lower price to customers willing to commit their orders far in advance and a higher price to customers looking for transportation capacity at the last minute. Another approach is to charge a lower price to customers with long-term contracts and a higher price to customers looking to purchase capacity at the last minute. A third approach is to charge a higher price during periods of high demand and lower prices during periods of low demand. Consider a retailer that purchases seasonal apparel for sale. A strategy that adjusts prices based on product availability, customer demand, and remaining duration of the sales season will result in higher supply chain profits than a strategy that fixes price for the duration of the sales season.
+All of these revenue management strategies use differential pricing as a critical lever to maximize earnings. Revenue management may also be defined as the use of differential pricing based on customer segment, time of use, and product or capacity availability to increase supply chain surplus and profits. The impact of revenue management on supply chain performance can be significant. One of the most often cited examples is the successful use of revenue management by American Airlines to counter and finally defeat PeopleExpress in the mid-1980s. PeopleExpress started in Newark, New Jersey, and offered fares that were 50 to 80 percent lower than those of other carriers. At first, the other airlines ignored PeopleExpress because they were not interested in the low-fare market segment. By 1983, however, PeopleExpress was flying 40 aircraft and achieving load factors of more than 74 percent. PeopleExpress and other new entrants were making significant inroads into the turf of existing airlines. The existing airlines could not compete by cutting prices to the level of PeopleExpress because they had higher operating costs. American Airlines was the first to come up with an effective countermeasure using revenue management. Rather than lower the price of all its seats, American lowered prices of a portion of the seats to prices at or below those of PeopleExpress. The number of low-price seats was larger on flights likely to have empty seats, which would otherwise have produced no revenue. This strategy allowed American to attract customers who valued the low prices without losing revenue from customers who were willing to pay more. Soon other airlines, such as United, followed suit, attracting many of PeopleExpress's passengers. This was sufficient to drive down load factors for PeopleExpress to below 50 percent, a level at which the airline could not survive. Before the end of 1986, PeopleExpress collapsed.
+American Airlines succeeded primarily because it used differential pricing to lower prices for a fraction of the seats and attract passengers who would otherwise have flown PeopleExpress. American did not lower prices for the fraction of seats used by business travelers who were not flying with PeopleExpress. Targeted differential pricing is at the heart of successful revenue management.
+Revenue management adjusts the pricing and available supply of assets and has a significant impact on supply chain profitability when one or more of the following four conditions exist:
+1. The value of the product varies in different market segments. 2. The product is highly perishable or product wastage occurs. 3. Demand has seasonal and other peaks. 4. The product is sold both in bulk and on the spot market.
+Airline seats are a good example of a product whose value varies by market segment. A business traveler is willing to pay a higher fare for a flight that matches his or her schedule. In contrast, a leisure traveler will often alter his or her schedule to get a lower fare. An airline that can extract a higher price from the business traveler compared to the leisure traveler will always do better than an airline that charges the same price to all travelers. Similar ideas can be applied in the context of hotel rooms and car rentals, for which there is a significant difference between the business traveler and the leisure traveler.
+
+468 Chapter 16 · Pricing and Revenue Management in a Supply Chain
+Fashion and seasonal apparel are examples of highly perishable products because they lose value over time. Customers typically value high-fashion apparel more at the start of the season because they want to be the first people seen wearing it. By the end of the season, customers are willing to buy the product only if it is deeply discounted. Similarly, production, storage, and transportation capacity loses all value if it is not used at a given time because the lost capacity cannot be recovered. If a truck is not used for a day, its transportation capacity for that day is gone forever without producing revenue. Thus, all capacity is also a highly perishable asset. The goal of revenue management in such a setting is to adjust the price over time to maximize the profit obtained from the available inventory or capacity.
+Demand for hotel rooms in many tourist destinations shows a highly seasonal pattern. For example, resorts in Phuket, Thailand, charge a significantly lower rate during the off-season summer months compared to the peak winter months. Such a pricing pattern allows them to attract customers with some time flexibility during the lower-cost summer months, leaving the winter capacity for customers who are willing to pay more to enjoy Phuket in the winter. Some commuter railroads use a similar strategy to deal with the distinct peaks in passenger travel. They charge higher fares during peak periods and lower fares for off-peak travel. It is important to keep in mind that differential pricing for peak and off-peak periods increases profits in a manner that is consistent with customer priorities. In the absence of peak pricing, peak periods, being the most desirable, would have excess demand, whereas off-peak periods would have significant idle capacity. With differential pricing, customers who really value the peak period would pay the higher price, whereas those that were not time constrained would shift to the offpeak period to take advantage of lower prices. The outcome of such a move is a higher supply chain surplus with higher profits for the firm and a utilization of assets by customers that is consistent with their needs.
+Every product and every unit of capacity can be sold both in bulk and in the spot market. For example, the owner of a warehouse must decide whether to lease the entire warehouse to customers willing to sign long-term contracts or to save a portion of the warehouse for use in the spot market. The long-term contract is more secure but typically fetches a lower average price than the unpredictable spot market. Revenue management increases profits by finding the right portfolio of long-term and spot-market customers.
+Revenue management can be a powerful tool for every owner of assets in a supply chain. Owners of any form of capacity (production, transportation, or storage) can use revenue management if there is seasonal demand or if there are segments that are willing to pay different prices for different lead times to use the capacity. Revenue management can be effective if a segment wants to use capacity at the last minute and is willing to pay a higher price for this privilege, and another segment wants a lower price and is willing to commit far in advance. Revenue management is essential for owners of any perishable inventory. Most successful examples of the use of revenue management are from the travel and hospitality industry and include airlines, car rentals, and hotels. American Airlines has stated that revenue management techniques increase its revenues by more than $1 billion each year. Revenue management techniques at Marriott raise annual revenues by more than $100 million. Revenue management can have a similar impact on all stages of a supply chain that satisfy one or more of the four conditions identified earlier.
+In the following sections, we discuss various situations in which revenue management is effective and the techniques used in each case.
+16.2 PRICING AND REVENUE MANAGEMENT FOR MULTIPLE CUSTOMER SEGMENTS
+A classic example of a market with multiple customer segments is the airline industry, wherein business travelers are willing to pay a higher fare to travel a specific schedule, whereas leisure travelers are willing to shift their schedule to take advantage of lower fares. Many similar instances arise in a supply chain. Consider ToFrom, a trucking firm that has purchased six trucks,
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 469
+with a total capacity of 6,000 cubic feet, to use for transport between Chicago and St. Louis. The monthly lease charge, driver, and maintenance expense is $1,500 per truck. Market research has indicated that the demand curve for trucking capacity is
+d = 10,000 - 2,000p
+where d is the demand across all segments and p is the transport cost per cubic foot. A price of $2 per cubic foot results in a demand of 6,000 cubic feet (all customers willing to pay $2 or more), revenue of $12,000, and a profit of $3,000, whereas a price of $3.50 per cubic foot results in a demand of 3,000 (only those customers willing to pay $3.50 or more), revenue of $10,500, and a profit of $1,500. The real question is whether the 3,000 cubic feet of demand at a price of $3.50 can be separated from the 3,000 additional cubic feet of demand generated at a price of $2 per cubic foot. If ToFrom assumes that all demand comes from a single segment and cannot be separated, the optimal price is $2.50 per cubic foot, resulting in a demand of 5,000 cubic feet and revenue of $12,500, as shown in Figure 16-1.
+However, if ToFrom can differentiate the segment that buys 3,000 cubic feet at $3.50 from the segment that buys 3,000 cubic feet only at $2.00, the firm can use revenue management to improve revenues and profits. ToFrom should charge $3.50 for the segment willing to pay that price and $2.00 for the 3,000 cubic feet that sells only at that price. The firm thus extracts revenue of $10,500 from the segment willing to pay $3.50 and revenue of $6,000 from the segment willing to pay only $2.00 per cubic foot for total revenue of $16,500, as shown in Figure 16-2. In the presence of different segments that have different values for trucking capacity, revenue management increases the revenue from $12,500 to $16,500 and results in a significant improvement in profits.
+In theory, the concept of differential pricing increases total profits for a firm. Two fundamental issues, however, must be handled in practice. First, how can the firm differentiate between the two segments and structure its pricing to make one segment pay more than the other? Second, how can the firm control demand such that the lower-paying segment does not utilize the entire availability of the asset?
+To differentiate between the various segments, the firm must create barriers by identifying product or service attributes that the segments value differently. For example, business travelers on an airline want to book at the last minute and stay only as long as they must.
+
+Demand
+
+12,000
+10,000
+8,000
+6,000 5,000 4,000
+2,000
+0 0 1 2 $2.50 3 4 Price
+FIGURE 16-1 Revenue Generated by ToFrom Pricing for One Segment
+
+5
+
+Demand
+
+470 Chapter 16 · Pricing and Revenue Management in a Supply Chain
+12,000
+10,000
+8,000
+6,000
+4,000 3,000 2,000
+0 0 1 2 3 $3.50 4 5 6 Price
+FIGURE 16-2 Revenue Generated by ToFrom Pricing for Two Segments
+Leisure travelers, on the other hand, are willing to book far in advance and adjust the duration of their stay. Plans for business travelers are also subject to change. Thus, advance booking, a required Saturday-night stay, and a penalty for changes on the lower fare separate the leisure traveler from the business traveler. For a transportation provider such as ToFrom, the segments can be differentiated based on how far in advance a customer is willing to commit and pay for the transportation capacity. Similar separation can also occur for production- and storagerelated assets in a supply chain.
+In the presence of multiple segments that can be separated, the firm must solve the following two problems:
+1. What price to charge each segment? 2. How to allocate limited capacity among the segments?
+Pricing to Multiple Segments Let us start by considering the simple scenario in which the firm has identified criteria on which it can separate the various customer segments. One such criterion may be an airline requiring a Saturday-night stay over. Another might be a trucking company separating customers based on the advance notice with which they are willing to commit to a shipment. The firm now wishes to identify the appropriate price for each segment. Consider a supplier (of product or some other supply chain function) that has identified k distinct customer segments that can be separated. Assume that the demand curve for segment i is given by (we assume linear demand curves to simplify the analysis)
+di = Ai - Bipi The supplier has a cost c of production per unit and must decide on the price pi to charge each segment; di is the resulting demand from segment i. The goal of the supplier is to price so as to maximize its profits. The pricing problem can be formulated as follows:
+k
+Max a (pi - c)(Ai - Bipi)
+i=1
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 471
+
+Without a capacity constraint, the problem separates by segment, and for segment i, the supplier attempts to maximize
+
+(pi - c)(Ai - Bipi)
+
+The optimal price for each segment i is given by
+
+pi =
+
+Ai 2Bi
+
++
+
+c 2
+
+(16.1)
+
+If the available capacity is constrained by Q, the optimal prices are obtained by solving
+
+subject to
+
+k
+Max a (pi - c)(Ai - Bipi)
+i=1
+k
+a (Ai - Bipi) ... Q
+i=1
+Ai - Bipi Ú 0 for i = 1, Á , k
+
+(16.2)
+
+Both formulations are simple enough to be solved in Excel. Example 16-1 illustrates the benefit of differential prices to multiple segments.
+
+EXAMPLE 16-1 Pricing to Multiple Segments
+
+A contract manufacturer has identified two customer segments for its production capacity-- one willing to place an order more than one week in advance and the other willing to pay a higher price as long as it can provide less than one week's notice for production. The customers that are unwilling to commit in advance are less price sensitive and have a demand curve d1 = 5,000 - 20p1. Customers willing to commit in advance are more price sensitive and have a demand curve of d2 = 5,000 - 40p1. Production cost is c = $10 per unit. What price should the contract manufacturer charge each segment if its goal is to maximize profits? If the contract manufacturer were to charge a single price over both segments, what should it be? How much increase in profits does differential pricing provide? If total production capacity is limited to 4,000 units, what should the contract manufacturer charge each segment?
+
+Analysis:
+Without capacity constraints, the differential prices to be charged each segment are given by Equation 16.1. We thus obtain
+
+5,000 p1 = 2 * 20
+
++ 10 2
+
+= 125 + 5 = $130
+
+and
+
+5,000 p2 = 2 * 40
+
++ 10 2
+
+= 62.5 + 5 = $67.5
+
+The demand from the two segments is given by
+
+d1 = 5,000 - 20 * 130 = 2,400 and d2 = 5,000 - 40 * 67.5 = 2,300
+
+The total profit is
+
+Total profit = 130 * 2,400 + 67.5 * 2,300 - 10 * 4,700 = $420,250
+
+If the contract manufacturer charges the same price p to both segments, he is attempting to maximize
+(p - 10)(5,000 - 20p) + (p - 10)(5,000 - 40p) = (p - 10)(10,000 - 60p)
+
+472 Chapter 16 · Pricing and Revenue Management in a Supply Chain
+
+The optimal price in this case is given by
+
+p=
+
+10,000 2 * 60
+
++
+
+10 2
+
+= $88.33
+
+The demand from the two segments is given by
+
+d1 = 5,000 - 20 * 88.33 = 3,233.40 and d2 = 5,000 - 40 * 88.33 = 1,466.80
+
+The total profit is
+
+Total profit = (88.33 - 10) * (3,233.40 + 1,466.80) = $368,166.67
+
+Differential pricing thus raises the profits by more than $50,000 relative to offering a fixed price. Now let us consider the case in which total production capacity is limited to 4,000 units.
+The optimal differential price results in demand that exceeds total production capacity. Thus, we resort to the formulation in Equation 16.2 and solve
+
+Max (p1 - 10)(5,000 - 20p1) + (p2 - 10)(5,000 - 40p2)
+
+Subject to
+
+(5,000 - 20p1) + (5,000 - 40p2) ... 4,000 (5,000 - 20p1), (5,000 - 40p2) Ú 0
+
+The results of the constrained optimization are shown in Figure 16-3. Observe that the limited capacity leads the contract manufacturer to charge a higher price to each of the two segments relative to when there was no capacity limit.
+
+The methodology we have described has two important assumptions that are unlikely to hold in practice. The first assumption is that nobody from the higher-price segment decides to shift to the lower-price segment after prices are announced. In other words, we have assumed that the attribute such as lead time used to separate the segments works perfectly. In practice, this is unlikely to be the case. Our second assumption is that once prices are decided, customer demand is predictable. In practice, uncertainty will always be associated with demand. Talluri and Van Ryzin (2004) have an excellent discussion of several models for revenue management that account for uncertainty and a few models that account for customers being strategic and deciding on their actions after prices are announced.
+
+FIGURE 16-3 Solver Spreadsheet for Example 16-1
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 473
+Allocating Capacity to a Segment Under Uncertainty
+In most instances of differential pricing, demand from the segment paying the lower price arises earlier in time than demand from the segment paying the higher price. A supplier may charge a lower price to a buyer willing to commit far in advance and a higher price to buyers wanting to place their orders at the last minute. To take advantage of revenue management, the supplier must limit the amount of capacity committed to lower-price buyers even if sufficient demand exists from the lower-price segment to use the entire available capacity. This raises the question of how much capacity to save for the higher-price segment. The answer would be simple if demand were predictable. In practice, demand is uncertain and firms must make this decision taking uncertainty into account.
+The basic trade-off to be considered by the supplier with production capacity is between committing to an order from a lower-price buyer or waiting for a higher-price buyer to arrive later on. The two risks in such a situation are spoilage and spill. Spoilage occurs when the capacity reserved for higher-price buyers is wasted because demand from the higher-price segment does not materialize. Spill occurs if higher-price buyers have to be turned away because the capacity has already been committed to lower-price buyers. The supplier should decide on the capacity to commit for the higher-price buyers so as to minimize the expected cost of spoilage and spill. A current order from a lower-price buyer should be compared with the expected revenue from waiting for a higher-price buyer. The order from the lower-price buyer should be accepted if the expected revenue from the higher-price buyer is lower than the current revenue from the lower-price buyer.
+We now develop this trade-off in terms of a formula that can be used when the supplier is working with two customer segments. Let pL be the price charged to the lower-price segment and pH be the price charged to the higher-price segment. Assume that the anticipated demand for the higher-price segment is normally distributed, with a mean of DH and a standard deviation of sH. If we reserve a capacity CH for the higher-price segment, the expected marginal revenue RH(CH) from reserving more capacity is given by
+RH(CH) = Prob (demand from higher-price segment 7 CH) * pH
+The reserved quantity for the higher-price segment should be chosen so that the expected marginal revenue from the higher-price segment equals the current marginal revenue from the lower-price segment; that is, RH(CH) = pL. In other words, the quantity CH reserved for the higher-price segment should be such that
+
+Prob (demand from higher-price segment 7 CH) = pL>pH
+
+(16.3)
+
+If demand for the higher-price segment is normally distributed, with a mean of DH and a standard deviation of sH we can obtain the quantity reserved for the higher-price segment as
+
+CH = F-1(1 - pL>pH, DH, sH) = NORMINV(1 - pL>pH, DH, sH)
+
+(16.4)
+
+If there are more than two customer segments, the same philosophy can be used to obtain a set of nested reservations. The quantity C1 reserved for the highest-price segment should be such that the expected marginal revenue from the highest-priced segment equals the price of the next-highest-priced segment. The quantity C2 reserved for the two highest-priced segments should be such that the expected marginal revenue from the two highest-priced segments equals the price of the third-highest-priced segment. This sequential approach can be used to obtain a set of nested reservations of capacity for all but the lowest-priced segment.
+An important point to observe is that the use of differential pricing increases the level of asset availability for the high-priced segment. Capacity is being saved for these customers because of their willingness to pay more for the asset. Thus, effective use of revenue management increases firm profits and also improves service for the more valuable customer segment. Example 16-2 illustrates how profits can be increased by reserving capacity for the higher paying segment.
+
+474 Chapter 16 · Pricing and Revenue Management in a Supply Chain
+EXAMPLE 16-2 Allocating Capacity to Multiple Segments
+ToFrom Trucking serves two segments of customers. One segment (A) is willing to pay $3.50 per cubic foot but wants to commit to a shipment with only 24 hours notice. The other segment (B) is willing to pay only $2.00 per cubic foot and is willing to commit to a shipment with up to one-week notice. With two weeks to go, demand for segment A is forecast to be normally distributed, with a mean of 3,000 cubic feet and a standard deviation of 1,000. How much of the available capacity should be reserved for segment A? How should ToFrom change its decision if segment A is willing to pay $5 per cubic foot?
+Analysis: In this case we have
+Revenue from segment A, pA = $3.50 per cubic foot Revenue from segment B, pB = $2.00 per cubic foot Mean demand for segment A, DA = 3,000 cubic feet Standard deviation of demand for segment A, sA = 1,000 cubic feet
+Using Equation 16.4, the capacity to be reserved for segment A is given by
+CA = NORMINV(1 - pB>pA, DA, sA) = NORMINV(1 - 2.00>3.50, 3,000, 1,000) = 2,820 cubic feet
+Thus, ToFrom should reserve 2,820 cubic feet of truck capacity for segment A when customers from this segment are willing to pay $3.50 per cubic foot. If the amount customers are willing to pay increases from $3.50 to $5.00, the reserved capacity should be increased to
+CA = NORMINV(1 - pB>pA, DA, sA) = NORMINV(1 - 2.00>5.00, 3,000, 1,000) = 3,253 cubic feet
+Ideally, the demand forecast for all customer segments should be revised and a new reservation quantity calculated each time a customer order is processed. In practice, such a procedure would be difficult to implement. It is more practical to revise the forecast and the reservation quantity after a period of time over which either the forecast demand or the forecast accuracy has changed by a significant amount.
+Another approach to differential pricing is to create different versions of a product targeted at different segments. Publishers introduce new books from best-selling authors as hardcover editions and charge a higher price. The same books are introduced later as paperback editions at a lower price. The two versions are used to charge a higher price to the segment that wants to read the book as soon as it is introduced. Different versions can also be created by bundling different options and services with the same basic product. Automobile manufacturers create a high-end, a mid-level, and a low-end version of the most popular models based on the options provided. This policy allows them to charge differential prices to different segments for the same core product. Many contact lens manufacturers sell the same lens with a one-week, one-month, and six-month warranty. In this instance, the same product with different services in the form of warranty is used to charge differential prices.
+To use revenue management successfully when serving multiple customer segments, a firm must use the following tactics effectively:
+· Price based on the value assigned by each segment · Use different prices for each segment · Forecast at the segment level
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 475
+Freight railroads and trucking firms have not used revenue management with multiple segments effectively. Airlines, in contrast, have been much more effective in using this approach. A major hindrance for railroads is the lack of scheduled freight trains. Without scheduled trains, it is hard to separate the higher-price and lower-price segments. To take advantage of revenue management opportunities, owners of transportation assets in the supply chain have to offer some scheduled services as a mechanism for separating the higher- and lower-price segments. Without scheduled services, it is difficult to separate customers that are willing to commit early from those that want to use the service at the last minute.
+Key Point
+If a supplier serves multiple customer segments with a fixed asset, it can improve revenues by setting different prices for each segment. Prices must be set with barriers such that the segment willing to pay more is not able to pay the lower price. The amount of the asset reserved for the higher-price segment is such that the expected marginal revenue from the higher-price segment equals the price to the lowerprice segment.
+16.3 PRICING AND REVENUE MANAGEMENT FOR PERISHABLE ASSETS
+Any asset that loses value over time is perishable. Clearly, fruits, vegetables, and pharmaceuticals are perishable. This list also includes products such as computers and cell phones that lose value as new models are introduced. High-fashion apparel is perishable because it cannot be sold at full price once the season is past. Perishable assets also include all forms of production, transportation, and storage capacity that is wasted if not fully utilized. Unused capacity from the past has no value. Thus, all unutilized capacity is equivalent to perished capacity.
+A well-known example of revenue management in retailing of apparel was the original Filene's Basement in Boston. Merchandise was first sold at the main store at full price. Leftover merchandise was moved to the basement and its price reduced incrementally over a 35-day period until it sold. Any unsold merchandise was then given away to charity. Today, most department stores progressively discount merchandise over the sales season and then sell any remaining inventory to an outlet store, which follows a similar pricing strategy.
+Another example of revenue management for a perishable asset is the use of overbooking by the airline industry. An airplane seat loses all value once the plane takes off. Given that people often do not show up for a plane even when they have a reservation, airlines sell more reservations than the capacity of the plane, to maximize expected revenue.
+The two revenue management tactics used for perishable assets are
+1. Vary price dynamically over time to maximize expected revenue 2. Overbook sales of the asset to account for cancellations
+Dynamic Pricing
+Dynamic pricing, the tactic of varying price over time, is suitable for assets such as fashion apparel that have a clear date beyond which they lose a lot of their value. Apparel designed for the winter does not have much value by April. A retailer that has purchased 100 ski jackets in October has many options with regard to its pricing strategy. It can charge a high price initially. This strategy will result in fewer sales early in the season (though at a higher price), leaving more jackets to be sold later during the season, when they have lower value to customers. Another option is to charge a lower price initially, selling more jackets early in the season (though at a lower price) and leaving fewer jackets to be sold at a discount. This trade-off determines the profits for the retailer. To vary price effectively over time for a perishable asset, the asset owner must be able to estimate the value of the asset over time and forecast the impact of price on customer demand effectively.
+
+476 Chapter 16 · Pricing and Revenue Management in a Supply Chain
+
+Effective differential pricing over time generally increases the level of product availability for the consumer willing to pay full price and also increases total profits for the retailer.
+We now discuss a simple methodology for dynamic pricing when the seller has a specified quantity Q of a single product at the start of the season. We assume that the seller is able to divide the selling season into k periods and can forecast the demand curve for each period. The underlying assumptions here are that customers' response to pricing can be predicted over time and customers will not change their behavior in response to anticipated price changes. For simplicity, we assume that given a price pi in period i, the demand di in period i is given by
+
+di = Ai - Bipi
+
+This is a linear demand curve, but in general the demand curve need not be linear. We present the linear case here because it is easier to understand and solve. The retailer wants to vary the price over time to maximize the revenue it can extract from the Q units it has on hand at the beginning of the season. The dynamic pricing problem faced by the retailer can then be formulated as follows:
+
+k
+Max a pi(Ai - Bipi)
+i=1
+
+(16.5)
+
+subject to
+
+k
+a (Ai - Bipi) ... Q
+i=1
+Ai - Bipi Ú 0 for i = 1, Á , k
+
+As formulated, the dynamic pricing problem is simple enough that it can be solved directly using Excel as illustrated in Example 16-3.
+
+EXAMPLE 16-3 Dynamic Pricing
+
+A retailer has purchased 400 ski parkas before the start of the winter season at a cost of $100 each. The season lasts three months, and the retailer has forecast demand in each of the three months to be d1 = 300 - p1, d2 = 300 - 1.3p2, and d3 = 300 - 1.8p3. How should the retailer vary the price of the parka over the three months to maximize revenue? If the retailer charges a constant price over the three months, what should it be? How much gain in revenue results from dynamic pricing?
+
+Analysis:
+Observe that customers who buy at the beginning of the season are forecast to be less price sensitive and customers who buy toward the end of the season are more price sensitive. Using Equation 16.5, the retailer's problem can be formulated as follows:
+
+subject to
+
+Maxp1(300 - p1) + p2(300 - 1.3p2) + p3(300 - 1.8p3)
+
+(300 - p1) + (300 - 1.3p2) + (300 - 1.8p3) ... 400 300 - p1, 300 - 1.3p2, 300 - 1.8p3 Ú 0
+
+This problem can be formulated using Solver in Excel as shown in Figure 16-4. The cells B5:B7 contain the price variables, cells C5:C7 contain the resulting demand from the respective demand curves, and cells D5:D7 contain the revenue in each period. The total demand across the three periods is in cell C8 and the total revenue is in cell D8. The quantity at the beginning of the season is in cell B3.
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 477
+FIGURE 16-4 Solver Spreadsheet for Example 16-3 for Dynamic Pricing
+FIGURE 16-5 Solver Spreadsheet for Example 16-3 for Fixed Price over Season
+As shown in Figure 16-4, the optimal strategy for the retailer is to price at $162.20 in the first month, $127.58 in the second month, and $95.53 in the third month. This gives total revenue of $51,697.94 for the retailer.
+The problem of obtaining the optimal fixed price over the three-month season can be formulated in Excel as shown in Figure 16-5. All cell formulas except B6 and B7 are as in Figure 16-4.
+If the retailer wants to have a fixed price over the three months, it should price the jackets at $121.95 for resulting revenue of $48,780.49. We can see that dynamic pricing allows the retailer to increase profits by almost $3,000, from $8,780 to $11,698.
+Once we have understood how to price the product dynamically over the season, we can go back and ask how many units the retailer should purchase at the beginning of the season to maximize profits, as described in Example 16-4. EXAMPLE 16-4 Evaluating Quantity with Dynamic Pricing Return to the retailer in Example 16-3. How many parkas should the retailer purchase at the beginning of the season, and how should they be priced over the three months of the season to maximize profits?
+
+478 Chapter 16 · Pricing and Revenue Management in a Supply Chain
+FIGURE 16-6 Solver Spreadsheet for Example 16-4 for Optimal Quantity and Dynamic Prices
+Analysis: In this case, the quantity at the beginning of the season is also a decision variable. The retailer's problem can now be formulated as follows:
+Max p1(300 - p1) + p2(300 - 1.3p2) + p3(300 - 1.8p3) - 100Q subject to
+(300 - p1) + (300 - 1.3p2) + (300 - 1.8p3) ... Q 300 - p1, 300 - 1.3p2, 300 - 1.8p3, Q Ú 0
+The problem can be formulated in Excel as shown in Figure 16-6 to obtain the optimal initial quantity and dynamic prices over the season. All cell formulas except cell B3 and D9 are as in Figure 16-4.
+It is optimal for the retailer to order 245 jackets at the beginning of the season. They are then priced at $200 for the first month, $165.38 for the second month, and $133.33 for the third month. The total profit for the retailer with the optimal order quantity and dynamic pricing is $17,557.69.
+In reality, the dynamic pricing problem is more complicated because demand is unpredictable and customers behave strategically in that they may decide to delay their purchase if they know that prices will drop over time. An excellent discussion of models that can be used in this more complex setting can be found in Talluri and Van Ryzin (2004).
+The issue of unpredictable demand and strategic customers is illustrated effectively in decisions made by the high-end retailer Saks Fifth Avenue in November 2008. In 2007, luxury goods from brands such as Prada, Gucci, and Dolce & Gabbana had become especially important for high-end retailers such as Saks because they maintained strong sales into mid-2008 even though retailing overall was starting to drop by then. As a result, Saks placed its orders for the holiday season of 2008 hoping for strong sales of these brands. By November, however, a huge disconnect existed between inventories at Saks and customer demand. At Saks's annual "private sale nights" in early November for top customers, the usual 40 percent discounts got no response. By mid-November, competitors such as Neiman Marcus had also dropped prices by 40 percent and some designers were offering 90 percent discounts on "sample sales." As Thanksgiving approached, Saks decided to offer 70 percent discounts. Such a decision with luxury goods makes the best customers who paid full price feel duped. Next time, they are more likely to wait for prices to drop or even shift to a competitor. Frequent discounts over the selling season have the impact of affecting customer behavior, making it harder for the retailer to effectively manage these discounts. As a result, they should be used carefully, especially for high-value goods.
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 479
+Key Point
+Dynamic pricing can be a powerful tool to increase profits if the customers' sensitivity to price changes in the course of the season. This is often the case for fashion products, for which customers are less price sensitive early in the season but become more price sensitive toward the end of the season. Dynamic pricing should, however, carefully consider strategic behavior by customers who may anticipate future price drops.
+
+Overbooking
+
+The tactic of overbooking or overselling of the available asset is suitable in any situation in which customers are able to cancel orders and the value of the asset drops significantly after a deadline. Examples include airline seats, items designed specially for Christmas, and production capacity. In each case, a limited amount of the asset is available, customers are allowed to cancel orders, and the asset loses value beyond a certain date. If the cancellation or the return rate can be predicted accurately, the overbooking level is easy to determine. In practice, however, the cancellation or return rate is uncertain.
+The basic trade-off to consider during overbooking is between having wasted capacity (or inventory) because of excessive cancellations or having a shortage of capacity (or inventory) because of few cancellations, in which case an expensive backup needs to be arranged. The cost of wasted capacity is the margin that would have been generated if the capacity had been used for production. The cost of a capacity shortage is the loss per unit that results from having to go to a backup source. The goal when making the overbooking decision is to maximize supply chain profits by minimizing the cost of wasted capacity and the cost of capacity shortage.
+We now develop this trade-off in terms of a formula that can be used to set overbooking levels for an asset. Let p be the price at which each unit of the asset is sold, and let c be the cost of using or producing each unit of the asset. In case of asset shortage, let b be the cost per unit at which a backup can be used. Thus, the marginal cost of having wasted capacity is Cw = p - c, and the marginal cost of having a capacity shortage is Cs = b - p. If the cost of backup capacity is less than the sale price, there is no reason to limit the overbooking. The interesting case arises when the cost of backup capacity exceeds the sale price. The trade-off to obtain the optimal overbooking level is similar to the trade-off described in Chapter 13 to obtain the optimal cycle service level for seasonal items given by Equation 13.1. Let O* be the optimal overbooking level, and let s* be the probability that cancellations will be less than or equal to O*. Similar to the derivation of Equation 13.1, the optimal overbooking level is obtained as
+
+s* = Prob (cancellations ... O*) =
+
+Cw Cw + Cs
+
+(16.6)
+
+If the distribution of cancellations is known in absolute terms to be normally distributed, with a mean of mc and a standard deviation of sc, the optimal overbooking level is evaluated as
+
+O* = F-1(s*, mc, sc) = NORMINV(s*, mc, sc)
+
+(16.7)
+
+If the cancellation distribution is known only as a function of the booking level (capacity L + overbooking O) to have a mean of m(L + O) and a standard deviation of s(L + O), the optimal overbooking level is obtained as a solution to the following equation:
+
+O = F-1(s*, m(L + O), s(L + O)) = NORMINV(s*, m(L + O), s(L + O)) (16.8)
+
+Observe that the optimal level of overbooking should increase as the margin per unit increases, and the level of overbooking should decrease as the cost of replacement capacity goes up. Also observe that the use of overbooking increases asset utilization by customers. The use of
+
+480 Chapter 16 · Pricing and Revenue Management in a Supply Chain
+overbooking decreases the number of customers that are turned away and thus improves asset availability to the customer, while improving profits for the asset owner. The evaluation of overbooking is illustrated in Example 16-5.
+
+EXAMPLE 16-5 Overbooking
+
+Consider an apparel supplier that is taking orders for dresses with a Christmas motif. The production capacity available from the supplier is 5,000 dresses, and it makes $10 for each dress sold. The supplier is currently taking orders from retailers and must decide on how many orders to commit to at this time. If it has orders that exceed capacity, it has to arrange for backup capacity that results in a loss of $5 per dress.
+Retailers have been known to cancel their orders near the winter season as they have better visibility into expected demand. How many orders should the supplier accept if cancellations are normally distributed, with a mean of 800 and a standard deviation of 400? How many orders should the supplier accept if cancellations are normally distributed, with a mean of 15 percent of the orders accepted and a coefficient of variation of 0.5?
+
+Analysis: The supplier has the following parameters:
+
+Cost of wasted capacity, Cw = $10 per dress Cost of capacity shortage, Cs = $5 per dress Using Equation 16.6, we thus obtain
+
+s* =
+
+Cw Cw + Cs
+
+=
+
+10 10 + 5
+
+= 0.667
+
+If cancellations are normally distributed, with a mean of 800 and a standard deviation of 400, the optimal overbooking level is obtained using Equation 16.7 as
+O* = NORMINV(s*, mc, sc) = NORMINV(0.667, 800, 400) = 973
+In this case, the supplier should overbook by 973 dresses and take orders for a total of 5,973 dresses.
+If cancellations are normally distributed with a mean of 15 percent of the booking level and a coefficient of variation of 0.5, the optimal overbooking level is obtained using Equation 16.8 to be the solution of the following equation:
+O = NORMINV(0.667, 0.15(5000 + O), 0.075(5000 + O))
+This equation can be solved using the Excel tool Solver to obtain the optimal overbooking level: O* = 1,115
+In this case, the supplier should overbook by 1,115 dresses and take an order for up to 6,115 dresses.
+
+Overbooking as a tactic has been used in the airline, passenger rail, and hotel industries. It has not, however, been used to the extent it should be in many supply chain scenarios including production, warehousing, and transportation capacity. There is no reason that a third-party warehouse that rents to multiple customers should not sell total space that exceeds the available space. A backup will clearly be needed if all customers use warehouse space to capacity. In all other cases, the available warehouse capacity will cover the need for space. Overbooking in this case will improve revenues for the warehouse while allowing more customers to use the available warehouse space.
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 481
+Key Point
+Overbooking or overselling of a supply chain asset is a valuable tactic if order cancellations occur and the asset is perishable. The level of overbooking is based on the trade-off between the cost of wasting the asset if too many cancellations lead to unused assets and the cost of arranging a backup if too few cancellations lead to committed orders being larger than the available capacity.
+16.4 PRICING AND REVENUE MANAGEMENT FOR SEASONAL DEMAND
+Seasonal peaks of demand are a common occurrence in many supply chains. Most retailers in the United States achieve a significant fraction of their annual sales during the month of December. One such example is Amazon. As a result of the seasonal peak, the requirement for picking and packing and transportation capacity at Amazon significantly increases. Bringing in short-term capacity is expensive and decreases Amazon's margins. As discussed in Chapter 9, off-peak discounting is an effective method of shifting demand from the peak to the off-peak period. Amazon typically offers free shipping for orders that are placed in November. The price discount encourages some customers to shift their demand from December to November, thereby reducing the December peak for Amazon and allowing it to extract a higher profit. Simultaneously, this strategy offers a price break to customers who are willing to order early.
+Faced with seasonal peaks, an effective revenue management tactic is to charge a higher price during the peak period and a lower price during off-peak periods. The result is a demand shift from peak to off-peak periods. Such an outcome is beneficial if the discount given during the off-peak period is more than offset by the decrease in cost because of a smaller peak and the increase in revenue during the off-peak period. See Chapter 9 for a detailed discussion of the trade-offs involved when a firm uses pricing to deal with seasonal peaks.
+The hotel industry uses differential pricing by day of week and time of year. Here the goal is not to shift demand but to increase demand during periods of low demand by attracting pricesensitive customers, such as vacationing families, with a price discount. The Marriott Corporation has been quite successful in this effort. Demand for hotel rooms is known to vary by day of the week. For Marriott, which targets business customers, peak demand days occur in the middle of the week. Marriott offers lower rates during the weekend to encourage families to use the hotel during that time. Another revenue management tactic that Marriott uses is to charge customers a lower rate if they stay over a longer period that also covers low-demand days.
+An interesting example of peak pricing is the Next restaurant started by star chef Grant Achatz in Chicago in 2010. The restaurant sells advance tickets for seatings at different times. Ticket prices vary based on the menu but also on the time a customer signs up for. Thus, a Saturday night seating at 8 P.M. is more expensive than a Tuesday night seating at 9.30 P.M. Similarly, many sports teams charge more for games involving popular opponents and less for weaker opponents and less popular times.
+Off-peak discounting can be an effective revenue management tactic for owners of production or transportation capacity in any supply chain facing seasonal peak demand, because changing capacity over time is expensive. This tactic increases profits for the owner of assets, decreases the price paid by a fraction of customers, and also brings in potentially new customers during the off-peak discount period.
+16.5 PRICING AND REVENUE MANAGEMENT FOR BULK AND SPOT CONTRACTS
+Most firms face a market in which some customers purchase in bulk at a discount and others buy single units or small lots at a higher price. Consider an owner of warehousing capacity in a supply chain. Warehousing capacity may be leased in bulk to a large company or in small amounts to
+
+482 Chapter 16 · Pricing and Revenue Management in a Supply Chain
+
+large companies for their emergency needs or to small companies. The large company leasing space in bulk typically gets a discount compared to the others. The owner of warehousing space thus faces the following trade-off: It could lease the space to the bulk buyer at a discount or save some of the space for higher price demand for small amounts of warehouse space that may or may not arise.
+In most instances, owners of supply chain assets prefer to fulfill all demand that arises from bulk sales and try to serve small customers only if any assets are left over. In contrast, a firm such as McMaster-Carr targets only customers with emergency demand for MRO goods. McMaster-Carr will turn down any bulk buyer seeking a discount. Using this strategy, McMaster-Carr is a very profitable firm. For a firm that wants to be a niche player, targeting one of the two extremes is a sensible strategy. It allows the firm to focus its operations on serving either only the bulk segment or only the spot market. For other firms, however, a hybrid strategy of serving both segments is appropriate. In this case, firms must decide what fraction of the asset to sell in bulk and what fraction of the asset to save for the spot market. The fundamental tradeoff is similar to a firm serving two market segments (see Section 16.2). The firm needs to decide on the prices to the bulk and spot segments and the amount of the asset to reserve for the spot market. The prices to each segment can be determined using Equations 16.1 and 16.2. The amount reserved for the spot market should be such that the expected marginal revenue from the spot market equals the current revenue from a bulk sale. The reserved quantity is affected by the difference in margin between the spot market and the bulk sale and also the distribution of demand from the spot market. If we consider the spot market to be the higher-price segment and the bulk purchasers to be the lower-price segment, the amount of asset to be saved for the spot market can be obtained using Equations 16.3 and 16.4.
+A similar decision needs to be made by each purchaser of production, warehousing, and transportation assets in a supply chain. Consider a company looking for shipping capacity for global operations. One option is for it to sign a long-term bulk contract with a shipping firm. Another option is to purchase shipping capacity on the spot market. The long-term bulk contract has the advantage of a fixed, low price but has the disadvantage of being wasted if it is not utilized. The spot market has the disadvantage of a higher average price but has the advantage of never being wasted. The purchaser must consider this trade-off when deciding the amount of long-term bulk shipping contracts to sign.
+Given that both the spot market price and the purchaser's need for the asset are uncertain, a decision tree approach as discussed in Chapter 6 should be used to evaluate the amount of longterm bulk contract to sign. For the simple case in which the spot market price is known but demand is uncertain, the extent of the bulk contract can be evaluated using a formula. Let cB be the bulk rate, and let cS be the spot market price for the asset. Let Q* be the optimal amount of the asset to be purchased in bulk and let p* be the probability that demand for the asset does not exceed Q*. The marginal cost of purchasing another unit in bulk is cB. The expected marginal cost of not purchasing another unit in bulk and then purchasing it in the spot market is (1 - p*)cS. If the optimal amount of the asset is purchased in bulk, the marginal cost of the bulk purchase should equal the expected marginal cost of the spot market purchase; that is, cB = (1 - p*)cS. Thus, the optimal value p* is obtained as
+
+p* = cS - cB cS
+
+(16.9)
+
+If demand is normally distributed, with a mean of m and a standard deviation of s the optimal amount, Q*, of the asset purchased in bulk is obtained as
+
+Q* = F-1(p*, m, s) = NORMINV(p*, m, s)
+
+(16.10)
+
+Observe that the amount of bulk purchase increases if either the spot market price increases or the bulk price decreases. Evaluation of bulk contract purchases is illustrated in Example 16-6.
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 483
+EXAMPLE 16-6 Long-Term Bulk Contracts versus the Spot Market
+A manufacturer sources several components from China and has monthly transportation needs that are normally distributed, with a mean of m = 10 million units and a standard deviation of s = 4 million units. The manufacturer must decide on the portfolio of transportation contracts to carry. A long-term bulk contract costs $10,000 per month for a million units. Transportation capacity is also available in the spot market at an average price of $12,500 per million units. For how much transportation capacity should the manufacturer sign a long-term bulk contract?
+Analysis: In this case we have
+Bulk contract cost, cB = $10,000 per million units Spot market cost, cS = $12,500 per million units
+Using Equation 16.9, we obtain
+p* = cS - cB = 12,500 - 10,000 = 0.2 cS 12,500
+The optimal amount to be purchased using the long-term bulk contract is thus obtained using Equation 16.10 to be
+Q* = NORMINV(p*, m, s) = NORMINV(0.2, 10, 4) = 6.63
+Thus, the manufacturer should sign a long-term bulk contract for 6.63 million units per month and purchase any transportation capacity beyond that on the spot market.
+Key Point
+Most consumers of production, warehousing, and transportation assets in a supply chain face the problem of constructing a portfolio of long-term bulk contracts and spot market contracts. The basic decision is the size of the bulk contract. The fundamental trade-off is between wasting a portion of a low-cost bulk contract and paying more for the asset on the spot market.
+16.6 USING PRICING AND REVENUE MANAGEMENT IN PRACTICE
+1. Evaluate your market carefully. The first step in revenue management is to identify the customer segments being served and their needs. The goal is to understand what the customer is buying, as opposed to what you are selling. If an airline thinks of itself as only selling seats, it cannot use revenue management. It has to think of itself as selling seats, the ability to book at the last minute, the ability to alter flight plans, and the ability to pick a convenient flight schedule. Only then do revenue management opportunities present themselves.
+Having identified the market needs, it is crucial to gather accurate and complete data relating to products offered; prices; competition; and, most important, customer behavior. Information about customer behavior is a valuable asset that helps identify consumer preferences. Ultimately, a proper understanding of customer preferences and a quantification of the impact of various tactics on consumer behavior are at the core of successful revenue management.
+2. Quantify the benefits of revenue management. It is critical to quantify the expected benefits from revenue management before starting the project. Ideally, historical data and a good model of customer preferences should be used to estimate the benefits
+
+484 Chapter 16 · Pricing and Revenue Management in a Supply Chain
+through a simulation. The outcome of this step should be explicit revenue targets that are to be achieved as a result of revenue management. The revenue targets should be such that all people involved believe in them. The revenue management effort should then be compared to the expected benefit.
+3. Implement a forecasting process. The foundation of any revenue management system is the forecasting function. To use overbooking with any degree of success, an airline must be able to forecast cancellation patterns. By forecasting, we do not mean obtaining an estimate that is always accurate. Forecasting involves estimating demand and also attributing an expected error to the forecast itself. Both the estimated value and the expected error are important inputs into any revenue management model.
+It is generally difficult to forecast at a micro level, where all behavior is essentially idiosyncratic. For example, an airline with 100 fare classes will find it difficult to forecast demand for each class and also forecast the behavior of customers when they find a fare class full. It is thus important to ensure that revenue management tactics are planned over a level that is aggregated enough so that effective forecasting is possible.
+Finally, as new information becomes available, reforecast to see if the revenue management tactics currently in place are still appropriate. The frequency of forecasting will depend on the amount of market activity. Ideally, the forecast and the revenue management decision should be evaluated after every transaction.
+4. Keep it simple. Most of the benefits of revenue management are realized through a few dimensions for differential pricing. Additional complexity adds to the effort required without necessarily adding much value. An airline, for example, can achieve most of the benefits from revenue management using a few fare classes. Further complexity will only make forecasting more difficult without necessarily enhancing revenue.
+5. Involve both sales and operations. Salespeople must understand the revenue management tactic in place so they can align their sales pitch accordingly. It makes no sense for a firm to offer an off-peak discount if the sales force continues to push people toward the period with highest prices. The sales force must differentiate between those customers that truly need the supply chain asset during the peak period and those that will benefit from moving their order to the off-peak period. Such an approach will increase profits for the firm while also satisfying customers. Operations must understand the potential outcomes of the revenue management tactics in place and be informed of actual outcomes taking place. For example, operations in an airline using overbooking must be ready to book passengers who are unable to depart on the full flight onto other feasible flights.
+6. Understand and inform the customer. Customers will have a negative perception of revenue management tactics if they are simply presented as a mechanism for extracting maximum revenue. Such a perception is likely to diminish customer loyalty in the long term and encourage the customer to try and game the process. Thus, it is important for the firm to structure its revenue management program in a way that revenue increases while improving service along some dimension that is important to customers that pay the highest price. As discussed earlier in the chapter, a proper implementation of revenue management tactics should achieve both outcomes. It is important for the firm to convey this information to its most valuable customers. Remember, a change in behavior by this set of customers can destroy any potential benefit of a revenue management program!
+7. Integrate supply planning with revenue management. Although the supply planning and revenue management ideas we discuss in this book are valuable in their own right, combining them can create significantly more value. The point here is not to use revenue management in isolation, but rather to combine it with decisions on the supply side. For instance, if, after applying revenue management, a manufacturer finds that the production of a short lead time facility provides the majority of its profit, it should look into adding more short lead time capacity.
+
+Chapter 16 · Pricing and Revenue Management in a Supply Chain 485
+Understanding and acting on the interactions among supply, demand, and pricing can bring about powerful results.
+16.7 SUMMARY OF LEARNING OBJECTIVES
+1. Understand the role of revenue management in a supply chain. Revenue management uses differential pricing to better match supply and demand and increase supply chain profits. Traditionally, firms have changed the availability of assets to match supply and demand. Revenue management aims to reduce any supply/demand imbalance by using pricing as a lever. A big advantage of using revenue management is that a change in pricing is much easier to reverse compared to an investment in supply chain assets. When it is used properly, revenue management increases firm profits while leaving valuable customers more satisfied through greater asset availability.
+2. Identify conditions under which revenue management tactics can be effective. Revenue management tactics can be effective if the firm serves multiple segments, each placing a different value on the supply chain asset, or the asset is perishable and loses value over time, or demand for the asset has distinct seasonal peaks, or the asset can be bought and sold both using long-term bulk contracts and on the spot market.
+3. Describe trade-offs that must be considered when making revenue management decisions. When serving multiple customer segments, the basic revenue management decision is the amount of the asset to save for the higher-price segment. The trade-off is between saving too much and spoiling the asset if the higher-price demand does not materialize and turning away higher-price customers because too little of the asset was saved. When the asset is perishable, the basic revenue management decisions are about how to change the asset price over time and the degree to which the asset should be overbooked or oversold. When changing the asset price over time, the trade-off is between charging a higher price initially and having too much inventory left over to discount later on, and charging a low initial price and having little inventory left over. When overbooking, the trade-off is between not overbooking enough and wasting the available asset and overbooking too much and having to arrange for backup capacity at high cost. When demand has distinct seasonal peaks, the basic revenue management decision is the timing and extent of the off-peak discount. The trade-off is between the additional cost of serving the seasonal peak, and the impact on demand and thus revenue from offering an off-peak discount. For a seller using both longterm bulk contracts and the spot market, the basic revenue management decision is the fraction of the asset to save for the spot market. The basic trade-off is between getting a committed demand at a lower price with the bulk contract and potentially getting a high price on the spot market. For a buyer, the basic decision is the fraction of anticipated demand to purchase from a long-term bulk contract. The basic trade-off is between getting a long-term bulk contract at a low price that may not be fully used and purchasing only the amount required from the spot market but at a higher price.
+
+Discussion Questions
+1. In what ways can a retailer such as Nordstrom take advantage of revenue management opportunities?
+2. What revenue management opportunities are available to a manufacturer? How can it take advantage of these opportunities?
+3. What revenue management opportunities are available to a trucking firm? How can it take advantage of these opportunities?
+4. What revenue management opportunities are available to the owner of a warehouse? How can it take advantage of them?
+
+5. Explain the use of outlet stores by retailers such as Saks Fifth Avenue in the context of revenue management. How does the presence of outlet stores help Saks? How does it help its more valuable customer, who is willing to pay full price?
+6. Demand for hairdressers is much higher over the weekend, when people are not at work. What revenue management techniques can be used by such a business?
+7. How can a golf course use revenue management to improve financial performance?
+
+

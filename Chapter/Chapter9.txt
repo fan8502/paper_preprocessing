@@ -1,0 +1,248 @@
+9
+{{{
+Sales and Operations Planning: Planning Supply and Demand
+in a Supply Chain
+LEARNING OBJECTIVES After reading this chapter, you will be able to 1. Manage supply to improve synchronization in a supply chain in the face of predictable variability. 2. Manage demand to improve synchronization in a supply chain in the face of predictable variability. 3. Use sales and operations planning to maximize profitability when faced with predictable variability
+in a supply chain.
+In Chapter 8, we discussed how companies manage supply by using aggregate planning to make optimal tradeoffs in a way that maximizes profits. In this chapter, we build on the knowledge we gained from Chapter 8 and continue to expand our scope beyond the enterprise to the supply chain as we deal with predictable variability of demand. We also discuss how demand may be managed to counter predictable variability through the use of price and promotion. By managing supply and demand together, managers can maximize overall profitability of a supply chain.
+9.1 RESPONDING TO PREDICTABLE VARIABILITY IN THE SUPPLY CHAIN In Chapter 8, we discussed how companies use aggregate planning to determine supply to maximize profits. Demand for many products changes frequently from period to period, often because of a predictable influence. These influences include seasonal factors that affect products (e.g., lawn mowers and ski jackets), as well as nonseasonal factors (e.g., promotions or product adoption rates) that may cause large, predictable increases or declines in sales.
+Predictable variability is change in demand that can be forecasted. Products that undergo this type of change in demand create numerous problems in the supply chain, ranging from high levels of stockouts during peak demand periods to high levels of excess inventory during periods of low demand. These problems increase the costs and decrease the responsiveness of the supply chain. Supply and demand management through sales and operations planning (S&OP) can significantly improve performance when applied to predictably variable products.
+234
+
+Chapter 9 · Sales and Operations Planning 235
+Faced with predictable variability, a company's goal is to respond in a manner that balances supply with demand to maximize profitability. The goal of sales and operations planning is to appropriately combine two broad options to handle predictable variability:
+1. Manage supply using capacity, inventory, subcontracting, and backlogs. 2. Manage demand using short-term price discounts and promotions.
+The use of these tools enables the supply chain to increase profitability, because supply and demand are matched in a more coordinated fashion.
+To illustrate some of the issues involved, let us consider the garden equipment manufacturer discussed in Chapter 8, Red Tomato Tools. Demand for garden tools is seasonal, with sales concentrated in the spring. Red Tomato must plan how it will meet the demand to maximize profit. One way requires Red Tomato to carry enough manufacturing capacity to meet demand from production in any period. The advantage of this approach is that Red Tomato incurs low inventory costs because no inventory is carried from period to period. The disadvantage, however, is that much of the expensive capacity is unused during most months, when demand is lower.
+Another approach to meeting demand is to build up inventory during the off-season to keep production stable year round. The advantage of this approach lies in the fact that Red Tomato can get by with a lower capacity, less expensive factory. High inventory carrying costs, however, make this alternative expensive. A third approach is for Red Tomato to work with its retail partners in the supply chain to offer a price promotion before the spring months, during periods of low demand. This promotion shifts some of the spring demand forward into a slow period, thereby spreading demand more evenly throughout the year and reducing the seasonal surge. Such a demand pattern is less expensive to supply. Red Tomato needs to decide which alternative maximizes its profitability through its S&OP process.
+Often companies divide the task of supply and demand management into different functions. Sales typically manages demand, while operations manages supply. At a higher level, supply chains suffer from this phenomenon as well, with retailers managing demand independently and manufacturers managing supply independently. Lack of coordination hurts supply chain profits when supply and demand management decisions are made independently. Therefore, supply chain partners must work together across enterprises to coordinate these decisions and maximize profitability. The S&OP process facilitates such coordination. We illustrate the value of this coordination through further discussion of Red Tomato.
+First, we focus on actions that a supply chain can take to improve profitability by managing supply.
+9.2 MANAGING SUPPLY
+A firm can vary supply of product by controlling a combination of the following two factors:
+1. Production capacity 2. Inventory
+The objective is to maximize profit, which, for our discussion, is the difference between revenue generated from sales and the total cost associated with material, capacity, and inventory. In general, companies use a combination of varying capacity and inventory to manage supply. In the following sections, we list some specific approaches to managing capacity and inventory with the goal of maximizing profits.
+Managing Capacity
+In managing capacity to meet predictable variability, firms use a combination of the following approaches:
+· Time flexibility from workforce: In this approach, a firm uses flexible work hours by the workforce to manage capacity to better meet demand. In many instances, plants do not
+
+236 Chapter 9 · Sales and Operations Planning
+operate continually and are left idle during portions of the day or week. Therefore, spare plant capacity exists in the form of hours when the plant is not operational. For example, many plants do not run three shifts, so the existing workforce could work overtime during peak periods to produce more to meet demand. The overtime is varied to match the fluctuation in demand. This system allows production from the plant to match demand from customers more closely. If demand fluctuates by day of the week or week of the month and the workforce is willing to be flexible, a firm can schedule the workforce so that the available capacity matches demand better. In such settings, use of a part-time workforce can further increase capacity flexibility by enabling the firm to put more people to work during peak periods. Telemarketing centers and banks use part-time workers extensively to match supply and demand better.
+· Use of seasonal workforce: In this approach, a firm uses a temporary workforce during the peak season to increase capacity to match demand. The tourism industry often uses seasonal workers. A base of full-time employees exists, and more are hired only for the peak season. Toyota regularly uses a seasonal workforce in Japan to match supply and demand better. This approach, however, may be hard to sustain if the labor market is tight.
+· Use of subcontracting: In this approach, a firm subcontracts peak production so that internal production remains level and can be done cheaply. With the subcontractor handling the peaks, the company is able to build a relatively inflexible but low-cost facility in which production rates are kept relatively constant (other than variations from the use of overtime). Peaks are subcontracted out to facilities that are more flexible. A key here is the availability of relatively flexible subcontractor capacity. The subcontractor can often provide flexibility at a lower cost by pooling the fluctuations in demand across different manufacturers. Thus, the flexible subcontractor capacity must have both volume (fluctuating demand from a manufacturer) as well as variety flexibility (demand from several manufacturers) to be sustainable. For example, most power companies do not have the capacity to supply their customers with all the electricity demanded on peak days. They instead rely on being able to purchase power from suppliers and subcontractors who have excess electricity. This allows the power companies to maintain a level supply and, consequently, a lower cost.
+· Use of dual facilities--specialized and flexible: In this approach, a firm builds both specialized and flexible facilities. Specialized facilities produce a relatively stable output of products over time in an efficient manner. Flexible facilities produce a widely varying volume and variety of products but at a higher unit cost. For instance, a PC components manufacturer might have specialized facilities for each type of circuit board as well as a flexible facility that can manufacture all types of circuit boards. Each specialized facility can produce at a relatively steady rate, with fluctuations being absorbed by the flexible facility.
+· Designing product flexibility into the production processes: In this approach, a firm has flexible production lines whose production rate can easily be varied. Production is then changed to match demand. Hino Trucks in Japan has several production lines for different product families. The production lines are designed so that changing the number of workers on a line can vary the production rate. As long as variation of demand across different product lines is complementary (i.e., when one goes up, the other tends to go down), the capacity on each line can be varied by moving the workforce from one line to another. Of course, this requires that the workforce be multiskilled and able to adapt easily to being moved from line to line. Production flexibility can also be achieved if the production machinery is flexible and can be changed easily from producing one product to producing another. This approach is effective only if the overall demand across all the products is relatively constant. Several firms that produce products with seasonal demand try to exploit this approach by carrying a portfolio of products that have peak demand seasons distributed over the year. A classic example is that of a lawn mower manufacturer that also manufactures snowblowers to maintain a steady demand on its factory throughout the year. In the services field, an example comes from strategy consulting firms,
+
+Chapter 9 · Sales and Operations Planning 237
+which often offer a balanced product portfolio, with growth strategies emphasized when economic times are good and cost-cutting projects emphasized when times are bad.
+Managing Inventory
+When managing inventory to meet predictable variability, firms use a combination of the following approaches:
+· Using common components across multiple products: In this approach, a firm designs common components to be used in multiple products. The total demand of these components is relatively stable, even though each product displays predictable variability. The use of a common engine for both lawn mowers and snowblowers allows for engine demand to be relatively stable even though lawn mower and snowblower demand fluctuates over the year. Therefore, the part of the supply chain that produces components can easily synchronize supply with demand, and a relatively low inventory of parts has to be built up. Similarly, in a consulting firm, many of the same consultants produce growth strategies when they are in demand and cost-reduction strategies when these are in demand.
+· Build inventory of high-demand or predictable-demand products: When most of the products a firm produces have the same peak demand season, the previous approach is not feasible. In such an environment, it is best for the firm to build products that have more predictable demand during the off-season, because there is less to be learned about their demand by waiting. Production of more uncertain items should take place closer to the selling season, when demand is more predictable. Consider a manufacturer of winter jackets that produces jackets both for retail sale and for the Boston Police and Fire Departments. Demand for the Boston Police and Fire jackets is more predictable, and these jackets can be made in the off-season and stocked up until winter. The retail jacket's demand, however, will likely be better known closer to the time when it is sold, because fashion trends can change quickly. Therefore, the manufacturer should produce the retail jackets close to the peak season, when demand is easier to predict. This strategy helps the supply chain synchronize supply and demand better.
+Next we consider actions a supply chain can take to improve profitability by managing demand.
+9.3 MANAGING DEMAND
+Supply chains can influence demand by using pricing and other forms of promotion. Promotion decisions are often made by retailers without taking into account the impact on the rest of the supply chain. In this section, our goal is to show how supply chain members can collaborate on pricing and aggregate planning (both demand and supply management) decisions to maximize supply chain profitability.
+Let us return to Red Tomato Tools, the garden equipment manufacturer. Green Thumb Gardens is a large retail chain that has signed an exclusive contract to sell all products made by Red Tomato Tools. Demand for garden tools peaks in the spring months of March and April as gardeners prepare to begin planting. In planning, the goal of both firms should be to maximize supply chain profits because this outcome leaves them more money to share. For profit maximization to take place, Red Tomato and Green Thumb need to devise a way to collaborate and, just as important, determine a way to split the supply chain profits. Determining how these profits will be allocated to different members of the supply chain is key to successful collaboration.
+Red Tomato and Green Thumb are exploring how the timing of retail promotions affects profitability. Are they in a better position if they offer the price promotion during the peak period of demand or during a low-demand period? Green Thumb's vice president of sales favors a promotion during the peak period because this increases revenue by the largest amount.
+
+238 Chapter 9 · Sales and Operations Planning
+In contrast, Red Tomato's vice president of manufacturing is against such a move because it increases manufacturing costs. She favors a promotion during the low-demand season because it levels demand and lowers production costs. S&OP allows the two to collaborate and make the optimal trade-offs.
+The Base Case
+We start by considering the base case that has already been discussed in Chapter 8. Each tool has a retail price of $40. Red Tomato ships assembled tools to Green Thumb, where all inventory is held. Green Thumb has a starting inventory in January of 1,000 tools. At the beginning of January, Red Tomato has a workforce of 80 employees at its manufacturing facility in Mexico. There are a total of 20 working days in each month, and Red Tomato workers earn the equivalent of $4 per hour. Each employee works eight hours on normal time and the rest on overtime. Because the Red Tomato operation consists mostly of hand assembly, the capacity of the production operation is determined primarily by the total labor hours worked (i.e., it is not limited by machine capacity). No employee works more than 10 hours of overtime per month. The various costs are shown in Table 9-1.
+There are no limits on subcontracting, inventories, and stockouts. All stockouts are backlogged and supplied from the following month's production. Inventory costs are incurred on the ending inventory in each month. The companies' goal is to obtain the optimal aggregate plan that leaves at least 500 units of inventory at the end of June (i.e., no stockouts at the end of June and at least 500 units in inventory). The base demand forecast is shown in cells J5:J10 of Figure 9-1.
+
+Table 9-1 Costs for Red Tomato and Green Thumb
+
+Item
+
+Cost
+
+Material cost Inventory holding cost Marginal cost of a stockout Hiring and training costs Layoff cost Labor hours required Regular-time cost Overtime cost Cost of subcontracting
+
+$10/unit $2/unit/month $5/unit/month $300/worker $500/worker 4/unit $4/hour $6/hour $30/unit
+
+FIGURE 9-1 Base Case Aggregate Plan for Red Tomato and Green Thumb
+
+Chapter 9 · Sales and Operations Planning 239
+All figures and analysis in this chapter come from the spreadsheet Chapter8,9-examples.xlsm (available from www.pearsonhighered.com/chopra).
+For the base case, we set cell E24 to 0 (no promotion) and use Solver. The optimal base case aggregate plan for Red Tomato and Green Thumb is shown in Figure 9-1 (this is the same as discussed in Chapter 8 and shown in Table 8-3).
+For the base case aggregate plan, the supply chain obtains the following costs and revenues:
+
+Total cost over planning horizon = $422,660 Revenue over planning horizon = $640,000 Profit over the planning horizon = $217,340
+
+The average seasonal inventory during the planning horizon is given by
+
+Average seasonal inventory =
+
+[1I0 +
+
+I62> 2]
+
++
+
+a
+
+5 t=
+
+1It
+
+=
+
+5,250
+
+= 875
+
+T6
+
+The average flow time for this aggregate plan over the planning horizon is
+
+average inventory
+
+Average flow time =
+
+=
+
+875
+
+= 0.33 months
+
+average sales
+
+2,667
+
+Factors Influencing the Timing of a Promotion
+Four key factors influence the timing of a promotion:
+· Impact of the promotion on demand · Cost of holding inventory · Cost of changing the level of capacity · Product margins
+Management at both companies wants to identify whether each factor favors offering a promotion during the high- or low-demand periods. They start by considering the impact of promotion on demand. When a promotion is offered during a period, that period's demand tends to go up. This increase in demand results from a combination of the following three factors:
+1. Market growth: An increase in consumption of the product occurs either from new or existing customers. For example, when Toyota offers a price promotion on the Camry, it may attract buyers who were considering the purchase of a lower-end model. Thus, the promotion increases the size of the overall family sedan market as well as increasing Toyota's sales.
+2. Stealing share: Customers substitute the firm's product for a competitor's product. When Toyota offers a Camry promotion, buyers who might have purchased a Honda Accord may now purchase a Camry. Thus, the promotion increases Toyota's sales while keeping the overall size of the family sedan market the same.
+3. Forward buying: Customers move up future purchases (as discussed in Chapter 11) to the present. A promotion may attract buyers who would have purchased a Camry a few months down the road. Forward buying does not increase Toyota's sales in the long run and also leaves the family sedan market the same size.
+The first two factors increase the overall demand for Toyota, whereas forward buying simply shifts future demand to the present. It is important to understand the relative impact from the three factors as a result of a promotion before making a decision regarding the optimal
+
+240 Chapter 9 · Sales and Operations Planning
+timing of the promotion. In general, as the fraction of increased demand coming from forward buying grows, offering the promotion during the peak demand period becomes less attractive. Offering a promotion during a peak period that has significant forward buying creates even more variable demand than before the promotion. Product that was once demanded in the slow period is now demanded in the peak period, making this demand pattern even more costly to serve.
+When to Promote: Peak or Off-Peak? Green Thumb estimates that discounting a Red Tomato tool from $40 to $39 (a $1 discount) in any period results in the period demand increasing by 10 percent because of increased consumption or substitution. Further, 20 percent of each of the two following months' demand is moved forward. Management would like to determine whether it is more effective to offer the discount in January or April. We analyze the two options by considering the impact of a promotion on demand and the resulting optimal aggregate plan.
+IMPACT OF OFFERING A PROMOTION IN JANUARY The team first considers the impact of offering the discount in January. To simulate this option in the spreadsheet Chapter8,9-examples. xlsm, enter 1 in cell E24 (this sets promotion to be on) and 1 in cell E25 (this sets the promotion in Period 1, i.e., January). The new forecast accounts for the fact that consumption will increase by 10 percent in January and 20 percent of the demand from February and March is moved forward to January. Thus, with a January promotion, the new demand forecast for January is obtained by adjusting the base case demand from Figure 9-1 and is given by 1,600  1.1  0.2 × (3,000  3,200)  3,000. The new demand forecast for February is 3,000 × 0.8  2,400, and the new demand forecast for March is 3,200 × 0.8  2,560. For a January discount, the demand forecast is as shown in cells J5:J10 of Figure 9-2. The optimal aggregate plan is obtained by running Solver in the spreadsheet and is shown in Figure 9-2. With a discount in January, the supply chain obtains the following:
+Total cost over planning horizon = $422,080 Revenue over palnning horizon = $643,400
+Profit over planning horizon = $221,320 Compared to the base case, offering a discount in January results in lower seasonal inventory, a somewhat lower total cost, and a higher total profit.
+IMPACT OF OFFERING A PROMOTION IN APRIL Now management considers the impact of offering the discount in April. To simulate this option in the spreadsheet Chapter8,9-examples.xlsm, enter 1 in cell E24 (this sets promotion to be on) and 4 in cell E25 (this sets the promotion
+FIGURE 9-2 Optimal Aggregate Plan When Discounting Price in January to $39
+
+Chapter 9 · Sales and Operations Planning 241
+FIGURE 9-3 Optimal Aggregate Plan When Discounting Price in April to $39
+in period 4, i.e., April). If Green Thumb offers the discount in April, the demand forecast is as shown in cells J5:J10 of Figure 9-3. The optimal aggregate plan is obtained by running Solver and is shown in Figure 9-3. Compared to discounting in January (Figure 9-2), discounting in April requires more capacity (in terms of workforce) and leads to a greater buildup of seasonal inventory and larger stockouts because of the big jump in demand in April. With a discount in April we have the following:
+Total cost over planning horizon = $438,920 Revenue over palnning horizon = $650,140
+Profit over planning horizon = $211,220 Observe that a price promotion in January results in a higher supply chain profit, whereas a promotion in April results in a lower supply chain profit, compared to the base case of not running a promotion. As a result of the S&OP process, Red Tomato and Green Thumb decide to offer the discount in the off-peak month of January. Even though revenues are higher when the discount is offered in April, the increase in operating costs makes it a less profitable option. A promotion in January allows Red Tomato and Green Thumb to increase the profit they can share. Note that this analysis is possible only because the retailer and manufacturer have an S&OP process that facilitates collaboration during the planning phase. This conclusion supports our earlier statement that it is not appropriate for a supply chain to leave pricing decisions solely in the domain of retailers and aggregate planning solely in the domain of manufacturers, with each having individual forecasts. It is crucial that forecasts, pricing, and aggregate planning be coordinated in a supply chain. The importance of a collaborative S&OP process is further supported by the fact that the optimal action is different if most of the demand increase comes from market growth or stealing market share rather than forward buying. We now illustrate the scenario in which a discount leads to a large increase in consumption.
+When to Offer a Promotion if Discount Leads to a Large Increase in Consumption Reconsider the situation in which discounting a unit from $40 to $39 results in the period demand increasing by 100 percent (instead of the 10 percent considered in the previous analysis) because of increased consumption or substitution. Further, 20 percent of each of the two following months' demand is moved forward. The supply chain team wants to determine whether it is preferable to offer the discount in January or April under these conditions. To simulate this scenario, change the entry in cell H24 (increase in consumption) of
+
+242 Chapter 9 · Sales and Operations Planning
+spreadsheet Chapter8,9-examples.xlsm from 0.10 (10 percent) to 1.00 (100 percent). Set the entry in cell E24 to 1 to set the promotion to be on. The base case when no promotion is offered remains unchanged as shown in Figure 9-1. We now repeat the analysis for the cases in which the promotion is offered in January (off-peak) and April (peak).
+IMPACT OF OFFERING A PROMOTION IN JANUARY For a January promotion, set the entry in cell E25 to 1(Period 1, January). If the discount is offered in January, observe that the January demand forecast is obtained as 1,600  2  0.2  (3,000  3,200)  4,440. This is much higher than the same forecast in Figure 9-2 because we have assumed consumption in the promotion month increases by 100 percent rather than the 10 percent assumed earlier. The demand forecast for a January promotion with a large increase in consumption is shown in cells J5:J10 of Figure 9-4.
+The optimal aggregate plan is obtained using Solver and is shown in Figure 9-4. With a discount in January the team obtains the following:
+Total cost over planning horizon = $456,880 Revenue over palnning horizon = $699,560
+Profit over planning horizon = $242,680
+Observe that a January promotion when consumption increase is large results in a higher profit than the base case (Figure 9-1).
+IMPACT OF OFFERING A PROMOTION IN APRIL For an April promotion, set the entry in cell E25 to 4 (Period 4, April). If the discount is offered in April, observe that the April demand forecast is obtained as 3,800  2  0.2  (2,200  2,200)  8,480. With a promotion in April and a large increase in consumption, the April peak is much higher in Figure 9-5 compared to peak demand in Figure 9-4 (with a January promotion). For an April promotion with a large increase in consumption, the resulting demand forecast is as shown in cells J5:J10 of Figure 9-5. The optimal aggregate plan is obtained using Solver and is shown in Figure 9-5.
+With a discount in April the team obtains the following: Total cost over planning horizon = $536,200 Revenue over palnning horizon = $783,520 Profit over planning horizon = $247,320
+When comparing Figures 9-5 and 9-4, observe that with an April promotion (Figure 9-5), there are no layoffs and the full workforce is maintained. The April promotion requires a much
+FIGURE 9-4 Optimal Aggregate Plan When Discounting Price in January to $39 with Large Increase in Demand
+
+Chapter 9 · Sales and Operations Planning 243
+
+FIGURE 9-5 Optimal Aggregate Plan When Discounting Price in April to $39 with Large Increase in Demand
+higher level of seasonal inventory and also uses stockouts and subcontracting to a greater extent than a January promotion. It is clear that costs will go up significantly with an April promotion. The interesting observation is that revenues go up even more (because of a larger consumption increase) making overall profits higher with an April promotion compared to a January promotion. As a result, when the increase in consumption from discounting is large and forward buying is a small part of the increase in demand from discounting, the supply chain is better off offering the discount in the peak-demand month of April even though this action significantly increases supply chain costs.
+Exactly as discussed earlier, the optimal aggregate plan and profitability can also be determined for the case in which the unit price is $31 (enter 31 in cell H31) and the discounted price is $30. The results of the various instances are summarized in Table 9-2.
+From the results in Table 9-2, we can draw the following conclusions regarding the impact of promotions:
+1. As seen in Table 9-2, average inventory increases if a promotion is run during the peak period and decreases if the promotion is run during the off-peak period.
+2. Promoting during a peak-demand month may decrease overall profitability if there is a small increase in consumption and a significant fraction of the demand increase results from a forward buy. In Table 9-2, observe that running a promotion in April decreases profitability when forward buying is 20 percent and the demand increase from increased consumption and substitution is 10 percent.
+
+Table 9-2 Supply Chain Performance Under Different Scenarios
+
+Regular Price
+
+Percentage of
+
+Promotion Promotion Increase in
+
+Price
+
+Period
+
+Demand
+
+Percentage of Forward
+Buy
+
+Profit
+
+$40 $40 NA
+
+NA
+
+$40 $39 January
+
+10%
+
+$40 $39 April
+
+10%
+
+$40 $39 January 100%
+
+$40 $39 April
+
+100%
+
+$31 $31 NA
+
+NA
+
+$31 $30 January 100%
+
+$31 $30 April
+
+100%
+
+NA 20% 20% 20% 20% NA 20% 20%
+
+$217,340 $221,320 $211,220 $242,680 $247,320
+$73,340 $84,280 $69,120
+
+Average Inventory
+875 515 932 232 1,492 875 232 1,492
+
+244 Chapter 9 · Sales and Operations Planning
+
+Table 9-3 Summary of Impact on Promotion Timing
+
+Factor
+
+Impact on Timing of Promotion/Forward Buy
+
+High forward buying High ability to steal market share High ability to increase overall market High margin Low margin High manufacturer holding costs High costs of changing capacity High retailer holding costs High promotion elasticity of consumer
+
+Favors promotion during low-demand periods Favors promotion during peak-demand periods Favors promotion during peak-demand periods Favors promotion during peak-demand periods Favors promotion during low-demand periods Favors promotion during low-demand periods Favors promotion during low-demand periods Decreases forward buying by retailer Decreases forward buying by retailer
+
+3. As consumption increase from discounting grows and forward buying becomes a smaller fraction of the demand increase from a promotion, it is more profitable to promote during the peak period. From Table 9-2, for a sale price of $40, it is optimal to promote in the off-peak month of January, when forward buying is 20 percent and increased consumption is 10 percent. When forward buying is 20 percent and increased consumption is 100 percent, however, it is optimal to promote in the peak month of April.
+4. As the product margin declines, promoting during the peak-demand period becomes less profitable. In Table 9-2, observe that for a unit price of $40, it is optimal to promote in the peak month of April when forward buying is 20 percent and increased consumption is 100 percent. In contrast, if the unit price is $31, it is optimal to promote in the off-peak month of January for the same level of forward buying and increase in consumption.
+Other factors such as holding cost and the cost of changing capacity also affect the optimal timing of promotions. The various factors and their impacts are summarized in Table 9-3.
+A key point from the Red Tomato supply chain examples we have considered in this chapter is that when a firm is faced with seasonal demand, it should use a combination of pricing (to manage demand) and production and inventory (to manage supply) to improve profitability. The precise use of each lever varies with the situation. This makes it crucial that enterprises in a supply chain coordinate both their forecasting and planning efforts through an S&OP process. Only then are profits maximized.
+9.4 IMPLEMENTING SALES AND OPERATIONS PLANNING IN PRACTICE
+1. Coordinate planning across enterprises in the supply chain. For a supply chain to manage predictable variability successfully, the entire chain must work toward the one goal of maximizing profitability. Every member of a supply chain may agree with this in principle. In reality, however, it is difficult for an entire supply chain to agree on how to maximize profitability. Firms have even had trouble getting different functions within an enterprise to plan collaboratively. Incentives play a large role in this. Within a company, sales often has incentives based on revenue, whereas operations has incentives based on cost. Within a supply chain, different enterprises are judged by their own profitability, not necessarily by the overall supply chain's profitability. From the examples considered earlier, it is clear that without a focus on getting companies to work together, a supply chain will return suboptimal profits. Collaboration should occur through the formation of joint teams. Incentives of the members of a supply chain must be aligned. High-level
+
+Chapter 9 · Sales and Operations Planning 245
+support within an organization is needed because this coordination often requires groups to act against their traditional operating procedures. Although this collaboration is difficult, the payoffs are significant. The concept of collaborative forecasting, planning, and replenishment is discussed in greater detail in Chapter 10.
+2. Take predictable variability into account when making strategic decisions. Predictable variability has a tremendous impact on the operations of a company. A firm must always take this impact into account when making strategic decisions. However, predictable variability is not always taken into account when strategic plans are made, such as what type of products to offer, whether or not to build new facilities, and what sort of pricing structure a company should have. As indicated in this chapter, the level of profitability is greatly affected by predictable variability and, therefore, the success or failure of strategic decisions can be determined by it.
+3. Design S&OP to understand and manage the drivers of demand usage. The goal of the S&OP team should be to understand actual usage patterns by the consumer and to respond accordingly. The goal of S&OP should be to manage usage patterns and supply in a way that grows the supply chain surplus. For such an approach to be successful, the S&OP team must have good demand visibility across the supply chain.
+4. Ensure that the S&OP process modifies plans as the reality or forecasts change. It is important that early warning alerts be built into the S&OP process. A change in demand or supply circumstances may leave the reality different from plan. In such a situation, it is important for the planners to alert the supply chain regarding the old plan and provide a new plan that accounts for these changes. Even if there are no short-term alerts, the output of the S&OP process should be modified as forecasts or marketing plans are adjusted.
+9.5 SUMMARY OF LEARNING OBJECTIVES
+1. Manage supply to improve synchronization in a supply chain in the face of predictable variability. To manage supply with the goal of maximizing profit, companies must manage their capacity through the use of workforce flexibility, subcontracting, dual facilities, and product flexibility. Companies must also manage supply through the use of inventory by emphasizing common parts and building and holding products with predictable demand ahead of time. These methodologies, combined with aggregate planning, enable a company to manage supply effectively.
+2. Manage demand to improve synchronization in a supply chain in the face of predictable variability. To manage demand with the goal of maximizing profit, companies must use pricing and promotion decisions in concert with supply planning. The timing of promotions can have a tremendous impact on demand. Therefore, using pricing to shape demand can help synchronize the supply chain.
+3. Use sales and operations planning to maximize profitability when faced with predictable variability in a supply chain. To handle predictable variability in a profit-maximizing manner, supply chains must coordinate the management of both supply and demand. This requires coordinated planning across all stages of the supply chain to select pricing and promotion plans and aggregate plans that maximize supply chain profit.
+
+Discussion Questions
+1. What are some obstacles to creating a flexible workforce? What are the benefits?
+2. Discuss why subcontractors can often offer products and services to a company more cheaply than if the company produced them itself.
+
+3. In which industries would you tend to see dual facility types (some facilities focusing on only one type of product and others able to produce a wide variety)? In which industries would this be relatively rare? Why?
+
+

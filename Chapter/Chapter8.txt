@@ -1,0 +1,672 @@
+8
+{{{
+Aggregate Planning in a Supply Chain
+
+LEARNING OBJECTIVES
+After reading this chapter, you will be able to 1. Identify the decisions that are best solved by aggregate planning. 2. Understand the importance of aggregate planning as a supply chain activity. 3. Describe the information needed to produce an aggregate plan. 4. Explain the basic trade-offs to consider when creating an aggregate plan. 5. Formulate and solve basic aggregate planning problems using Microsoft Excel.
+
+In this chapter, we discuss how the aggregate planning methodology is used to make decisions about production, outsourcing, inventory, and backlogs in a supply chain. We identify the information required to produce an aggregate plan and outline the basic trade-offs that must be made to create an optimal aggregate plan. We also describe how to formulate and solve an aggregate planning problem using Microsoft Excel.
+
+8.1 THE ROLE OF AGGREGATE PLANNING IN A SUPPLY CHAIN
+Imagine a world in which manufacturing, transportation, warehousing, and even information capacity are all limitless and free. Imagine lead times of zero, allowing goods to be produced and delivered instantaneously. In this world, there would be no need to plan in anticipation of demand, because whenever a customer demands a product, the demand would be instantly satisfied. In this world, aggregate planning plays no role.
+In the real world, however, capacity has a cost, and lead times are often long. Therefore, companies must make decisions regarding capacity levels, production levels, outsourcing, and promotions well before demand is known. A company must anticipate demand and determine, in advance of that demand, how to meet it. Should a company invest in a plant with large capacity that is able to produce enough to satisfy demand even in the busiest months? Or should a company build a smaller plant but incur the costs of holding inventory built during slow periods in anticipation of demand in later months? These are the types of questions that aggregate planning helps companies answer.
+Aggregate planning is a process by which a company determines planned levels of capacity, production, subcontracting, inventory, stockouts, and even pricing over a specified time horizon. The goal of aggregate planning is to build a plan that satisfies demand while maximizing profit. Aggregate planning, as the name suggests, solves problems involving aggregate decisions rather than stock-keeping unit (SKU)­level decisions.
+
+211
+
+212 Chapter 8 · Aggregate Planning in a Supply Chain
+For example, aggregate planning determines the total production level in a plant for a given month, but it does so without determining the quantity of each individual SKU that will be produced. This level of detail makes aggregate planning a useful tool for thinking about decisions with an intermediate time frame of between roughly 3 and 18 months. In this time frame, it is too early to determine production levels by SKU, but it is also generally too late to arrange for additional capacity. Therefore, aggregate planning answers the question: How should a firm best utilize the facilities that it currently has?
+To be effective, aggregate planning requires inputs from all stages of the supply chain, and its results have a tremendous impact on supply chain performance. As we saw in the previous chapter on forecasting, collaborative forecasts are created by multiple supply chain enterprises and are an important input for aggregate planning. In addition, many constraints that are key inputs to aggregate planning come from supply chain partners outside the enterprise. Without these inputs from both up and down the supply chain, aggregate planning cannot realize its full potential to create value. The output from aggregate planning is also of value to both upstream and downstream partners. Production plans for a firm define demand for suppliers and establish supply constraints for customers. This chapter is meant to create a foundation for using aggregate planning both solely within an enterprise as well as across the entire supply chain. The supply chain implications of aggregate planning will become even clearer in Chapter 9 in which we discuss sales and operations planning.
+As an example, consider how a premium paper supply chain uses aggregate planning to maximize profit. Many types of paper mills face seasonal demand that ripples up from customers to printers to distributors and finally to the manufacturers. Many types of premium paper have demand peaks in the spring, when annual reports are printed, and in the fall, when new-car brochures are released. Building a mill with capacity to meet demand in the spring and fall on an as-needed basis is too costly, because of the high cost of mill capacity. On the other side of the supply chain, premium papers often require special additives and coatings that may be in short supply. The paper manufacturer must deal with these constraints and maximize profit around them. To deal with these potential problems, mills use aggregate planning to determine production levels and inventory levels that they should build up in the slower months for sale in the spring and fall when demand is greater than the mill's capacity. By taking into account the inputs from throughout the supply chain, aggregate planning allows the mill and the supply chain to maximize profit.
+The aggregate planner's main objective is to identify the following operational parameters over the specified time horizon:
+Production Rate: the number of units to be completed per unit time (such as per week or per month)
+Workforce: the number of workers/units of capacity needed for production
+Overtime: the amount of overtime production planned
+Machine Capacity Level: the number of units of machine capacity needed for production
+Subcontracting: the subcontracted capacity required over the planning horizon
+Backlog: demand not satisfied in the period in which it arises but carried over to future periods
+Inventory on Hand: the planned inventory carried over the various periods in the planning horizon
+The aggregate plan serves as a broad blueprint for operations and establishes the parameters within which short-term production and distribution decisions are made. The aggregate plan allows the supply chain to alter capacity allocations and change supply contracts. As mentioned in earlier chapters, the entire supply chain should be involved with the planning process. If a manufacturer has planned an increase in production over a given time period, the supplier, transporter, and warehouser must be aware of this plan and incorporate the increase into their
+
+Chapter 8 · Aggregate Planning in a Supply Chain 213
+own plans. Ideally, all stages of the supply chain should work together on an aggregate plan that optimizes supply chain performance. If each stage develops its own aggregate plan independently, it is extremely unlikely that all the plans will mesh in a coordinated manner. This lack of coordination results in shortages or oversupply in the supply chain. Therefore, it is important to form aggregate plans over a wide scope of the supply chain.
+In the next section, we formally define the aggregate planning problem. We specify the information required for aggregate planning and discuss the decision outcomes that aggregate planning can provide.
+8.2 THE AGGREGATE PLANNING PROBLEM
+The objective of the aggregate plan is to satisfy demand in a way that maximizes profit for the firm. We can state the aggregate planning problem formally as follows:
+Given the demand forecast for each period in the planning horizon, determine the production level, inventory level, capacity level (internal and outsourced), and any backlogs (unmet demand) for each period that maximize the firm's profit over the planning horizon.
+To create an aggregate plan, a company must specify the planning horizon. A planning horizon is the time period over which the aggregate plan is to produce a solution--usually between 3 and 18 months. A company must also specify the duration of each period within the planning horizon (e.g., weeks, months, or quarters). In general, aggregate planning takes place over months or quarters. Next, a company specifies key information required to produce an aggregate plan and to make the decisions for which the aggregate plan will develop recommendations. This information and the recommendations are specified for a generic aggregate planning problem in this section. The model we propose in the next section is flexible enough to accommodate situation-specific requirements.
+An aggregate planner requires the following information:
+· Aggregate demand forecast Ft for each Period t in a planning horizon that extends over T periods
+· Production costs · Labor costs, regular time ($/hour), and overtime costs ($/hour) · Cost of subcontracting production ($/unit or $/hour) · Cost of changing capacity; specifically, cost of hiring/laying off workforce ($/worker) and cost of adding or reducing machine capacity ($/machine)
+· Labor/machine hours required per unit · Inventory holding cost ($/unit/period) · Stockout or backlog cost ($/unit/period) · Constraints
+· Limits on overtime · Limits on layoffs · Limits on capital available · Limits on stockouts and backlogs · Constraints from suppliers to the enterprise
+Using this information, a company makes the following determinations through aggregate planning:
+Production Quantity from Regular Time, Overtime, and Subcontracted Time: used to determine number of workers and supplier purchase levels
+Inventory Held: used to determine the warehouse space and working capital required
+
+214 Chapter 8 · Aggregate Planning in a Supply Chain
+Backlog/Stockout Quantity: used to determine customer service levels
+Workforce Hired/Laid Off: used to determine any labor issues likely to be encountered
+Machine Capacity Increase/Decrease: used to determine if new production equipment should be purchased or available equipment idled
+The quality of an aggregate plan has a significant impact on the profitability of a firm. A poor aggregate plan can result in lost sales and lost profits if the available inventory and capacity are unable to meet demand. A poor aggregate plan may also result in a large amount of excess inventory and capacity, thereby raising costs. Therefore, aggregate planning is an important tool in helping a supply chain maximize profitability.
+Identifying Aggregate Units of Production
+An important first step in aggregate planning is the identification of a suitable aggregate unit of production. While planning is done at the aggregate level, it is important that the aggregate unit be identified in a way that when the final production schedule is built (this has to be at the disaggregate product level), the results of the aggregate plan reflect approximately what can be accomplished in practice. Given that the bottleneck is likely to be the most constraining area in any manufacturing facility, it is important to focus on the bottleneck when selecting the aggregate unit and identifying capacity as well as production times. When evaluating production times, it is also important to account for activities such as setups and maintenance that use up capacity but do not result in any production. Otherwise, the aggregate plan will overestimate the production capacity available, resulting in a plan that cannot be implemented in practice. We now discuss a simple approach that can be used to identify aggregate units and also evaluate costs, revenues, and times for this aggregate unit.
+Consider, for example, Red Tomato Tools, a manufacturer of gardening equipment with manufacturing facilities in Mexico. The company makes six product families at its manufacturing plant. The costs, revenues, production times, setup times, and historical batch sizes of production for each family are as shown in Table 8-1.
+In Table 8-1, the net production time per unit is obtained by adding the changeover time allocated to each unit and the production time. Thus, the net production time/unit for Family A is obtained as 8/50 + 5.60 = 5.76 hours.
+A simple approach to defining the aggregate unit is based on the weighted average of the percentage of sales represented by each family. Such an approach is meaningful if management is relatively confident of the mix of sales and all the product families use roughly the same set of resources at a plant. Taking this approach, the material cost per aggregate unit is obtained as (15 * 0.10) + (7 * 0.25) + (9 * 0.20) + (12 * 0.10) + (9 * 0.20) + (13 * 0.15) = $10. Using a similar evaluation, we obtain that the revenue per aggregate unit = $40 and the net production time per aggregate unit = 4.00 hours.
+
+Table 8-1 Costs, Revenues, and Times at Red Tomato Tools
+
+Family
+A B C D E F
+
+Material Cost/
+Unit ($)
+15 7 9
+12 9
+13
+
+Revenue/ Unit ($)
+54 30 39 49 36 48
+
+Setup Time/Batch
+(hour)
+8 6 8 10 6 5
+
+Average Batch Size
+50 150 100
+50 100
+75
+
+Production Time/
+Unit (hour)
+5.60 3.00 3.80 4.80 3.60 4.30
+
+Net Production Time/Unit
+(hour)
+5.76 3.04 3.88 5.00 3.66 4.37
+
+Percentage Share of Units Sold
+10 25 20 10 20 15
+
+Chapter 8 · Aggregate Planning in a Supply Chain 215
+Other potential aggregate units could be tons of output (likely to be suitable for continuous flows such as gasoline or paper) or dollars of sales. For example, a paper mill might produce papers of different thickness and quality. If tons of output is used as the aggregate unit, all capacity, cost, and revenue calculations should account for the product mix.
+8.3 AGGREGATE PLANNING STRATEGIES
+The aggregate planner must make trade-offs among capacity, inventory, and backlog costs. An aggregate plan that increases one of these costs typically results in reduction of the other two. In this sense, the costs represent a trade-off: To lower inventory cost, a planner must increase capacity cost or delay delivery to the customer. Thus, the planner trades inventory cost for capacity or backlog cost. Arriving at the most profitable combination of trade-offs is the goal of aggregate planning. Given that demand varies over time, the relative level of the three costs leads to one of them being the key lever the planner uses to maximize profits. If the cost of varying capacity is low, a company may not need to build inventory or carry backlogs. If the cost of varying capacity is high, a company may compensate by building some inventory and carrying some backlogs from peak demand periods to off-peak demand periods.
+In general, a company attempts to use a combination of the three costs to best meet demand. Therefore, the fundamental trade-offs available to a planner are among
+· Capacity (regular time, overtime, subcontracted) · Inventory · Backlog/lost sales because of delay
+There are essentially three distinct aggregate planning strategies for achieving balance among these costs. These strategies involve trade-offs among capital investment, workforce size, work hours, inventory, and backlogs/lost sales. Most strategies that a planner actually uses are a combination of these three and are referred to as tailored or hybrid strategies. The three strategies are as follows:
+1. Chase strategy--using capacity as the lever: With this strategy, the production rate is synchronized with the demand rate by varying machine capacity or hiring and laying off employees as the demand rate varies. In practice, achieving this synchronization can be problematic because of the difficulty of varying capacity and workforce on short notice. This strategy can be expensive to implement if the cost of varying machine or labor capacity over time is high. It can also have a significant negative impact on the morale of the workforce. The chase strategy results in low levels of inventory in the supply chain and high levels of change in capacity and workforce. It should be used when the cost of carrying inventory is high and costs to change levels of machine and labor capacity are low.
+2. Flexibility strategy--using utilization as the lever: This strategy may be used if there is excess machine capacity (i.e., if machines are not used 24 hours a day, seven days a week) and the workforce shows scheduling flexibility. In this case, the workforce (capacity) is kept stable, but the number of hours worked is varied over time in an effort to synchronize production with demand. A planner can use variable amounts of overtime or a flexible schedule to achieve this synchronization. Although this strategy does require that the workforce be flexible, it avoids some of the problems associated with the chase strategy, most notably, changing the size of the workforce. This strategy results in low levels of inventory but with lower average machine utilization. It should be used when inventory carrying costs are relatively high and machine capacity is relatively inexpensive.
+3. Level strategy--using inventory as the lever: With this strategy, a stable machine capacity and workforce are maintained with a constant output rate. Shortages and surpluses result in inventory levels fluctuating over time. In this case, production is not synchronized with demand. Either inventories are built up in anticipation of future demand or backlogs are carried
+
+216 Chapter 8 · Aggregate Planning in a Supply Chain
+over from high- to low-demand periods. Employees benefit from stable working conditions. A drawback associated with this strategy is that large inventories may accumulate and customer orders may be delayed. This strategy keeps capacity and costs of changing capacity relatively low. It should be used when inventory carrying and backlog costs are relatively low.
+In practice, a planner is most likely to come up with a tailored or hybrid strategy that combines aspects of all three approaches. In the next section, we discuss a methodology that is commonly used for aggregate planning.
+8.4 AGGREGATE PLANNING USING LINEAR PROGRAMMING
+As we discussed earlier, the goal of aggregate planning is to maximize profit while meeting demand. Every company, in its effort to meet customer demand, faces certain constraints, such as the capacity of its facilities or a supplier's ability to deliver a component. A highly effective tool for a company to use when it tries to maximize profits while being subjected to a series of constraints is linear programming. Linear programming finds the solution that creates the highest profit while satisfying the constraints that the company faces.
+We illustrate linear programming through the discussion of Red Tomato Tools, a small manufacturer of gardening equipment with manufacturing facilities in Mexico. Red Tomato's products are sold through retailers in the United States. Red Tomato's operations consist of the assembly of purchased parts into a multipurpose gardening tool. Because of the limited equipment and space required for its assembly operations, Red Tomato's capacity is determined mainly by the size of its workforce.
+For this example, we use a six-month time period because this is a long enough time horizon to illustrate many of the main points of aggregate planning.
+Red Tomato Tools
+The demand for Red Tomato's gardening tools from consumers is highly seasonal, peaking in the spring as people plant their gardens. This seasonal demand ripples up the supply chain from the retailer to Red Tomato, the manufacturer. The options Red Tomato has for handling the seasonality are adding workers during the peak season, subcontracting out some of the work, building up inventory during the slow months, or building up a backlog of orders that will be delivered late to customers. To determine how to best use these options through an aggregate plan, Red Tomato's vice president of supply chain starts with the first task--building a demand forecast. Although Red Tomato could attempt to forecast this demand itself, a much more accurate forecast comes from a collaborative process used by both Red Tomato and its retailers to produce the forecast shown in Table 8-2. It is important that this demand account for the product mix that is expected to sell and be in terms of aggregate units defined earlier.
+Red Tomato sells each tool through retailers for $40. The company has a starting inventory in January of 1,000 tools. At the beginning of January, the company has a workforce of 80 employees.
+
+Table 8-2 Demand Forecast at Red Tomato Tools
+
+Month
+
+Demand Forecast
+
+January February March April May June
+
+1,600 3,000 3,200 3,800 2,200 2,200
+
+Chapter 8 · Aggregate Planning in a Supply Chain 217
+
+Table 8-3 Costs for Red Tomato
+
+Item
+
+Cost
+
+Material cost Inventory holding cost Marginal cost of stockout/backlog Hiring and training costs Layoff cost Labor hours required Regular time cost Overtime cost Cost of subcontracting
+
+$10/unit $2/unit/month $5/unit/month $300/worker $500/worker 4/unit $4/hour $6/hour $30/unit
+
+The plant has a total of 20 working days in each month, and each employee earns $4 per hour regular time. Each employee works eight hours per day on straight time and the rest on overtime. As discussed previously, the capacity of the production operation is determined primarily by the total labor hours worked. Therefore, machine capacity does not limit the capacity of the production operation. Because of labor rules, no employee works more than 10 hours of overtime per month. The various costs are shown in Table 8-3. It is important that the costs and labor hours be in aggregate units as discussed in Section 8.2.
+Currently, Red Tomato has no limits on subcontracting, inventories, and stockouts/ backlog. All stockouts are backlogged and supplied from the following months' production. Inventory costs are incurred on the ending inventory in the month. The supply chain manager's goal is to obtain the optimal aggregate plan that allows Red Tomato to end June with at least 500 units (i.e., no stockouts at the end of June and at least 500 units in inventory).
+The optimal aggregate plan is one that results in the highest profit over the six-month planning horizon. For now, given Red Tomato's desire for a high level of customer service, assume all demand is to be met, although it can be met late. Therefore, the revenues earned over the planning horizon are fixed. As a result, minimizing cost over the planning horizon is the same as maximizing profit. In many instances, a company has the option of not meeting certain demand, or price itself may be a variable that a company has to determine based on the aggregate plan. In such a scenario, minimizing cost is not equivalent to maximizing profits.
+Decision Variables
+The first step in constructing an aggregate planning model is to identify the set of decision variables whose values are to be determined as part of the aggregate plan. For Red Tomato, the following decision variables are defined for the aggregate planning model:
+Wt = workforce size for Month t, t = 1, . . . , 6 Ht = number of employees hired at the beginning of Month t, t = 1, . . . , 6 Lt = number of employees laid off at the beginning of Month t, t = 1, . . . , 6 Pt = number of units produced in Month t, t = 1, . . . , 6 It = inventory at the end of Month t, t = 1, . . . , 6 St = number of units stocked out/backlogged at the end of Month t, t = 1, . . . , 6 Ct = number of units subcontracted for Month t, t = 1, . . . , 6 Ot = number of overtime hours worked in Month t, t = 1, . . . , 6
+The next step in constructing an aggregate planning model is to define the objective function.
+
+218 Chapter 8 · Aggregate Planning in a Supply Chain
+Objective Function
+Denote the demand in Period t by Dt. The values of Dt are as specified by the demand forecast in Table 8-2. The objective function is to minimize the total cost (equivalent to maximizing total profit as all demand is to be satisfied) incurred during the planning horizon. The cost incurred has the following components:
+· Regular-time labor cost · Overtime labor cost · Cost of hiring and layoffs · Cost of holding inventory · Cost of stocking out · Cost of subcontracting · Material cost
+These costs are evaluated as follows:
+1. Regular-time labor cost. Recall that workers are paid a regular-time wage of $640 ($4/hour * 8 hours/day * 20 days/month) per month. Because Wt is the number of workers in Period t, the regular-time labor cost over the planning horizon is given by
+6
+Regular-time labor cost = a 640Wt
+t=1
+2. Overtime labor cost. As overtime labor cost is $6 per hour (see Table 8-3) and Ot represents the number of overtime hours worked in Period t, the overtime cost over the planning horizon is
+6
+Overtime labor cost = a 6Ot
+t=1
+3. Cost of hiring and layoffs. The cost of hiring a worker is $300 and the cost of laying off a worker is $500 (see Table 8-3). Ht and Lt represent the number hired and the number laid off, respectively, in Period t. Thus, the cost of hiring and layoff is given by
+66
+Cost of hiring and layoff = a 300Ht + a 500Lt
+t=1 t=1
+4. Cost of inventory and stockout. The cost of carrying inventory is $2 per unit per month, and the cost of stocking out is $5 per unit per month (see Table 8-3). It and St represent the units in inventory and the units stocked out, respectively, in Period t. Thus, the cost of holding inventory and stocking out is
+66
+Cost of holding inventory and stocking out = a 2It + a 5St
+t=1 t=1
+5. Cost of materials and subcontracting. The material cost is $10 per unit and the subcontracting cost is $30/unit (see Table 8-3). Pt represents the quantity produced and Ct represents the quantity subcontracted in Period t. Thus, the material and subcontracting cost is
+66
+Cost of materials and subcontracting = a 10Pt + a 30Ct
+t=1 t=1
+
+Chapter 8 · Aggregate Planning in a Supply Chain 219
+
+The total cost incurred during the planning horizon is the sum of all the aforementioned costs and is given by
+
+6 66 6 6
+a 640Wt + a 6Ot + a 300Ht + a 500Lt + a 2It
+t=1 t=1 t=1 t=1 t=1
+
+66
+
+6
+
++ a 5St + a 10Pt + a 30Ct
+
+t=1 t=1
+
+t=1
+
+(8.1)
+
+Red Tomato's objective is to find an aggregate plan that minimizes the total cost (Equation 8.1) incurred during the planning horizon.
+The values of the decision variables in the objective function cannot be set arbitrarily. They are subject to a variety of constraints defined by available capacity and operating policies. The next step in setting up the aggregate planning model is to define clearly the constraints linking the decision variables.
+
+Constraints
+Red Tomato's vice president must now specify the constraints that the decision variables must not violate. They are as follows:
+
+1. Workforce, hiring, and layoff constraints. The workforce size Wt in Period t is obtained by adding the number hired Ht in Period t to the workforce size Wt-1 in Period t - 1, and subtracting the number laid off Lt in Period t as follows:
+
+Wt = Wt-1 + Ht - Lt for t = 1, Á , 6
+
+(8.2)
+
+The starting workforce size is given by W0 = 80.
+2. Capacity constraints. In each period, the amount produced cannot exceed the available capacity. This set of constraints limits the total production by the total internally available capacity (which is determined based on the available labor hours, regular or overtime). Subcontracted production is not included in this constraint because the constraint is limited to production within the plant. As each worker can produce 40 units per month on regular time (four hours per unit as specified in Table 8-3) and one unit for every four hours of overtime, we have the following:
+
+Pt ... 40Wt
+
++
+
+Ot 4
+
+for t = 1, Á , 6
+
+(8.3)
+
+3. Inventory balance constraints. The third set of constraints balances inventory at the end
+of each period. Net demand for Period t is obtained as the sum of the current demand Dt and the previous backlog St-1. This demand is either filled from current production (in-house production Pt or subcontracted production Ct) and previous inventory It-1 (in which case some inventory It may be left over) or part of it is backlogged St. This relationship is captured by the following equation:
+
+It-1 + Pt + Ct = Dt + St-1 + It - St for t = 1, Á , 6
+
+(8.4)
+
+The starting inventory is given by I0 = 1,000, the ending inventory must be at least 500 units (i.e., I6 Ú 500), and initially there are no backlogs (i.e., S0 = 0).
+4. Overtime limit constraints. The fourth set of constraints requires that no employee work more than 10 hours of overtime each month. This requirement limits the total amount of overtime hours available as follows:
+
+Ot ... 10Wt for t = 1, Á , 6
+
+(8.5)
+
+220 Chapter 8 · Aggregate Planning in a Supply Chain
+
+In addition, each variable must be nonnegative and there must be no backlog at the end of Period 6 (i.e., S6 = 0).
+When implementing the model in Microsoft Excel, which we discuss later, it is easiest if
+all the constraints are written so that the right-hand side for each constraint is 0. The overtime
+limit constraint (Equation 8.5) in this form is written as
+
+Ot - 10Wt ... 0 for t = 1, Á , 6
+Observe that one can easily add constraints that limit the amount purchased from subcontractors each month or the maximum number of employees to be hired or laid off. Any other constraints limiting backlogs or inventories can also be accommodated. Ideally, the number of employees hired or laid off should be integer variables. Fractional variables may be justified if some employees work for only part of a month. Such a linear program can be solved using the tool Solver in Excel.
+If we assume the average inventory in Period t to be the average of the starting and ending inventories, that is, 1It-1 + It2>2, the average inventory over the planning horizon is given by
+
+1I0 + IT2>2 + a a tT=-11It b
+
+Average inventory =
+
+T
+
+The average time that units spend in inventory over the planning horizon is obtained using Little's law (average flow time = average inventory/throughput). The average time in inventory
+
+is given as
+
+Average time in inventory
+
+=
+
+(I0 J
+
++
+
+IT)>2
+
++ T
+
+a a Tt =-11It b Æ a a tT=-11Dt b KJ T K
+
+(8.6)
+
+By optimizing the objective function (minimizing cost in Equation 8.1) subject to the listed constraints (Equations 8.2 to 8.5), the vice president obtains the aggregate plan shown in Table 8-4. (Later in the chapter, we discuss how to perform this optimization using Excel.)
+For this aggregate plan we have the following:
+Total cost over planning horizon = $422,660
+Red Tomato lays off a total of 16 employees at the beginning of January. After that, the company maintains the workforce and production level. They use the subcontractor during
+
+Table 8-4 Aggregate Plan for Red Tomato
+
+Period, t
+0 1 2 3 4 5 6
+
+No. Hired, Ht
+0 0 0 0 0 0 0
+
+No. Laid Off, Lt
+0 16
+0 0 0 0 0
+
+Workforce Size, Wt
+80 64 64 64 64 64 64
+
+Overtime, Ot
+0 0 0 0 0 0 0
+
+Inventory, It
+1,000 1,960 1,520
+880 0
+140 500
+
+Stockout, St
+0 0 0 0 220 0 0
+
+Subcontract, Ct
+0 0 0 0 140 0 0
+
+Total Production,
+Pt
+2,560 2,560 2,560 2,560 2,560 2,560
+
+Chapter 8 · Aggregate Planning in a Supply Chain 221
+the month of April. They carry a backlog only from April to May. In all other months, they plan no stockouts. In fact, Red Tomato carries inventory in all other periods. We describe this inventory as seasonal inventory because it is carried in anticipation of a future increase in demand. Given the sale price of $40 per unit and total sales of 16,000 units, revenue over the planning horizon is given by
+Revenue over planning horizon = 40 * 16,000 = $640,000
+The average seasonal inventory during the planning horizon is given by
+
+(I0
+
++
+
+I6) n 2
+
++
+
+aa
+
+5 t=
+
+1Itb
+
+5,250
+
+Average seasonal inventory =
+
+= = 875
+
+T6
+
+The average flow time for this aggregate plan over the planning horizon (using Equation 8.6) is given by
+
+Average flow time = 875 = 0.33 = 0.33 months 2,667
+
+If the seasonal fluctuation of demand grows, synchronization of supply and demand becomes more difficult, resulting in an increase in either inventory or backlogs as well as an increase in the total cost to the supply chain. This is illustrated in Example 8-1, in which the demand forecast is more variable.
+
+EXAMPLE 8-1 Impact of Higher Demand Variability
+All the data are exactly the same as in our previous discussion of Red Tomato, except for the demand forecast. Assume that the same overall demand (16,000 units) is distributed over the six months in such a way that the seasonal fluctuation of demand is higher, as shown in Table 8-5. Obtain the optimal aggregate plan in this case.
+Analysis:
+In this case, the optimal aggregate plan (using the same costs as those used before) is shown in Table 8-6.
+Observe that monthly production remains the same, but both inventories and stockouts (backlogs) go up compared to the aggregate plan in Table 8-4 for the demand profile in Table 8-2. The cost of meeting the new demand profile in Table 8-5 is higher at $433,080 (compared to $422,660 for the previous demand profile in Table 8-2).
+
+Table 8-5 Demand Forecast with Higher Seasonal Fluctuation
+
+Month
+
+Demand Forecast
+
+January February March April May June
+
+1,000 3,000 3,800 4,800 2,000 1,400
+
+222 Chapter 8 · Aggregate Planning in a Supply Chain
+
+Table 8-6 Optimal Aggregate Plan for Demand in Table 8-5
+
+Period, No. Hired, No. Laid Workforce Overtime, Inventory, Stockout, Subcontract, Total Production,
+
+t Ht Off, Lt Size, Wt Ot It St
+
+Ct
+
+Pt
+
+0
+
+0 0 80
+
+0 1,000
+
+0
+
+0
+
+1
+
+0 16
+
+64
+
+0 2,560
+
+0
+
+0
+
+2
+
+0 0 64
+
+0 2,120
+
+0
+
+0
+
+3 0 0 64 0 880 0 140
+
+4
+
+0 0 64
+
+0
+
+0 1,220
+
+0
+
+5
+
+0 0 64
+
+0
+
+0 660
+
+0
+
+6 0 0 64 0 500 0
+
+0
+
+2,560 2,560 2,560 2,560 2,560 2,560
+
+The seasonal inventory during the planning horizon is given by Seasonal inventory = [(I0 + IT)>2] + a tT=-11It = 6,310 = 1,052 T6
+
+The average flow time for this aggregate plan over the planning horizon (using Equation 8.6) is given by
+
+1,052
+
+Average flow time =
+
+= 0.39 months
+
+2,667
+
+From Example 8-1, we can see that the increase in demand variability at the retailer increases seasonal inventory as well as planned costs.
+Using the Red Tomato example, we also see that the optimal trade-off changes as the costs change. This is illustrated in Example 8-2, in which we show that as the costs of hiring and layoff decrease, it is better to vary capacity with demand while having less inventory and backlogs.
+
+EXAMPLE 8-2 Impact of Lower Costs of Hiring and Layoff
+Assume that demand at Red Tomato is as shown in Table 8-2, and all other data are the same except that the costs of hiring and layoff are now $50 each. Evaluate the total cost corresponding to the aggregate plan in Table 8-4. Suggest an optimal aggregate plan for the new cost structure.
+Analysis:
+If the costs of hiring and layoff decrease to $50 each, the cost corresponding to the aggregate plan in Table 8-4 decreases from $422,660 to $412,780. Taking this new cost into account and determining a new optimal aggregate plan yields the plan shown in Table 8-7. Observe that the workforce size fluctuates between a high of 87 and a low of 45, as opposed to being stable at 64 as in Table 8-4.
+As expected, the workforce size is varied (because the cost of varying capacity has decreased) while inventory and stockouts have decreased compared to the aggregate plan in Table 8-4. The total cost of the aggregate plan in Table 8-7 is $412,780, compared to $422,660 (for the aggregate plan in Table 8-4) if the cost of hiring and layoff is $50 each.
+
+Chapter 8 · Aggregate Planning in a Supply Chain 223
+
+Table 8-7 Optimal Aggregate Plan for Hiring and Layoff Cost of $50/Worker
+
+Period, No. Hired, No. Laid Off, Workforce Overtime, Inventory, Stockout, Subcontract, Total Production,
+
+t Ht
+
+Ot
+
+Size, Wt
+
+Ot
+
+It
+
+St
+
+Ct
+
+Pt
+
+00
+
+0
+
+80
+
+0 1,000
+
+0
+
+10
+
+35
+
+45
+
+0 1,200
+
+0
+
+0 0
+
+20
+
+0 45 0
+
+00
+
+0
+
+3 42
+
+0 87 0 280 0
+
+0
+
+40
+
+0 87 0
+
+0 20
+
+20
+
+5 0 26 61 0 220 0
+
+0
+
+61
+
+0 62 0 500 0
+
+0
+
+1,800 1,800 3,480 3,480 2,440 2,480
+
+The seasonal inventory during the planning horizon is given by
+Seasonal inventory = [(I0 + IT)>2] + a Tt=-11It = 2,450 = 408 T6
+The average flow time for this aggregate plan over the planning horizon (using Equation 8.6) is given by
+Average flow time = 408 = 0.15 months 2,667
+From Example 8-2, observe that increasing volume flexibility (by decreasing the cost of hiring and layoff) not only decreases the total cost but also shifts the optimal balance toward using the volume flexibility while carrying lower inventories and allowing less stockout.
+Forecast Error in Aggregate Plans
+The aggregate planning methodology we have discussed in this chapter does not take into account any forecast error. However, we know that all forecasts have errors. To improve the quality of these aggregate plans, forecast errors must be considered. Forecasting errors are dealt with using either safety inventory, defined as inventory held to satisfy demand that is higher than forecasted (discussed thoroughly in Chapter 12), or safety capacity, defined as capacity used to satisfy demand that is higher than forecasted. A company can create a buffer for forecast error using safety inventory and safety capacity in a variety of ways, some of which are listed next:
+· Use overtime as a form of safety capacity. · Carry extra workforce permanently as a form of safety capacity. · Use subcontractors as a form of safety capacity. · Build and carry extra inventories as a form of safety inventory. · Purchase capacity or product from an open or spot market as a form of safety capacity.
+In the next section, we explain how to implement the linear programming methodology for aggregate planning using Microsoft Excel.
+
+224 Chapter 8 · Aggregate Planning in a Supply Chain
+8.5 AGGREGATE PLANNING IN EXCEL Next we discuss how to generate the aggregate plan for Red Tomato in Table 8-4 using Excel. To access Excel's linear programming capabilities, use Solver (Data | Analysis | Solver). To begin, we need to create a table, which we illustrate with Figure 8-1, containing the following decision variables:
+Wt = workforce size for Month t, t = 1, . . . , 6 Ht = number of employees hired at the beginning of Month t, t = 1, . . . , 6 Lt = number of employees laid off at the beginning of Month t, t = 1, . . . , 6 Pt = number of units produced in Month t, t = 1, . . . , 6 It = inventory at the end of Month t, t = 1, . . . , 6 St = number of units stocked out at the end of Month t, t = 1, . . . , 6 Ct = number of units subcontracted for Month t, t = 1, . . . , 6 Ot = number of overtime hours worked in Month t, t = 1, . . . , 6
+Figure 8-1 illustrates what this table should look like. The decision variables are contained in cells B5 to I10, with each cell corresponding to a decision variable. For example, cell D7 corresponds to the workforce size in Period 3. Begin by setting all the decision variables to 0 as shown in Figure 8-1.
+Also note that column J contains the actual demand. The demand information is included because it is required to calculate the aggregate plan.
+The second step is to construct a table for the constraints in Equations 8.2 to 8.5. The constraint table may be constructed as shown in Figure 8-2.
+Column M contains workforce constraints (Equation 8.2), column N contains capacity constraints (Equation 8.3), column O contains inventory balance constraints (Equation 8.4), and column P contains overtime constraints (Equation 8.5). These constraints are applied to each of the six periods.
+Each constraint will eventually be written in Solver as
+Cell value {..., =, or Ú} 0
+In our case, we have constraints
+M5:M10 = 0, N5:N10 Ú 0, O5:O10 = 0, P5:P10 Ú 0
+The third step is to create a cell containing the objective function, which is how each solution is judged. This cell need not contain the entire formula but can be written as a
+FIGURE 8-1 Spreadsheet Area for Decision Variables
+
+Chapter 8 · Aggregate Planning in a Supply Chain 225
+
+Cell
+
+Cell Formula
+
+Equation
+
+M5 =D5 - D4 - B5 + C5
+
+8.2
+
+N5 =40*D5 + E5/4 -I5
+
+8.3
+
+O5 =F4-G4+I5+H5-J5-F5+G5
+
+8.4
+
+P5 =-E5 + 10*D5
+
+8.5
+
+FIGURE 8-2 Spreadsheet Area for Constraints
+
+Copied to M6:M10 N6:N10 O6:O10 P6:P10
+
+formula using cells with intermediate cost calculations. For the Red Tomato example, the spreadsheet area for cost calculations is shown in Figure 8-3. Cell B15, for instance, contains the hiring costs incurred in Period 1. The formula in cell B15 is the product of cell B5 and the cell containing the hiring cost per worker, which is obtained from Table 8-3. Other cells are filled similarly. Cell C22 contains the sum of cells B15 to I20, representing the total cost.
+The fourth step is to use Data | Analysis | Solver to invoke Solver. Within the Solver Parameters dialog box, enter the following information to represent the linear programming model:
+Set Target Cell: C22
+Equal to: Select Min
+By Changing Cells: B5:I10
+Subject to the constraints: B5:C10  integer {Number of workers hired or laid off is integer} B5:I10 Ú 0 {All decision variables are nonnegative} F10 Ú 500 {Inventory at end of Period 6 is at least 500} G10 = 0 {Stockout at end of Period 6 equals 0}
+
+FIGURE 8-3 Spreadsheet Area for Cost Calculations
+
+226 Chapter 8 · Aggregate Planning in a Supply Chain
+FIGURE 8-4 Solver Parameters Dialog Box
+M5:M10 = 0 {Wt - Wt-1 - Ht + Lt = 0 for t = 1, Á , 6} N5:N10 Ú 0 {40Wt + Ot>4 - Pt Ú 0 for t = 1, Á , 6} O5:O10 = 0 {It-1 - St-1 + Pt + Ct - Dt - It + St = 0 for t = 1, Á , 6} P5:P10 Ú 0 {10Wt - Ot Ú 0 for t = 1, Á , 6}
+The Solver Parameters dialog box is shown in Figure 8-4. Click on Solve. The optimal solution should be returned. If Solver does not return the optimal solution, solve the problem again after saving the solution that Solver has returned. (In some cases, multiple repetitions of this step may be required because of some flaws in the version of Solver that comes with Excel. Add-ins are available at relatively low cost that do not have any of these issues.) The optimal solution turns out to be the one shown in Table 8-4.
+8.6 BUILDING A ROUGH MASTER PRODUCTION SCHEDULE From an aggregate plan, a planner must disaggregate the available information and build a rough master production schedule (MPS) that identifies the batches produced in each period at the level of each product family. We return to the Red Tomato example to illustrate a simple approach to disaggregate an aggregate plan. While this approach is not necessarily optimal, it is simple to implement and allows for a feasibility check. More sophisticated methods (e.g., see Bitran and Hax (1981)) are available if a planner wants to search for better solutions. These methods, however, are difficult to implement and may not be able to reflect all the complex realities. It is for this reason that we propose this simple approach.
+Consider the aggregate plan in Table 8-4. The plan calls for a workforce of 64 and a production of 2,560 aggregate units in Period 1. We know that the production constraint is feasible at the aggregate level, but we will need to check feasibility at the disaggregate level. The first step is to divide the production quantity of 2,560 across the six families. We do so in the ratio of expected sales as shown in Table 8-8. Thus, the plan is to produce 256 units of Family A in Period 1 because it represents 10 percent of sales. The next step is to identify the number of planned batches for each family. To get feasibility of the plan, we divide the planned production quantity by the average batch size and the round the answer down. For Family A, the planned number of setups (batches) is thus 256/50 = 5.12 rounded down, which equals 5. As a result, the average batch size of Family A produced in this period will be larger than 50 (about 51). We similarly obtain the planned number of setups (batches) for each of the other families in Period 1 as shown in Table 8-8. To check the feasibility of the planned schedule, we calculate the setup time and the production time for the planned number of
+
+Chapter 8 · Aggregate Planning in a Supply Chain 227
+
+Table 8-8 Disaggregating the Aggregate Plan at Red Tomato Tools for Period 1
+
+Family
+
+Setup Time/Batch
+(hour)
+
+Average Batch Size
+
+Production Time/Unit
+(hour)
+
+Production Quantity
+
+Number of Setups
+
+Setup Time (hours)
+
+A8 B6 C8 D 10 E6 F5
+
+50 5.60 256 150 3.00 640 100 3.80 512
+50 4.80 256 100 3.60 512
+75 4.30 384
+
+5 4 5 5 5 5
+
+40 24 40 50 30 25
+
+Production Time (hours)
+1,433.6 1,920.0 1,945.6 1,228.8 1,843.2 1,651.2
+
+batches and units of each product family. From Table 8-8, the total planned production and setup time is 10,231.4 hours (209 for setup + 10,022.4 for production). Given the 64 people planned, the available production time in the period is 64 * 160 = 10,240 hours. The planned schedule thus seems feasible.
+
+8.7 THE ROLE OF IT IN AGGREGATE PLANNING
+Aggregate planning is arguably the supply chain area in which information technology has been used the most. The earliest IT supply chain products were aggregate planning modules, often called factory, production, or manufacturing planning. Some of the early modules focused only on obtaining a feasible production plan subject to constraints arising from demand and available capacity. Later modules provided tools that chose an optimal solution from among the feasible production plans, based on objectives such as increased output or lowered cost.
+These classic solutions generally formulated the aggregate planning problem as a linear program (LP) to get a production schedule of products to be made in each period of time. Today, some planning modules incorporate nonlinear optimization to account for the fact that not all constraints or reasonable objective functions are linear functions. However, given the large amount of data considered in producing aggregate plans, which can render nonlinear problems computationally prohibitive, and the ability to create linear approximations of nonlinear functions, linear programming is often the best way to solve these problems.
+Supply chain planning modules today often combine both production planning and inventory planning. The supply chain planning module uses the output of the forecasting module as a constraint in setting up the production schedule and inventory levels. These production schedules and inventory levels are used by the execution system for the actual production of the goods and the setting of inventory levels throughout the supply chain. Given the complexity of the problem, aggregate planning modules can add significant value even for small companies.
+IT can add value in the aggregate planning realm along a number of dimensions:
+· The ability to handle large problems · The ability to handle complex problems (through either nonlinear optimization or linear
+approximations) · The ability to interact with other core IT systems such as inventory management and
+sourcing
+Because aggregate planning problems are so complex, there is often no other way to arrive at a feasible solution than through IT.
+
+228 Chapter 8 · Aggregate Planning in a Supply Chain
+Major software players in this area include the ERP software firms (SAP and Oracle) and a variety of other vendors who often specialize their planning software by industry verticals. In the last decade, SAP and Oracle have come to dominate this space with specialized vendors finding it harder to survive.
+8.8 IMPLEMENTING AGGREGATE PLANNING IN PRACTICE
+1. Think beyond the enterprise to the entire supply chain. Most aggregate planning today takes only the enterprise as its breadth of scope. However, many factors outside the enterprise and throughout the supply chain can affect the optimal aggregate plan dramatically. Therefore, avoid the trap of thinking only about your enterprise when planning. Work with downstream partners to produce forecasts, with upstream partners to determine constraints, and with any other supply chain entities that can improve the quality of the inputs into the aggregate plan. The plan is only as good as the quality of the inputs. So using the supply chain to increase the quality of the inputs will greatly improve the quality of the aggregate plan. Also make sure to communicate the aggregate plan to all supply chain partners who will be affected by it.
+2. Make plans flexible, because forecasts are always inaccurate. Aggregate plans are based on forecasts of future demand. Given that these forecasts are always inaccurate to some degree, the aggregate plan needs to have some flexibility built into it if it is to be useful. By building flexibility into the plan, when future demand changes, or other changes occur such as increases in costs, the plan can adjust appropriately to handle the new situation.
+How do we create this flexibility? In addition to the suggestions earlier in the chapter, we recommend that a manager perform sensitivity analysis on the inputs into an aggregate plan. For example, if the plan recommends expanding expensive capacity while facing uncertain demand, examine the outcome of a new aggregate plan when demand is higher and lower than expected. If this examination reveals a small savings from expanding capacity when demand is high but a large increase in cost when demand is lower than expected, deciding to postpone the capacity investment decision is a potentially attractive option. Using sensitivity analysis on the inputs into the aggregate plan enables a planner to choose the best solution for the range of possibilities that could occur.
+3. Rerun the aggregate plan as new data emerge. As we have mentioned, aggregate plans provide a map for the next 3 to 18 months. This does not mean that a firm should run aggregate plans only once every 3 to 18 months. As inputs such as demand forecasts change, managers should use the latest values of these inputs and rerun the aggregate plan. By using the latest inputs, the plan will avoid suboptimization based on old data and will produce a better solution.
+4. Use aggregate planning as capacity utilization increases. Surprisingly, many companies do not create aggregate plans and instead rely solely on orders from their distributors or warehouses to determine their production schedules. These orders are driven either by actual demand or through inventory management algorithms. If a company has no trouble meeting demand efficiently this way, then the lack of aggregate planning may not harm the company significantly. However, when utilization becomes high and capacity is an issue, relying on orders to set the production schedule can lead to capacity problems. When utilization is high, the likelihood of producing for all the orders as they arrive is low. Planning needs to be done to best utilize the capacity to meet the forecasted demand. Therefore, as capacity utilization increases, it becomes more important to perform aggregate planning.
+8.9 SUMMARY OF LEARNING OBJECTIVES
+1. Identify the decisions that are best solved by aggregate planning. Aggregate planning is best used to determine capacity, production, and inventory decisions for each period of time over a range of 3 to 18 months. It is most important to perform aggregate planning when capacity is limited and lead times are long.
+
+Chapter 8 · Aggregate Planning in a Supply Chain 229
+2. Understand the importance of aggregate planning as a supply chain activity. Aggregate planning has a significant impact on supply chain performance and must be viewed as an activity that involves all supply chain partners. An aggregate plan prepared by an enterprise in isolation is not very useful because it does not take into account all requirements of the customer stage and constraints from the supplier stage. Localized aggregate planning cannot do a good job of matching supply and demand. Good aggregate planning is done in collaboration with both customers and suppliers because accurate input is required from both stages. The quality of these inputs, in terms of both the demand forecast to be met and the constraints to be dealt with, determines the quality of the aggregate plan. The results of the aggregate plan must also be shared across the supply chain because they influence activities for both customers and suppliers. For suppliers, the aggregate plan determines anticipated orders; for customers, the aggregate plan determines planned supply.
+3. Describe the information needed to produce an aggregate plan. To create an aggregate plan, a planner needs a demand forecast, cost and production information, and any supply constraints. The demand forecast consists of an estimate of demand for each period of time in the planning horizon. The production and cost data consist of capacity levels and costs to raise and lower them, production costs, costs to store the product, costs of stocking out the product, and any restrictions that limit these factors. Supply constraints determine limits on outsourcing, overtime, or materials.
+4. Explain the basic trade-offs to consider when creating an aggregate plan. The basic trade-offs involve balancing the cost of capacity, the cost of inventory, and the cost of stockouts to maximize profitability. Increasing any one of the three allows the planner to lower the other two.
+5. Formulate and solve aggregate planning problems using Microsoft Excel. Aggregate planning problems can be solved in Excel by setting up cells for the objective function and the constraints and using the Solver to produce the solution.
+
+Discussion Questions
+1. What are some industries in which aggregate planning would be particularly important?
+2. What are the characteristics of the industries from Question 1 that make them good candidates for aggregate planning?
+3. What are the main differences among the aggregate planning strategies?
+4. What types of industries or situations are best suited to the chase strategy? The flexibility strategy? The level strategy?
+5. What are the major cost categories needed as inputs for aggregate planning?
+
+6. How does the availability of subcontracting affect the aggregate planning problem?
+7. If a company currently employs the chase strategy and the cost of training increases dramatically, how might this change the company's aggregate planning strategy?
+8. What are some key issues to consider when picking an aggregate unit of analysis?
+9. How can aggregate planning be used in an environment of high demand uncertainty?
+
+Exercises
+1. Skycell, a major European cell phone manufacturer, is making production plans for the coming year. Skycell has worked with its customers (the service providers) to come up with forecasts of monthly requirements (in thousands of phones) as shown in Table 8-9. Manufacturing is primarily an assembly operation, and capacity is governed by the number of people on the production line. The plant operates for 20 days a month, eight hours each day. One person can assemble a phone every 10 minutes. Workers are paid 20 euros per hour and a 50 percent premium for overtime. The plant currently employs 1,250 workers. Component costs for each cell
+
+phone total 20 euros. Given the rapid decline in component and finished-product prices, carrying inventory from one month to the next incurs a cost of 3 euros per phone per month. Skycell currently has a no-layoff policy in place. Overtime is limited to a maximum of 20 hours per month per employee. Assume that Skycell has a starting inventory of 50,000 units and wants to end the year with the same level of inventory.
+a. Assuming no backlogs, no subcontracting, and no new hires, what is the optimum production schedule? What is the annual cost of this schedule?
+
+

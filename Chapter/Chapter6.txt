@@ -1,0 +1,858 @@
+6
+{{{
+Designing Global Supply Chain Networks
+LEARNING OBJECTIVES
+After reading this chapter, you will be able to 1. Identify factors that need to be included in total cost when making global sourcing decisions. 2. Define uncertainties that are particularly relevant when designing global supply chains. 3. Explain different strategies that may be used to mitigate risk in global supply chains. 4. Understand decision tree methodologies used to evaluate supply chain design decisions under uncertainty.
+Globalization has offered tremendous opportunity as well as increased risk in the development of supply chains. High-performance supply chains such as Nokia and Zara have taken full advantage of globalization. In contrast, several supply chains have found themselves unprepared for the increased risk that has accompanied globalization. As a result, managers must account for both opportunities and uncertainties over the long term when designing a global supply chain network. In this chapter, we identify sources of risk for global supply chains, discuss risk mitigation strategies, detail the methodologies used to evaluate network design decisions under uncertainty, and show how they improve global supply chain decisions.
+6.1 THE IMPACT OF GLOBALIZATION ON SUPPLY CHAIN NETWORKS
+Globalization offers companies opportunities to simultaneously grow revenues and decrease costs. In its 2008 annual report, P&G reported that more than a third of the company sales growth was from developing markets with a profit margin that was comparable to developed market margins. By 2010, sales for the company in developing markets represented almost 34 percent of global sales. Similarly, Nokia's two largest global markets in 2009, in terms of net sales, were China and India. Sales in these two countries represented almost 21.5 percent, and sales in the BRIC countries (Brazil, Russia, India, and China) represented more than 28 percent of Nokia's global sales in 2009. Clearly, globalization has offered both P&G and Nokia a significant revenue enhancement opportunity.
+Apparel and consumer electronics are two areas in which globalization has offered significant cost reduction opportunities. Consumer electronics focuses on small, lightweight, high-value items that are relatively easy and inexpensive to ship. Companies have exploited large economies of scale by consolidating production of standardized electronics components in a single location for use in multiple products across the globe. Contract manufacturers like Foxconn and Flextronics have become giants with facilities in low-cost countries. Apparel manufacture has high labor content and the product is relatively lightweight and cost effective to transport. Companies have exploited globalization by shifting much apparel manufacturing to low-labor-cost countries, especially China. In the first half of 2009, about 33 percent of U.S. imports of apparel were from China. The net result is that both industries have benefited tremendously from cost reduction as a result of globalization.
+143
+
+144 Chapter 6 · Designing Global Supply Chain Networks
+One must keep in mind, however, that the opportunities from globalization are often accompanied by significant additional risk. In a survey conducted by the consulting company Accenture in 2006, more than 50 percent of the executives surveyed believed that supply chain risk had increased as a result of their global operations strategy. For example, in 2005, hurricane damage to 40,000 acres of plantations decreased Dole's global banana production by about 25 percent. Component shortage when Sony introduced the PlayStation 3 game console hurt revenues and Sony's stock price. The ability to incorporate suitable risk mitigation into supply chain design has often been the difference between global supply chains that have succeeded and those that have not.
+The Accenture survey categorized risk in global supply chains as shown in Table 6-1 and asked respondents to indicate the factors that affected them. More than a third of the respondents were impacted by natural disasters, volatility of fuel prices, and the performance of supply chain partners.
+Crude oil spot price and exchange rate fluctuations in 2008 illustrate the extreme volatility that global supply chains must deal with. Crude started 2008 at about $90 per barrel, peaked in July at more than $140 per barrel, and plummeted to below $40 per barrel in December. The euro started 2008 at about $1.47, peaked in July at almost $1.60, dropped to about $1.25 at the end of October, and then rose back to $1.46 toward the end of December. One can only imagine the havoc such fluctuation played on supply chain performance in 2008! Similar fluctuations in exchange rates and crude prices have continued since then.
+The only constant in global supply chain management seems to be uncertainty. Over the life of a supply chain network, a company experiences fluctuations in demand, prices, exchange rates, and the competitive environment. A decision that looks good under the current environment may be quite poor if the situation changes. Between 2000 and 2008, the euro fluctuated from a low of $0.84 to a high of almost $1.60. Clearly, supply chains optimized to $0.84 per euro would have difficulty performing well when the euro reached $1.60.
+Uncertainty of demand and price drives the value of building flexible production capacity at a plant. If price and demand do vary over time in a global network, flexible production capacity can be reconfigured to maximize profits in the new environment. Between 2007 and 2008, auto sales in the United States dropped by more than 30 percent. Whereas all
+
+Table 6-1 Results of Accenture Survey on Sources of Risk That Impact Global Supply Chain Performance
+
+Risk Factors
+
+Percentage of Supply Chains Impacted
+
+Natural disasters Shortage of skilled resources Geopolitical uncertainty Terrorist infiltration of cargo Volatility of fuel prices Currency fluctuation Port operations/custom delays Customer/consumer preference shifts Performance of supply chain partners Logistics capacity/complexity Forecasting/planning accuracy Supplier planning/communication issues Inflexible supply chain technology
+
+35 24 20 13 37 29 23 23 38 33 30 27 21
+
+Source: Adapted from "Integration: The Key to Global Success." Jaume Ferre, Johann Karlberg, and Jamie Hintlian, Supply Chain Management Review (March 2007): 24­30.
+
+Chapter 6 · Designing Global Supply Chain Networks 145
+vehicle categories were affected, the drop in SUV sales was much more significant than the drop in sales of small cars and hybrids. SUV sales dropped by almost 35 percent, but small car sales actually increased by about 1 percent. Honda dealt with this fluctuation more effectively than its competitors because its plants were flexible enough to produce both vehicle types. This flexibility to produce both SUVs and cars in the same facility kept Honda plants operating at reasonably high levels of utilization. In contrast, companies with plants dedicated to SUV production had no option but to leave a lot of idle capacity. In the late 1990s, Toyota made its global assembly plants more flexible so that each plant could supply multiple markets. One of the main benefits of this flexibility is that it allows Toyota to react to fluctuations in demand, exchange rates, and local prices by altering production to maximize profits. Thus, supply, demand, and financial uncertainty must be considered when making global network design decisions.
+6.2 THE OFFSHORING DECISION: TOTAL COST
+This importance of comparative advantage in global supply chains was recognized by Adam Smith in The Wealth of Nations when he stated, "If a foreign country can supply us with a commodity cheaper than we ourselves can make it, better buy it of them with some part of the produce of our own industry, employed in a way in which we have some advantage." Cost reduction by moving production to low-cost countries is typically mentioned among the top reasons for a supply chain to become global. The challenge, however, is to quantify the benefits (or comparative advantage) of offshore production along with the reasons for this comparative advantage. Whereas many companies have taken advantage of cost reduction through offshoring, others have found the benefits of offshoring to low-cost countries to be far less than anticipated and in some cases nonexistent. The increases in transportation costs between 2000 and 2011 have had a significant negative impact on the perceived benefits of offshoring. Companies have failed to gain from offshoring for two primary reasons--(1) focusing exclusively on unit cost rather than total cost when making the offshoring decision and (2) ignoring critical risk factors. In this section, we focus on dimensions along which total landed cost needs to be evaluated when making an offshoring decision.
+The significant dimensions of total cost can be identified by focusing on the complete sourcing process when offshoring. It is important to keep in mind that a global supply chain with offshoring increases the length and duration of information, product, and cash flows. As a result, the complexity and cost of managing the supply chain can be significantly higher than anticipated. Table 6-2 identifies dimensions along which each of the three flows should be analyzed for the impact on cost and product availability.
+Ferreira and Prokopets (2009) suggest that companies should evaluate the impact of off-shoring on the following key elements of total cost:
+1. Supplier price: should link to costs from direct materials, direct labor, indirect labor, management, overhead, capital amortization, local taxes, manufacturing costs, and local regulatory compliance costs.
+2. Terms: costs are affected by net payment terms and any volume discounts. 3. Delivery costs: include in-country transportation, ocean/air freight, destination transport,
+and packaging. 4. Inventory and warehousing: include in-plant inventories, in-plant handling, plant warehouse
+costs, supply chain inventories, and supply chain warehousing costs. 5. Cost of quality: includes cost of validation, cost of performance drop due to poorer
+quality, and cost of incremental remedies to combat quality drop. 6. Customer duties, value added-taxes, local tax incentives 7. Cost of risk, procurement staff, broker fees, infrastructure (IT and facilities), and tooling
+and mold costs. 8. Exchange rate trends and their impact on cost.
+
+146 Chapter 6 · Designing Global Supply Chain Networks
+
+Table 6-2 Dimensions to Consider When Evaluating Total Cost from Offshoring
+
+Performance Dimension Activity Impacting Performance
+
+Impact of Offshoring
+
+Order communication
+
+Order placement
+
+More difficult communication
+
+Supply chain visibility
+
+Scheduling and expediting
+
+Poorer visibility
+
+Raw material costs
+Unit cost Freight costs Taxes and tariffs Supply lead time
+On-time delivery/lead time uncertainty
+Minimum order quantity Product returns Inventories Working capital Hidden costs Stock-outs
+
+Sourcing of raw material
+Production, quality (production and transportation) Transportation modes and quantity Border crossing Order communication, supplier production scheduling, production time, customs, transportation, receiving Production, quality, customs, transportation, receiving
+Production, transportation
+Quality Lead times, inventory in transit and production Inventories and financial reconciliation Order communication, invoicing errors, managing exchange rate risk Ordering, production, transportation with poorer visibility
+
+Could go either way depending on raw material sourcing Labor/fixed costs decrease; quality may suffer Higher freight costs Could go either way Lead time increase results in poorer forecasts and higher inventories Poorer on-time delivery and increased uncertainty resulting in higher inventory and lower product availability Larger minimum quantities increase inventory Increased returns likely Increase
+Increase Higher hidden costs
+Increase
+
+It is important to quantify these factors carefully when making the offshoring decision and to track them over time. As Table 6-2 indicates, unit cost reduction from low labor and fixed costs along with possible tax advantages are likely to be the major benefit from offshoring, with almost every other factor getting worse. In some instances, the substitution of labor for capital can provide a benefit when offshoring. For example, auto and auto parts plants in India are designed with much greater labor content than similar manufacturing in developed countries to lower fixed costs. The benefit of lower labor cost, however, is unlikely to be significant for a manufactured product if labor cost is a small fraction of total cost. It is also the case that in several low-cost countries such as China and India, labor costs have escalated significantly. As mentioned by Goel et al. (2008), wage inflation in China averaged 19 percent in dollar terms between 2003 and 2008 compared to around 3 percent in the United States. During the same period, transportation costs increased by a significant amount (ocean freight costs increased 135 percent between 2005 and 2008) and the Chinese yuan strengthened relative to the dollar (by about 18 percent between 2005 and 2008). The net result was that offshoring manufactured products from the United States to China looked much less attractive in 2008 than in 2003.
+
+Chapter 6 · Designing Global Supply Chain Networks 147
+In general, offshoring to low-cost countries is likely to be most attractive for products with high labor content, large production volumes, relatively low variety, and low transportation costs relative to product value. For example, a company producing a large variety of pumps is likely to find that offshoring the production of castings for a common part across many pumps is likely to be much more attractive than the offshoring of highly specialized engineered parts.
+Given that global sourcing tends to increase transportation costs, it is important to focus on reducing transportation content for successful global sourcing. Suitably designed components can facilitate much greater density when transporting products. IKEA has designed modular products that are assembled by the customer. This allows the modules to be shipped flat in high density, lowering transportation costs. Similarly, Nissan redesigned its globally sourced components so that they can be packed tighter when shipping. The use of supplier hubs can be effective if several components are being sourced globally from different locations. Many manufacturers have created supplier hubs in Asia that are fed by each of their Asian suppliers. This allows for a consolidated shipment to be sent from the hub rather than several smaller shipments from each supplier. More sophisticated flexible policies that allow for direct shipping from the supplier when volumes are high, coupled with consolidated shipping through a hub when volumes are low, can be effective in lowering transportation content.
+It is also important to perform a careful review of the production process to decide which parts are to be offshored. For example, a small American jewelry manufacturer wanted to offshore manufacturing for a piece of jewelry to Hong Kong. Raw material in the form of gold sheet was sourced in the United States. The first step in the manufacturing process was the stamping of the gold sheet into a suitable-sized blank. This process generated about 40 percent waste, which could be recycled to produce more gold sheet. The manufacturer faced the choice of stamping in the United States or Hong Kong. Stamping in Hong Kong would incur lower labor cost but higher transportation cost and would require more working capital because of the delay before the waste gold could be recycled. A careful analysis indicated that it was cheaper for the stamping tools to be installed at the gold sheet supplier in the United States. Stamping at the gold sheet supplier reduced transportation cost because only usable material was shipped to Hong Kong. More importantly, this decision reduced working capital requirement because the waste gold during stamping was recycled within two days.
+One of the biggest challenges with offshoring is the increased risk and its potential impact on cost. This challenge gets exacerbated if a company uses an offshore location that is primarily targeting low costs to absorb all the uncertainties in its supply chain. In such a context, it is often much more effective to use a combination of an offshore facility that is given predictable, high-volume work along with an onshore or near-shore facility that is specifically designed to handle most of the fluctuation. Companies solely using an offshore facility often find themselves carrying extra inventory and resorting to air freight because of the long and variable lead times. The presence of a flexible onshore facility that absorbs all the variation can often lower total landed cost by eliminating expensive outbound freight and significantly reducing the amount of inventory carried in the supply chain.
+Key Point
+It is critical that offshoring decisions be made accounting for total cost. Offshoring typically lowers labor and fixed costs but increases risk, freight costs, and working capital. Before offshoring, product design and process design should be carefully evaluated to identify steps that may lower freight content and the need for working capital. Including an onshore option can lower the cost associated with covering risk from an offshore facility.
+
+148 Chapter 6 · Designing Global Supply Chain Networks
+6.3 RISK MANAGEMENT IN GLOBAL SUPPLY CHAINS
+Global supply chains today are subject to more risk factors than localized supply chains of the past. These risks include supply disruption, supply delays, demand fluctuations, price fluctuations, and exchange-rate fluctuations. As was evident in the financial crisis of 2008, underestimating risks in global supply chains and not having suitable mitigation strategies in place can result in painful outcomes. For example, contamination at one of the two suppliers of flu vaccine to the United States led to a severe shortage at the beginning of the 2004 flu season. This shortage led to rationing in most states and severe price gouging in some cases. Similarly, the significant strengthening of the euro in 2008 hurt firms that had most of their supply sources located in Western Europe. In another instance, failure to buffer supply uncertainty with sufficient inventory resulted in high costs rather than savings. An automotive component manufacturer had hoped to save $4 to $5 million a year by sourcing from Asia instead of Mexico. As a result of port congestion in Los Angeles­Long Beach, the company had to charter aircraft to fly the parts in from Asia because it did not have sufficient inventory to cover the delays. A charter that would have cost $20,000 per aircraft from Mexico ended up costing the company $750,000. The anticipated savings turned into a $20 million loss.
+It is thus critical for global supply chains to be aware of the relevant risk factors and build in suitable mitigation strategies. Table 6-3 contains a categorization of supply chain risks and their drivers that must be considered during network design.
+
+Table 6-3 Supply Chain Risks to Be Considered During Network Design
+
+Category Disruptions Delays Systems risk Forecast risk Intellectual property risk Procurement risk
+Receivables risk Inventory risk
+Capacity risk
+
+Risk Drivers
+Natural disaster, war, terrorism Labor disputes Supplier bankruptcy
+High capacity utilization at supply source Inflexibility of supply source Poor quality or yield at supply source
+Information infrastructure breakdown System integration or extent of systems being networked
+Inaccurate forecasts due to long lead times, seasonality, product variety, short life cycles, small customer base Information distortion
+Vertical integration of supply chain Global outsourcing and markets
+Exchange-rate risk Price of inputs Fraction purchased from a single source Industry-wide capacity utilization
+Number of customers Financial strength of customers
+Rate of product obsolescence Inventory holding cost Product value Demand and supply uncertainty
+Cost of capacity Capacity flexibility
+
+Source: Adapted from "Managing Risk to Avoid Supply Chain Breakdown." Sunil Chopra and Manmohan S. Sodhi, Sloan Management Review (Fall 2004): 53­61.
+
+Chapter 6 · Designing Global Supply Chain Networks 149
+Good network design can play a significant role in mitigating supply chain risk. For instance, having multiple suppliers mitigates the risk of disruption from any one supply source. An excellent example is the difference in impact on Nokia and Ericsson when a plant owned by Royal Philips Electronics, located in Albuquerque, New Mexico, caught fire in March 2000. Nokia adjusted to the disruption quickly, using several other supply plants in its network. In contrast, Ericsson had no backup source in its network and was unable to react. Ericsson estimated that it lost revenues of $400 million as a result. Similarly, having flexible capacity mitigates the risks of global demand, price, and exchange-rate fluctuations. For example, Hino Trucks uses flexible capacity at its plants to change production levels for different products by shifting workforce between lines. As a result, the company keeps a constant workforce in the plant even though the production at each line varies to best match supply and demand. As illustrated by these examples, designing mitigation strategies into the network significantly improves a supply chain's ability to deal with risk.
+Every mitigation strategy, however, comes at a price and may increase other risks. For example, increasing inventory mitigates the risk of delays but increases the risk of obsolescence. Acquiring multiple suppliers mitigates the risk of disruption but increases costs because each supplier may have difficulty achieving economies of scale. Thus, it is important to develop tailored mitigation strategies during network design that achieve a good balance between the amount of risk mitigated and the increase in cost. Some tailored mitigation strategies are outlined in Table 6-4. Most of these strategies are discussed in greater detail later in the book.
+Global supply chains should generally use a combination of mitigation strategies designed into the supply chain along with financial strategies to hedge uncovered risks. A global supply chain strategy focused on efficiency and low cost may concentrate global production in a few low-cost countries. Such a supply chain design is vulnerable to the risk of supply disruption along with fluctuations in transportation prices and exchange rates. In such a setting, it is crucial that the firm hedge fuel costs and exchange rates because the supply chain design itself has no built-in mechanisms to deal with these fluctuations. In contrast, a global supply chain designed with excess, flexible capacity allows production to be shifted to whatever location is most
+
+Table 6-4 Tailored Risk Mitigation Strategies During Network Design
+
+Risk Mitigation Strategy Tailored Strategies
+
+Increase capacity
+Get redundant suppliers
+Increase responsiveness Increase inventory Increase flexibility
+Pool or aggregate demand Increase source capability
+
+Focus on low-cost, decentralized capacity for predictable demand. Build centralized capacity for unpredictable demand. Increase decentralization as cost of capacity drops.
+More redundant supply for high-volume products, less redundancy for low-volume products. Centralize redundancy for low-volume products in a few flexible suppliers.
+Favor cost over responsiveness for commodity products. Favor responsiveness over cost for short­life cycle products.
+Decentralize inventory of predictable, lower value products. Centralize inventory of less predictable, higher value products.
+Favor cost over flexibility for predictable, high-volume products. Favor flexibility for unpredictable, low-volume products. Centralize flexibility in a few locations if it is expensive.
+Increase aggregation as unpredictability grows.
+Prefer capability over cost for high-value, high-risk products. Favor cost over capability for low-value commodity products. Centralize high capability in flexible source if possible.
+
+Source: Adapted from "Managing Risk to Avoid Supply Chain Breakdown." Sunil Chopra and Manmohan S. Sodhi, Sloan Management Review (Fall 2004): 53­61.
+
+150 Chapter 6 · Designing Global Supply Chain Networks
+effective in a given set of macroeconomic conditions. The ability of such a flexible design to react to fluctuations decreases the need for financial hedges. Operational hedges such as flexibility are more complex to execute than financial hedges, but they have the advantage of being reactive because the supply chain can be reconfigured to best react to the macroeconomic state of the world.
+It is important to keep in mind that any risk mitigation strategy is not always "in the money." For example, flexibility built into Honda plants proved effective only when demand for vehicles shifted in an unpredictable manner in 2008. If there had been no fluctuation in demand, the flexibility would have gone unutilized. Flexibility in the form of the intelligent body assembly system (IBAS) built by Nissan in the early 1990s almost bankrupted the company because the state of the automotive markets was relatively stable at that time. Similarly, the use of fuel hedges that made billions for Southwest Airlines cost it money toward the end of 2008 when crude oil prices dropped significantly.
+It is thus critical that risk mitigation strategies be evaluated rigorously as real options in terms of their expected long-term value before they are implemented. In the following sections, we discuss methodologies that allow for the financial evaluation of risk mitigation strategies designed into a global supply chain.
+Flexibility, Chaining, and Containment
+Flexibility plays an important role in mitigating different risks and uncertainties faced by a global supply chain. Flexibility can be divided into three broad categories--new product flexibility, mix flexibility, and volume flexibility. New product flexibility refers to a firm's ability to introduce new products into the market at a rapid rate. New product flexibility is critical in a competitive environment wherein technology is evolving and customer demand is fickle. New product flexibility may result from the use of common architectures and product platforms with the goal of providing a large number of distinct models using as few unique platforms as possible. The PC industry has historically followed this approach to introduce a continuous stream of new products. New product flexibility may also result if a fraction of the production capacity is flexible enough to be able to produce any product. This approach has been used in the pharmaceutical industry in which a fraction of the capacity is very flexible with all new products first manufactured there. Only once the product takes off is it moved to a dedicated capacity with lower variable costs.
+Mix flexibility refers to the ability to produce a variety of products within a short period of time. Mix flexibility is critical in an environment wherein demand for individual products is small or highly unpredictable, supply of raw materials is uncertain, and technology is evolving rapidly. The consumer electronics industry is a good example in which mix flexibility is essential in production environments, especially as more production has moved to contract manufacturers. Modular design and common components facilitate mix flexibility. Zara's European facilities have significant mix flexibility, allowing the company to provide trendy apparel with highly unpredictable demand.
+Volume flexibility refers to a firm's ability to operate profitably at different levels of output. Volume flexibility is critical in cyclical industries. Firms in the automotive industry that lacked volume flexibility were badly hurt in 2008 when demand for automobiles in the United States shrank significantly. The steel industry is an example in which some volume flexibility and consolidation have helped performance. Prior to 2000, firms had limited volume flexibility and did not adjust production volumes when demand started to fall. The result was a buildup of inventories and a significant drop in the price of steel. In the early 2000s, a few large firms consolidated and developed some volume flexibility. As a result, they were able to cut production as demand fell. The result has been less buildup of inventory and smaller drops in price during downturns, followed by a quicker recovery for the steel industry.
+
+Chapter 6 · Designing Global Supply Chain Networks 151
+
+Dedicated Network
+
+Fully Flexible Network
+
+Chained Network with One Long
+Chain
+
+Chained Network with Two Short
+Chains
+
+FIGURE 6-1 Different Flexibility Configurations in Network
+
+Given that some form of flexibility is often used to mitigate risks in global supply chains, it is important to understand the benefits and limitations of this approach. When dealing with demand uncertainty, Jordan and Graves (1995) make the important observation that as flexibility is increased, the marginal benefit derived from the increased flexibility decreases. They suggest operationalizing this idea in the concept of chaining, which is illustrated as follows. Consider a firm that sells four distinct products. A dedicated supply network with no flexibility would have four plants, each dedicated to producing a single product, as shown in Figure 6-1. A fully flexible network configuration would have each plant capable of producing all four products. The production flexibility of plants is beneficial when demand for each of the four products is unpredictable. With dedicated plants, the firm is not able to meet demand in excess of plant capacity. With flexible plants, the firm is able to shift excess demand for a product to a plant with excess capacity. Jordan and Graves define a chained network with one long chain (limited flexibility), configured as shown in Figure 6-1. In a chained configuration, each plant is capable of producing two products with the flexibility organized so that the plants and their products form a chain. Jordan and Graves show that a chained network mitigates the risk of demand fluctuation almost as effectively as a fully flexible network. Given the higher cost of full flexibility, the results of Jordan and Graves indicate that chaining is an excellent strategy to lower cost while gaining most of the benefits of flexibility.
+The desired length of chains is an important question to be addressed when designing chained networks. When dealing with demand uncertainty, longer chains have the advantage of effectively pooling available capacity to a greater extent. Long chains, however, do have a few disadvantages. The fixed cost of building a single long chain can be higher than the cost of multiple smaller chains. With a single long chain, the effect of any fluctuation ripples to all facilities in the chain, making coordination more difficult across the network. It has also been observed by several researchers that flexibility and chaining are effective when dealing with demand fluctuation but less effective when dealing with supply disruption. In the presence of supply disruption, Lim et al. (2008) have observed that designing smaller chains that contain or limit the impact of a disruption can be more effective than designing a network with one long chain. An example of containment is shown in the last example in Figure 6-1, which shows four plants with the flexibility to produce the four products in the form of two short chains. In this design, any disruption in one of the chains does not impact the other chain. A simple example of containment is hog farming: The farms are large to gain economies of scale, but the hogs are kept separated in small groups to ensure that the risk of disease is contained within a group and does not spread to the entire farm.
+
+Key Point
+Appropriate flexibility is an effective approach for a global supply chain to deal with a variety of risks and uncertainties. Whereas some flexibility is valuable, too much flexibility may not be worth the cost. Strategies like chaining and containment should be used to maximize the benefit from flexibility while keeping costs low.
+
+152 Chapter 6 · Designing Global Supply Chain Networks
+
+6.4 DISCOUNTED CASH FLOWS
+
+Global supply chain design decisions should be evaluated as a sequence of cash flows over the duration of time they will be in place. This requires the evaluation of future cash flows accounting for risks and uncertainties likely to arise in the global supply chain. In this section, we discuss the basics of analysis to evaluate future cash flows before introducing uncertainty in the next section.
+The present value of a stream of cash flows is what that stream is worth in today's dollars. Discounted cash flow (DCF) analysis evaluates the present value of any stream of future cash flows and allows management to compare two streams of cash flows in terms of their financial value. DCF analysis is based on the fundamental premise that "a dollar today is worth more than a dollar tomorrow" because a dollar today may be invested and earn a return in addition to the dollar invested. This premise provides the basic tool for comparing the relative value of future cash flows that will arrive during different time periods.
+The present value of future cash flow is found by using a discount factor. If a dollar today can be invested and earn a rate of return k over the next period, an investment of $1 today will result in 1  k dollars in the next period. An investor would therefore be indifferent between obtaining $1 in the next period or $1/(1  k) in the current period. Thus, $1 in the next period is discounted by the
+
+discount factor =
+
+1 1+k
+
+(6.1)
+
+to obtain its present value.
+
+The rate of return k is also referred to as the discount rate, hurdle rate, or opportunity cost
+
+of capital. Given a stream of cash flows C0, C1, . . . , CT over the next T periods, and a rate of return k, the net present value (NPV) of this cash flow stream is given by
+
+NPV
+
+=
+
+C0
+
+T
++a a
+t=1
+
+1 1+
+
+k
+
+t
+b Ct
+
+(6.2)
+
+The NPV of different options should be compared when making supply chain decisions. A negative NPV for an option indicates that the option will lose money for the supply chain. The decision with the highest NPV will provide a supply chain with the highest financial return.
+
+EXAMPLE 6-1
+Trips Logistics, a third-party logistics firm that provides warehousing and other logistics services, is facing a decision regarding the amount of space to lease for the upcoming three-year period. The general manager has forecast that Trips Logistics will need to handle a demand of 100,000 units for each of the next three years. Historically, Trips Logistics has required 1,000 sq. ft. of warehouse space for every 1,000 units of demand. For the purposes of this discussion, the only cost Trips Logistics faces is the cost for the warehouse.
+Trips Logistics receives revenue of $1.22 for each unit of demand. The general manager must decide whether to sign a three-year lease or obtain warehousing space on the spot market each year. The three-year lease will cost $1 per square foot per year, and the spot market rate is expected to be $1.20 per square foot per year for each of the three years. Trips Logistics has a discount rate of k  0.1.
+Analysis:
+The general manager decides to compare the NPV of signing a three-year lease for 100,000 sq. ft. of warehouse space with obtaining the space from the spot market each year. If the general manager obtains warehousing space from the spot market each year, Trips Logistics will earn $1.22 for each
+
+Chapter 6 · Designing Global Supply Chain Networks 153
+unit and pay $1.20 for one square foot of warehouse space required. The expected annual profit for Trips Logistics in this case is given by the following:
+
+Expected annual profit if warehousing = 100,000 * $1.22
+
+space is obtained from spot market
+
+- 100,000 * $1.20 = $2,000.
+
+Obtaining warehouse space from the spot market provides Trips Logistics with an expected positive cash flow of $2,000 in each of the three years. The NPV may be evaluated as follows:
+
+NPV1No lease2 = C0 +
+
+C1 1+k
+
++
+
+C2 11 + k22
+
+= 2,000 +
+
+2,000 1.1
+
++
+
+2,000 1.12
+
+= $5,471
+
+If the general manager leases 100,000 sq. ft. of warehouse space for the next three years, Trips Logistics pays $1 per square foot of space leased each year. The expected annual profit for Trips Logistics in this case is given by the following:
+
+Expected annual profit with three-year lease = 100,000 * $1.22 - 100,000 * $1.00 = $22,000.
+
+Signing a lease for three years provides Trips Logistics with a positive cash flow of $22,000 in each of the three years. The NPV may be evaluated as
+
+NPV1Lease2 = C0 +
+
+C1 1+k
+
++
+
+11
+
+C2 + k22
+
+=
+
+22,000
+
++
+
+22,000 1.1
+
++
+
+22,000 1.12
+
+= $60,182
+
+The NPV of signing the lease is $60,182  $5,471  $54,711 higher than obtaining warehousing space on the spot market.
+
+Based on this simple analysis, a manager may opt to sign the lease. However, this does not tell the whole story because we have not yet included the uncertainty in spot prices and valued the greater flexibility to adjust to uncertainty that the spot market provides the manager. In the next section, we introduce methodology that allows for uncertainty and discuss how the inclusion of uncertainty of future demand and costs may cause the manager to rethink the decision.
+
+6.5 EVALUATING NETWORK DESIGN DECISIONS USING DECISION TREES
+In any global supply chain, demand, prices, exchange rates, and several other factors are highly uncertain and are likely to fluctuate during the life of any supply chain decision. In an uncertain environment, the problem with using a simple DCF analysis is that it typically undervalues flexibility. The result is often a supply chain that performs well if everything goes according to plan but becomes terribly expensive if something unexpected happens. A manager makes several different decisions when designing a supply chain network. For instance:
+· Should the firm sign a long-term contract for warehousing space or get space from the spot market as needed?
+· What should the firm's mix of long-term and spot market be in the portfolio of transportation capacity?
+· How much capacity should various facilities have? What fraction of this capacity should be flexible?
+If uncertainty is ignored, a manager will always sign long-term contracts (because they are typically cheaper) and avoid all flexible capacity (because it is more expensive). Such decisions, however, can hurt the firm if future demand or prices are not as forecast at the time of the decision.
+
+154 Chapter 6 · Designing Global Supply Chain Networks
+For example, until around 1990, all production capacity in the pharmaceutical industry was dedicated. Dedicated capacity was cheaper than flexible capacity but could be used only for the drug it was designed for. Pharmaceutical companies, however, found it difficult to forecast the demand and price for drugs in the marketplace. Thus, a large fraction of the dedicated capacity could go unused if the forecast demand did not materialize. Today, pharmaceutical companies have a strategy of carrying a portfolio of dedicated and flexible capacity. Most products are introduced in a flexible facility and are moved to a dedicated facility only when a reasonably accurate forecast of future demand is available.
+During network design, managers thus need a methodology that allows them to estimate the uncertainty in their forecast of demand and price and then incorporate this uncertainty in the decision-making process. Such a methodology is most important for network design decisions because these decisions are hard to change in the short term. In this section, we describe such a methodology and show that accounting for uncertainty can have a significant impact on the value of network design decisions.
+The Basics of Decision Tree Analysis
+A decision tree is a graphic device used to evaluate decisions under uncertainty. Decision trees with DCFs can be used to evaluate supply chain design decisions given uncertainty in prices, demand, exchange rates, and inflation.
+The first step in setting up a decision tree is to identify the number of time periods into the future that will be considered when making the decision. The decision maker should also identify the duration of a period--which could be a day, a month, a quarter, or any other time period. The duration of a period should be the minimum period of time over which factors affecting supply chain decisions may change by a significant amount. "Significant" is hard to define, but in most cases it is appropriate to use as a period the duration over which an aggregate plan holds. If planning is done monthly, we set the duration of a period at a month. In the following discussion, T will represent the number of time periods over which the supply chain decision is to be evaluated.
+The next step is to identify factors that will affect the value of the decision and are likely to fluctuate over the next T periods. These factors include demand, price, exchange rate, and inflation, among others. Having identified the key factors, the next step is to identify probability distributions that define the fluctuation of each factor from one period to the next. If, for instance, demand and price are identified as the two key factors that affect the decision, the probability of moving from a given value of demand and price in one period to any other value of demand and price in the next period must be defined.
+The next step is to identify a periodic discount rate k to be applied to future cash flows. It is not essential that the same discount rate apply to each period or even at every node in a period. The discount rate should take into account the inherent risk associated with the investment. In general, a higher discount rate should apply to investments with higher risk.
+The decision is now evaluated using a decision tree, which contains the present and T future periods. Within each period, a node must be defined for every possible combination of factor values (say, demand and price) that can be achieved. Arrows are drawn from origin nodes in Period i to end nodes in Period i  1. The probability on an arrow is referred to as the transition probability and is the probability of transitioning from the origin node in Period i to the end node in Period i  1.
+The decision tree is evaluated starting from nodes in Period T and working back to Period 0. For each node, the decision is optimized taking into account current and future values of various factors. The analysis is based on Bellman's principle, which states that for any choice of strategy in a given state, the optimal strategy in the next period is the one that is selected if the entire analysis is assumed to begin in the next period. This principle allows the optimal strategy to be solved in a backward fashion starting at the last period. Expected future cash flows are discounted back and included in the decision currently under consideration. The value of the
+
+Chapter 6 · Designing Global Supply Chain Networks 155
+node in Period 0 gives the value of the investment as well as the decisions made during each time period. Tools such as Treeplan are available that help solve decision trees on spreadsheets.
+The decision tree analysis methodology is summarized as follows:
+1. Identify the duration of each period (month, quarter, etc.) and the number of periods T over which the decision is to be evaluated.
+2. Identify factors such as demand, price, and exchange rate whose fluctuation will be considered over the next T periods.
+3. Identify representations of uncertainty for each factor; that is, determine what distribution to use to model the uncertainty.
+4. Identify the periodic discount rate k for each period. 5. Represent the decision tree with defined states in each period as well as the transition
+probabilities between states in successive periods. 6. Starting at period T, work back to Period 0, identifying the optimal decision and the
+expected cash flows at each step. Expected cash flows at each state in a given period should be discounted back when included in the previous period.
+Evaluating Flexibility at Trips Logistics
+We illustrate the decision tree analysis methodology by using the lease decision facing the general manager at Trips Logistics. The manager must decide whether to lease warehouse space for the coming three years and the quantity to lease. The long-term lease is currently cheaper than the spot market rate for warehouse space. The manager anticipates uncertainty in demand and spot prices for warehouse space over the coming three years. The long-term lease is cheaper but could go unused if demand is lower than anticipated. The long-term lease may also end up being more expensive if future spot market prices come down. In contrast, spot market rates are high and warehouse space from the spot market will be expensive if future demand is high. The manager is considering three options:
+1. Get all warehousing space from the spot market as needed. 2. Sign a three-year lease for a fixed amount of warehouse space and get additional
+requirements from the spot market. 3. Sign a flexible lease with a minimum charge that allows variable usage of warehouse space
+up to a limit with additional requirement from the spot market.
+We now discuss how the manager can make the appropriate decision, taking uncertainty into account.
+One thousand square feet of warehouse space is required for every 1,000 units of demand, and the current demand at Trips Logistics is for 100,000 units per year. The manager forecasts that from one year to the next, demand may go up by 20 percent with a probability of 0.5 or go down by 20 percent with a probability of 0.5. The probabilities of the two outcomes are independent and unchanged from one year to the next.
+The general manager can sign a three-year lease at a price of $1 per square foot per year. Warehouse space is currently available on the spot market for $1.20 per square foot per year. From one year to the next, spot prices for warehouse space may go up by 10 percent with probability 0.5 or go down by 10 percent with probability 0.5, according to a binomial process. The probabilities of the two outcomes are independent and unchanged from one year to the next.
+The general manager believes that prices of warehouse space and demand for the product fluctuate independently. Each unit Trips Logistics handles results in revenue of $1.22, and Trips Logistics is committed to handling all demand that arises. Trips Logistics uses a discount rate of k  0.1 for each of the three years.
+The general manager assumes that all costs are incurred at the beginning of each year and thus constructs a decision tree with T  2. The decision tree is shown in Figure 6-2, with each node representing demand (D) in thousands of units and price (p) in dollars. The probability of each transition is 0.25 because price and demand fluctuate independently.
+
+156 Chapter 6 · Designing Global Supply Chain Networks Period 0
+
+Period 1
+
+Period 2
+
+D = 100 p = $1.20
+
+D = 120 p = $1.32 0.25 0.25 D = 120 p = $1.08
+
+0.25 0.25
+
+D = 80 p = $1.32
+
+D = 80 p = $1.08
+
+0.25 0.25 0.25
+0.25
+
+D = 144 p = $1.45 D = 144 p = $1.19
+D = 96 p = $1.45 D = 144 p = $0.97
+D = 96 p = $1.19
+D = 96 p = $0.97
+D = 64 p = $1.45
+
+D = 64 p = $1.19
+
+D = 64 p = $0.97
+FIGURE 6-2 Decision Tree for Trips Logistics Considering Demand and Price Fluctuation
+
+Evaluating the Spot Market Option
+The manager first analyzes the option of not signing a lease and obtaining all warehouse space from the spot market. He starts with Period 2 and evaluates the profit for Trips Logistics at each node. At the node D  144, p  $1.45, Trips Logistics must satisfy a demand of 144,000 and faces a spot price of $1.45 per square foot for warehouse space in Period 2. The cost incurred by Trips Logistics in Period 2 at the node D  144, p  $1.45 is represented by C(D  144, p 1.45, 2) and is given by
+C1D = 144, p = 1.45, 22 = 144,000 * 1.45 = $208,800
+The profit at Trips Logistics in Period 2 at the node D  144, p  $1.45 is represented by P(D  144, p  1.45, 2) and is given by
+P1D = 144, p = $1.45, 22 = 144,000 * 1.22 - C1D = 144, p = 1.45, 22
+= 175,680 - 208,800 = - $33,120
+
+Chapter 6 · Designing Global Supply Chain Networks 157
+
+Table 6-5 Period 2 Calculations for Spot Market Option
+
+Revenue
+
+Cost C(D , p , 2)
+
+Profit P(D , p , 2)
+
+D  144, p  1.45 D  144, p  1.19 D  144, p  0.97 D  96, p  1.45 D  96, p  1.19 D  96, p  0.97 D  64, p  1.45 D  64, p  1.19 D  64, p  0.97
+
+144,000 × 1.22 144,000 × 1.22 144,000 × 1.22
+96,000 × 1.22 96,000 × 1.22 96,000 × 1.22 64,000 × 1.22 64,000 × 1.22 64,000 × 1.22
+
+144,000 × 1.45 144,000 × 1.19 144,000 × 0.97
+96,000 × 1.45 96,000 × 1.19 96,000 × 0.97 64,000 × 1.45 64,000 × 1.19 64,000 × 0.97
+
+$33,120 $4,320
+$36,000
+$22,080 $2,880
+$24,000
+$14,720 $1,920
+$16,000
+
+The profit for Trips Logistics at each of the other nodes in Period 2 is evaluated similarly, as shown in Table 6-5.
+The manager next evaluates the expected profit at each node in Period 1 to be the profit during Period 1 plus the present value (in Period 1) of the expected profit in Period 2. The expected profit EP(D , p , 1) at a node is the expected profit over all four nodes in Period 2 that may result from this node. PVEP(D , p , 1) represents the present value of this expected profit; P(D , p , 1), the total expected profit, is the sum of the profit in Period 1 and the present value of the expected profit in Period 2. From the node D  120, p  $1.32 in Period 1, there are four possible states in Period 2. The manager thus evaluates the expected profit in Period 2 over all four states possible from the node D  120, p  $1.32 in Period 1 to be EP(D  120, p  1.32, 1),
+where
+EP1D = 120, p = 1.32, 12 = 0.25 * 3P1D = 144, p = 1.45, 22 + P1D = 144, p = 1.19,2) + P1D = 96, p = 1.45, 22 + P1D = 96, p = 1.19, 224 = 0.25 * 3-33,120 + 4,320 - 22,080 + 2,8804 = - $12,000
+The present value of this expected value in Period 1 is given by
+PVEP1D = 120, p = 1.32, 12 = EP1D = 120, p = 1.32, 12>11 + k2 = -12,000>1.1 = - $10,909
+The manager obtains the total expected profit P(D  120, p  1.32, 1) at node D  120, p  1.32 in Period 1 to be the sum of the profit in Period 1 at this node and the present value of future expected profits.
+P1D = 120, p = 1.32, 12 = 120,000 * 1.22 - 120,000 * 1.32 + PVEP1D = 120, p = 1.32, 12 = - $12,000 - $10,909 = -$22,909
+The total expected profit for all other nodes in Period 1 is evaluated as shown in Table 6-6. For Period 0, the total profit P(D  100, p  1.20, 0) is the sum of the profit at Period 0
+and the present value of the expected profit over the four nodes in Period 1.
+EP1D = 100, p = 1.20, 02 = 0.25 * 3P1D = 120, p = 1.32, 12 + P1D = 120, p = 1.08, 12 + P1D = 96, p = 1.32, 12 + P1D = 96, p = 1.08, 124 = 0.25 * [-22,909 + 32,073 - 15,273 + 21,382] = $3,818
+
+158 Chapter 6 · Designing Global Supply Chain Networks
+
+Table 6-6 Period 1 Calculations for Spot Market Option
+
+Node
+D  120, p  1.32 D  120, p  1.08 D  80, p  1.32 D  80, p  1.08
+
+EP(D , p , 1) $12,000 $16,800
+$8,000 $11,200
+
+p (D , p , 1)  D  1.22  D  p  EP(D , p , 1)/(1  k)
+$22,909 $32,073
+$15,273 $21,382
+
+PVEP1D = 100, p = 1.20, 12 = EP1D = 100, p = 1.20, 02>(1 + k) = 3,818>1.1 = $3,471
+P1D = 100, p = 1.20, 02 = 100,000 * 1.22 - 100,000 * 1.20 + PVEP1D = 100, p = 1.20, 02 = $2,000 + $3,471 = $5,471
+Thus, the expected NPV of not signing the lease and obtaining all warehousing space from the spot market is given by
+NPV1Spot Market2 = $5,471
+Evaluating the Fixed Lease Option
+The manager next evaluates the alternative whereby the lease for 100,000 sq. ft. of warehouse space is signed. The evaluation procedure is very similar to that for the previous case, but the outcome in terms of profit changes. For example, at the node D  144, p  1.45, the manager will require 44,000 sq. ft. of warehouse space from the spot market at $1.45 per square foot because only 100,000 sq. ft. have been leased at $1 per square foot. If demand happens to be less than 100,000 units, Trips Logistics still has to pay for the entire 100,000 sq. ft. of leased space. For Period 2, the manager obtains the profit at each of the nine nodes as shown in Table 6-7.
+The manager next evaluates the total expected profit for each node in Period 1. Again, the expected profit EP(D , p , 1) at a node is the expected profit of all four nodes in Period 2 that
+
+Table 6-7 Period 2 Profit Calculations at Trips Logistics for Fixed Lease Option
+
+Node
+D  144, p  1.45 D  144, p  1.19 D  144, p  0.97 D  96, p  1.45 D  96, p  1.19 D  96, p  0.97 D  64, p  1.45 D  64, p  1.19 D  64, p  0.97
+
+Leased Space
+100,000 sq. ft. 100,000 sq. ft. 100,000 sq. ft. 100,000 sq. ft. 100,000 sq. ft. 100,000 sq. ft. 100,000 sq. ft. 100,000 sq. ft. 100,000 sq. ft.
+
+Warehouse Space at Spot Price (S)
+44,000 sq. ft. 44,000 sq. ft.
+44,000 sq. ft. 0 sq. ft. 0 sq. ft. 0 sq. ft. 0 sq. ft. 0 sq. ft. 0 sq. ft.
+
+Profit P (D , p , 2)  D  1.22  (100,000  1  S × p)
+$11,880 $23,320
+$33,000 $17,120 $17,120 $17,120 $21,920 $21,920 $21,920
+
+Chapter 6 · Designing Global Supply Chain Networks 159
+
+Table 6-8 Period 1 Profit Calculations at Trips Logistics for Fixed Lease Option
+
+Node D  120, p  1.32
+D  120, p  1.08 D  80, p  1.32 D  80, p  1.08
+
+EP(D , p , 1)
+0.25 × [P(D  144, p  1.45, 2)  P(D  144, p  1.19, 2)  P(D  96, p  1.45, 2)  P(D  96, p  1.19, 2)]  0.25 × (11,880  23,320  17,120  17,120)  $17,360
+0.25 × [23,320  33,000  17,120  17,120]  $22,640
+0.25 × [17,120  17,120  21,920  21,920]  $2,400
+0.25 × [17,120  17,120 21,920 21,920]  $2,400
+
+Warehouse Space at Spot Price (S)
+20,000
+20,000 0 0
+
+P(D , p , 1)  D  1.22  (100,000  1  S  p)  EP(D , p , 1)(1 k)
+$35,782
+$45,382
+$4,582 $4,582
+
+may result from this node (see Figure 6-2), and P(D , p , 1) is the total expected profit from both Periods 1 and 2. The manager thus obtains the results in Table 6-8.
+For Period 0, the expected profit EP(D  100, p  1.20, 0) over the four nodes in Period 1 is given by
+EP1D = 100, p = 1.20, 02 = 0.25 * 3P1D = 120, p = 1.32, 12 + P1D = 120, p = 1.08, 1) + P1D = 96, p = 1.32, 12 + P1D = 96, p = 1.08, 124 = 0.25 * [35,782 + 45,382 - 4,582 - 4,582] = $18,000
+The present value of the expected profit in Period 0 is given by
+PVEP1D = 100, p = 1.20, 02 = EP1D = 100, p = 1.20, 02>11 + k2 = 18,000>1.1 = $16,364
+The total expected profit is obtained as the sum of the profit in Period 0 and the present value of the expected profit over all four nodes in Period 1. It is
+P1D = 100, p = 1.20, 02 = 100,000 * 1.22 - 100,000 * 1 + PVEP1D = 100, p = 1.20, 02 = $22,000 + $16,364 = $38,364
+The NPV of signing a three-year lease for 100,000 sq. ft. of warehouse space is thus
+NPV1Lease2 = $38,364
+Observe that the NPV of the lease option under uncertainty is considerably less compared to when uncertainty is ignored ($60,182 from Example 6-1). This is because the lease is a fixed decision, and Trips Logistics is unable to react to market conditions by leasing less space if demand is lower. Rigid contracts are less attractive in the presence of uncertainty.
+The presence of uncertainty in demand and price reduces the value of the lease but does not affect the value of the spot market option. The manager, however, still prefers to sign the three-year lease for 100,000 sq. ft. because this option has a higher expected profit.
+
+160 Chapter 6 · Designing Global Supply Chain Networks
+Key Point
+Uncertainty in demand and economic factors should be included in the financial evaluation of supply chain design decisions. The inclusion of uncertainty typically decreases the value of rigidity and increases the value of flexibility.
+Evaluating the Flexible Lease Option
+The decision tree analysis methodology is useful when evaluating flexibility within a supply chain. We now consider the evaluation of flexibility with decision trees in the context of warehousing choices for Trips Logistics.
+The general manager at Trips Logistics has been offered a contract in which, for an up-front payment of $10,000, Trips Logistics will have the flexibility of using between 60,000 sq. ft. and 100,000 sq. ft. of warehouse space at $1 per square foot per year. Trips Logistics must pay $60,000 per year for the first 60,000 sq. ft. and can then use up to another 40,000 sq. ft. on demand at $1 per square foot. The general manager decides to use decision trees to evaluate whether this flexible contract is preferable to a fixed contract for 100,000 sq. ft.
+The underlying decision tree for evaluating the flexible contract is exactly as in Figure 6-2. The profit at each node, however, changes because of the flexibility in space used. If demand is larger than 100,000 units, Trips Logistics uses all 100,000 sq. ft. of warehouse space even under the flexible contract. If demand is between 60,000 and 100,000 units, Trips Logistics pays only for the exact amount of warehouse space used rather than the entire 100,000 sq. ft. under the contract without flexibility. The profit at all nodes where demand is 100,000 or higher remains the same as in Table 6-7. The profit in Period 2 at all nodes where demand is less than 100,000 units increases as shown in Table 6-9.
+The general manager evaluates the expected profit EP(D , p , 1) from Period 2 and the total expected profit for each node in Period 1 as discussed earlier. The results are shown in Table 6-10.
+The total expected profit in Period 0 is the sum of the profit in Period 0 and the present value of the expected profit in Period 1. The manager thus obtains
+EP1D = 100, p = 1.20, 02 = 0.25 * 3P1D = 120, p = 1.32, 12 + P1D = 120, p = 1.08,1) + P1D = 96, p = 1.32, 12 + P1D = 96, p = 1.08, 124 = 0.25 * [37,600 + 47,200 + 33,600 + 33,600] = $38,000
+
+Table 6-9 Period 2 Profit Calculations at Trips Logistics with Flexible Lease Contract
+
+Node
+
+Warehouse Space Warehouse Space
+
+at $1 (W)
+
+at Spot Price (S)
+
+D  144, p  1.45 D  144, p  1.19 D  144, p  0.97 D  96, p  1.45 D  96, p  1.19 D  96, p  0.97 D  64, p  1.45 D  64, p  1.19 D  64, p  0.97
+
+100,000 sq. ft. 100,000 sq. ft. 100,000 sq. ft.
+96,000 sq. ft. 96,000 sq. ft. 96,000 sq. ft. 64,000 sq. ft. 64,000 sq. ft. 64,000 sq. ft.
+
+44,000 sq. ft. 44,000 sq. ft. 44,000 sq. ft.
+0 sq. ft. 0 sq. ft. 0 sq. ft. 0 sq. ft. 0 sq. ft. 0 sq. ft.
+
+Profit P(D , p , 2)  D  1.22  (W  1  S  p)
+$11,880 $23,320 $33,000 $21,120 $21,120 $21,120 $14,080 $14,080 $14,080
+
+Chapter 6 · Designing Global Supply Chain Networks 161
+
+Table 6-10 Period 1 Profit Calculations at Trips Logistics with Flexible Lease Contract
+
+Node D  120, p  1.32 D  120, p  1.08 D  80, p  1.32 D  80, p  1.08
+
+EP(D, p , 1)
+0.25 × [11,880  23,320  21,120  21,120]  $19,360
+0.25 × [23,320  33,000  21,120 + 21,120]  $24,640
+0.25 × [21,120  21,120  14,080  14,080]  $17,600
+0.25 × [21,120  21,120  14,080  14,200]  $17,600
+
+Warehouse Space at $1 (W) 100,000
+100,000
+80,000
+80,000
+
+Warehouse Space at
+Spot Price (S) 20,000
+20,000
+0
+0
+
+P(D , p , 1)  D  1.22  (W  1  S  p) 
+EP(D , p , 1) (1  k) $37,600
+$47,200
+$33,600
+$33,600
+
+Table 6-11 Comparison of Different Lease Options for Trips Logistics
+
+Option
+
+Value
+
+All warehouse space from the spot market Lease 100,000 sq. ft. for three years Flexible lease to use between 60,000 and 100,000 sq. ft.
+
+$5,471 $38,364 $46,545
+
+PVEP1D = 100, p = 1.20, 12 = EP1D = 100, p = 1.20, 02>11 + k2 = 38,000 >1.1 = $34,545
+P1D = 100, p = 1.20, 02 = 100,000 * 1.22 - 100,000 * 1 + PVEP1D = 100, p = 1.20, 02 = $22,000 + $34,545 = $56,545
+With an up-front payment of $10,000, the net expected profit is $46,545 under the flexible lease. The value of flexibility may now be obtained as the difference between the expected present values of the two contracts. Accounting for uncertainty, the manager at Trips Logistics values the three options as shown in Table 6-11.
+The flexible contract is thus beneficial for Trips Logistics because it is $8,181 more valuable than the rigid contract for three years.
+6.6 TO ONSHORE OR OFFSHORE: EVALUATION OF GLOBAL SUPPLY CHAIN DESIGN DECISIONS UNDER UNCERTAINTY
+In this section, we discuss a supply chain design decision at D-Solar, a German manufacturer of solar panels, to illustrate the power of the decision tree analysis methodology for designing global supply chain networks while accounting for uncertainty. D-Solar faces a plant location decision in a global network with fluctuating exchange rates and demand uncertainty.
+
+Key Point
+Flexibility should be valued by taking into account uncertainty in demand and economic factors. In general, the value of flexibility increases with an increase in uncertainty.
+
+162 Chapter 6 · Designing Global Supply Chain Networks
+
+Table 6-12 Fixed and Variable Production Costs for D-Solar
+
+European Plant
+
+Chinese Plant
+
+Fixed Cost (euro) 1 million/year
+
+Variable Cost (euro) 40/panel
+
+Fixed Cost (yuan) 8 million/year
+
+Variable Cost (yuan) 340/panel
+
+D-Solar sells its products primarily in Europe. Demand in the Europe market is currently 100,000 panels per year and each panel sells for 70. While panel demand is expected to grow, there are some downside risks if the economy slides. From one year to the next, demand may increase by 20 percent with probability 0.8 or decrease by 20 percent with probability 0.2.
+D-Solar has to decide whether to build a plant in Europe or China. In either case, D-Solar plans to build a plant with a rated capacity of 120,000 panels. The fixed and variable costs of the two plants are shown in Table 6-12. Observe that the fixed costs are given per year rather than as a one-time investment. The European plant is more expensive but will also have greater volume flexibility. The plant will be able to increase or decrease production anywhere in the range of 60,000 to 150,000 panels while maintaining its variable cost. In contrast, the Chinese plant is cheaper (at the current exchange rate of 9 yuan/euro) but will have limited volume flexibility and can produce only between 100,000 and 130,000 panels. If the Chinese plant is built, D-Solar will have to incur variable cost for 100,000 panels even if demand drops below that level and will lose sales if demand increases above 130,000 panels. Exchange rates are volatile, and each year the yuan is expected to rise 10 percent with a probability of 0.7 or drop 10 percent with a probability of 0.3. We assume that the sourcing decision will be in place over the next three years and the discount rate used by D-Solar is k  0.1. All costs and revenues are assumed to accrue at the beginning of the year, allowing us to consider the first year as period 0 and the following two years as periods 1 and 2.
+Evaluating the Options Using DCF and Expected Demand and Exchange Rate
+A simplistic approach often taken is to consider the expected movement of demand and exchange rates in future periods when evaluating discounted cash flows. The weakness of such an approach is that it averages the trends while ignoring the uncertainty. We start by considering such a simplistic approach for the onshoring and offshoring options. On average, demand is expected to increase by 12 percent (20 × 0.8  20 × 0.2  12), while the yuan is expected to strengthen by 4 percent (10 × 0.7 ­ 10 × 0.2  4) each year. In this case, the expected demand and exchange rates in the two future periods are shown in Table 6-13. We now evaluate the discounted cash flows for both options assuming the average expected change in demand and exchange rates over the next two periods.
+For the on-shoring option, we have the following:
+Period 0 profits = 100,000 * 70 - 1,000,000 - 100,000 * 40 = 2,000,000
+Period 1 profits = 112,000 * 70 - 1,000,000 - 112,000 * 40 = 2,360,000
+Period 2 profits = 125,440 * 70 - 1,000,000 - 125,440 * 40 =  2,763,200
+
+Table 6-13 Expected Future Demand and Exchange Rate
+
+Period 1
+
+Period 2
+
+Demand
+
+Exchange Rate
+
+Demand
+
+Exchange Rate
+
+112,000
+
+8.64 yuan/ euro
+
+125,440
+
+8.2944 yuan /euro
+
+Chapter 6 · Designing Global Supply Chain Networks 163
+Thus, the DCF for the onshoring option is obtained as follows:
+Expected profit from onshoring = 2,000,000 + 2,360,000/1.1 + 2,763,200/1.21 = 6,429,091
+For the off-shoring option we have the following:
+Period 0 profits = 100,000 * 70 - 8,000,000/9 - 100,000 * 340/9 = 2,333,333
+Period 1 profits = 112,000 * 70 - 8,000,000/8.64 - 112,000 * 340/8.64 = 2,506,667
+Period 2 profits = 125,440 * 70 - 8,000,000/7.9524 - 125,440 * 340/7.9524 = 2,674,319
+Thus, the DCF for the off-shoring option is obtained as follows:
+Expected profit from off-shoring = 2,333,333 + 2,506,667/1.1 + 2,674,319/1.21 = 6,822,302
+Based on performing a simple DCF analysis and assuming the expected trend of demand and exchange rates over the next two periods, it seems that offshoring should be preferred to onshoring because it is expected to provide additional profits of almost 393,000. The problem with the above analysis is that it has ignored uncertainty. For example, even though the demand is expected to grow, there is some probability that it will decrease. If demand drops below 100,000 panels, the offshore option could end up costing more because of the lack of flexibility. Similarly, if demand increases more than expected (grows by 20 percent in each of the two years), the offshore facility will not be able to keep up with the increase. An accurate analysis must reflect the uncertainties and should ideally be performed using a decision tree.
+Evaluating the Options Using Decision Trees
+For this analysis we construct a decision tree as shown in Figure 6-3. Each node in a given period leads to four possible nodes in the next period because demand and the exchange rate may go up or down. The detailed links and transition probabilities are shown in Figure 6-3. Demand is in thousands and is represented by D. The exchange rate is represented by E, where E is the number of yuan to a euro. For example, starting with the node D  100, E  9.00 in Period 0, one can transition to any of four nodes in Period 1. The transition to the node D  120, E  9.90 in Period 1 occurs if demand increases (probability of 0.8) and the yuan weakens (probability of 0.3). Thus, the transition from node D  100, E  9.00 in Period 0 to node D  120, E  9.90 in Period 1 occurs with probability 0.8 × 0.3  0.24. All other transition probabilities in Figure 6-3 are calculated in a similar manner. The main advantage of using a decision tree is that it allows for the true evaluation of profits in each scenario that D-Solar may find itself.
+Evaluating the Onshore Option
+Recall that the onshore option is flexible and can change production levels (and thus variable costs) to match demand levels between 60,000 and 150,000. In the following analysis, we calculate the expected profits at each node in the decision tree (represented by the corresponding values of D and E) starting in Period 2 and working back to the present (Period 0). With the onshore option, exchange rates do not affect profits in euro because both revenue and costs are in euro.
+PERIOD 2 EVALUATION We provide a detailed analysis for the node D  144 (solar panel demand of 144,000), E  10.89 (exchange rate of 10.89 yuan per euro). Given its flexibility, the onshore facility is able to produce the entire demand of 144,000 panels at
+
+164 Chapter 6 · Designing Global Supply Chain Networks Period 0
+
+Period 1
+
+Period 2
+
+D = 100 E = 9.00
+
+0.8 × 0.3 0.8 × 0.3
+
+0.2 × 0.7 0.2 × 0.7
+
+0.8 × 0.7 0.2 × 0.3
+
+0.8 × 0.3
+
+D = 144 E = 10.89
+
+0.8 × 0.7
+
+D = 144 E = 8.91
+
+D = 120 E = 9.90 D = 120 E = 8.10 D = 80 E = 9.90 D = 80 E = 8.10
+
+0.2 × 0.3
+
+D = 96
+
+0.8 × 0.3 0.2 × 0.3
+
+0.2
+
+0.8 × 0.3 × 0.7
+
+E = 10.89 D = 96 E = 8.91
+
+0.8
+
+×
+
+0.8 0.7
+
+×
+
+0.7
+
+D = 144
+
+0.2 × 0.7
+
+E = 7.29
+
+D = 96
+
+0.8 × 0.7
+
+E = 7.29
+
+0.2 × 0.3
+
+0.2 × 0.3
+
+D = 64 E = 10.89
+
+0.2 × 0.7
+
+D = 64 E = 8.91 D = 64 E = 7.29
+
+FIGURE 6-3 Decision Tree for D-Solar
+
+a variable cost of 40 and sell each panel for revenue of 70. Revenues and costs are evaluated as follows:
+Revenue from the manufacture and sale of 144,000 panels = 144,000 * 70 = 10,080,000
+Fixed + variable cost of onshore plant = 1,000,000 + 144,000 * 40 = 6,760,000
+In Period 2, the total profit for D-Solar at the node D  144, E  10.89 for the onshore option is thus given by
+P1D = 144, E = 10.89, 22 = 10,080,000 - 6,760,000 = 3,320,000
+Using the same approach, we can evaluate the profit in each of the nine states (represented by the corresponding value of D and E) in Period 2 as shown in Table 6-14.
+
+Chapter 6 · Designing Global Supply Chain Networks 165
+
+Table 6-14 Period 2 Profits for Onshore Option
+
+Production D E Sales Cost Quantity Revenue (euro)
+
+144 10.89 144,000 144 8.91 144,000
+96 10.89 96,000 96 8.91 96,000 144 7.29 144,000 96 7.29 96,000 64 10.89 64,000 64 8.91 64,000 64 7.29 64,000
+
+144,000 144,000
+96,000 96,000 144,000 96,000 64,000 64,000 64,000
+
+10,080,000 10,080,000
+6,720,000 6,720,000 10,080,000 6,720,000 4,480,000 4,480,000 4,480,000
+
+Cost (euro)
+6,760,000 6,760,000 4,840,000 4,840,000 6,760,000 4,840,000 3,560,000 3,560,000 3,560,000
+
+Profit (euro)
+3,320,000 3,320,000 1,880,000 1,880,000 3,320,000 1,880,000
+920,000 920,000 920,000
+
+PERIOD 1 EVALUATION Period 1 contains four outcome nodes to be analyzed. A detailed analysis for one of the nodes, D  120, E  9.90, is presented here. In addition to the revenue and cost at this node, we also need to consider the present value of the expected profit in Period 2 from the four nodes that may result. The transition probability into each of the four nodes is as shown in Figure 6-3. The expected profit in Period 2 for the four potential outcomes resulting from the node D  120, E  9.90 is thus given by
+EP(D = 120, E = 9.90, 1) = 0.24 * P(D = 144, E = 10.89, 2) + 0.56 * P(D = 144, E = 8.91, 2) + 0.06 * P(D = 96, E = 10.89, 2) + 0.14 * P(D = 96, E = 8.91, 2) = 0.24 * 3,320,000 + 0.56 * 3,320,000 + 0.06 * 1,880,000 + 0.14 * 1,880,000 = 3,032,000
+The present value of the expected profit in Period 2 discounted to Period 1 is given by
+PVEP1D = 120, E = 9.90, 12 = EP1D = 120, E = 9.90, 12>11 + k2 = 3,032,000/1.1 = 2,756,364
+Next we evaluate the profits at the onshore plant at the node D  120, E  9.90 from its operations in Period 1, in which the onshore plant produces 120,000 panels at a variable cost of 40 and obtains revenue of 70 per panel. Revenues and costs are evaluated as follows:
+Revenue from manufacture and sale of 120,000 panels = 120,000 * 70 =  8,400,000
+Fixed + variable cost of onshore plant = 1,000,000 + 120,000 * 40 = 5,800,000
+The expected profit for D-Solar at the node D  120, E  9.90 is obtained by adding the operational profits at this node in Period 1 and the discounted expected profits from the four nodes that may result in Period 2. The expected profit at this node in Period 1 is given by
+P1D = 120, E = 9.90, 12 = 8,400,000 - 5,800,000 + PVEP(D = 120, E = 9.90, 1) = 2,600,000 + 2,756,364 = 5,356,364
+The expected profits for all nodes in Period 1 are calculated similarly and shown in Table 6-15.
+
+166 Chapter 6 · Designing Global Supply Chain Networks
+
+Table 6-15 Period 1 Profits for Onshore Option
+
+Production Revenue
+
+Cost
+
+D E Sales Cost Quantity (euro) (euro)
+
+120 9.90 120 8.10
+80 9.90 80 8.10
+
+120,000 120,000
+80,000 80,000
+
+120,000 120,000
+80,000 80,000
+
+8,400,000 8,400,000 5,600,000 5,600,000
+
+5,800,000 5,800,000 4,200,000 4,200,000
+
+Expected Profit (euro)
+5,356,364 5,356,364 2,934,545 2,934,545
+
+PERIOD 0 EVALUATION In Period 0, the demand and exchange rate are given by D  100, E  9. In addition to the revenue and cost at this node, we also need to consider the discounted expected profit from the four nodes in Period 1. The expected profit is given by
+EP(D = 100, E = 9.00, 0) = 0.24 * P(D = 120, E = 9.90, 1) + 0.56 * P(D = 120, E = 8.10, 1) + 0.06 * P(D = 80, E = 9.90, 1) + 0.14 * P(D = 80, E = 8.10, 1) = 0.24 * 5,356,364 + 0.56 * 5,5356,364 + 0.06 * 2,934,545 + 0.14 * 2,934,545 =  4,872,000
+The present value of the expected profit in Period 1 discounted to Period 0 is given by
+PVEP1D = 100, E = 9.00, 02 = EP1D = 100, E = 9.00, 02>11 + k2 = 4,872,000/1.1 = 4,429,091
+Next we evaluate the profits from the onshore plant's operations in Period 0 from the manufacture and sale of 100,000 panels.
+Revenue from manufacture and sale of 100,000 panels = 100,000 * 70 =  7,000,000
+Fixed + variable cost of onshore plant = 1,000,000 + 100,000 * 40 = 5,000,000
+The expected profit for D-Solar at the node D  100, E  9.00 in Period 0 is given by
+P1D = 100, E = 9.00, 02 = 7,000,000 - 5,000,000 + PVEP(D = 100, E = 9.00,0) = 2,000,000 + 4,429,091 =  6,429,091
+Thus, building the onshore plant has an expected payoff of 6,429,091 over the evaluation period. This number accounts for uncertainties in demand and exchange rates and the ability of the onshore facility to react to these fluctuations.
+Evaluating the Offshore Option
+As with the onshore option, we start by evaluating profits at each node in Period 2 and then back our evaluation to Periods 1 and 0. Each node is represented by the corresponding values of D and E. Recall that the offshore option is not fully flexible and can change production levels (and thus variable costs) only between 100,000 and 130,000 panels. Thus, if demand falls below 100,000 panels, D-Solar still incurs the variable production cost of 100,000 panels. If demand increases above 130,000 panels, the offshore facility can meet demand only up to 130,000 panels. At each node, given the demand, we calculate the expected profits accounting for the exchange rate that influences offshore costs evaluated in euro.
+
+Chapter 6 · Designing Global Supply Chain Networks 167
+PERIOD 2 EVALUATION The detailed analysis for the node D  144 (solar panel demand of 144,000), E  10.89 (exchange rate of 10.89 yuan per euro) is as follows. Even though demand is for 144,000 panels, given its lack of volume flexibility, the offshore facility is able to produce only 130,000 panels at a variable cost of 340 yuan each and sell each panel for revenue of 70. Revenues and costs are evaluated as follows:
+Revenue from manufacture and sale of 130,000 panels = 130,000 * 70 =  9,100,000
+Fixed + variable cost of offshore plant = 8,000,000 + 130,000 * 340 = 52,200,000 yuan
+The total profit for D-Solar at the node D  144, E  10.89 for the offshore option (evaluated in euro), is thus given by
+P1D = 144, E = 10.89, 22 = 9,100,000 - 152,200,00>10.892 =  4,306,612
+Using the same approach, we can evaluate the profit in each of the nine states (represented by the corresponding values of D and E) in Period 2 as shown in Table 6-16. Observe that the lack of flexibility at the offshore facility hurts D-Solar whenever demand is above 130,000 (lost margin) or below 100,000 (higher costs). For example, when the demand drops to 64,000 panels, the offshore facility continues to incur variable production costs for 100,000 panels. Profits are also hurt when the yuan is stronger than expected.
+PERIOD 1 EVALUATION In Period 1, there are four outcome nodes to be analyzed. As with the onshore option, a detailed analysis for one of the nodes D  120, E  9.90 is presented here. In addition to the revenue and cost from operations at this node, we also need to consider the present value of the expected profit in Period 2 from the four nodes that may result. The transition probability into each of the four nodes is as shown in Figure 6-3. The expected profit in Period 2 from the node D  120, E  9.90 is thus given by
+EP(D = 120, E = 9.90,1) = 0.24 * P(D = 144, E = 10.89, 2) + 0.56 * P(D = 144, E = 8.91, 2) + 0.06 * P(D = 96, E = 10.89, 2) + 0.14 * P(D = 96, E = 8.91, 2) = 0.24 * 4,306,612 + 0.56 * 3,241,414 + 0.06 * 2,863,251 + 0.14 * 2,006,195 =  3,301,441
+
+Table 6-16 Period 2 Profits for Offshore Option
+
+Production D E Sales Cost Quantity Revenue (euro)
+
+144 10.89 130,000 144 8.91 130,000
+96 10.89 96,000 96 8.91 96,000 144 7.29 130,000 96 7.29 96,000 64 10.89 64,000 64 8.91 64,000 64 7.29 64,000
+
+130,000 130,000 100,000 100,000 130,000 100,000 100,000 100,000 100,000
+
+9,100,000 9,100,000 6,720,000 6,720,000 9,100,000 6,720,000 4,480,000 4,480,000 4,480,000
+
+Cost (yuan)
+52,200,000 52,200,000 42,000,000 42,000,000 52,200,000 42,000,000 42,000,000 42,000,000
+3,560,000
+
+Profit (euro)
+4,306,612 3,241,414 2,863,251 2,006,195 1,939,506
+958,683 623,251 ­233,805 ­1,281,317
+
+168 Chapter 6 · Designing Global Supply Chain Networks
+The present value of the expected profit in Period 2 discounted to Period 1 is given by
+PVEP1D = 120, E = 9.90, 12 = EP1D = 120, E = 9.90, 12>11 + k2 = 3,301,441/1.1 = 3,001,310
+Next we evaluate the profits at the offshore plant at the node D  120, E  9.90 from its operations in Period 1. The offshore plant produces 120,000 panels at a variable cost of 340 yuan and obtains revenue of 70 per panel. Revenues and costs are evaluated as follows:
+Revenue from manufacture and sale of 120,000 panels = 120,000 * 70 =  8,400,000
+Fixed + variable cost of onshore plant = 8,000,000 + 120,000 * 340 = 48,800,000 yuan
+The expected profit for D-Solar at the node D  120, E  9.90 in Period 1 is given by
+P1D = 120, E = 9.90, 12 = 8,400,000 - 148,800,00>9.902 + PVEP(D = 120, E = 9.90, 1) = 3,470,707 + 3,001,310 = 6,472,017
+For the offshore option, the expected profits for all nodes in Period 1 are shown in Table 6-17. Observe that for the node D  80, E  8.10, D-Solar has a lower expected profit from
+the offshore option (Table 6-17) relative to the onshore option (see Table 6-15) because the offshore plant incurs high variable cost given its lack of flexibility (cost is incurred for 100,000 units even though only 80,000 are sold), and all offshore costs become expensive given the strong yuan.
+PERIOD 0 EVALUATION In Period 0, the demand and exchange rate are given by D  100, E  9. In addition to the revenue and cost at this node, we also need to consider the present value of expected profit from the four nodes in Period 1. The expected profit for the offshore option is given by
+EP(D = 100, E = 9.00, 0) = 0.24 * P(D = 120, E = 9.90, 1) + 0.56 * P(D = 120, E = 8.10, 1) + 0.06 * P(D = 80, E = 9.90, 1) + 0.14 * P(D = 80, E = 8.10, 1) = 0.24 * 6,472,017 + 0.56 * 4,301,354 + 0.06 * 3,007,859 + 0.14 * 1,164,757 =  4,305,580
+The present value of the expected profit in Period 1 discounted to Period 0 is given by
+PVEP1D = 100, E = 9.00, 02 = EP1D = 100, E = 9.00, 02>11 + k2 = 4,305,580/1.1 = 3,914,164
+
+Table 6-17 Period 1 Profits for Offshore Option
+
+Production D E Sales Cost Quantity Revenue (euro) Cost (yuan)
+
+120 9.90 120,000 120 8.10 120,000 80 9.90 80,000 80 8.10 80,000
+
+120,000 120,000 100,000 100,000
+
+8,400,000 8,400,000 5,600,000 5,600,000
+
+48,800,000 48,800,000 42,000,000 42,000,000
+
+Expected Profit (euro)
+6,472,017 4,301,354 3,007,859 1,164,757
+
+Chapter 6 · Designing Global Supply Chain Networks 169
+Next we evaluate the profits from the offshore plant's operations in Period 0 from the manufacture and sale of 100,000 panels.
+Revenue from manufacture and sale of 100,000 panels
+= 100,000 * 70 =  7,000,000
+Fixed + variable cost of offshore plant = 8,000,000 + 100,000 * 340
+= 42,000,000 yuan
+The expected profit for D-Solar at the node D  100, E  9.00 in Period 0 is given by
+P1D = 100, E = 9.00, 02 = 7,000,000 - (42,000,00>9.002 + PVEP(D = 100, E = 9.00, 0)
+= 2,333,333 + 3,914,164 =  6,247,497
+Thus, building the offshore plant has an expected payoff of 6,247,497 over the evaluation period. Observe that the use of a decision tree that accounts for both demand and exchange rate
+fluctuation shows that the onshore option and its flexibility is in fact more valuable (worth 6,429,091) than the offshore facility (worth 6,247,497), which is less flexible. This is in direct contrast to the decision that would have resulted if we had simply used the expected change in demand and exchange rate from one year to the next. When using the expected change in demand, the onshore option provided expected profits of 6,429,091, while the offshore option provided expected profits of 6,822,302. The offshore option is overvalued in this case because the potential fluctuations in demand and exchange rates are wider than the expected fluctuations. Using the expected fluctuation thus does not fully account for the lack of flexibility in the offshore facility and the big increase in costs that may result if the yuan strengthens more than the expected value.
+De Traville and Trigeorgis (2010) discuss the importance of evaluating all global supply chain design decisions using the decision tree or real options methodology. They give the example of Flexcell, a Swiss company that offered lightweight solar panels. In 2006, the company was looking to expand its operations by building a new plant. The three locations under discussion were China, eastern Germany, and near the company headquarters in Switzerland. Even though the Chinese and eastern German plants were cheaper than the Swiss plant, Flexcell management justified building the high-cost Swiss plant because of its higher flexibility and ability to react to changing market conditions. If only the expected values of future scenarios had been used, the more expensive Swiss plant could not be justified. This decision paid off for the company because the Swiss plant was flexible enough to handle the considerable variability in demand that resulted during the downturn in 2008.
+When underlying decision trees are complex and explicit solutions for the underlying decision tree are difficult to obtain, firms should use simulation for evaluating decisions (see Chapter 13). In a complex decision tree, thousands or even millions of possible paths may arise from the first period to the last. Transition probabilities are used to generate probabilityweighted random paths within the decision tree. For each path, the stage-by-stage decision and the present value of the payoff are evaluated. The paths are generated in such a way that the probability of a path being generated during the simulation is the same as the probability of the path in the decision tree. After generating many paths and evaluating the payoffs in each case, the payoffs obtained during the simulation are used as a representation of the payoffs that would result from the decision tree. The expected payoff is then found by averaging the payoffs obtained in the simulation.
+Simulation methods are very good at evaluating a decision when the path itself is not decision dependent--in other words, when transition probabilities from one period to the next are not dependent on the decision taken during a period. They can also take into account real-world constraints as well as complex decision rules. In addition, they can easily handle different forms of uncertainty even when uncertainty between different factors is correlated.
+
+170 Chapter 6 · Designing Global Supply Chain Networks
+Simulation models require a higher setup cost to start and operate compared to decision tree tools. However, their main advantage is that they can provide high-quality evaluations of complex situations.
+6.7 MAKING GLOBAL SUPPLY CHAIN DESIGN DECISIONS UNDER UNCERTAINTY IN PRACTICE
+Managers should consider the following ideas to help them make better network design decisions under uncertainty.
+1. Combine strategic planning and financial planning during global network design. In most organizations, financial planning and strategic planning are performed independently. Strategic planning tries to prepare for future uncertainties but often without rigorous quantitative analysis, whereas financial planning performs quantitative analysis but assumes a predictable or well-defined future. This chapter presents methodologies that allow integration of financial and strategic planning. Decision makers should design global supply chain networks considering a portfolio of strategic options--the option to wait, build excess capacity, build flexible capacity, sign long-term contracts, purchase from the spot market, and so forth. The various options should be evaluated in the context of future uncertainty.
+2. Use multiple metrics to evaluate global supply chain networks. As one metric can give only part of the picture, it is beneficial to examine network design decisions using multiple metrics such as firm profits, supply chain profits, customer service levels, and response times. Good decisions perform well along most relevant metrics.
+3. Use financial analysis as an input to decision making, not as the decision-making process. Financial analysis is a great tool in the decision-making process, as it often produces an answer and an abundance of quantitative data to back up that answer. However, financial methodologies alone do not provide a complete picture of the alternatives, and other nonquantifiable inputs should also be considered.
+4. Use estimates along with sensitivity analysis. Many of the inputs into financial analysis are difficult, if not impossible, to obtain accurately. This can cause financial analysis to be a long and drawn-out process. One of the best ways to speed the process along and arrive at a good decision is to use estimates of inputs when it appears that finding an accurate input would take an inordinate amount of time. As we discuss in some of the other practice-oriented sections, using estimates is fine when the estimates are backed up by sensitivity analysis. It is almost always easier to come up with a range for an input than it is to come up with a single point. By performing sensitivity analysis on the input's range, managers can often show that no matter where the true input lies within the range, the decision remains the same. When this is not the case, they have highlighted a key variable to making the decision and it likely deserves more attention to arrive at a more accurate answer. In summary, to make supply chain design decisions effectively, managers need to make estimates of inputs and then test all recommendations with sensitivity analysis.
+6.8 SUMMARY OF LEARNING OBJECTIVES
+1. Identify factors that need to be included in total cost when making global sourcing decisions. Besides unit cost, total cost should include the impact of global sourcing on freight, inventories, lead time, quality, on-time delivery, minimum order quantity, working capital, and stockouts. Other factors to be considered include the impact on supply chain visibility, order communication, invoicing errors, and the need for currency hedging.
+2. Define uncertainties that are particularly relevant when designing global supply chains. The performance of a global supply chain is impacted by uncertainty in a number of input factors such as demand, price, exchange rates, and other economic factors. These uncertainties
+
+Chapter 6 · Designing Global Supply Chain Networks 171
+and any flexibility in the supply chain network must be taken into account when evaluating alternative designs of a supply chain. 3. Explain different strategies that may be used to mitigate risk in global supply chains. Operational strategies that help mitigate risk in global supply chains include carrying excess capacity and inventory, flexible capacity, redundant suppliers, improved responsiveness, and aggregation of demand. Hedging fuel costs and currencies are financial strategies that can help mitigate risk. It is important to keep in mind that no risk mitigation strategy will always pay off. These mitigation strategies are designed to guard against certain extreme states of the world that may arise in an uncertain global environment. 4. Understand decision tree methodologies used to evaluate supply chain design decisions under uncertainty. When valuing the streams of cash flows resulting from the performance of a supply chain, decision trees are a basic approach to valuing alternatives under uncertainty. Uncertainty along different dimensions over the evaluation period is represented as a tree with each node corresponding to a possible scenario. Starting at the last period of the evaluation interval, the decision tree analysis works back to Period 0, identifying the optimal decision and the expected cash flows at each step.
+
+Discussion Questions
+1. Why is it important to consider uncertainty when evaluating supply chain design decisions?
+2. What are the major sources of uncertainty that can affect the value of supply chain decisions?
+3. Describe the basic principle of DCFs and how they can be used to compare different streams of cash flows.
+4. Summarize the basic steps in the decision tree analysis methodology.
+5. Discuss why using expected trends for the future can lead to different supply chain decisions relative to decision tree analysis that accounts for uncertainty.
+
+6. What are the major financial uncertainties faced by an electronic components manufacturer deciding whether to build a plant in Thailand or the United States?
+7. What are some major nonfinancial uncertainties that a company should consider when making decisions on where to source product?
+
+Exercises
+1. Moon Micro is a small manufacturer of servers that currently builds its entire product in Santa Clara, California. As the market for servers has grown dramatically, the Santa Clara plant has reached capacity of 10,000 servers per year. Moon is considering two options to increase its capacity. The first option is to add 10,000 units of capacity to the Santa Clara plant at an annualized fixed cost of $10,000,000 plus $500 labor per server. The second option is to have Molectron, an independent assembler, manufacture servers for Moon at a cost of $2,000 for each server (excluding raw materials cost). Raw materials cost $8,000 per server, and Moon sells each server for $15,000. Moon must make this decision for a two-year time horizon. During each year, demand for Moon servers has an 80 percent chance of increasing 50 percent from the year before and a 20 percent chance of remaining the same as the year before. Molectron's prices may change as well. They are fixed for the first year but have a 50 percent chance of increasing
+
+20 percent in the second year and a 50 percent chance of remaining where they are.
+Use a decision tree to determine whether Moon should add capacity to its Santa Clara plant or if it should outsource to Molectron. What are some other factors that would affect this decision that we have not discussed? 2. Unipart, a manufacturer of auto parts, is considering two B2B marketplaces to purchase its MRO supplies. Both marketplaces offer a full line of supplies at very similar prices for products and shipping. Both provide similar service levels and lead times.
+However, their fee structures are quite different. The first marketplace, Parts4u.com, sells all of its products with a 5 percent commission tacked on top of the price of the product (not including shipping). AllMRO.com's pricing is based on a subscription fee of $10 million that must be paid up front for a two-year period and a commission of 1 percent on each transaction's product price.
+
+

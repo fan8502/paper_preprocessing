@@ -1,0 +1,1890 @@
+11
+{{{
+Managing Economies of Scale in a Supply Chain: Cycle Inventory
+LEARNING OBJECTIVES After reading this chapter, you will be able to 1. Balance the appropriate costs to choose the optimal lot size and cycle inventory in a supply chain. 2. Understand the impact of quantity discounts on lot size and cycle inventory. 3. Devise appropriate discounting schemes for a supply chain. 4. Understand the impact of trade promotions on lot size and cycle inventory. 5. Identify managerial levers that reduce lot size and cycle inventory in a supply chain without increasing cost.
+Cycle inventory exists because producing or purchasing in large lots allows a stage of the supply chain to exploit economies of scale and thus lower cost. The presence of fixed costs associated with ordering and transportation, quantity discounts in product pricing, and short-term discounts or promotions encourages different stages of a supply chain to exploit economies of scale and order in large lots. In this chapter, we study how each of these factors affects the lot size and cycle inventories within a supply chain. Our goal is to identify managerial levers that reduce cycle inventory in a supply chain without raising cost.
+11.1 THE ROLE OF CYCLE INVENTORY IN A SUPPLY CHAIN A lot or batch size is the quantity that a stage of a supply chain either produces or purchases at a time. Consider, for example, a computer store that sells an average of four printers a day. The store manager, however, orders 80 printers from the manufacturer each time he places an order. The lot or batch size in this case is 80 printers. Given daily sales of four printers, it takes an average of 20 days before the store sells the entire lot and purchases a replenishment lot. The computer store holds an inventory of printers because the manager purchases a lot size larger than the store's daily sales. Cycle inventory is the average inventory in a supply chain due to either production or purchases in lot sizes that are larger than those demanded by the customer.
+271
+
+272 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory Inventory
+Q
+
+FIGURE 11-1 Inventory Profile of Jeans at Jean-Mart
+
+Time t
+
+In the rest of this chapter, we use the following notation:
+
+Q: Quantity in a lot or batch size D: Demand per unit time
+
+Here, we ignore the impact of demand variability and assume that demand is stable. In Chapter 12, we introduce demand variability and its impact on safety inventory.
+Let us consider the cycle inventory of jeans at Jean-Mart, a department store. The demand for jeans is relatively stable at D  100 pairs of jeans per day. The store manager at Jean-Mart currently purchases in lots of Q  1,000 pairs. The inventory profile of jeans at Jean-Mart is a plot depicting the level of inventory over time, as shown in Figure 11-1.
+Because purchases are in lots of Q  1,000 units, whereas demand is only D  100 units per day, it takes 10 days for an entire lot to be sold. Over these 10 days, the inventory of jeans at Jean-Mart declines steadily from 1,000 units (when the lot arrives) to 0 (when the last pair is sold). This sequence of a lot arriving and demand depleting inventory until another lot arrives repeats itself every 10 days, as shown in the inventory profile in Figure 11-1.
+When demand is steady, cycle inventory and lot size are related as follows:
+
+Cycle inventory = lot size
+
+Q =
+
+22
+
+(11.1)
+
+For a lot size of 1,000 units, Jean-Mart carries a cycle inventory of Q/2  500 pairs of jeans. From Equation 11.1, we see that cycle inventory is proportional to the lot size. A supply chain in which stages produce or purchase in larger lots has more cycle inventory than a supply chain in which stages produce and purchase in smaller lots. For example, if a competing department store with the same demand purchases in lot sizes of 200 pairs of jeans, it will carry a cycle inventory of only 100 pairs of jeans.
+Lot sizes and cycle inventory also influence the flow time of material within the supply chain. Recall from Little's law (Equation 3.1) that
+
+average inventory Average flow time =
+average flow rate
+
+For any supply chain, average flow rate equals demand. We thus have
+
+cycle inventory Q
+
+Average flow time resulting from cycle inventory =
+
+=
+
+demand
+
+2D
+
+For lot sizes of 1,000 pairs of jeans and daily demand of 100 pairs of jeans, we obtain
+
+Q 1,000
+
+Average flow time resulting from cycle inventory =
+
+=
+
+= 5 days
+
+2D 200
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 273
+
+Cycle inventory at the Jean-Mart store thus adds five days to the average amount of time that jeans spend in the supply chain. The larger the cycle inventory, the longer is the lag time between when a product is produced and when it is sold. A lower level of cycle inventory is always desirable, because long time lags leave a firm vulnerable to demand changes in the marketplace. A lower cycle inventory also decreases a firm's working capital requirement. Toyota, for example, keeps a cycle inventory of only a few hours of production between the factory and most suppliers. As a result, Toyota is never left with unneeded parts, and its working capital requirements are less than those of its competitors. Toyota also allocates very little space in the factory to inventory.
+Before we suggest actions that a manager can take to reduce cycle inventory, it is important to understand why stages of a supply chain produce or purchase in large lots and how lot size reduction affects supply chain performance.
+Cycle inventory is held to take advantage of economies of scale and reduce cost within a supply chain. To understand how the supply chain achieves these economies of scale, we first identify supply chain costs that are influenced by lot size.
+The average price paid per unit purchased is a key cost in the lot-sizing decision. A buyer may increase the lot size if this action results in a reduction in the price paid per unit purchased. For example, if the jeans manufacturer charges $20 per pair for orders under 500 pairs of jeans and $18 per pair for larger orders, the store manager at Jean-Mart gets the lower price by ordering in lots of at least 500 pairs of jeans. The price paid per unit is referred to as the material cost and is denoted by C. It is measured in $/unit. In many practical situations, material cost displays economies of scale and increasing lot size decreases material cost.
+The fixed ordering cost includes all costs that do not vary with the size of the order but are incurred each time an order is placed. There may be a fixed administrative cost to place an order, a trucking cost to transport the order, and a labor cost to receive the order. Jean-Mart incurs a cost of $400 for the truck regardless of the number of pairs of jeans shipped. If the truck can hold up to 2,000 pairs of jeans, a lot size of 100 pairs results in a transportation cost of $4/pair, whereas a lot size of 1,000 pairs results in a transportation cost of $0.40/pair. Given the fixed transportation cost per batch, the store manager can reduce transportation cost per unit by increasing the lot size. The fixed ordering cost per lot or batch is denoted by S (commonly thought of as a setup cost) and is measured in $/lot. The ordering cost also displays economies of scale, and increasing the lot size decreases the fixed ordering cost per unit purchased.
+Holding cost is the cost of carrying one unit in inventory for a specified period of time, usually one year. It is a combination of the cost of capital, the cost of physically storing the inventory, and the cost that results from the product becoming obsolete. The holding cost is denoted by H and is measured in $/unit/year. It may also be obtained as a fraction, h, of the unit cost of the product. Given a unit cost of C, the holding cost H is given by
+
+H = hC
+
+(11.2)
+
+The total holding cost increases with an increase in lot size and cycle inventory. To summarize, the costs that must be considered in any lot-sizing decision are
+
+· Average price per unit purchased, $C/unit · Fixed ordering cost incurred per lot, $S/lot · Holding cost incurred per unit per year, $H/unit/year = hC
+
+Later in the chapter, we discuss how the various costs may be estimated in practice. However, for the purposes of this discussion, we assume they are already known.
+The primary role of cycle inventory is to allow different stages in a supply chain to purchase product in lot sizes that minimize the sum of the material, ordering, and holding costs. If a manager considers the holding cost alone, he or she will reduce the lot size and cycle inventory. Economies of scale in purchasing and ordering, however, motivate a manager to increase the lot size and cycle inventory. A manager must make the trade-off that minimizes total cost when making lot-sizing decisions.
+
+274 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+Ideally, cycle inventory decisions should be made considering the total cost across the entire supply chain. In practice, however, it is generally the case that each stage makes its cycle inventory decisions independently. As we discuss later in the chapter, this practice increases the level of cycle inventory as well as the total cost in the supply chain.
+
+Key Point
+Cycle inventory exists in a supply chain because different stages exploit economies of scale to lower total cost. The costs considered include material cost, fixed ordering cost, and holding cost.
+
+Any stage of the supply chain exploits economies of scale in its replenishment decisions in the following three typical situations:
+1. A fixed cost is incurred each time an order is placed or produced. 2. The supplier offers price discounts based on the quantity purchased per lot. 3. The supplier offers short-term price discounts or holds trade promotions.
+In the following sections, we review how purchasing managers can take advantage of these situations.
+
+11.2 ESTIMATING CYCLE INVENTORY­RELATED COSTS IN PRACTICE
+When setting cycle inventory levels in practice, a common hurdle is estimating the ordering and holding costs. Given the robustness of cycle inventory models, it is better to get a good approximation quickly rather than spend a lot of time trying to estimate costs exactly.
+Our goal is to identify incremental costs that change with the lot-sizing decision. We can ignore costs that are unchanged with a change in lot size. For example, if a factory is running at 50 percent of capacity and all labor is full time and not earning overtime, it can be argued that the incremental setup cost for labor is zero. Reducing the lot size in this case will not have any impact on setup cost until either labor is fully utilized (and earning overtime) or machines are fully utilized (with a resulting loss in production capacity).
+
+Inventory Holding Cost
+
+Holding cost is estimated as a percentage of the cost of a product and is the sum of the following major components:
+
+· Cost of capital: This is the dominant component of holding cost for products that do not become obsolete quickly. The appropriate approach is to evaluate the weighted-average cost of capital (WACC),1 which takes into account the required return on the firm's equity and the cost of its debt. These are weighted by the amount of equity and debt financing that the firm has. The formula for the WACC is
+
+WACC =
+
+D
+
+E +
+
+E (Rf
+
++
+
+b
+
+*
+
+MRP)
+
++
+
+D
+
+D +
+
+E
+
+Rb(1 -
+
+t)
+
+where
+E  amount of equity D  amount of debt Rf  risk-free rate of return (which is usually in the mid-single digits)   the firm's beta
+
+1 See Brealey and Myers (2000).
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 275
+MRP  market risk premium (which is around the high single digits) Rb  rate at which the firm can borrow money (related to its debt rating) t  tax rate
+The WACC is adjusted for use in a pretax setting as follows:
+Pretax WACC = after-tax WACC/(1- t)
+The pretax WACC is appropriate for a firm that can increase its business using funds released by reducing inventories because inventory calculations are done pretax. Most of these numbers can be found in a company's annual report and in any equity research report on the company. The borrowing rate comes from tables listing the rates charged for bonds from firms with the same credit ratings. The risk-free rate is the return on U.S. Treasuries, and the market risk premium is the return of the market above the risk-free rate. If access to a company's financial structure is not available, a good approximation can be made by using numbers from public companies in the same industry and of similar size. · Obsolescence (or spoilage) cost: The obsolescence cost estimates the rate at which the value of the stored product drops because its market value or quality falls. This cost can range dramatically, from rates of many thousands percent to virtually zero, depending on the type of product. Perishable products have high obsolescence rates. Even nonperishables can have high obsolescence rates if they have short life cycles. A product with a life cycle of six months has an effective obsolescence cost of 200 percent. At the other end of the spectrum are products such as crude oil that take a long time to become obsolete or spoil. For such products, a low obsolescence rate may be applied. · Handling cost: Handling cost should include only incremental receiving and storage costs that vary with the quantity of product received. Quantity-independent handling costs that vary with the number of orders should be included in the order cost. The quantity-dependent handling cost often does not change if quantity varies within a range. If the quantity is within this range (e.g., the range of inventory a crew of four people can unload per period of time), incremental handling cost added to the holding cost is zero. If the quantity handled requires more people, an incremental handling cost is added to the holding cost. · Occupancy cost: The occupancy cost reflects the incremental change in space cost due to changing cycle inventory. If the firm is being charged based on the actual number of units held in storage, we have the direct occupancy cost. Firms often lease or purchase a fixed amount of space. As long as a marginal change in cycle inventory does not change the space requirements, the incremental occupancy cost is zero. Occupancy costs often take the form of a step function, with a sudden increase in cost when capacity is fully utilized and new space must be acquired. · Miscellaneous costs: The final component of holding cost deals with a number of other relatively small costs. These costs include theft, security, damage, tax, and additional insurance charges that are incurred. Once again, it is important to estimate the incremental change in these costs on changing cycle inventory.
+Ordering Cost
+The ordering cost includes all incremental costs associated with placing or receiving an extra order that are incurred regardless of the size of the order. Components of ordering cost include the following:
+· Buyer time: Buyer time is the incremental time of the buyer placing the extra order. This cost should be included only if the buyer is utilized fully. The incremental cost of getting an idle buyer to place an order is zero and does not add to the ordering cost. Electronic ordering can significantly reduce the buyer time to place an order.
+· Transportation costs: A fixed transportation cost is often incurred regardless of the size of the order. For instance, if a truck is sent to deliver every order, it costs the same amount
+
+276 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+to send a half-empty truck as it does a full truck. Less-than-truckload pricing also includes a fixed component that is independent of the quantity shipped and a variable component that increases with the quantity shipped. The fixed component should be included in the ordering cost. · Receiving costs: Some receiving costs are incurred regardless of the size of the order. These include any administration work such as purchase order matching and any effort associated with updating inventory records. Receiving costs that are quantity dependent should not be included here. · Other costs: Each situation can have costs unique to it that should be considered if they are incurred for each order regardless of the quantity of that order.
+The ordering cost is estimated as the sum of all its component costs. It is important that the ordering cost include only the incremental change in real cost for an additional order. The ordering cost is often a step function that is zero when the resource is not fully utilized, but takes on a large value when the resource is fully utilized. At that point the ordering cost is the cost of the additional resource required.
+11.3 ECONOMIES OF SCALE TO EXPLOIT FIXED COSTS
+To better understand the trade-offs discussed in this section, consider a situation that often arises in daily life--the purchase of groceries and other household products. These may be purchased at a nearby convenience store or at a Sam's Club (a large warehouse club selling consumer goods), which is generally located much farther away. The fixed cost of going shopping is the time it takes to go to either location. This fixed cost is much lower for the nearby convenience store. Prices, however, are higher at the local convenience store. Taking the fixed cost into account, we tend to tailor our lot size decision accordingly. When we need only a small quantity, we go to the nearby convenience store because the benefit of a low fixed cost outweighs the cost of the convenience store's higher prices. When we are buying a large quantity, however, we go to Sam's Club, where the lower prices over the larger quantity purchased more than make up for the increase in fixed cost.
+In this section, we focus on the situation in which a fixed cost associated with placing, receiving, and transporting an order is incurred each time the order is placed. A purchasing manager wants to minimize the total cost of satisfying demand and must therefore make the appropriate cost trade-offs when making the lot-sizing decision. We start by considering the lot-sizing decision for a single product.
+Lot Sizing for a Single Product (Economic Order Quantity)
+As Best Buy sells its current inventory of HP computers, the purchasing manager places a replenishment order for a new lot of Q computers. Including the cost of transportation, Best Buy incurs a fixed cost of $S per order. The purchasing manager must decide on the number of computers to order from HP in a lot. For this decision, we assume the following inputs:
+D  Annual demand of the product S  Fixed cost incurred per order C  Cost per unit h  Holding cost per year as a fraction of product cost
+Assume that HP does not offer any discounts, and each unit costs $C no matter how large an order is. The holding cost is thus given by H  hC (using Equation 11.2). The model is developed using the following basic assumptions:
+1. Demand is steady at D units per unit time. 2. No shortages are allowed, that is, all demand must be supplied from stock. 3. Replenishment lead time is fixed (initially assumed to be zero).
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 277
+
+The purchasing manager makes the lot-sizing decision to minimize the total cost the store incurs. He or she must consider three costs when deciding on the lot size:
+
+· Annual material cost · Annual ordering cost · Annual holding cost
+
+Because purchase price is independent of lot size, we have
+
+Annual material cost = CD
+
+The number of orders must suffice to meet the annual demand D. Given a lot size of Q, we
+
+thus have
+
+Number of orders per year = D Q
+
+(11.3)
+
+Because an order cost of S is incurred for each order placed, we infer that
+
+Annual ordering cost = a D bS Q
+
+(11.4)
+
+Given a lot size of Q, we have an average inventory of Q/2. The annual holding cost is thus the cost of holding Q/2 units in inventory for one year and is given as
+QQ Annual holding cost = a bH = a bhC
+22
+
+The total annual cost, TC, is the sum of all three costs and is given as
+
+Total annual cost, TC
+
+=
+
+CD
+
++
+
+aDbS
+
++
+
+Q a bhC
+
+Q2
+
+Figure 11-2 shows the variation in different costs as the lot size is changed. Observe that the annual holding cost increases with an increase in lot size. In contrast, the annual ordering cost declines with an increase in lot size. The material cost is independent of lot size because we have assumed the price to be fixed. The total annual cost thus first declines and then increases with an increase in lot size.
+From the perspective of the manager at Best Buy, the optimal lot size is one that minimizes the total cost to Best Buy. It is obtained by taking the first derivative of the total cost with respect to Q and setting it equal to 0 (see Appendix 11A at the end of this chapter). The optimal lot size
+
+Cost Total Cost
+
+Holding Cost Ordering Cost
+Material Cost
+
+Lot Size
+FIGURE 11-2 Effect of Lot Size on Costs at Best Buy
+
+278 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+
+is referred to as the economic order quantity (EOQ). It is denoted by Q* and is given by the following equation:
+
+Optimal lot size,
+
+Q*
+
+=
+
+2DS C hC
+
+(11.5)
+
+Note that for this formula, it is important to use the same time units for the holding cost rate h and the demand D. With each lot or batch of size Q*, the cycle inventory in the system is given by Q*/2. The flow time spent by each unit in the system is given by Q*/(2D). As the
+optimal lot size increases, so does the cycle inventory and the flow time. The optimal ordering frequency is given by n*, where
+
+n* =
+
+D Q*
+
+=
+
+DhC C 2S
+
+(11.6)
+
+In Example 11-1, we illustrate the EOQ formula and the procedure to make lot-sizing decisions.
+
+EXAMPLE 11-1 Economic Order Quantity
+
+Demand for the Deskpro computer at Best Buy is 1,000 units per month. Best Buy incurs a fixed order placement, transportation, and receiving cost of $4,000 each time an order is placed. Each computer costs Best Buy $500 and the retailer has a holding cost of 20 percent. Evaluate the number of computers that the store manager should order in each replenishment lot.
+
+Analysis: In this case, the store manager has the following inputs:
+Annual demand, D = 1,000 * 12 = 12,000 units Order cost per lot, S  $4,000 Unit cost per computer, C  $500 Holding cost per year as a fraction of unit cost, h  0.2
+Using the EOQ formula (Equation 11.5), the optimal lot size is
+
+Optimal order size
+
+=
+
+Q*
+
+=
+
+2 C
+
+*
+
+12,000 * 4,000 0.2 * 500
+
+=
+
+980
+
+To minimize the total cost at Best Buy, the store manager orders a lot size of 980 computers for each replenishment order. The cycle inventory is the average resulting inventory and (using Equation 11.1) is given by
+Cycle inventory = Q* = 980 = 490 22
+For a lot size of Q* = 980, the store manager evaluates
+
+Number of orders per year =
+
+D Q*
+
+=
+
+12,000 980
+
+= 12.24
+
+Annual ordering and holding cost =
+
+D Q*
+
+S
+
++
+
+Q* a bhC = 97,980
+2
+
+Q*
+
+Average flow time =
+
+=
+
+490
+
+= 0.041 year = 0.49 month
+
+2D 12,000
+
+Each computer thus spends 0.49 month, on average, at Best Buy before it is sold because it was purchased in a batch of 980.
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 279
+A few key insights can be gained from Example 11-1. Using a lot size of 1,100 (instead of 980) increases annual costs to $98,636 (from $97,980). Even though the order size is more than 10 percent larger than the optimal order size Q*, total cost increases by only 0.67 percent. This issue can be relevant in practice. Best Buy may find that the economic order quantity for CDs is 6.5 cases. The manufacturer may be reluctant to ship half a case and may want to charge extra for this service. Our discussion illustrates that Best Buy is perhaps better off with lot sizes of six or seven cases, because this change has a small impact on its inventory-related costs but can save on any fee that the manufacturer charges for shipping half a case.
+Key Point
+Total ordering and holding costs are relatively stable around the economic order quantity. A firm is often better served by ordering a convenient lot size close to the economic order quantity rather than the precise EOQ.
+
+If demand at Best Buy increases to 4,000 computers a month (demand has increased by a factor of 4), the EOQ formula shows that the optimal lot size doubles and the number of orders placed per year also doubles. In contrast, average flow time decreases by a factor of 2. In other words, as demand increases, cycle inventory measured in terms of days (or months) of demand should reduce if the lot-sizing decision is made optimally. This observation can be stated as the following Key Point:
+Key Point
+If demand increases by a factor of k, the optimal lot size increases by a factor of 1k. The number of orders placed per year should also increase by a factor of 1k. Flow time attributed to cycle inventory should decrease by a factor of 1k.
+
+Let us return to the situation in which monthly demand for the Deskpro model is 1,000 computers. Now assume that the manager would like to reduce the lot size to Q  200 units to reduce flow time. If this lot size is decreased without any other change, we have
+
+Annual inventory-related costs
+
+=
+
+a
+
+D Q
+
+b
+
+S
+
++
+
+a
+
+Q 2
+
+b
+
+hC
+
+=
+
+250,000
+
+This is significantly higher than the total cost of $97,980 that Best Buy incurred when ordering in lots of 980 units as in Example 11-1. Thus, there are clear financial reasons why the store manager would be unwilling to reduce the lot size to 200. To make it feasible to reduce the lot size, the manager should work to reduce the fixed order cost. If the fixed cost associated with each lot is reduced to $1,000 (from the current value of $4,000), the optimal lot size reduces to 490 (from the current value of 980). We illustrate the relationship between desired lot size and order cost in Example 11-2.
+
+EXAMPLE 11-2 Relationship Between Desired Lot Size and Ordering Cost
+The store manager at Best Buy would like to reduce the optimal lot size from 980 to 200. For this lot size reduction to be optimal, the store manager wants to evaluate how much the ordering cost per lot should be reduced.
+Analysis: In this case we have
+Desired lot size, Q*  200 Annual demand, D  1,000 × 12  12,000 units
+
+280 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+
+Unit cost per computer, C  $500 Holding cost per year as a fraction of inventory value, h  0.2
+
+Using the EOQ formula (Equation 11.5), the desired order cost is
+
+S=
+
+hC(Q*)2 2D
+
+=
+
+0.2 * 500 * 2002 2 * 12,000
+
+= 166.7
+
+Thus, the store manager at Best Buy would have to reduce the order cost per lot from $4,000 to $166.7 for a lot size of 200 to be optimal.
+
+The observation in Example 11-2 may be stated as in the following Key Point:
+
+Key Point To reduce the optimal lot size by a factor of k, the fixed order cost S must be reduced by a factor of k2.
+
+Production Lot Sizing
+In the EOQ formula, we have implicitly assumed that the entire lot arrives at the same time. While this may be a reasonable assumption for a retailer receiving a replenishment lot, it is not reasonable in a production environment in which production occurs at a specified rate, say, P. In a production environment, inventory thus builds up at a rate of P - D when production is on, and inventory is depleted at a rate of D when production is off.
+With D, h, C, and S as defined earlier, the EOQ formula can be modified to obtain the economic production quantity (EPQ) as follows:
+
+QP
+
+=
+
+C (1
+
+2DS - D/P)hC
+
+The annual setup cost in this case is given by
+
+a
+
+D QP
+
+b
+
+S
+
+The annual holding cost is given by
+
+QP (1- D/P)a bhC
+2
+
+Observe that the economic production quantity is the EOQ multiplied by a correction factor that approaches 1 as the production rate becomes much faster than the demand.
+For the remainder of this chapter, we restrict our attention to the case in which the entire replenishment lot arrives at the same time, a scenario that applies in most supply chain settings.
+
+Aggregating Multiple Products in a Single Order
+As we have discussed earlier, a key to reducing lot size is the reduction of the fixed cost incurred per lot. One major source of fixed costs is transportation. In several companies, the array of products sold is divided into families or groups, with each group managed independently by a separate product manager. This results in separate orders and deliveries for each product family, thus increasing the overall cycle inventory. Aggregating orders and deliveries across product families is an effective mechanism to lower cycle inventories. We illustrate the idea of aggregating shipments using the following example.
+Consider the data from Example 11-1. Assume that Best Buy purchases four computer models and the demand for each of the four models is 1,000 units per month. In this case, if each
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 281
+product manager orders separately, she would order a lot size of 980 units. Across the four models, the total cycle inventory would thus be 4 × 980  2  1960 units.
+Now consider the case in which the store manager at Best Buy realizes that all four model shipments originate from the same source. She asks the product managers to coordinate their purchasing to ensure that all four products arrive on the same truck. In this case, the optimal combined lot size across all four models turns out to be 1,960 units (use S  $4,000, D  4 × 12,000  48,000, hC  $500 × 0.2  $10 in Equation 11.5). This is equivalent to 490 units for each model. As a result of aggregating orders and spreading the fixed transportation cost across multiple products originating from the same supplier, it becomes financially optimal for the store manager at Best Buy to reduce the lot size for each individual product. This action significantly reduces the cycle inventory as well as cost to Best Buy.
+Another way to achieve this result is to have a single delivery coming from multiple suppliers (allowing fixed transportation cost to be spread across multiple suppliers) or to have a single truck delivering to multiple retailers (allowing fixed transportation cost to be spread across multiple retailers). Firms that import product to the United States from Asia have worked hard to aggregate their shipments across suppliers (often by building hubs in Asia that all suppliers deliver to), allowing them to maintain transportation economies of scale while getting smaller and more frequent deliveries from each supplier. The benefits of aggregation can be stated as in the following Key Point:
+Key Point
+Aggregating replenishment across products, retailers, or suppliers in a single order allows for a reduction in lot size for individual products because fixed ordering and transportation costs are now spread across multiple products, retailers, or suppliers.
+Wal-Mart and other retailers such as Seven-Eleven Japan have facilitated aggregation across multiple supply and delivery points without storing intermediate inventories through the use of cross-docking. Each supplier sends full truckloads to the distribution center (DC), containing an aggregate delivery destined for multiple retail stores. At the DC, each inbound truck is unloaded, product is cross-docked, and outbound trucks are loaded. Each outbound truck now contains product aggregated from several suppliers destined for one retail store.
+When considering fixed costs, one cannot ignore the receiving or loading costs. As more products are included in a single order, the product variety on a truck increases. The receiving warehouse now has to update inventory records for more items per truck. In addition, the task of putting inventory into storage now becomes more expensive because each distinct item must be stocked in a separate location. Thus, when attempting to reduce lot sizes, it is important to focus on reducing these costs. Advanced shipping notices (ASN) are files that contain precise records of the contents of the truck that are sent electronically by the supplier to the customer. These electronic notices facilitate updating of inventory records as well as the decision regarding storage locations, helping reduce the fixed cost of receiving. RFID technology is also likely to help reduce the fixed costs associated with receiving that are related to product variety. The reduced fixed cost of receiving makes it optimal to reduce the lot size ordered, thus reducing cycle inventory.
+We next analyze how optimal lot sizes may be determined when there are fixed costs associated with each lot as well as the variety in the lot.
+Lot Sizing with Multiple Products or Customers
+In general, the ordering, transportation, and receiving costs of an order grow with the variety of products or pickup points. For example, it is cheaper for Wal-Mart to receive a truck containing a single product than it is to receive a truck containing many different products, because the inventory update and restocking effort is much less for a single product. A portion of the fixed cost of an order
+
+282 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+can be related to transportation (this depends only on the load and is independent of product variety on the truck). A portion of the fixed cost is related to loading and receiving (this cost increases with variety on the truck). We now discuss how optimal lot sizes may be determined in such a setting.
+Our objective is to arrive at lot sizes and an ordering policy that minimize the total cost. We assume the following inputs:
+Di: Annual demand for product i S: Order cost incurred each time an order is placed, independent of the variety of products
+included in the order si: Additional order cost incurred if product i is included in the order
+In the case of Best Buy and multiple models, the store manager may consider three approaches to the lot-sizing decision:
+1. Each product manager orders his or her model independently. 2. The product managers jointly order every product in each lot. 3. Product managers order jointly but not every order contains every product; that is, each lot
+contains a selected subset of the products.
+The first approach does not use any aggregation and results in high cost. The second approach aggregates all products in each order. The weakness of the second approach is that low-demand products are aggregated with high-demand products in every order. This complete aggregation results in high costs if the product-specific order cost for the low-demand products is large. In such a situation, it may be better to order the low-demand products less frequently than the high-demand products. This practice results in a reduction of the product-specific order cost associated with the low-demand product. As a result, the third approach is likely to yield the lowest cost. However, it is more complex to coordinate.
+We consider the example of Best Buy purchasing computers and illustrate the effect of each of the three approaches on supply chain costs.
+LOTS ARE ORDERED AND DELIVERED INDEPENDENTLY FOR EACH PRODUCT In this approach, each product is ordered independently of the others. This scenario is equivalent to applying the EOQ formula to each product when evaluating lot sizes, as illustrated in Example 11-3.
+EXAMPLE 11-3 Multiple Products with Lots Ordered and Delivered Independently
+Best Buy sells three models of computers, the Litepro, the Medpro, and the Heavypro. Annual demands for the three products are DL  12,000 for the Litepro, DM  1,200 units for the Medpro, and DH  120 units for the Heavypro. Each model costs Best Buy $500. A fixed transportation cost of $4,000 is incurred each time an order is delivered. For each model ordered and delivered on the same truck, an additional fixed cost of $1,000 is incurred for receiving and storage. Best Buy incurs a holding cost of 20 percent. Evaluate the lot sizes that the Best Buy manager should order if lots for each product are ordered and delivered independently. Also evaluate the annual cost of such a policy.
+Analysis:
+In this example, we have the following information:
+Demand, DL = 12,000/year, DM = 1,200/year, DH = 120/year Common order cost, S = $4,000 Product-specific order cost, sL  $1,000, sM = $1,000, sH  $1,000 Holding cost, h  0.2 Unit cost, CL  $500, CM  $500, CH  $500
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 283
+
+Table 11-1 Lot Sizes and Costs for Independent Ordering
+
+Litepro
+
+Medpro
+
+Heavypro
+
+Demand per year Fixed cost/order Optimal order size Cycle inventory Annual holding cost Order frequency Annual ordering cost Average flow time Annual cost
+
+12,000 $5,000
+1,095 548
+$54,772 11.0/year $54,772 2.4 weeks $109,544
+
+1,200 $5,000
+346 173 $17,321 3.5/year $17,321 7.5 weeks $34,642
+
+120 $5,000
+110 55
+$5,477 1.1/year $5,477 23.7 weeks $10,954
+
+Note: While these figures are correct, some may differ from calculations due to rounding.
+
+Because each model is ordered and delivered independently, a separate truck delivers each model. Thus, a fixed ordering cost of $5,000 ($4,000  $1,000) is incurred for each product delivery. The optimal ordering policies and resulting costs for the three products (when the three products are ordered independently) are evaluated using the EOQ formula (Equation 11.5) and are shown in Table 11-1.
+The Litepro model is ordered 11 times a year, the Medpro model is ordered 3.5 times a year, and the Heavypro model is ordered 1.1 times each year. The annual ordering and holding cost Best Buy incurs if the three models are ordered independently turns out to be $155,140.
+
+Independent ordering is simple to execute but ignores the opportunity to aggregate orders. Thus, the product managers at Best Buy could potentially lower costs by combining orders on a single truck. We next consider the scenario in which all three products are ordered and delivered each time an order is placed.
+
+LOTS ARE ORDERED AND DELIVERED JOINTLY FOR ALL THREE MODELS Here, all three models are included each time an order is placed. In this case, the combined fixed order cost per order is given by
+S* = S + sL + sM + sH
+
+The next step is to identify the optimal ordering frequency. Let n be the number of orders placed per year. We then have
+
+Annual order cost = S*n
+
+Annual holding cost = DLhCL + DMhCM + DHhCH
+
+2n 2n
+
+2n
+
+The total annual cost is thus given by
+
+Total annual cost = DLhCL + DMhCM + DHhCH + S*n 2n 2n 2n
+
+The optimal order frequency minimizes the total annual cost and is obtained by taking the
+first derivative of the total cost with respect to n and setting it equal to 0. This results in the optimal order frequency n*, where
+
+n*
+
+=
+
+DLhCL C
+
++
+
+DMhCM 2S*
+
++
+
+DHhCH
+
+(11.7)
+
+284 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+
+Equation 11.7 can be generalized to the case in which there are k items consolidated on a
+
+single order as follows:
+
+n*
+
+=
+
+a
+
+k i=
+
+1DihCi
+
+C 2S*
+
+(11.8)
+
+Truck capacity can also be included in this setting by comparing the total load for the optimal n* with truck capacity. If the optimal load exceeds truck capacity, n* is increased until the load equals truck capacity. By applying Equation 11.8 for different values of k, we can also find the optimal number of items or suppliers to be aggregated in a single delivery.
+In Example 11-4, we consider the case in which the product managers at Best Buy order all three models each time they place an order.
+
+EXAMPLE 11-4 Products Ordered and Delivered Jointly
+
+Consider the Best Buy data in Example 11-3. The three product managers have decided to aggregate and order all three models each time they place an order. Evaluate the optimal lot size for each model.
+
+Analysis: Because all three models are included in each order, the combined order cost is
+S* = S + sL + sM + sH = $7,000 per order The optimal order frequency is obtained using Equation 11.7 and is given by
+
+12,000 * 100 + 1,200 * 100 + 120 * 100
+
+n* = C
+
+2 * 7,000
+
+= 9.75
+
+Thus, if each model is to be included in every order and delivery, the product managers at Best Buy should place 9.75 orders each year. In this case, the ordering policies and costs are as shown in Table 11-2.
+Because 9.75 orders are placed each year and each order costs a total of $7,000, we have
+
+Annual order cost = 9.75 * 7,000 = $68,250
+
+The annual ordering and holding cost, across the three sizes, of the aforementioned policy is given by
+
+Annual ordering and holding cost = $61,512 + $6,151 + $615 + $68,250 = $136,528
+
+Observe that the product managers at Best Buy lower the annual cost from $155,140 to $136,528 by ordering all products jointly. This represents a decrease of about 12 percent.
+
+Table 11-2 Lot Sizes and Costs for Joint Ordering at Best Buy
+
+Litepro
+
+Medpro
+
+Heavypro
+
+Demand per year (D) Order frequency (n) Optimal order size (D/n) Cycle inventory
+Annual holding cost
+Average flow time
+
+12,000 9.75/year
+1,230 615
+$61,512 2.67 weeks
+
+1,200 9.75/year
+123 61.5 $6,151 2.67 weeks
+
+120 9.75/year
+12.3 6.15 $615 2.67 weeks
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 285
+In Example 11-5, we consider optimal aggregation of orders or deliveries in the presence of capacity constraints.
+
+EXAMPLE 11-5 Aggregation with Capacity Constraint
+
+W.W. Grainger sources from hundreds of suppliers and is considering the aggregation of inbound shipments to lower costs. Truckload shipping costs $500 per truck along with $100 per pickup. Average annual demand from each supplier is 10,000 units. Each unit costs $50 and Grainger incurs a holding cost of 20 percent. What is the optimal order frequency and order size if Grainger decides to aggregate four suppliers per truck? What is the optimal order size and frequency if each truck has a capacity of 2,500 units?
+
+Analysis: In this case, W.W. Grainger has the following inputs:
+
+Demand per product, Di  10,000 Holding cost, h  0.2 Unit cost per product, Ci  $50 Common order cost, S  $500 Supplier-specific order cost, si  $100
+
+The combined order cost from four suppliers is given by
+
+S* = S + S1 + S2 + S3 + S4 = $900 per order
+
+From Equation 11.8, the optimal order frequency is
+
+n*
+
+=
+
+a
+
+4 i=
+
+1DihCi
+
+C 2S*
+
+=
+
+4 C
+
+*
+
+10,000 * 0.2 2 * 900
+
+*
+
+50
+
+=
+
+14.91
+
+It is thus optimal for Grainger to order 14.91 times per year. The annual ordering cost per supplier is
+Annual order cost = 14.91 * 900 = $3,354 4
+
+The quantity ordered from each supplier is Q  10,000/14.91  671 units per order. The annual holding cost per supplier is
+
+Annual holding cost per supplier = hCiQ = 0.2 * 50 * 671 = $3,355 22
+
+This policy, however, requires a total capacity per truck of 4 * 671 = 2,684 units. Given a truck capacity of 2,500 units, the order frequency must be increased to ensure that the order quantity from each supplier is 2,500/4 = 625. Thus, W.W. Grainger should increase the order frequency to 10,000/625 = 16. This action will increase the annual order cost per supplier to $3,600 and decrease the annual holding cost per supplier to $3,125.
+
+The main advantage of ordering all products jointly is that it is easy to administer and implement. The disadvantage is that it is not selective enough in combining the particular models that should be ordered together. If product-specific order costs are high and products vary significantly in terms of their sales, it is possible to lower costs by being selective about the products being aggregated in a joint order.
+Next, we consider a policy under which the product managers do not necessarily order all models each time an order is placed but still coordinate their orders.
+
+286 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+
+LOTS ARE ORDERED AND DELIVERED JOINTLY FOR A SELECTED SUBSET OF THE PRODUCTS
+We first illustrate how being selective in aggregating orders in a single order can lower costs. Consider Example 11-4 in which the manager decides to aggregate all three computer models in every order. The optimal policy from Example 11-4 is to order 9.75 times a year. The disadvantage of this policy is that the Heavypro, with annual demand of only 120 units is also ordered 9.75 times. Given that a model-specific cost of $1,000 is incurred with each order, we are essentially adding 1,000/(120/9.75)  $81.25 in order cost to each Heavypro. If we were to include the Heavypro in every fourth order (instead of every order), we would save 9,750 × (3/4)  $7,312.5 in product-specific ordering cost (save 3 out of 4 product-specific orders) while incurring an additional 500 × 0.2 × ((120/9.75)/2) × 3  $3,692.3 in holding cost (because the lot size of Heavypro would increase from 120/9.75 to (120 × 4)/9.75). Such a policy would thus decrease annual cost relative to complete aggregation by more than $3,600. This example points to the value of being more selective when aggregating orders.
+We now discuss a procedure that is more selective in combining products to be ordered jointly. The procedure we discuss here does not necessarily provide the optimal solution. It does, however, yield an ordering policy whose cost is close to optimal. The approach of the procedure is to first identify "the most frequently" ordered product that is included in every order. The base fixed cost S is then entirely allocated to this product. For each of the "less frequently" ordered products i, the ordering frequency is determined using only the product-specific ordering cost si. The frequencies are then adjusted so that each product i is included every mi orders, where mi is an integer. We now detail the procedure used.
+We first describe the procedure in general and then apply it to the specific example. Assume that the products are indexed by i, where i varies from 1 to l (assuming a total of l products). Each product i has an annual demand Di, a unit cost Ci, and a product-specific order cost si. The common order cost is S.
+Step 1: As a first step, identify the most frequently ordered product, assuming each product is ordered independently. In this case, a fixed cost of S  si is allocated to each product. For each product i (using Equation 11.6), evaluate the ordering frequency:
+
+ni
+
+=
+
+hCiDi C2(S + si)
+
+This is the frequency at which product i would be ordered if it were the only product being ordered (in which case a fixed cost of S  si would be incurred per order). Let n be the frequency of the most frequently ordered product i*; that is, n is the maximum among all ni (n = ni* = max {ni, i = 1, Á , l}). The most frequently ordered product is i* included each time an order is placed. Step 2: For all products i Z i*, evaluate the ordering frequency:
+
+ni
+
+=
+
+hCiDi C 2si
+
+ni represents the desired order frequency if product i incurs the product-specific fixed
+cost si only each time it is ordered.
+Step 3: Our goal is to include each product i Z i* with the most frequently ordered product i* after an integer number of orders. For all i Z i*, evaluate the frequency of product i relative to the most frequently ordered product i* to be mi, where
+
+mi = ln>nim
+
+In this case, l m is the operation that rounds a fraction up to the closest integer. Product i will be included with the most frequently ordered product i* every mi orders. Given that the most frequently ordered product i* is included in every order, mi*  1.
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 287
+
+Step 4: Having decided the ordering frequency of each product i, recalculate the ordering frequency of the most frequently ordered product i* to be n, where
+
+n
+
+=
+
+a
+
+l i
+
+=
+
+1hCimiDi
+
+D2AS
+
++
+
+a
+
+l i
+
+=
+
+1si
+
+/
+
+mi
+
+B
+
+(11.9)
+
+Note that n is a better ordering frequency for the most frequently ordered product i*
+than n because it takes into account the fact that each of the other products i is included with i* every mi orders.
+Step 5: For each product, evaluate an order frequency of ni  n/mi and the total cost of such an ordering policy. The total annual cost is given by
+
+TC
+
+=
+
+nS
+
++
+
+l
+a nisi
+i=1
+
++
+
+l
+a
+i=1
+
+a
+
+Di 2ni
+
+b
+
+hCi
+
+The procedure described above results in tailored aggregation, with higher-demand products ordered more frequently and lower-demand products ordered less frequently Example 11-6 considers tailored aggregation for the Best Buy ordering decision in Example 11-3.
+
+EXAMPLE 11-6 Lot Sizes Ordered and Delivered Jointly for a Selected Subset That Varies by Order
+Consider the Best Buy data in Example 11-3. Product managers have decided to order jointly, but to be selective about which models they include in each order. Evaluate the ordering policy and costs using the procedure discussed previously.
+Analysis: Recall that S  $4,000, sL  $1,000, sM  $1,000, sH  $1,000. Applying Step 1, we obtain
+
+nL
+
+=
+
+hCLDL C21S + sL2
+
+=
+
+11.0, nM
+
+=
+
+hCMDM C21S + sM2
+
+=
+
+3.5, nH
+
+=
+
+hCHDH C21S + sH2
+
+=
+
+1.1
+
+Clearly Litepro is the most frequently ordered model. Thus, we set n = 11.0. We now apply Step 2 to evaluate the frequency with which Medpro and Heavypro are
+included with Litepro in the order. We first obtain
+
+nM
+
+=
+
+hCMDM C 2sM
+
+=
+
+7.7
+
+and
+
+nH
+
+=
+
+hCHDH C 2sH
+
+=
+
+2.4
+
+Next, we apply Step 3 to evaluate
+
+mM
+
+=
+
+lnm nM
+
+=
+
+l 11.0 m 7.7
+
+=
+
+2
+
+and
+
+mH
+
+=
+
+lnm nH
+
+=
+
+l 11.0 m 2.4
+
+=
+
+5
+
+Thus, Medpro is included in every second order and Heavypro is included in every fifth order (Litepro, the most frequently ordered model, is included in every order). Now that we have decided on the ordering frequency of each model, apply Step 4 (Equation 11.9) to recalculate the ordering frequency of the most frequently ordered model as
+
+n
+
+=
+
+hCLmLDL + hCMmMDM + hCHmMDH A 21S + sL/mL + sM/mM + sH /mH2
+
+=
+
+11.47
+
+288 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+
+Table 11-3 Lot Sizes and Costs for Ordering Policy Using Heuristic
+
+Litepro
+
+Medpro
+
+Heavypro
+
+Demand per year (D) Order frequency (n) Order size (D/n) Cycle inventory Annual holding cost Average flow time
+
+12,000 11.47/year
+1,046 523
+$52,307 2.27 weeks
+
+1,200 5.74/year
+209 104.5 $10,461 4.53 weeks
+
+120 2.29/year
+52 26 $2,615 11.35 weeks
+
+Thus, the Litepro is ordered 11.47 times per year. Next, we apply Step 5 to obtain an ordering frequency for each product:
+nL = 11.47/ year, nM = 11.47/2 = 5.74 / year, and nH = 11.47/ 5 = 2.29 / year
+The ordering policies and resulting costs for the three products are shown in Table 11-3. The annual holding cost of this policy is $65,383.5. The annual order cost is given by
+nS + nLsL + nMsM + nHsH = $65,383.5
+The total annual cost is thus equal to $130,767. Tailored aggregation results in a cost reduction of $5,761 (about 4 percent) compared to the joint ordering of all models. The cost reduction results because each model-specific fixed cost of $1,000 is not incurred with every order.
+
+From the Best Buy examples, it follows that aggregation can provide significant cost savings and reduction in cycle inventory in the supply chain. When product-specific order costs (si) are small relative to the fixed cost S, complete aggregation, whereby every product is included in every order, is very effective. Tailored aggregation provides little additional value in this setting and may not be worth the additional complexity. If Examples 11-3, 11-4, and 11-6 are repeated with si  $300, we find that tailored aggregation decreases costs by only about 1 percent relative to complete aggregation, whereas complete aggregation decreases costs by more than 25 percent relative to no aggregation. As product-specific order costs increase, however, tailored aggregation becomes more effective. In general, complete aggregation should be used when product-specific order costs are small, and tailored aggregation should be used when productspecific order costs are large.
+We have looked at fixed ordering costs and their impact on the inventory and costs in a supply chain. What is most significant from this discussion is that the key to reducing lot sizes is focusing on the reduction of fixed costs associated with each lot ordered. These costs and the processes causing them must be well understood so appropriate action may be taken.
+Next, we consider lot sizes when material cost displays economies of scale.
+Key Point
+A key to reducing cycle inventory is the reduction of lot size. A key to reducing lot size without increasing costs is reducing the fixed cost associated with each lot. This may be achieved by reducing the fixed cost itself or by aggregating lots across multiple products, customers, or suppliers. When aggregating across multiple products, customers, or suppliers, simple aggregation is effective when product-specific order costs are small, and tailored aggregation is best if product-specific order costs are large.
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 289
+
+11.4 ECONOMIES OF SCALE TO EXPLOIT QUANTITY DISCOUNTS
+We now consider pricing schedules that encourage buyers to purchase in large lots. There are many instances in business-to-business transactions in which the pricing schedule displays economies of scale, with prices decreasing as lot size increases. A discount is lot size­based if the pricing schedule offers discounts based on the quantity ordered in a single lot. A discount is volume based if the discount is based on the total quantity purchased over a given period, regardless of the number of lots purchased over that period. In this section, we will see that lot size­based quantity discounts tend to increase the lot size and cycle inventory in a supply chain. Two commonly used lot size­based discount schemes are
+· All unit quantity discounts · Marginal unit quantity discount or multi-block tariffs
+In order to investigate the impact of such quantity discounts on the supply chain, we must answer the following two basic questions:
+1. Given a pricing schedule with quantity discounts, what is the optimal purchasing decision for a buyer seeking to maximize profits? How does this decision affect the supply chain in terms of lot sizes, cycle inventories, and flow times?
+2. Under what conditions should a supplier offer quantity discounts? What are appropriate pricing schedules that a supplier seeking to maximize profits should offer?
+We start by studying the optimal response of a retailer (the buyer) when faced with either of the two lot size­based discount schemes offered by a manufacturer (the supplier). The retailer's objective is to select lot sizes to minimize the total annual material, order, and holding costs. Next, we evaluate the optimal lot size in the case of all unit quantity discounts.
+
+All Unit Quantity Discounts
+
+In all unit quantity discounts, the pricing schedule contains specified break points q0, q1, . . . , qr, where q0  0. If an order placed is at least as large as qi but smaller than qi+1, each unit is obtained at a cost of Ci. In general, the unit cost decreases as the quantity ordered increases; that is, C0 Ú C1 Ú Á Ú Cr. For all unit discounts, the average unit cost varies with the quantity ordered, as shown in Figure 11-3. The retailer's objective is to decide on lot sizes to maximize profits
+or, equivalently, to minimize the sum of material, order, and holding costs. The solution procedure
+evaluates the optimal lot size for each price and picks the lot size that minimizes the overall cost.
+
+Step 1: Evaluate the optimal lot size for each price Ci,0 ... i ... r as follows:
+
+Qi
+
+=
+
+2DS C hCi
+
+(11.10)
+
+C0 C1 C2
+
+Average Cost per Unit Purchased
+
+0 q1 q2 q3 Quantity Purchased
+FIGURE 11-3 Average Unit Cost with All Unit Quantity Discounts
+
+290 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+
+Step 2: We next select the order quantity Q*i for each price Ci. There are three possible cases for Qi:
+1. qi ... Qi 6 qi + 1 2. Qi 6 qi 3. Qi Ú qi + 1
+Case 3 can be ignored for Qi because it is considered for Qi+1. Thus, we need to consider only the first two cases. If qi ... Qi 6 qi+1, then set Q*i = Qi. If Qi 6 qi, then a lot size of Qi does not result in a discount. In this case, set Qi* = qi to qualify for the discounted price of Ci per unit. Step 3: For each i, calculate the total annual cost of ordering Qi* units (this includes order cost, holding cost, and material cost) as follows:
+
+Total annual cost, TCi =
+
+a
+
+D Qi*
+
+b
+
+S
+
++
+
+Qi* 2
+
+hCi
+
++
+
+DCi
+
+(11.11)
+
+Step 4: Select order quantity Qi* with the lowest total cost TCi.
+
+Goyal (1995) has shown that this procedure can be further shortened by identifying a cutoff price C* above which the optimal solution cannot occur. Recall that Cr is the
+lowest unit cost above the final threshold quantity qr. The cutoff is obtained as follows:
+
+C* =
+
+1 D
+
+a DCr
+
++
+
+DS qr
+
++
+
+h 2
+
+qrCr
+
+-
+
+12hDSCr b
+
+In Example 11-7, we evaluate the optimal lot size given an all unit quantity discount.
+
+EXAMPLE 11-7 All Unit Quantity Discounts
+Drugs Online (DO) is an online retailer of prescription drugs and health supplements. Vitamins represent a significant percentage of its sales. Demand for vitamins is 10,000 bottles per month. DO incurs a fixed order placement, transportation, and receiving cost of $100 each time an order for vitamins is placed with the manufacturer. DO incurs a holding cost of 20 percent. The manufacturer uses the following all unit discount pricing schedule. Evaluate the number of bottles that the DO manager should order in each lot.
+
+Order Quantity 0­4,999 5,000­9,999 10,000 or more
+
+Unit Price $3.00 $2.96 $2.92
+
+Analysis: In this case, the manager has the following inputs:
+q0  0, q1  5,000, q2  10,000 C0  $3.00, C1  $2.96, C2  $2.92 D  120,000/year, S  $100/lot, h  0.2
+Using Step 1 and Equation 11.10 we obtain
+
+Q0
+
+=
+
+2DS C hC0
+
+=
+
+6,324; Q1
+
+=
+
+2DS C hC1
+
+=
+
+6,367; Q2
+
+=
+
+2DS C hC2
+
+=
+
+6,410
+
+In Step 2, we ignore i = 0 because Q0 = 6,324 7 q1 = 5,000. For i = 1, 2, we obtain Q1* = Q1 = 6,367; Q*2 = q2 = 10,000
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 291
+
+In Step 3, we obtain the total costs using Equation 11.11 as follows:
+
+TC1
+
+=
+
+a
+
+D Q1*
+
+bS
+
++
+
+a
+
+Q*1 2
+
+b hC1
+
++
+
+DC1
+
+=
+
+$358,969;
+
+TC2 = $354,520
+
+Observe that the lowest total cost is for i = 2. Thus, it is optimal for DO to order Q2* = 10,000 bottles per lot and obtain the discount price of $2.92 per bottle.
+
+If the manufacturer in Example 11-7 sold all bottles for $3, it would be optimal for DO to order in lots of 6,324 bottles. The quantity discount is an incentive for DO to order in larger lots of 10,000 bottles, raising both the cycle inventory and the flow time. The impact of the discount is further magnified if DO works hard to reduce its fixed ordering cost to S = $4. Then, the optimal lot size in the absence of a discount is 1,265 bottles. In the presence of the all unit quantity discount, the optimal lot size is still 10,000 bottles. In this case, the presence of quantity discounts leads to an eightfold increase in average inventory as well as flow time at DO.
+Pricing schedules with all unit quantity discounts encourage retailers to order in larger lots to take advantage of price discounts. This adds to the average inventory and flow time in a supply chain. This increase in inventory raises a question about the value that all unit quantity discounts offer in a supply chain. Before we consider this question, we discuss marginal unit quantity discounts.
+
+Marginal Unit Quantity Discounts
+
+Marginal (or incremental) unit quantity discounts are also referred to as multi-block tariffs. In
+this case, the pricing schedule contains specified break points q0, q1, ..., qr. It is not the average cost of a unit but the marginal cost of a unit that decreases at a breakpoint (in contrast to the all unit discount scheme). If an order of size q is placed, the first q1  q0 units are priced at C0, the next q2  q1 are priced at C1, and in general qi1  qi units are priced at Ci. The marginal cost per unit varies with the quantity purchased, as shown in Figure 11-4.
+Faced with such a pricing schedule, the retailer's objective is to decide on a lot size that
+maximizes profits or, equivalently, minimizes material, order, and holding costs.
+The solution procedure discussed here evaluates the optimal lot size for each marginal
+price Ci (this forces a lot size between qi and qi+1) and then settles on the lot size that minimizes the overall cost. A more streamlined procedure has been provided by Hu and Munson (2002).
+For each value of i, 0 ... i ... r, let Vi be the cost of ordering qi units. Define V0  0 and Vi for 0 ... i ... r as follows:
+
+Vi = C0(q1 - q0) + C1(q2 - q1) + . . . + Ci-1(qi - qi-1)
+
+(11.12)
+
+C0 C1 C2
+
+Marginal Cost per Unit Purchased
+
+0 q1 q2
+
+Quantity Purchased
+
+FIGURE 11-4 Marginal Unit Cost with Marginal Unit Quantity Discount
+
+292 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+
+For each value of i, 0 ... i ... r - 1, consider an order of size Q in the range qi to qi+1 units; that is, qi+1 Ú Q Ú qi. The material cost of each order of size Q is given by Vi + (Q - qi)Ci. The various costs associated with such an order are as follows:
+
+Annual order cost
+
+=
+
+a
+
+D Q
+
+b
+
+S
+
+Annual holding cost = [Vi + (Q - qi) Ci] h / 2
+
+Annual materia cost =
+
+D Q
+
+[Vi
+
++
+
+(Q
+
+-
+
+qi)Ci]
+
+The total annual cost is the sum of the three costs and is given by
+
+Total annual cost =
+
+a
+
+D Q
+
+bS
+
++
+
+[Vi
+
++
+
+(Q
+
+-
+
+qi) Ci] h / 2
+
++
+
+D Q
+
+[Vi
+
++
+
+(Q
+
+-
+
+qi) Ci]
+
+Step 1: Evaluate the optimal lot size using Equation 11.13 for each price Ci. The optimal lot size for price Ci is obtained by taking the first derivative of the total cost with respect to the lot size and setting it equal to 0. This results in an optimal lot size of
+
+Optimal 1ot size for price
+
+Ci is Qi
+
+=
+
+2D(S C
+
++ Vi hCi
+
+qiCi)
+
+(11.13)
+
+Observe that the optimal lot size is obtained using a formula very much like the EOQ
+formula (Equation 11.5), except that the presence of the quantity discount has the effect of raising the fixed cost per order by Vi  qiCi (from S to S  Vi  qiCi). Step 2: We next select the order quantity Qi* for each price Ci. There are three possible cases for Qi:
+1. If qi ... Qi ... qi+1 then set Qi* = Qi 2. If Qi 6 qi then set Qi* = qi 3. If Qi 7 qi+1 then set Q*i = qi+1 Step 3: Calculate the total annual cost of ordering Q*i units as follows:
+
+TCi
+
+=
+
+a
+
+D Q*i
+
+b
+
+S
+
++
+
+[Vi
+
++
+
+(Qi*
+
+-
+
+qi) Ci] h / 2
+
++
+
+D Qi*
+
+[Vi
+
++
+
+(Q*i
+
+-
+
+qi) Ci]
+
+Step 4: Select order size Q*i with the lowest cost TCi.
+
+(11.14)
+
+In Example 11-8, we evaluate the optimal lot size given a marginal unit quantity discount.
+
+EXAMPLE 11-8 Marginal Unit Quantity Discounts
+Let us return to DO from Example 11-7. Assume that the manufacturer uses the following marginal unit discount pricing schedule:
+
+Order Quantity 0­5,000 5,000­10,000 Over 10,000
+
+Marginal Unit Price $3.00 $2.96 $2.92
+
+This implies that if an order is placed for 7,000 bottles, the first 5,000 are at a unit cost of $3.00, with the remaining 2,000 at a unit cost of $2.96. Evaluate the number of bottles that DO should order in each lot.
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 293
+
+Analysis: In this case, we have
+
+q0 = O, q1 = 5,000, q2 = 10,000 C0 = $3.00, C1 = $2.96, C2 = $2.92 D = 120,000/year, S = $100/lot, h = 0.2
+
+Using Equation 11.12, we obtain
+
+V0 = 0; V1 = 3(5,000 - 0) = $15,000 V2 = 3(5,000 - 0) + 2.96(10,000 - 5,000) = $29,800
+Using Step 1 and Equation 11.13, we obtain
+
+Q0
+
+=
+
+2D(S C
+
++ V0 hC0
+
+q0C0)
+
+=
+
+6,324
+
+Q1
+
+=
+
+2D(S C
+
++ V1 hC1
+
+q1C1)
+
+=
+
+11,028
+
+Q2
+
+=
+
+2D(S C
+
++ V2 hC2
+
+q2C2)
+
+=
+
+16,961
+
+In Step 2, we set Q*0 = q1 = 5,000 because Q0  6,324 > q1  5,000. Similarly, we obtain Q1* = q2 = 10,000 and Q2* = Q2 = 16,961.
+In Step 3, we obtain the total cost for i = 0, 1, 2 using Equation 11.14 to be
+
+TC0
+
+=
+
+a
+
+D Q0*
+
+b
+
+S
+
++
+
+[V0
+
++
+
+(Q*0
+
+-
+
+q0) C0] h / 2
+
++
+
+D Q0* [V0
+
++
+
+(Q0*
+
+-
+
+q0) C0]
+
+=
+
+$363,900
+
+TC1
+
+=
+
+a
+
+D Q1*
+
+b
+
+S
+
++
+
+[V1
+
++
+
+(Q1*
+
+-
+
+q1) C1] h / 2
+
++
+
+D Q1* [V1
+
++
+
+(Q*1
+
+-
+
+q1) C1]
+
+=
+
+$361,780
+
+TC2
+
+=
+
+a
+
+D Q*2
+
+b
+
+S
+
++
+
+[V2
+
++
+
+(Q2*
+
+-
+
+q2) C2] h / 2
+
++
+
+D Q*2 [V2
+
++
+
+(Q2*
+
+-
+
+q2) C2]
+
+=
+
+$360,365
+
+Observe that the lowest cost is for i  2. Thus, it is optimal for DO to order in lots of Q2* = 16,961 bottles. This is much larger than the optimal lot size of 6,324 when the manufacturer does not
+offer any discount.
+
+If the fixed cost of ordering is $4, the optimal lot size for DO is 15,755 with the discount compared to a lot size of 1,265 without the discount. This discussion demonstrates that there can be significant order sizes and thus significant cycle inventory in the absence of any formal fixed ordering costs as long as quantity discounts are offered. Thus, quantity discounts lead to a significant buildup of cycle inventory in a supply chain. In many supply chains, quantity discounts contribute more to cycle inventory than fixed ordering costs. This forces us once again to question the value of quantity discounts in a supply chain.
+Why Quantity Discounts?
+We have seen that the presence of lot size­based quantity discounts tends to increase the level of cycle inventory in the supply chain. We now develop arguments supporting the presence of lot size-based quantity discounts in a supply chain. In each case, we look for circumstances under
+
+294 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+which a lot size­based quantity discount increases the supply chain surplus. Quantity discounts can increase the supply chain surplus for the following two main reasons:
+1. Improved coordination to increase total supply chain profits 2. Extraction of surplus through price discrimination
+Munson and Rosenblatt (1998) also provide other factors, such as marketing, that motivate sellers to offer quantity discounts. We now discuss each of the two situations in greater detail.
+COORDINATION TO INCREASE TOTAL SUPPLY CHAIN PROFITS A supply chain is coordinated if the decisions the retailer and supplier make maximize total supply chain profits. In reality, each stage in a supply chain may have a separate owner and thus attempt to maximize that stage's own profits. For example, each stage of a supply chain is likely to make lot-sizing decision with an objective of minimizing its own overall costs. The result of this independent decision making can be a lack of coordination in a supply chain because actions that maximize retailer profits may not maximize supply chain profits. In this section, we discuss how a manufacturer may use appropriate quantity discounts to ensure that total supply chain profits are maximized even if the retailer is acting to maximize its own profits.
+Quantity discounts for commodity products. Economists have argued that for commodity products such as milk, a competitive market exists and costs are driven down to the products' marginal cost. In this case, the market sets the price and the firm's objective is to lower costs in order to increase profits. Consider, for example, the online retailer DO, discussed earlier. It can be argued that it sells a commodity product. In this supply chain, both the manufacturer and DO incur costs related to each order placed by the retailer. The manufacturer incurs fixed costs related to order setup and fulfillment (SM) and holding costs (hMCM) as it builds up inventory to replenish the order. Similarly, DO incurs fixed costs (SR) for each order it places and holding costs (hRCR) for the inventory it holds as it slowly sells an order. Even though both parties incur costs associated with the lot-sizing decision made by DO, the retailer makes its lot-sizing decisions based solely on costs it faces. This results in lot-sizing decisions that are locally optimal but do not maximize the supply chain surplus. We illustrate this idea in Example 11-9.
+
+EXAMPLE 11-9 The Impact of Locally Optimal Lot Sizes on a Supply Chain
+
+Demand for vitamins is 10,000 bottles per month. DO incurs a fixed order placement, transportation, and receiving cost of $100 each time it places an order for vitamins with the manufacturer. DO incurs a holding cost of 20 percent. The manufacturer charges $3 for each bottle of vitamins purchased. Evaluate the optimal lot size for DO.
+Each time DO places an order, the manufacturer has to process, pack, and ship the order. The manufacturer has a line packing bottles at a steady rate that matches demand. The manufacturer incurs a fixed-order filling cost of $250, production cost of $2 per bottle, and a holding cost of 20 percent. What is the annual fulfillment and holding cost incurred by the manufacturer as a result of DO's ordering policy?
+
+Analysis: In this case, we have
+
+D = 120,000/year, SR = $100/lot, hR = 0.2, CR = $3 SM = $250/lot, hM = 0.2, CM = $2
+Using the EOQ formula (Equation 11.5), we obtain the optimal lot size and annual cost for DO to be:
+
+QR
+
+=
+
+2DSR C hRCR
+
+=
+
+2 C
+
+*
+
+120,000 * 0.2 * 3
+
+100
+
+=
+
+6,324
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 295
+
+Annual cost for DO
+
+=
+
+a
+
+D QR
+
+b
+
+SR
+
++
+
+a
+
+QR 2
+
+b
+
+hRCR
+
+=
+
+$3,795
+
+If DO orders in lots sizes of QR = 6,324, the annual cost incurred by the manufacturer is obtained to be:
+
+Annual cost for manufacturer
+
+=
+
+a
+
+D QR
+
+b
+
+SM
+
++
+
+a
+
+QR 2
+
+b
+
+hMCM
+
+=
+
+$6,009
+
+The annual supply chain cost (manufacturer  DO) is thus $6,009  $3,795  $9,804.
+
+In Example 11-9, DO picks the lot size of 6,324 with an objective of minimizing only its own costs. From a supply chain perspective, the optimal lot size should account for the fact that both DO and the manufacturer incur costs associated with each replenishment lot. If we assume that the manufacturer produces at a rate that matches demand (as assumed in Example 11-9), the total supply chain cost of using a lot size Q is obtained as follows:
+
+Annual cost for DO and manufacturer
+
+=
+
+a
+
+D Q
+
+b
+
+SR
+
++
+
+Q a 2 b hRCR
+
++
+
+a
+
+D Q
+
+b
+
+SM
+
++
+
+Q a 2 b hMCM
+
+The optimal lot size (Q*) for the supply chain is obtained by taking the first derivative of the total
+
+cost with respect to Q and setting it equal to 0 as follows:
+
+Q*
+
+=
+
+2D(SR + SM) ChRCR + hMCM
+
+=
+
+9,165
+
+If DO orders in lots of Q* = 9,165 units, the total costs for DO and the manufacturer are
+
+as follows:
+
+Annual cost for DO
+
+=
+
+a
+
+D Q*
+
+b
+
+SR
+
++
+
+Q* a 2 b hRCR
+
+=
+
+$4,059
+
+Annual cost for manufacturer
+
+=
+
+a
+
+D Q*
+
+b
+
+SM
+
++
+
+Q* a 2 b hMCM
+
+=
+
+$5,106
+
+Observe that if DO orders a lot size of 9,165 units, the supply chain cost decreases to $9,165 (from $9,804 when DO ordered its own optimal lot size of 6,324). There is thus an opportunity for the supply chain to save $639. The challenge, however, is that ordering in lots of 9,165 bottles raises the cost for DO by $264 per year from $3,795 to $4,059 (even though it reduces overall supply chain costs). The manufacturer's costs, in contrast, go down by $903 from $6,009 to $5,106 per year. Thus, the manufacturer must offer DO a suitable incentive for DO to raise its lot size. A lot size­based quantity discount is an appropriate incentive in this case. Example 11-10 provides details of how the manufacturer can design a suitable quantity discount that gets DO to order in lots of 9,165 units even though DO is optimizing its own profits (and not total supply chain profits).
+
+EXAMPLE 11-10 Designing a Suitable Lot Size­Based Quantity Discount
+Consider the data from Example 11-9. Design a suitable quantity discount that gets DO to order in lots of 9,165 units when it aims to minimize only its own total costs.
+Analysis: Recall that ordering in lots of 9,165 units instead of 6,324 increases annual ordering and holding costs for DO by $264. Thus, the manufacturer needs to offer an incentive of at least $264 per year to DO in terms of decreased material cost if DO orders in lots of 9,165 units. Decreasing material
+
+296 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+cost by $264/year from sales of 120,000 units implies that material cost must be decreased from $3/unit to $3  264/120,000  $2.9978/unit if DO orders in lots of 9,165.
+Thus, the appropriate quantity discount is for the manufacturer to charge $3 if DO orders in lots that are smaller than 9,165 units and discount the price to $2.9978 for orders of 9,165 or more.
+Observe that offering a lot size­based discount in this case decreases total supply chain cost. It does, however, increase the lot size the retailer purchases and thus increases cycle inventory in the supply chain.
+Key Point
+For commodity products for which price is set by the market, manufacturers with large fixed costs per lot can use lot size­based quantity discounts to maximize total supply chain profits. Lot size­based discounts, however, increase cycle inventory in the supply chain.
+
+Our discussion on coordination for commodity products highlights the important link between the lot size­based quantity discount offered and the order costs incurred by the manufacturer. As the manufacturer works on lowering order or setup cost, the discount it offers to retailers should change. For a low enough setup or order cost, the manufacturer gains little from using a lot size­based quantity discount. In Example 11-9 discussed earlier, if the manufacturer lowers its fixed cost per order from $250 to $100, the total supply chain costs are close to the minimum without quantity discounts even if DO is trying to minimize its cost. Thus, if its fixed order costs are lowered to $100, it makes sense for the manufacturer to eliminate all quantity discounts. In most companies, however, marketing and sales design quantity discounts, while operations works on reducing setup or order cost. As a result, changes in pricing do not always occur in response to setup cost reduction in manufacturing. It is important that the two functions coordinate these activities.
+
+Quantity discounts for products for which the firm has market power. Now consider the
+scenario in which the manufacturer has invented a new vitamin pill, Vitaherb, which is derived
+from herbal ingredients and has other properties highly valued in the market. Few competitors
+have a similar product, so it can be argued that the price at which the retailer DO sells Vitaherb
+influences demand. Assume that the annual demand faced by DO is given by the demand curve 360,000  60,000 p, where p is the price at which DO sells Vitaherb. The manufacturer incurs a production cost of CM  $2 per bottle of Vitaherb sold. The manufacturer must decide on the price CR to charge DO, and DO in turn must decide on the price p to charge the customer. The profit at DO (ProfR) and the manufacturer (ProfM) as a result of this policy is given by
+
+ProfR = (p - CR)(360,000 - 60,000 p); ProfM = (CR - CM)(360,000 - 60,000 p)
+
+DO picks the price p to maximize ProfR. Taking the first derivative with respect to p and setting it to 0, we obtain the following relationship between p and CR
+
+p = 3 + CR 2
+
+(11.15)
+
+Given that the manufacturer is aware that DO is aiming to optimize its own profits, the manufacturer is able to use the relationship between p and CR to obtains its own profits to be
+
+ProfM = (CR - CM) a360,000 - 60,000 a3 +
+
+CR bb 2
+
+= (CR - 2)(180,000 - 30,000 CR)
+
+The manufacturer picks its price CR to minimize ProfM. Taking the first derivative of ProfM with respect CR to and setting it to 0 we obtain CR  $4. Substituting back into Equation 11.15,
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 297
+we obtain p  $5. Thus, when DO and the manufacturer make their pricing decisions independently, it is optimal for the manufacturer to charge a wholesale price of CR  $4 and for DO to charge a retail price of p = $5. The total market demand in this case is 360,000 ­ 60,000 p  60,000 bottles. DO makes a profit of ProfR = (5  4)(360,000  60,000 × 5)  $60,000 and the manufacturer makes a profit of ProfM  (4  2)(360,000  60,000 × 5)  $120,000.
+Now consider the case in which the two stages coordinate their pricing decisions with a goal of maximizing the supply chain profit ProfSC, which is given by
+ProfSC = (p - CM)(360,000 - 60,000 p)
+The optimal retail price is obtained by setting the first derivative of ProfSC with respect to p to 0. We thus obtain the coordinated retail price to be
+p = 3 + CM = 3 + 2 = $4 22
+If the two stages coordinate pricing and DO prices at p  $4, market demand is 360,000  60,000p  120,000 bottles. The total supply chain profit if the two stages coordinate is ProfSC = ($4 - $2) * 120,000 = $240,000. As a result of each stage settings its price independently, the supply chain thus loses $60,000 in profit. This phenomenon is referred to as double marginalization. Double marginalization leads to a loss in profit because the supply chain margin is divided between two stages, but each stage makes its pricing decision considering only its local profits.
+Key Point
+The supply chain profit is lower if each stage of the supply chain makes its pricing decisions independently, with the objective of maximizing its own profit. A coordinated solution results in higher profit.
+Given that independent pricing decision lower supply chain profits, it is important to consider pricing schemes that may help recover some of these profits even when each stage of the supply chain continues to act independently. We propose two pricing schemes that the manufacturer may use to achieve the coordinated solution and maximize supply chain profits even though DO acts in a way that maximizes its own profit.
+1. Two-part tariff: In this case, the manufacturer charges its entire profit as an up-front franchise fee ff (which could be anywhere between the noncoordinated manufacturer profit ProfM and the difference between the coordinated supply chain profit and the noncoordinated retailer profit, ProfSC ­ ProfR) and then sells to the retailer at cost, that is, the manufacturer sets its wholesale price CR  CM. This pricing scheme is referred to as a two-part tariff because the manufacturer sets both the franchise fee and the wholesale price. The retail pricing decision is thus based on maximizing its profits (p  CM)(360,000  60,000p)  ff. Under the two-part tariff, the franchise fee ff is paid up front and is thus a fixed cost that does not change with the retail price p. The retailer DO is thus effectively maximizing the coordinated supply chain profits ProfSC  (p  CM)(360,000  60,000p). Taking the first derivative with respect to p and setting it equal to 0, the optimal coordinated retail price p is evaluated to be
+p = 3 + CM 2
+In the case of DO, recall that total supply chain profit when the two stages coordinate is ProfSC = $240,000 with DO charging the customer $4 per bottle of Vitaherb. The profit made by DO when the two stages do not coordinate is ProfR  $60,000. One option available to the manufacturer is to construct a two-part tariff by which DO is charged an up-front fee of ff  ProfSC ­ ProfR  $180,000 and material cost of CR  CM  $2 per bottle. DO maximizes
+
+298 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+its profit if it prices the vitamins at p  3  CM  2  3 + 2  2  $4 per bottle. It has annual sales of 360,000  60,000 p  120,000 and profits of $60,000. The manufacturer makes a profit of $180,000, which it charges up front. Observe that the use of a two-part tariff has increased supply chain profits from $180,000 to $240,000 even though the retailer DO has made a locally optimal pricing decision given the two-part tariff. A similar result can be obtained as long as the manufacturer sets the up-front fee ff to be any value between $120,000 and $180,000 with a wholesale price of CR  CM.
+2. Volume-based quantity discount: Observe that the two-part tariff is really a volumebased quantity discount whereby the retailer DO pays a lower average unit cost as it purchases larger quantities each year (the franchise fee ff is amortized over more units). This observation can be made explicit by designing a volume-based discount scheme that gets the retailer DO to purchase and sell the quantity sold when the two stages coordinate their actions.
+Recall that the coordinated solution results in a retail price of p  3  CM2  3  2  2  4. This retail price results in total demand of dcoord  360,000 ­ 60,000 × 4  120,000. The objective of the manufacturer is to design a volume-based discounting scheme that gets the retailer DO to buy (and sell) dcoord  120,000 units each year. The pricing scheme must be such that retailer gets a profit of at least $60,000, and the manufacturer gets a profit of at least $120,000 (these are the profits that DO and the manufacturer made when their actions were not coordinated).
+Several such pricing schemes can be designed. One such scheme is for the manufacturer to charge a wholesale price of CR  $4 per bottle (this is the same wholesale price that is optimal when the two stages are not coordinated) for annual sales below dcoord 120,000 units, and to charge CR  $3.50 (any value between $3.00 and $3.50 will work) for sales of 120,000 or more. It is then optimal for DO to order 120,000 units in the year and price them at p  $4 per bottle to the customers (to ensure that they are all sold). The total profit earned by DO (360,000 - 60,000 * p) * (p - CR) = $60,000. The total profit earned by the manufacturer is 120,000 * (CR - $2) = $180,000 when CR  $3.50. The total supply chain profit is $240,000, which is higher than the $180,000 that the supply chain earned when actions were not coordinated.
+If the manufacturer charges $3.00 (instead of $3.50) for sales of 120,000 units or more, it is still optimal for DO to order 120,000 units in the year and price them at p  $4 per bottle. The only difference is that the total profit earned by DO now increases to $120,000 while that for the manufacturer now drops to $120,000. The total supply chain profits remain at $240,000. The price that the manufacturer is able to charge (between $3.00 and $3.50) for sales of 120,000 or more will depend on the relative bargaining power of the two parties.
+At this stage, we have seen that even in the absence of inventory-related costs, quantity discounts play a role in supply chain coordination and improved supply chain profits. Unless the manufacturer has large fixed costs associated with each lot, the discount schemes that are optimal are volume based and not lot size based. It can be shown that even in the presence of large fixed costs for the manufacturer, a two-part tariff or volume-based discount, with the manufacturer passing on some of the fixed cost to the retailer, optimally coordinates the supply chain and maximizes profits given the assumption that customer demand decreases when the retailer increases price.
+A key distinction between lot size­based and volume discounts is that lot-size discounts are based on the quantity purchased per lot, not the rate of purchase. Volume discounts, in contrast, are based on the rate of purchase or volume purchased on average per specified time period (say, a month, quarter, or year). Lot size­based discounts tend to raise the cycle inventory in the supply
+Key Point
+For products for which the firm has market power, two-part tariffs or volume-based quantity discounts can be used to achieve coordination in the supply chain and maximize supply chain profits.
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 299
+Key Point
+For products for which a firm has market power, lot size­based discounts are not optimal for the supply chain even in the presence of inventory costs. In such a setting, either a two-part tariff or a volume-based discount, with the supplier passing on some of its fixed cost to the retailer, is needed for the supply chain to be coordinated and maximize profits.
+chain by encouraging retailers to increase the size of each lot. Volume-based discounts, in contrast, are compatible with small lots that reduce cycle inventory. Lot size­based discounts make sense only when the manufacturer incurs high fixed cost per order. In all other instances, it is better to have volume-based discounts.
+One can make the point that even with volume-based discounts, retailers will tend to increase the size of the lot toward the end of the evaluation period. For example, assume that the manufacturer offers DO a 2 percent discount if the number of bottles of Vitaherb purchased over a quarter exceeds 40,000. This policy will not affect the lot sizes DO orders early during the quarter, and DO will order in small lots to match the quantity ordered with demand. Consider a situation, however, in which DO has sold only 30,000 bottles with a week left before the end of the quarter. To get the quantity discount, DO may order 10,000 bottles over the last week even though it expects to sell only 3,000. In this case, cycle inventory in the supply chain goes up in spite of the fact that there is no lot size­based quantity discount. The situation in which orders peak toward the end of a financial horizon is referred to as the hockey stick phenomenon because demand increases dramatically toward the end of a period, similar to the way a hockey stick bends upward toward its end. This phenomenon has been observed in many industries. One possible solution is to base the volume discounts on a rolling horizon. For example, each week the manufacturer may offer DO the volume discount based on sales over the past 12 weeks. Such a rolling horizon dampens the hockey stick phenomenon by making each week the last week in some 12-week horizon.
+Thus far, we have discussed only the scenario in which the supply chain has a single retailer. One may ask whether our insights are robust and also apply if the supply chain has multiple retailers, each with different demand curves, all supplied by a single manufacturer. As one would expect, the form of the discount scheme to be offered becomes more complicated in these settings (typically, instead of having only one break point at which the volume-based discount is offered, there are multiple breakpoints). The basic form of the optimal pricing scheme, however, does not change. The optimal discount continues to be volume based, with the average price charged to the retailers decreasing as the rate of purchase (volume purchased per unit time) increases.
+PRICE DISCRIMINATION TO MAXIMIZE SUPPLIER PROFITS Price discrimination is the practice whereby a firm charges differential prices to maximize profits. An example of price discrimination is airlines: Passengers traveling on the same plane often pay different prices for their seats.
+As discussed in Chapter 16, setting a fixed price for all units does not maximize profits for the manufacturer. In principle, the manufacturer can obtain the entire area under the demand curve above its marginal cost by pricing each unit differently based on customers' marginal evaluation at each quantity. Quantity discounts are one mechanism for price discrimination because customers pay different prices based on the quantity purchased.
+Next we discuss trade promotions and their impact on lot sizes and cycle inventory in the supply chain.
+Key Point
+Price discrimination to maximize profits at the manufacturer may also be a reason to offer quantity discounts within a supply chain.
+
+300 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+
+11.5 SHORT-TERM DISCOUNTING: TRADE PROMOTIONS
+
+Manufacturers use trade promotions to offer a discounted price to retailers and a time period over which the discount is effective. For example, a manufacturer of canned soup may offer a price discount of 10 percent for the shipping period December 15 to January 25. For all purchases within the specified time horizon, retailers get a 10 percent discount. In some cases, the manufacturer may require specific actions from the retailer, such as displays, advertising, promotion, and so on, to qualify for the trade promotion. Trade promotions are quite common in the consumer packagedgoods industry, with manufacturers promoting different products at different times of the year.
+The goal of trade promotions is to influence retailers to act in a way that helps the manufacturer achieve its objectives. A few of the key goals (from the manufacturer's perspective) of a trade promotion are as follows:2
+
+1. Induce retailers to use price discounts, displays, or advertising to spur sales. 2. Shift inventory from the manufacturer to the retailer and the customer. 3. Defend a brand against competition.
+
+Although these may be the manufacturer's objectives, it is not clear that they are always achieved as the result of a trade promotion. Our goal in this section is to investigate the impact of a trade promotion on the behavior of the retailer and the performance of the entire supply chain. The key to understanding this impact is to focus on how a retailer reacts to a trade promotion that a manufacturer offers. In response to a trade promotion, the retailer has the following options:
+
+1. Pass through some or all of the promotion to customers to spur sales. 2. Pass through very little of the promotion to customers but purchase in greater quantity
+during the promotion period to exploit the temporary reduction in price.
+
+The first action lowers the price of the product for the end customer, leading to increased purchases and thus increased sales for the entire supply chain. The second action does not increase purchases by the customer but increases the amount of inventory held at the retailer. As a result, the cycle inventory and flow time within the supply chain increase.
+A forward buy occurs when a retailer purchases in the promotional period for sales in future periods. A forward buy helps reduce the retailer's future cost of goods for product sold after the promotion ends. Although a forward buy is often the retailer's appropriate response to a price promotion, it usually increases demand variability with a resulting increase in inventory and flow times within the supply chain, and it can decrease supply chain profits.
+Our objective in this section is to understand a retailer's optimal response when faced with a trade promotion. We identify the factors affecting the forward buy and quantify the size of a forward buy by the retailer. We also identify factors that influence the amount of the promotion that a retailer passes on to the customer.
+We first illustrate the impact of a trade promotion on forward buying behavior of the retailer. Consider a Cub Foods supermarket selling chicken noodle soup manufactured by the Campbell Soup Company. Customer demand for chicken noodle soup is D cans per year. The price Campbell charges is $C per can. Cub Foods incurs a holding cost of h (per dollar of inventory held for a year). Using the EOQ formula (Equation 11.5), Cub Foods normally orders in the following lot sizes:
+
+Q*
+
+=
+
+2DS C hC
+
+Campbell announces that it is offering a discount of $d per can for the coming four-week
+period. Cub Foods must decide how much to order at the discounted price compared to the lot size of Q* that it normally orders. Let Qd be the lot size ordered at the discounted price.
+
+2 See Blattberg and Neslin (1990) for more details.
+
+I(t) Qd
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 301
+
+Q* Q* Q*
+
+Q* Q*
+
+FIGURE 11-5 Inventory Profile for Forward Buying
+
+t
+
+The costs the retailer must consider when making this decision are material cost, holding cost, and order cost. Increasing the lot size Qd lowers the material cost for Cub Foods
+because it purchases more cans (for sale now and in the future) at the discounted price. Increasing the lot size Qd increases the holding cost because inventories increase. Increasing the lot size Qd lowers the order cost for Cub Foods because some orders that would otherwise
+have been placed are now not necessary. Cub Food's goal is to make the trade-off that
+minimizes the total cost. The inventory pattern when a lot size of Qd is followed by lot sizes of Q* is shown in
+Figure 11-5. The objective is to identify Qd that minimizes the total cost (material cost  ordering cost  holding cost) over the time interval during which the quantity Qd (ordered
+during the promotion period) is consumed.
+The precise analysis in this case is complex, so we present a result that holds under some restrictions.3 The first key assumption is that the discount is offered once, with no future
+discounts. The second key assumption is that the retailer takes no action (such as passing on part
+of the trade promotion) to influence customer demand. The customer demand thus remains
+unchanged. The third key assumption is that we analyze a period over which the demand is an integer multiple of Q*. With these assumptions, the optimal order quantity at the discounted price
+is given by
+
+Qd =
+
+dD (C - d)h
+
++
+
+CQ* C-d
+
+(11.16)
+
+In practice, retailers are often aware of the timing of the next promotion. If the demand until the next anticipated trade promotion is Q1, it is optimal for the retailer to order min{Qd, Q1} Observe that the quantity Qd ordered as a result of the promotion is larger than the regular order quantity Q*. The forward buy in this case is given by
+
+Forward buy = Qd - Q*
+
+Even for relatively small discounts, the order size increases by a large quantity, as illustrated in Example 11-11.
+
+3 See Silver, Pyke, and Petersen (1998) for a more detailed discussion.
+
+302 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+
+EXAMPLE 11-11 Impact of Trade Promotions on Lot Sizes
+
+DO is a retailer that sells Vitaherb, a popular vitamin diet supplement. Demand for Vitaherb is
+120,000 bottles per year. The manufacturer currently charges $3 for each bottle, and DO incurs a holding cost of 20 percent. DO currently orders in lots of Q* = 6,324 bottles. The manufacturer has offered a discount of $0.15 for all bottles purchased by retailers over the coming month. How
+many bottles of Vitaherb should DO order given the promotion?
+
+Analysis: In the absence of any promotion, DO orders in lot sizes of Q* = 6,324 bottles. Given a monthly demand of D = 10,000 bottles, DO normally orders every 0.6324 months. In the absence of the trade promotion we have the following:
+Cycle inventory at DO = Q*/2 = 6,324/2 = 3,162 bottles Average flow time = Q*/2D = 6,324 / (2D) = 0.3162 months
+
+The optimal lot size during the promotion is obtained using Equation 11.15 and is given by
+
+Qd =
+
+dD (C - d)h
+
++
+
+CQ* C-d
+
+=
+
+0.15 * 120,000 (3.00 - 0.15) * 0.20
+
++
+
+3 * 6,324 3.00 - 0.15
+
+= 38,236
+
+During the promotion, DO should place an order for a lot size of 38,236. In other words, DO places an order for 3.8236 months' worth of demand. In the presence of the trade promotion we have
+Cycle inentory at DO = Qd/ 2 = 38,236/ 2 = 19,118 bottles Average flow time = Qd/(2D) = 38,236/(20,000) = 1.9118 months
+
+In this case, the forward buy is given by Forward buy = Qd - Q* = 38,236 - 6,324 = 31,912 bottles
+
+As a result of this forward buy, DO will not place any order for the next 3.8236 months (without a forward buy, DO would have placed another 31,912/6,324  5.05 orders for 6,324 bottles each during this period). Observe that a 5 percent discount causes the lot size to increase by more than 500 percent.
+
+As the example illustrates, forward buying as a result of trade promotions leads to a significant increase in the quantity ordered by the retailer. The large order is then followed by a period of low orders to compensate for the inventory built up at the retailer. The fluctuation in orders as a result of trade promotions is one of the major contributors to the bullwhip effect discussed in Chapter 10. The retailer can justify the forward buying during a trade promotion because it decreases its total cost. In contrast, the manufacturer can justify this action only as a competitive necessity (to counter a competitor's promotion) or if it has either inadvertently built up a lot of excess inventory or the forward buy allows the manufacturer to smooth demand by shifting it from peak- to low-demand periods. In practice, manufacturers often build up inventory in anticipation of planned promotions. During the trade promotion, this inventory shifts to the retailer, primarily as a forward buy. If the forward buy during trade promotions is a significant fraction of total sales, manufacturers end up reducing the revenues they earn from sales because most of the product is sold at a discount. The increase in inventory and the decrease in revenues often lead to a reduction in manufacturer as well as total supply chain profits as a result of trade promotions.4
+
+4 See Blattberg and Neslin (1990) for more details.
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 303
+Key Point
+Trade promotions lead to a significant increase in lot size and cycle inventory because of forward buying by the retailer. This generally results in reduced supply chain profits unless the trade promotion reduces demand fluctuations.
+
+Now let us consider the extent to which the retailer may find it optimal to pass through some of the discount to the end customer to spur sales. As Example 11-12 shows, it is not optimal for the retailer to pass through the entire discount to the customer. In other words, it is optimal for the retailer to capture part of the promotion and pass through only part of it to the customer.
+
+EXAMPLE 11-12 How Much of a Discount Should the Retailer Pass Through?
+
+Assume that DO faces a demand curve for Vitaherb of 300,000 - 60,000 p. The normal price charged by the manufacturer to the retailer is CR  $3 per bottle. Ignoring all inventory-related costs, evaluate the optimal response of DO to a discount of $0.15 per unit.
+
+Analysis: The profits for DO, the retailer, are given as follows:
+
+ProfR = (300,000 - 60,000 p) p - (300,000 - 60,000 p) CR
+The retailer prices to maximize profits, and the optimal retail price is obtained by setting the first derivative of retailer profits with respect to p to 0. This implies that
+
+300,000 - 120,000 p + 60,000 CR = 0 or
+
+p = (300,000 + 60,000 CR) / 120,000
+
+(11.17)
+
+Substituting CR  $3 into Equation 11.17, we obtain a retail price of p  $4. As a result, the customer demand at the retailer in the absence of the promotion is
+
+DR = 30,000 - 60,000 p = 60,000
+During the promotion, the manufacturer offers a discount of $0.15, resulting in a price to the retailer of CR  $2.85. Substituting into Equation 11.17, the optimal price set by DO is
+p = (300,000 + 60,000 * 2.85)/120,000 = $3.925
+
+Observe that the retailer's optimal response is to pass through only $0.075 of the $0.15 discount to the customer. The retailer does not pass through the entire discount. At the discounted price, DO experiences a demand of
+DR = 300,000 - 60,000 p = 64,500
+This represents an increase of 7.5 percent in demand relative to the base case. It is optimal here for DO to pass on half the trade promotion discount to the customers. This action results in a 7.5 percent increase in customer demand.
+
+From Examples 11-11 and 11-12, observe that the increase in customer demand resulting from a trade promotion (7.5 percent of demand in Example 11-12) is insignificant relative to the increased purchase by the retailer due to forward buying (500 percent from Example 11-11). The impact of the increase in customer demand may be further dampened by customer behavior. For many products, such as detergent and toothpaste, most of the increase in customer purchases is a forward buy by the customer; customers are unlikely to start brushing their teeth more frequently
+
+304 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+Key Point
+Faced with a short-term discount, it is optimal for retailers to pass through only a fraction of the discount to the customer, keeping the rest for themselves. Simultaneously, it is optimal for retailers to increase the purchase lot size and forward buy for future periods. Thus, trade promotions often lead to an increase of cycle inventory in a supply chain without a significant increase in customer demand.
+simply because they have purchased a lot of toothpaste. For such products, a trade promotion does not truly increase demand.
+Manufacturers have always struggled with the fact that retailers pass along only a small fraction of a trade discount to the customer. In a study conducted by Kurt Salmon and Associates, almost a quarter of all distributor inventories in the dry-grocery supply chain could be attributed to forward buying.5
+Our previous discussion supports the claim that trade promotions generally increase cycle inventory in a supply chain and hurt performance. This realization has led many firms, including the world's largest retailer, Wal-Mart, and several manufacturers such as Procter & Gamble, to adopt "every day low pricing" (EDLP). Here, the price is fixed over time and no short-term discounts are offered. This eliminates any incentive for forward buying. As a result, all stages of the supply chain purchase in quantities that match demand.
+In general, the discount passed through by the retailer to the consumer is influenced by the retailer deal elasticity, which is the increase in retail sales per unit discount in price. The higher the deal elasticity, the more of the discount the retailer is likely to pass through to the consumer. Thus, trade promotions by the manufacturer may make sense for products with a high deal elasticity that ensures high pass-through by the retailer, and high holding costs that ensure low forward buying. Blattberg and Neslin (1990) identify paper goods as products with high deal elasticity and holding cost. They also identify trade promotions as being more effective with strong brands relative to weak brands.
+Trade promotions may also make sense as a competitive response. In a category such as cola, some customers are loyal to their brand while others switch depending on the brand being offered at the lowest price. Consider a situation in which one of the competitors, say Pepsi, offers retailers a trade promotion. Retailers increase their purchases of Pepsi and pass through some of the discount to the customer. Price-sensitive customers increase their purchase of Pepsi. If a competitor such as Coca-Cola does not respond, it loses some market share in the form of price-sensitive customers. A case can be made that a trade promotion by Coca-Cola is justified in such a setting as a competitive response. Observe that with both competitors offering trade promotions, there is no real increase in demand for either unless customer consumption grows. Inventory in the supply chain, however, does increase for both brands. This is then a situation in which trade promotions are a competitive necessity, but they increase supply chain inventory, leading to reduced profits for all competitors.
+Trade promotions should be designed so that retailers limit their forward buying and pass along more of the discount to end customers. The manufacturer's objective is to increase market share and sales without allowing the retailer to forward buy significant amounts. This outcome can be achieved by offering discounts to the retailer that are based on actual sales to customers rather than the amount purchased by the retailer. The discount price thus applies to items sold to customers (sell-through) during the promotion, not the quantity purchased by the retailer (sell-in). This eliminates all incentive for forward buying.
+Given the information technology in place, many manufacturers today offer scanner-based promotions by which the retailer receives credit for the promotion discount for every unit sold. Another option is to limit the allocation to a retailer based on past sales. This is also an effort to limit the amount that the retailer can forward buy. It is unlikely, however, that retailers will accept such schemes for weak brands.
+5 See Kurt Salmon Associates (1993).
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 305
+11.6 MANAGING MULTIECHELON CYCLE INVENTORY
+A multiechelon supply chain has multiple stages and possibly many players at each stage. The lack of coordination in lot sizing decisions across the supply chain results in high costs and more cycle inventory than required. The goal in a multiechelon system is to decrease total costs by coordinating orders across the supply chain.
+Consider a simple multiechelon system with one manufacturer supplying one retailer. Assume that production is instantaneous, so the manufacturer can produce a lot when needed. If the two stages are not synchronized, the manufacturer may produce a new lot of size Q right after shipping a lot of size Q to the retailer. Inventory at the two stages in this case is as shown in Figure 11-6. In this case, the retailer carries an average inventory of Q/2 and the manufacturer carries an average inventory of about Q.
+Overall supply chain inventory can be lowered if the manufacturer synchronizes its production to be ready just in time to be shipped to the retailer. In this case, the manufacturer carries no inventory and the retailer carries an average inventory of Q/2. Synchronization of production and replenishment allows the supply chain to lower total cycle inventory from about 3Q/2 to Q/2.
+For a simple multiechelon supply chain with only one player at each stage, ordering policies in which the lot size at each stage is an integer multiple of the lot size at its immediate customer have been shown to be quite close to optimal. When lot sizes are integer multiples, coordination of ordering across stages allows for a portion of the delivery to a stage to be cross-docked on to the next stage. The extent of cross-docking depends on the ratio of the fixed cost of ordering S and the holding cost H at each stage. The closer this ratio is between two stages, the higher is the optimal percentage of cross-docked product. Munson, Hu, and Rosenblatt (2003) provide optimal order quantities in a multiechelon setting with a single manufacturer supplying a single retailer.
+If one party (distributor) in a supply chain supplies multiple parties (retailers) at the next stage of the supply chain, it is important to distinguish retailers with high demand from those with low demand. In this setting, Roundy (1985) has shown that a near-optimal policy results if
+
+Manufacturer Inventory
+Q
+
+Retailer lot is shipped
+
+Manufacturer lot arrives
+
+Retailer Inventory
+Q
+
+Time
+
+Time
+FIGURE 11-6 Inventory Profile at Retailer and Manufacturer with No Synchronization
+
+306 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory Distributor replenishment order arrives
+
+Distributor replenishes every two weeks
+
+Retailer shipment is cross-docked Retailer shipment is from inventory
+
+Retailer replenishes every week
+
+Retailer shipment is cross-docked
+
+Retailer replenishes every two weeks
+
+Retailer shipment is cross-docked
+
+FIGURE 11-7 Illustration of an Integer Replenishment Policy
+
+Retailer replenishes every four weeks
+
+retailers are grouped such that all retailers in one group order together and, for any retailer, either the ordering frequency is an integer multiple of the ordering frequency at the distributor or the ordering frequency at the distributor is an integer multiple of the frequency at the retailer. An integer replenishment policy has every player ordering periodically, with the length of the reorder interval for each player an integer multiple of some base period. An example of such a policy is shown in Figure 11-7. Under this policy, the distributor places a replenishment order every two weeks. Some retailers place replenishment orders every week, and others place replenishment orders every two or four weeks. Observe that for retailers ordering more frequently than the distributor, the retailers' ordering frequency is an integer multiple of the distributor's frequency. For retailers ordering less frequently than the distributor, the distributor's ordering frequency is an integer multiple of the retailers' frequency.
+If an integer replenishment policy is synchronized across the two stages, the distributor can cross-dock part of its supply on to the next stage. All shipments to retailers ordering no more frequently than the distributor (every two or four weeks) are cross-docked as shown in Figure 11-7. For retailers ordering more frequently (every week) than the distributor, half the orders are crossdocked, with the other half shipped from inventory as shown in Figure 11-7.
+Integer replenishment policies for the supply chain shown in Figure 11-8 can be summarized as follows:
+· Divide all parties within a stage into groups such that all parties within a group order from the same supplier and have the same reorder interval.
+· Set reorder intervals across stages such that the receipt of a replenishment order at any stage is synchronized with the shipment of a replenishment order to at least one of its customers. The synchronized portion can be cross-docked.
+
+Stage 1
+
+Stage 2
+
+Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory 307
+
+Stage 3
+
+Stage 4
+
+Stage 5
+
+Group of Customers
+
+FIGURE 11-8 A Multiechelon Distribution Supply Chain
+Key Point
+Integer replenishment policies can be synchronized in multiechelon supply chains to keep cycle inventory and order costs low. Under such policies, the reorder interval at any stage is an integer multiple of a base reorder interval. Synchronized integer replenishment policies facilitate a high level of cross-docking across the supply chain.
+· For customers with a longer reorder interval than the supplier, make the customer's reorder interval an integer multiple of the supplier's interval and synchronize replenishment at the two stages to facilitate cross-docking. In other words, a supplier should cross-dock all orders from customers who reorder less frequently than the supplier.
+· For customers with a shorter reorder interval than the supplier, make the supplier's reorder interval an integer multiple of the customer's interval and synchronize replenishment at the two stages to facilitate cross-docking. In other words, a supplier should cross-dock one out of every k shipments to a customer who orders more frequently than the supplier, where k is an integer.
+· The relative frequency of reordering depends on the setup cost, holding cost, and demand at different parties.
+Whereas the integer policies discussed above synchronize replenishment within the supply chain and decrease cycle inventories, they increase safety inventories, because of the lack of flexibility with the timing of a reorder, as discussed in Chapter 12. Thus, these polices make the most sense for supply chains in which cycle inventories are large and demand is relatively predictable.
+11.7 SUMMARY OF LEARNING OBJECTIVES
+1. Balance the appropriate costs to choose the optimal lot size and cycle inventory in a supply chain. Cycle inventory generally equals half the lot size. Therefore, as the lot size grows, so does the cycle inventory. In deciding on the optimal amount of cycle inventory, the supply chain
+
+308 Chapter 11 · Managing Economies of Scale in a Supply Chain: Cycle Inventory
+goal is to minimize the total cost--the order cost, holding cost, and material cost. As cycle inventory increases, so does the holding cost. However, the order cost and, in some instances, the material cost decrease with an increase in lot size and cycle inventory. The EOQ balances the three costs to obtain the optimal lot size. The higher the order and transportation cost, the higher the lot size and cycle inventory.
+2. Understand the impact of quantity discounts on lot size and cycle inventory. Lot size­based quantity discounts increase the lot size and cycle inventory within the supply chain because they encourage buyers to purchase in larger quantities to take advantage of the decrease in price.
+3. Devise appropriate discounting schemes for a supply chain. Quantity discounts are justified to increase total supply chain profits when independent lot-sizing decisions in a supply chain lead to suboptimal solutions from an overall supply chain perspective. If suppliers have large fixed costs, suitable lot size­based quantity discounts can be justified because they help coordinate the supply chain. Volume-based discounts are more effective than lot size­based discounts in increasing supply chain profits without increasing lot size and cycle inventory.
+4. Understand the impact of trade promotions on lot size and cycle inventory. Trade promotions increase inventory and total supply chain costs through forward buying, which shifts future demand to the present and creates a spike in demand followed by a dip. The increased variability raises inventories and costs.
+5. Identify managerial levers that reduce lot size and cycle inventory in a supply chain without increasing cost. The key managerial levers for reducing lot size and thus cycle inventory in the supply chain without increasing cost are the following:
+· Reduce fixed ordering and transportation costs incurred per order. · Implement volume-based discounting schemes rather than individual lot size­based
+discounting schemes. · Eliminate or reduce trade promotions and encourage EDLP. Base trade promotions on
+sell-through rather than sell-in to the retailer.
+
+Discussion Questions
+1. Consider a supermarket deciding on the size of its replenishment order from Procter & Gamble. What costs should it take into account when making this decision?
+2. Discuss how various costs for the supermarket in Question 1 change as it decreases the lot size ordered from Procter & Gamble.
+3. As demand at the supermarket chain in Question 1 grows, how would you expect the cycle inventory measured in days of inventory to change? Explain.
+4. The manager at the supermarket in Question 1 wants to decrease the lot size without increasing the costs he incurs. What actions can he take to achieve this objective?
+5. Discuss why supply chain profits may be hurt by a retailer making lot-sizing decisions with the sole objective of
+
+minimizing its own costs. What advantage would result if the entire supply chain could coordinate this decision? 6. When are quantity discounts justified in a supply chain? 7. What is the difference between lot size­based and volumebased quantity discounts? 8. Why do manufacturers such as Kraft and Sara Lee offer trade promotions? What impact do trade promotions have on the supply chain? How should trade promotions be structured to maximize their impact while minimizing the additional cost they impose on the supply chain? 9. Why is it appropriate to include only the incremental cost when estimating the holding and order cost for a firm?
+
+Exercises
+1. Harley-Davidson has its engine assembly plant in Milwaukee and its motorcycle assembly plant in Pennsylvania. Engines are transported between the two plants using trucks, with each trip costing $1,000. The motorcycle plant assembles and
+
+sells 300 motorcycles each day. Each engine costs $500, and Harley incurs a holding cost of 20 percent per year. How many engines should Harley load onto each truck? What is the cycle inventory of engines at Harley?
+
+

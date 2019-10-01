@@ -1,0 +1,957 @@
+7
+{{{
+Demand Forecasting in a Supply Chain
+LEARNING OBJECTIVES
+After reading this chapter, you will be able to 1. Understand the role of forecasting for both an enterprise and a supply chain. 2. Identify the components of a demand forecast. 3. Forecast demand in a supply chain given historical demand data using time-series methodologies. 4. Analyze demand forecasts to estimate forecast error.
+All supply chain decisions made before demand has materialized are made to a forecast. In this chapter, we explain how historical demand information can be used to forecast future demand and how these forecasts affect the supply chain. We describe several methods to forecast demand and estimate a forecast's accuracy. We then discuss how these methods can be implemented using Microsoft Excel.
+7.1 THE ROLE OF FORECASTING IN A SUPPLY CHAIN
+Demand forecasts form the basis of all supply chain planning. Consider the push/pull view of the supply chain discussed in Chapter 1. All push processes in the supply chain are performed in anticipation of customer demand, whereas all pull processes are performed in response to customer demand. For push processes, a manager must plan the level of activity, be it production, transportation, or any other planned activity. For pull processes, a manager must plan the level of available capacity and inventory but not the actual amount to be executed. In both instances, the first step a manager must take is to forecast what customer demand will be.
+A Home Depot store selling paint orders the base paint and dyes in anticipation of customer orders, whereas it performs final mixing of the paint in response to customer orders. Home Depot uses a forecast of future demand to determine the quantity of paint and dye to have on hand (a push process). Farther up the supply chain, the paint factory that produces the base also needs forecasts to determine its own production and inventory levels. The paint factory's suppliers also need forecasts for the same reason. When each stage in the supply chain makes its own separate forecast, these forecasts are often very different. The result is a mismatch between supply and demand. When all stages of a supply chain work together to produce a collaborative forecast, it tends to be much more accurate. The resulting forecast accuracy enables supply chains to be both more responsive and more efficient in serving their customers. Leaders in many supply chains, from PC manufacturers to packaged-goods retailers, have improved their ability to match supply and demand by moving toward collaborative forecasting.
+Consider the value of collaborative forecasting for Coca-Cola and its bottlers. Coca-Cola decides on the timing of various promotions based on the demand forecast over the coming quarter. Promotion decisions are then incorporated into an updated demand forecast. The updated forecast is essential for the bottlers to plan their capacity and production decisions. A bottler operating without an updated forecast based on the promotion is unlikely to have sufficient supply available for Coca-Cola, thus hurting supply chain profits.
+178
+
+Chapter 7 · Demand Forecasting in a Supply Chain 179
+Mature products with stable demand, such as milk or paper towels, are usually easiest to forecast. Forecasting and the accompanying managerial decisions are extremely difficult when either the supply of raw materials or the demand for the finished product is highly unpredictable. Fashion goods and many high-tech products are examples of items that are difficult to forecast. In both instances, an estimate of forecast error is essential when designing the supply chain and planning its response.
+Before we begin an in-depth discussion of the components of forecasts and forecasting methods in the supply chain, we briefly list characteristics of forecasts that a manager must understand to design and manage his or her supply chain effectively.
+7.2 CHARACTERISTICS OF FORECASTS
+Companies and supply chain managers should be aware of the following characteristics of forecasts.
+1. Forecasts are always inaccurate and should thus include both the expected value of the forecast and a measure of forecast error. To understand the importance of forecast error, consider two car dealers. One of them expects sales to range between 100 and 1,900 units, whereas the other expects sales to range between 900 and 1,100 units. Even though both dealers anticipate average sales of 1,000, the sourcing policies for each dealer should be very different given the difference in forecast accuracy. Thus, the forecast error (or demand uncertainty) must be a key input into most supply chain decisions. Unfortunately, most firms do not maintain any estimate of forecast error.
+2. Long-term forecasts are usually less accurate than short-term forecasts; that is, long-term forecasts have a larger standard deviation of error relative to the mean than short-term forecasts. Seven-Eleven Japan has exploited this key property to improve its performance. The company has instituted a replenishment process that enables it to respond to an order within hours. For example, if a store manager places an order by 10 A.M., the order is delivered by 7 P.M. the same day. Therefore, the manager only has to forecast what will sell that night less than 12 hours before the actual sale. The short lead time allows a manager to take into account current information that could affect product sales, such as the weather. This forecast is likely to be more accurate than if the store manager had to forecast demand one week in advance.
+3. Aggregate forecasts are usually more accurate than disaggregate forecasts, as they tend to have a smaller standard deviation of error relative to the mean. For example, it is easy to forecast the gross domestic product (GDP) of the United States for a given year with less than a 2 percent error. However, it is much more difficult to forecast yearly revenue for a company with less than a 2 percent error, and it is even harder to forecast revenue for a given product with the same degree of accuracy. The key difference among the three forecasts is the degree of aggregation. The GDP is an aggregation across many companies, and the earnings of a company are an aggregation across several product lines. The greater the aggregation, the more accurate is the forecast.
+4. In general, the farther up the supply chain a company is (or the farther it is from the consumer), the greater is the distortion of information it receives. One classic example of this is the bullwhip effect (see Chapter 10), in which order variation is amplified as orders move farther from the end customer. As a result, the farther up the supply chain an enterprise is, the larger is the forecast error. Collaborative forecasting based on sales to the end customer helps upstream enterprises reduce forecast error.
+In the next section, we discuss the basic components of a forecast, explain the four classifications into which forecasting methods fall, and introduce the notion of forecast error.
+
+180 Chapter 7 · Demand Forecasting in a Supply Chain
+7.3 COMPONENTS OF A FORECAST AND FORECASTING METHODS
+Yogi Berra, the former New York Yankees catcher who is famous for his malapropisms, once said, "Predictions are usually difficult, especially about the future." One may be tempted to treat demand forecasting as magic or art and leave everything to chance. What a firm knows about its customers' past behavior, however, sheds light on their future behavior. Demand does not arise in a vacuum. Rather, customer demand is influenced by a variety of factors and can be predicted, at least with some probability, if a company can determine the relationship between these factors and future demand. To forecast demand, companies must first identify the factors that influence future demand and then ascertain the relationship between these factors and future demand.
+Companies must balance objective and subjective factors when forecasting demand. Although we focus on quantitative forecasting methods in this chapter, companies must include human input when they make their final forecast. Seven-Eleven Japan illustrates this point.
+Seven-Eleven Japan provides its store managers with a state-of-the-art decision support system that makes a demand forecast and provides a recommended order. The store manager, however, is responsible for making the final decision and placing the order, because he or she may have access to information about market conditions that are not available in historical demand data. This knowledge of market conditions is likely to improve the forecast. For example, if the store manager knows that the weather is likely to be rainy and cold the next day, he or she can reduce the size of an ice cream order to be placed with an upstream supplier, even if demand was high during the previous few days when the weather was hot. In this instance, a change in market conditions (the weather) would not have been predicted using historical demand data. A supply chain can experience substantial payoffs from improving its demand forecasting through qualitative human inputs.
+A company must be knowledgeable about numerous factors that are related to the demand forecast, including the following:
+· Past demand · Lead time of product replenishment · Planned advertising or marketing efforts · Planned price discounts · State of the economy · Actions that competitors have taken
+A company must understand such factors before it can select an appropriate forecasting methodology. For example, historically a firm may have experienced low demand for chicken noodle soup in July and high demand in December and January. If the firm decides to discount the product in July, the situation is likely to change, with some of the future demand shifting to the month of July. The firm should make its forecast taking this factor into consideration.
+Forecasting methods are classified according to the following four types:
+1. Qualitative: Qualitative forecasting methods are primarily subjective and rely on human judgment. They are most appropriate when little historical data are available or when experts have market intelligence that may affect the forecast. Such methods may also be necessary to forecast demand several years into the future in a new industry.
+2. Time series: Time-series forecasting methods use historical demand to make a forecast. They are based on the assumption that past demand history is a good indicator of future demand. These methods are most appropriate when the basic demand pattern does not vary significantly from one year to the next. These are the simplest methods to implement and can serve as a good starting point for a demand forecast.
+3. Causal: Causal forecasting methods assume that the demand forecast is highly correlated with certain factors in the environment (the state of the economy, interest rates, etc.). Causal forecasting methods find this correlation between demand and environmental factors and use estimates of what environmental factors will be to forecast future demand. For example,
+
+Chapter 7 · Demand Forecasting in a Supply Chain 181
+product pricing is strongly correlated with demand. Companies can thus use causal methods to determine the impact of price promotions on demand.
+4. Simulation: Simulation forecasting methods imitate the consumer choices that give rise to demand to arrive at a forecast. Using simulation, a firm can combine time-series and causal methods to answer such questions as: What will be the impact of a price promotion? What will be the impact of a competitor opening a store nearby? Airlines simulate customer buying behavior to forecast demand for higher fare seats when there are no seats available at the lower fares.
+A company may find it difficult to decide which method is most appropriate for forecasting. In fact, several studies have indicated that using multiple forecasting methods to create a combined forecast is more effective than using any one method alone.
+In this chapter, we deal primarily with time-series methods, which are most appropriate when future demand is related to historical demand, growth patterns, and any seasonal patterns. With any forecasting method, there is always a random element that cannot be explained by historical demand patterns. Therefore, any observed demand can be broken down into a systematic and a random component:
+Observed demand 1O2 = systematic component 1S2 + random component 1R2
+The systematic component measures the expected value of demand and consists of what we will call level, the current deseasonalized demand; trend, the rate of growth or decline in demand for the next period; and seasonality, the predictable seasonal fluctuations in demand.
+The random component is that part of the forecast that deviates from the systematic part. A company cannot (and should not) forecast the direction of the random component. All a company can predict is the random component's size and variability, which provides a measure of forecast error. The objective of forecasting is to filter out the random component (noise) and estimate the systematic component. The forecast error measures the difference between the forecast and actual demand. On average, a good forecasting method has an error whose size is comparable to the random component of demand. A manager should be skeptical of a forecasting method that claims to have no forecasting error on historical demand. In this case, the method has merged the historical random component with the systematic component. As a result, the forecasting method will likely perform poorly.
+7.4 BASIC APPROACH TO DEMAND FORECASTING
+The following five points are important for an organization to forecast effectively:
+1. Understand the objective of forecasting. 2. Integrate demand planning and forecasting throughout the supply chain. 3. Identify the major factors that influence the demand forecast. 4. Forecast at the appropriate level of aggregation. 5. Establish performance and error measures for the forecast.
+Understand the Objective of Forecasting
+Every forecast supports decisions that are based on it, so an important first step is to identify these decisions clearly. Examples of such decisions include how much of a particular product to make, how much to inventory, and how much to order. All parties affected by a supply chain decision should be aware of the link between the decision and the forecast. For example, Wal-Mart's plans to discount detergent during the month of July must be shared with the manufacturer, the transporter, and others involved in filling demand, as they all must make decisions that are affected by the forecast of demand. All parties should come up with a common forecast for the promotion and a shared plan of action based on the forecast. Failure to make these decisions jointly may result in either too much or too little product in various stages of the supply chain.
+
+182 Chapter 7 · Demand Forecasting in a Supply Chain
+Integrate Demand Planning and Forecasting Throughout the Supply Chain
+A company should link its forecast to all planning activities throughout the supply chain. These include capacity planning, production planning, promotion planning, and purchasing, among others. In one unfortunately common scenario, a retailer develops forecasts based on promotional activities, whereas a manufacturer, unaware of these promotions, develops a different forecast for its production planning based on historical orders. This leads to a mismatch between supply and demand, resulting in poor customer service. To accomplish integration, it is a good idea for a firm to have a cross-functional team, with members from each affected function responsible for forecasting demand--and an even better idea is to have members of different companies in the supply chain working together to create a forecast.
+Identify Major Factors That Influence the Demand Forecast
+Next, a firm must identify demand, supply, and product-related phenomena that influence the demand forecast. On the demand side, a company must ascertain whether demand is growing or declining or has a seasonal pattern. These estimates must be based on demand--not sales data. For example, a supermarket promoted a certain brand of cereal in July 2011. As a result, the demand for this cereal was high while the demand for other, comparable cereal brands was low in July. The supermarket should not use the sales data from 2011 to estimate that demand for this brand will be high in July 2012, because this will occur only if the same brand is promoted again in July 2012 and other brands respond as they did the previous year. When making the demand forecast, the supermarket must understand what the demand would have been in the absence of promotion activity and how demand is affected by promotions and competitor actions. A combination of these pieces of information will allow the supermarket to forecast demand for July 2012 given the promotion activity planned for that year.
+On the supply side, a company must consider the available supply sources to decide on the accuracy of the forecast desired. If alternate supply sources with short lead times are available, a highly accurate forecast may not be especially important. However, if only a single supplier with a long lead time is available, an accurate forecast will have great value.
+On the product side, a firm must know the number of variants of a product being sold and whether these variants substitute for or complement one another. If demand for a product influences or is influenced by demand for another product, the two forecasts are best made jointly. For example, when a firm introduces an improved version of an existing product, it is likely that the demand for the existing product will decline because customers will buy the improved version. Although the decline in demand for the original product is not indicated by historical data, the historical demand is still useful in that it allows the firm to estimate the combined total demand for the two versions. Clearly, demand for the two products should be forecast jointly.
+Forecast at the Appropriate Level of Aggregation
+Given that aggregate forecasts are more accurate than disaggregate forecasts, it is important to forecast at a level of aggregation that is appropriate given the supply chain decision that is driven by the forecast. Consider a buyer at a retail chain who is forecasting in order to pick an order size for shirts. One approach is to ask each store manager the precise number of shirts needed and add up all the requests to get an order size with the supplier. The advantage of this approach is that it uses local market intelligence that each store manager has. The problem with this approach is that it makes store managers forecast well before demand arises at a time when their disaggregate forecasts are unlikely to be accurate. A better approach may be to forecast demand at the aggregate level when ordering with the supplier and ask each store manager to forecast only when the shirts are to be allocated across the stores. In this case, the long lead time forecast (supplier order) is aggregate, thus lowering error. The disaggregate store-level forecast is made close to the sales season when local market intelligence is likely to be most effective.
+
+Chapter 7 · Demand Forecasting in a Supply Chain 183
+Establish Performance and Error Measures for the Forecast
+Companies should establish clear performance measures to evaluate the accuracy and timeliness of the forecast. These measures should be highly correlated with the objectives of the business decisions based on these forecasts. Consider a mail-order company that uses a forecast to place orders with its suppliers up the supply chain. Suppliers take two months to send in the orders. The mail-order company must ensure that the forecast is created at least two months before the start of the sales season because of the two-month lead time for replenishment. At the end of the sales season, the company must compare actual demand to forecasted demand to estimate the accuracy of the forecast. Then plans for decreasing future forecast errors or responding to the observed forecast errors can be put into place.
+In the next section, we discuss techniques for static and adaptive time-series forecasting.
+
+7.5 TIME-SERIES FORECASTING METHODS
+The goal of any forecasting method is to predict the systematic component of demand and estimate the random component. In its most general form, the systematic component of demand data contains a level, a trend, and a seasonal factor. The equation for calculating the systematic component may take a variety of forms:
+· Multiplicative: Systematic component = level * trend * seasonal factor · Additive: Systematic component = level + trend + seasonal factor · Mixed: Systematic component = (level + trend) * seasonal factor
+The specific form of the systematic component applicable to a given forecast depends on the nature of demand. Companies may develop both static and adaptive forecasting methods for each form. We now describe these static and adaptive forecasting methods.
+
+Static Methods
+A static method assumes that the estimates of level, trend, and seasonality within the systematic component do not vary as new demand is observed. In this case, we estimate each of these parameters based on historical data and then use the same values for all future forecasts. In this section, we discuss a static forecasting method for use when demand has a trend as well as a seasonal component. We assume that the systematic component of demand is mixed, that is,
+
+Systematic component = (level + trend) * seasonal factor
+
+A similar approach can be applied for other forms as well. We begin with a few basic definitions:
+L  estimate of level at t  0 (the deseasonalized demand estimate during Period t  0) T  estimate of trend (increase or decrease in demand per period) St  estimate of seasonal factor for Period t Dt  actual demand observed in Period t Ft  forecast of demand for Period t
+In a static forecasting method, the forecast in Period t for demand in Period t  l is a product of the level in Period t  l and the seasonal factor for Period t  l. The level in Period t  l is the sum of the level in Period 0 (L) and (t  l) times the trend T. The forecast in Period t for demand in Period t  l is thus given as
+
+Ft+l = [L + (t + l)T]St+l
+
+(7.1)
+
+184 Chapter 7 · Demand Forecasting in a Supply Chain
+
+Table 7-1 Quarterly Demand for Tahoe Salt
+
+Year
+
+Quarter
+
+Period, t
+
+Demand, Dt
+
+1 2 1 8,000
+
+13
+
+2 13,000
+
+14
+
+3 23,000
+
+21
+
+4 34,000
+
+22
+
+5 10,000
+
+23
+
+6 18,000
+
+24
+
+7 23,000
+
+31
+
+8 38,000
+
+32
+
+9 12,000
+
+3 3 10 13,000
+
+3 4 11 32,000
+
+4 1 12 41,000
+
+We now describe one method for estimating the three parameters L, T, and S. As an example, consider the demand for rock salt used primarily to melt snow. This salt is produced by a firm called Tahoe Salt, which sells its salt through a variety of independent retailers around the Lake Tahoe area of the Sierra Nevada Mountains. In the past, Tahoe Salt has relied on estimates of demand from a sample of its retailers, but the company has noticed that these retailers always overestimate their purchases, leaving Tahoe (and even some retailers) stuck with excess inventory. After meeting with its retailers, Tahoe has decided to produce a collaborative forecast. Tahoe Salt wants to work with the retailers to create a more accurate forecast based on the actual retail sales of their salt. Quarterly retail demand data for the past three years are shown in Table 7-1 and charted in Figure 7-1.
+In Figure 7-1, observe that demand for salt is seasonal, increasing from the second quarter of a given year to the first quarter of the following year. The second quarter of each year has the lowest demand. Each cycle lasts four quarters, and the demand pattern repeats every year. There is also a growth trend in the demand, with sales growing over the past three years. The company estimates that growth will continue in the coming year at historical rates. We now describe how each of the three parameters--level, trend, and seasonal factors--may be estimated. The following two steps are necessary to making this estimation:
+1. Deseasonalize demand and run linear regression to estimate level and trend. 2. Estimate seasonal factors.
+
+Demand
+
+50,000
+40,000
+30,000
+20,000
+10,000
+0 1, 2 1, 3 1, 4 2, 1 2, 2 2, 3 2, 4 3, 1 3, 2 3, 3 3, 4 4, 1
+Period
+FIGURE 7-1 Quarterly Demand at Tahoe Salt
+
+Chapter 7 · Demand Forecasting in a Supply Chain 185
+
+ESTIMATING LEVEL AND TREND The objective of this step is to estimate the level at Period 0
+
+and the trend. We start by deseasonalizing the demand data. Deseasonalized demand represents
+
+the demand that would have been observed in the absence of seasonal fluctuations. The
+
+periodicity (p) is the number of periods after which the seasonal cycle repeats. For Tahoe Salt's
+
+demand, the pattern repeats every year. Given that we are measuring demand on a quarterly
+
+basis, the periodicity for the demand in Table 7-1 is p  4.
+
+To ensure that each season is given equal weight when deseasonalizing demand, we take the
+
+average of p consecutive periods of demand. The average of demand from Period l  1 to Period
+
+l  p provides deseasonalized demand for Period l  (p  1)/2. If p is odd, this method provides
+
+deseasonalized demand for an existing period. If p is even, this method provides deseasonalized
+
+demand at a point between Period l  (p/2) and Period l  1  (p/2). By taking the average of
+
+deaseasonalized demand provided by Periods l  1 to l  p and l  2 to l  p  1, we obtain the
+
+deseasonalized demand demand, D-t, for Period
+
+for Period l  1  (p/2). This t, is formulated as follows:
+
+procedure
+
+for
+
+obtaining
+
+the
+
+deseasonalized
+
+t - 1 + (p/2)
+
+D-t
+
+=
+
+c Dt - (p/2) e
+
++
+
+Dt+(p/2) + a 2Di d n (2p) for p even
+i = t + 1 - (p/2) t + [(p - 1)/2]
+
+a Di /p for p odd
+i = t - [(p - 1)/2]
+
+(7.2)
+
+In our example, p  4 is even. For t  3, we obtain the deseasonalized demand using Equation 7.2 as follows:
+
+D-3 = c Dt - 1p>22 + Dt + 1p>22 +
+
+t - 1 + 1p>22
+
+4
+
+a 2Di d n (2 p) = D1 + D5 + a 2Di n8
+
+i = t + 1 - 1p>22
+
+i=2
+
+With this procedure, we can obtain deseasonalized demand between Periods 3 and 10 as
+shown in Figures 7-2 and 7-3. The following linear relationship exists between the deseasonalized demand, D-t, and time t,
+based on the change in demand over time.
+
+D-t = L + Tt
+
+(7.3)
+
+Cell Cell Formula C4 =(B2+B6+2*SUM(B3:B5))/8
+
+Equation 7.2
+
+Copied to C5:C11
+
+FIGURE 7-2 Excel Workbook with Deseasonalized Demand for Tahoe Salt
+
+186 Chapter 7 · Demand Forecasting in a Supply Chain
+
+50,000 40,000 30,000
+
+Actual Demand
+
+Deseasonalized Demand
+
+Demand
+
+20,000
+
+10,000
+
+01 2 3 4 5 6 7 Period
+FIGURE 7-3 Deseasonalized Demand for Tahoe Salt
+
+8
+
+9 10 11 12
+
+Note that in Equation 7.3, D-t represents deseasonalized demand and not the actual demand in Period t, L represents the level or deseasonalized demand at Period 0, and T represents the rate of growth of deseasonalized demand or trend. We can estimate the values of L and T for the deseasonalized demand using linear regression with deseasonalized demand (see Figure 7-2) as the dependent variable and time as the independent variable. Such a regression can be run using Microsoft Excel (Data | Data Analysis | Regression). This sequence of commands opens the Regression dialog box in Excel. For the Tahoe Salt workbook in Figure 7-2, in the resulting dialog box, we enter
+
+Input Y Range: C4:C11 Input X Range: A4:A11
+
+and click the OK button. A new sheet containing the results of the regression opens up.
+
+This new sheet contains estimates for both the initial level L and the trend T. The initial level, L,
+
+is obtained as the intercept coefficient, and the trend, T, is obtained as the X variable coefficient
+
+(or the slope) from the sheet containing the regression results. For the Tahoe Salt example, we obtain L  18,439 and T  524. For this example, deseasonalized demand D-t for any Period t is thus given by
+
+D-t = 18,439 + 524t
+
+(7.4)
+
+Note that it is not appropriate to run a linear regression between the original demand data and time to estimate level and trend because the original demand data are not linear and the resulting linear regression will not be accurate. The demand must be deseasonalized before we run the linear regression.
+
+ESTIMATING SEASONAL FACTORS We can now obtain deseasonalized demand for each
+
+dpeesrieoadsounsainligzeEdqdueamtioannd7.4D-.tTahnedsiesagsoivneanl
+
+factor as
+
+St
+
+for
+
+Period
+
+t
+
+is
+
+the
+
+ratio
+
+of
+
+actual
+
+demand
+
+Dt
+
+to
+
+S-t =
+
+Di D-t
+
+(7.5)
+
+For the Tahoe Salt example, the deseasonalized demand estimated using Equation 7.4 and the seasonal factors estimated using Equation 7.5 are shown in Figure 7-4.
+Given the periodicity, p, we obtain the seasonal factor for a given period by averaging seasonal factors that correspond to similar periods. For example, if we have a periodicity of p  4, Periods 1, 5, and 9 have similar seasonal factors. The seasonal factor for these periods is obtained
+
+Chapter 7 · Demand Forecasting in a Supply Chain 187
+
+Cell
+
+Cell Formula
+
+Equation
+
+C2 =18439+A2*524 7.4
+
+D2 =B2/C2 7.5
+
+Copied to C3:C13 D3:D13
+
+FIGURE 7-4 Deseasonalized Demand and Seasonal Factors for Tahoe Salt
+
+as the average of the three seasonal factors. Given r seasonal cycles in the data, for all periods of the form pt + i, 1 ... i ... p, we obtain the seasonal factor as
+
+r-1
+
+a Sjp + i
+
+Si
+
+=
+
+j=0
+r
+
+(7.6)
+
+For the Tahoe Salt example, a total of 12 periods and a periodicity of p  4 imply that there are r  3 seasonal cycles in the data. We obtain seasonal factors using Equation 7.6 as
+S1 = 1S1 + S5 + S92/3 = 10.42 + 0.47 + 0.522/3 = 0.47 S2 = 1S2 + S6 + S102/3 = 10.67 + 0.83 + 0.552/3 = 0.68 S3 = 1S3 + S7 + S112/3 = 11.15 + 1.04 + 1.322/3 = 1.17 S4 = 1S4 + S8 + S122/3 = 11.66 + 1.68 + 1.662/3 = 1.67
+At this stage, we have estimated the level, trend, and all seasonal factors. We can now obtain the forecast for the next four quarters using Equation 7.1. In the example, the forecast for the next four periods using the static forecasting method is given by
+
+F13 = 1L + 13T2S13 = 118,439 + 13 * 52420.47 = 11,868 F14 = 1L + 14T2S14 = 118,439 + 14 * 52420.68 = 17,527 F15 = 1L + 15T2S15 = 118,439 + 15 * 52421.17 = 30,770 F16 = 1L + 16T2S16 = 118,439 + 16 * 52421.67 = 44,794
+Tahoe Salt and its retailers now have a more accurate forecast of demand. Without the sharing of sell-through information between the retailers and the manufacturer, this supply chain would have a less accurate forecast and a variety of production and inventory inefficiencies would result.
+
+188 Chapter 7 · Demand Forecasting in a Supply Chain
+
+Adaptive Forecasting
+
+In adaptive forecasting, the estimates of level, trend, and seasonality are updated after each demand observation. The main advantage of adaptive forecasting is that estimates incorporate all new data that are observed. We now discuss a basic framework and several methods that can be used for this type of forecast. The framework is provided in the most general setting, when the systematic component of demand data contains a level, a trend, and a seasonal factor. The framework we present is for the case in which the systematic component has the mixed form. It can, however, easily be modified for the other two cases. The framework can also be specialized for the case in which the systematic component contains no seasonality or trend. We assume that we have a set of historical data for n periods and that demand is seasonal with periodicity p. Given quarterly data, wherein the pattern repeats itself every year, we have a periodicity of p  4.
+We begin by defining a few terms:
+
+Lt  estimate of level at the end of Period t Tt  estimate of trend at the end of Period t St  estimate of seasonal factor for Period t Ft  forecast of demand for Period t (made in Period t  1 or earlier) Dt actual demand observed in Period t Et  Ft ­ Dt  forecast error in Period t
+
+In adaptive methods, the forecast for Period t  l in Period t uses the estimate of level and trend in Period t (Lt and Tt respectively) and is given as
+
+Ft + l = 1Lt + lTt2St + l
+
+(7.7)
+
+The four steps in the adaptive forecasting framework are as follows:
+
+1. Initialize: Compute initial estimates of the level (L0), trend (T0), and seasonal factors (S1,..., Sp) from the given data. This is done exactly as in the static forecasting method discussed earlier in the chapter with L0  L and T0  T.
+2. Forecast: Given the estimates in Period t, forecast demand for Period t  1 using
+Equation 7.7. Our first forecast is for Period 1 and is made with the estimates of level,
+trend, and seasonal factor at Period 0.
+3. Estimate error: Record the actual demand Dt+1 for Period t  1 and compute the error Et+1 in the forecast for Period t  1 as the difference between the forecast and the actual demand. The error for Period t  1 is stated as
+
+Et + 1 = Ft + 1 - Dt + 1
+
+(7.8)
+
+4. Modify estimates: Modify the estimates of level (Lt+1), trend (Tt+1), and seasonal factor (St+p+1), given the error Et1 in the forecast. It is desirable that the modification be such that if the demand is lower than forecast, the estimates are revised downward, whereas if
+the demand is higher than forecast, the estimates are revised upward.
+
+The revised estimates in Period t  1 are then used to make a forecast for Period t  2, and Steps 2, 3, and 4 are repeated until all historical data up to Period n have been covered. The estimates at Period n are then used to forecast future demand.
+We now discuss various adaptive forecasting methods. The method that is most appropriate depends on the characteristic of demand and the composition of the systematic component of demand. In each case, we assume the period under consideration to be t.
+
+MOVING AVERAGE The moving average method is used when demand has no observable trend or seasonality. In this case,
+Systematic component of demand = level
+
+Chapter 7 · Demand Forecasting in a Supply Chain 189
+
+In this method, the level in Period t is estimated as the average demand over the most recent N periods. This represents an N-period moving average and is evaluated as follows:
+
+Lt = 1Dt + Dt - 1 + Á + Dt - N + 12/N
+
+(7.9)
+
+The current forecast for all future periods is the same and is based on the current estimate of level. The forecast is stated as
+
+Ft + 1 = Lt and Ft + n = Lt After observing the demand for Period t  1, we revise the estimates as follows:
+Lt + 1 = 1Dt + 1 + Dt + Á + Dt - N + 22/N, Ft + 2 = Lt + 1
+
+(7.10)
+
+To compute the new moving average, we simply add the latest observation and drop the oldest one. The revised moving average serves as the next forecast. The moving average corresponds to giving the last N periods of data equal weight when forecasting and ignoring all data older than this new moving average. As we increase N, the moving average becomes less responsive to the most recently observed demand. We illustrate the use of the moving average in Example 7-1.
+
+EXAMPLE 7-1 Moving Average
+A supermarket has experienced weekly demand of milk of D1  120, D2 127, D3 114, and D4 122 gallons over the past four weeks. Forecast demand for Period 5 using a four-period moving average. What is the forecast error if demand in Period 5 turns out to be 125 gallons?
+Analysis: We make the forecast for Period 5 at the end of Period 4. Thus, assume the current period to be t  4. Our first objective is to estimate the level in Period 4. Using Equation 7.9, with N  4, we obtain
+L4 = 1D4 + D3 + D2 + D12/4 = 1122 + 114 + 127 + 1202/4 = 120.75 The forecast of demand for Period 5, using Equation 7.10, is expressed as
+F5 = L4 = 120.75 gallons As demand in Period 5, D5, is 125 gallons, we have a forecast error for Period 5 of
+E5 = F5 - D5 = 125 - 120.75 = 4.25 After observing demand in Period 5, the revised estimate of level for Period 5 is given by
+L5 = 1D5 + D4 + D3 + D22/4 = 1125 + 122 + 114 + 1272/4 = 122
+
+SIMPLE EXPONENTIAL SMOOTHING The simple exponential smoothing method is appropriate when demand has no observable trend or seasonality. In this case,
+Systematic component of demand = level
+
+The initial estimate of level, L0, is taken to be the average of all historical data because demand has been assumed to have no observable trend or seasonality. Given demand data for
+Periods 1 through n, we have the following:
+
+1n
+
+L0 =
+
+n
+
+a Di
+i=1
+
+(7.11)
+
+The current forecast for all future periods is equal to the current estimate of level and is given as
+
+Ft + 1 = Lt and Ft + n = Lt
+
+(7.12)
+
+190 Chapter 7 · Demand Forecasting in a Supply Chain
+
+After observing the demand, Dt1, for Period t  1, we revise the estimate of the level as follows:
+
+Lt+1 = aDt+1 + 11 - a2Lt
+
+(7.13)
+
+where a is a smoothing constant for the level, 0 6 a 6 1. The revised value of the level is a weighted average of the observed value of the level (Dt+1) in Period t  1 and the old estimate of the level (Lt) in Period t. Using Equation 7.13, we can express the level in a given period as a function of the current demand and the level in the previous period. We can thus rewrite Equation 7.13 as
+t-1
+Lt+1 = a a11 - a2nDt+1-n + 11 - a2tD1
+n=0
+The current estimate of the level is a weighted average of all of the past observations of demand, with recent observations weighted higher than older observations. A higher value of a corresponds to a forecast that is more responsive to recent observations, whereas a lower value of a represents a more stable forecast that is less responsive to recent observations. We illustrate the use of exponential smoothing in Example 7-2.
+
+EXAMPLE 7-2 Simple Exponential Smoothing
+Consider the supermarket in Example 7-1, in which weekly demand for milk has been D1  120, D2 127, D3 114, and D4 122 gallons over the past four weeks. Forecast demand for Period 5 using simple exponential smoothing with a = 0.1.
+Analysis: In this case, we have demand data for n  4 periods. Using Equation 7.11, the initial estimate of level is expressed by
+4
+L0 = a Di/4 = 120.75
+i=1
+The forecast for Period 1 (using Equation 7.12) is thus given by
+F1 = L0 = 120.75
+The observed demand for Period 1 is D1  120. The forecast error for Period 1 is given by
+E1 = F1 - D1 = 120.75 - 120 = 0.75
+With a = 0.1, the revised estimate of level for Period 1 using Equation 7.13 is given by
+L1 = aD1 + 11 - a2L0 = 0.1 * 120 + 0.9 * 120.75 = 120.68
+Observe that the estimate of level for Period 1 is lower than for Period 0 because the demand in Period 1 is lower than the forecast for Period 1. We thus obtain F2  L1  120.68. Given that D2  127, we obtain L2  0.1  127  0.9  120.68  121.31. This gives F3  L2  121.31. Given that D3  114, we obtain L3  0.1  114  0.9  121.31  120.58. This gives F4  L3  120.58. Given that D4  122, we obtain L4  0.1  122  0.9  120.58  120.72. This gives F5  L4  120.72.
+TREND-CORRECTED EXPONENTIAL SMOOTHING (HOLT'S MODEL) The trend-corrected exponential smoothing (Holt's model) method is appropriate when demand is assumed to have a level and a trend in the systematic component but no seasonality. In this case, we have
+Systematic component of demand = level + trend
+
+Chapter 7 · Demand Forecasting in a Supply Chain 191
+
+We obtain an initial estimate of level and trend by running a linear regression between demand Dt and time Period t of the form
+Dt = at + b
+
+In this case, running a linear regression between demand and time periods is appropriate
+because we have assumed that demand has a trend but no seasonality. The underlying relation-
+ship between demand and time is thus linear. The constant b measures the estimate of demand at Period t  0 and is our estimate of the initial level L0. The slope a measures the rate of change in demand per period and is our initial estimate of the trend T0.
+In Period t, given estimates of level Lt and trend Tt, the forecast for future periods is expressed as
+
+Ft + 1 = Lt + Tt and Ft + n = Lt + nTt
+
+(7.14)
+
+After observing demand for Period t, we revise the estimates for level and trend as follows:
+
+Lt+1 = aDt+1 + 11 - a21Lt + Tt2 Tt+1 = b1Lt+1 - Lt2 + 11 - b2Tt
+
+(7.15) (7.16)
+
+where a is a smoothing constant for the level, 0 6 a 6 1, and b is a smoothing constant for the trend, 0 6 b 6 1. Observe that in each of the two updates, the revised estimate (of level or trend) is a weighted average of the observed value and the old estimate. We illustrate the use of Holt's model in Example 7-3.
+
+EXAMPLE 7-3 Holt's Model
+An electronics manufacturer has seen demand for its latest MP3 player increase over the past six months. Observed demand (in thousands) has been D1  8,415, D2  8,732, D3  9,014, D4  9,808, D5  10,413, and D6  11,961. Forecast demand for Period 7 using trend-corrected exponential smoothing with a = 0.1, b = 0.2.
+Analysis: The first step is to obtain initial estimates of level and trend using linear regression. We first run a linear regression (using the Excel tool Data | Data Analysis | Regression) between demand and time periods. The estimate of initial level L0 is obtained as the intercept coefficient, and the trend T0 is obtained as the X variable coefficient (or the slope). For the MP3 player data, we obtain
+L0 = 7,367 and T0 = 673
+The forecast for Period 1 (using Equation 7.14) is thus given by
+F1 = L0 + T0 = 7,367 + 673 = 8,040
+The observed demand for Period 1 is D1 = 8,415. The error for Period 1 is thus given by
+E1 = F1 - D1 = 8,040 - 8,415 = - 375
+With a = 0.1, b = 0.2, the revised estimate of level and trend for Period 1 using Equations 7.15 and 7.16 is given by
+L1 = aD1 + 11 - a21L0 + T02 = 0.1 * 8,415 + 0.9 * 8,040 = 8,078 T1 = b1L1 - L02 + 11 - b2T0 = 0.2 * 18,078 - 7,3672 + 0.8 * 673 = 681
+Observe that the initial estimate for demand in Period 1 is too low. As a result, our updates have increased the estimate of level L1 for Period 1 from 8,040 to 8,078 and the
+
+192 Chapter 7 · Demand Forecasting in a Supply Chain
+estimate of trend from 673 to 681. Using Equation 7.14, we thus obtain the following forecast for Period 2:
+F2 = L1 + T1 = 8,078 + 681 = 8,759 Continuing in this manner, we obtain L2 = 8,755, T2 = 680, L3 = 9,393, T3 = 672, L4 = 10,039, T4 = 666, L5 = 10,676, T5 = 661, L6 = 11,399, T6 = 673. This gives us a forecast for Period 7 of
+F7 = L6 + T6 = 11,399 + 673 = 12,072
+
+TREND- AND SEASONALITY-CORRECTED EXPONENTIAL SMOOTHING (WINTER'S MODEL)
+This method is appropriate when the systematic component of demand has a level, a trend, and a seasonal factor. In this case we have
+
+Systematic component of demand = 1level + trend2 * seasonal factor
+
+Assume periodicity of demand to be p. To begin, we need initial estimates of level (L0), trend (T0), and seasonal factors (S1, . . . , Sp). We obtain these estimates using the procedure for static forecasting described earlier in the chapter.
+In Period t, given estimates of level, Lt, trend, Tt, and seasonal factors, St, . . ., St+p-1, the forecast for future periods is given by
+
+Ft + 1 = 1Lt + Tt2St + 1 and Ft + l = 1Lt + lTt2St + l
+
+(7.17)
+
+On observing demand for Period t + 1, we revise the estimates for level, trend, and seasonal factors as follows:
+
+Lt+1 = a1Dt+1/St+12 + 11 - a21Lt + Tt2
+
+(7.18)
+
+Tt+1 = b1Lt+1 - Lt2 + 11 - b2Tt
+
+(7.19)
+
+St + p + 1 = g1Dt + 1/Lt + 12 + 11 - g2St + 1
+
+(7.20)
+
+where a is a smoothing constant for the level, 0 6 a 6 1; b is a smoothing constant for the trend, 0 6 b 6 1; and g is a smoothing constant for the seasonal factor, 0 6 g 6 1. Observe that in each of the updates (level, trend, or seasonal factor), the revised estimate is a weighted average of the observed value and the old estimate. We illustrate the use of Winter's model in Example 7-4.
+
+EXAMPLE 7-4 Winter's Model
+Consider the Tahoe Salt demand data in Table 7-1. Forecast demand for Period 1 using trend-and seasonality-corrected exponential smoothing with a = 0.1, b = 0.2, g = 0.1.
+Analysis: We obtain the initial estimates of level, trend, and seasonal factors exactly as in the static case. They are expressed as follows:
+L0 = 18,439 T0 = 524 S1 = 0.47 S2 = 0.68 S3 = 1.17 S4 = 1.67 The forecast for Period 1 (using Equation 7.17) is thus given by
+F1 = 1L0 + T02S1 = 118,439 + 52420.47 = 8,913 The observed demand for Period 1 is D1  8,000. The forecast error for Period 1 is thus given by
+E1 = F1 - D1 = 8,913 - 8,000 = 913
+
+Chapter 7 · Demand Forecasting in a Supply Chain 193
+With a = 0.1, b = 0.2, g = 0.1, the revised estimate of level and trend for Period 1 and seasonal factor for Period 5, using Equations 7.18, 7.19, and 7.20, is given by
+L1 = a1D1/S12 + 11 - a21L0 + T02 = 0.1 * 18,000/0.472 + 0.9 * 118,439 + 5242 = 18,769
+T1 = b1L1 - L02 + 11 - b2T0 = 0.2 * 118,769 - 18,4392 + 0.8 * 524 = 485 S5 = g1D1/L12 + 11 - g2S1 = 0.118,000/18,7692 + 0.9 * 0.47 = 0.47 The forecast of demand for Period 2 (using Equation 7.17) is thus given by
+F2 = 1L1 + T12S2 = 118,769 + 48520.68 = 13,093
+
+The forecasting methods we have discussed and the situations in which they are generally applicable are as follows:
+
+Forecasting Method Moving average Simple exponential smoothing Holt's model Winter's model
+
+Applicability No trend or seasonality No trend or seasonality Trend but no seasonality Trend and seasonality
+
+If Tahoe Salt uses an adaptive forecasting method for the sell-through data obtained from its retailers, Winter's model is the best choice, because its demand experiences both a trend and seasonality.
+If we do not know that Tahoe Salt experiences both trend and seasonality, how can we find out? Forecast error helps identify instances in which the forecasting method being used is inappropriate. In the next section, we describe how a manager can estimate and use forecast error.
+
+7.6 MEASURES OF FORECAST ERROR
+As mentioned earlier, every instance of demand has a random component. A good forecasting method should capture the systematic component of demand but not the random component. The random component manifests itself in the form of a forecast error. Forecast errors contain valuable information and must be analyzed carefully for two reasons:
+1. Managers use error analysis to determine whether the current forecasting method is predicting the systematic component of demand accurately. For example, if a forecasting method consistently produces a positive error, the forecasting method is overestimating the systematic component and should be corrected.
+2. All contingency plans must account for forecast error. Consider a mail-order company with two suppliers. The first is in the Far East and has a lead time of two months. The second is local and can fill orders with one week's notice. The local supplier is more expensive than the Far East supplier. The mail-order company wants to contract a certain amount of contingency capacity with the local supplier to be used if the demand exceeds the quantity the Far East supplier provides. The decision regarding the quantity of local capacity to contract is closely linked to the size of the forecast error.
+As long as observed errors are within historical error estimates, firms can continue to use their current forecasting method. Finding an error that is well beyond historical estimates may indicate that the forecasting method in use is no longer appropriate or demand has fundamentally changed. If all of a firm's forecasts tend to consistently over- or underestimate demand, this may be another signal that the firm should change its forecasting method.
+
+194 Chapter 7 · Demand Forecasting in a Supply Chain
+
+As defined earlier, forecast error for Period t is given by Et, where the following holds: Et = Ft - Dt
+
+That is, the error in Period t is the difference between the forecast for Period t and the actual demand in Period t. It is important that a manager estimate the error of a forecast made at least as far in advance as the lead time required for the manager to take whatever action the forecast is to be used for. For example, if a forecast will be used to determine an order size and the supplier's lead time is six months, a manager should estimate the error for a forecast made six months before demand arises. In a situation with a six-month lead time, there is no point in estimating errors for a forecast made one month in advance.
+One measure of forecast error is the mean squared error (MSE), where the following holds (the denominator in Equation 7.21 can also have n  1 instead of n):
+
+MSEn =
+
+1 n
+
+n
+a Et2
+t=1
+
+(7.21)
+
+The MSE can be related to the variance of the forecast error. In effect, we estimate that the random component of demand has a mean of 0 and a variance of MSE. The MSE penalizes large errors much more significantly than small errors because all errors are squared. Thus, if we select forecast methods by minimizing MSE, a method with a forecast error sequence of 10, 12, 9, and 9 will be preferred to a method with an error sequence of 1, 3, 2, and 20. Thus, it is a good idea to use the MSE to compare forecasting methods if the cost of a large error is much larger than the gains from very accurate forecasts. Using the MSE as a measure of error is appropriate when forecast error has a distribution that is symmetric about zero.
+Define the absolute deviation in Period t, At, to be the absolute value of the error in Period t; that is,
+
+At =  Et 
+
+Define the mean absolute deviation (MAD) to be the average of the absolute deviation over all periods, as expressed by
+
+MADn =
+
+1n
+
+n
+
+a At
+t=1
+
+(7.22)
+
+The MAD can be used to estimate the standard deviation of the random component assuming that the random component is normally distributed. In this case the standard deviation of the random component is
+
+s = 1.25 MAD
+
+(7.23)
+
+We then estimate that the mean of the random component is 0, and the standard deviation of the random component of demand is s. MAD is a better measure of error than MSE if the
+
+forecast error does not have a symmetric distribution. Even when the error distribution is
+
+symmetric, MAD is an appropriate choice when selecting forecasting methods if the cost of a
+
+forecast error is proportional to the size of the error.
+
+The mean absolute percentage error (MAPE) is the average absolute error as a percentage
+
+of demand and is given by
+
+MAPEn =
+
+n
+a
+t=1
+
+`
+
+Et Dt
+
+`
+
+100
+
+n
+
+(7.24)
+
+The MAPE is a good measure of forecast error when the underlying forecast has significant seasonality and demand varies considerably from one period to the next. Consider a scenario where two methods are used to make quarterly forecasts for a product with seasonal demand that peaks in the third quarter. Method 1 returns forecast errors of 190, 200, 245, and 180;
+
+Chapter 7 · Demand Forecasting in a Supply Chain 195
+
+Method 2 returns forecast errors of 100, 120, 500, and 100 over four quarters. Method 1 has a lower MSE and MAD relative to Method 2 and would be preferred if either criterion was used. If demand is highly seasonal, however, and averages 1,000, 1,200, 4,800, and 1,100 in the four periods, Method 2 results in MAPE  9.9%, while Method 1 results in a much higher MAPE  14.3%. In this instance, it can be argued that Method 2 should be preferred to Method 1.
+When a forecast method stops reflecting the underlying demand pattern (e.g., if demand drops considerably as it did for the automotive industry in 2008/2009), the forecast errors are unlikely to be randomly distributed around 0. In general, one needs a method to track and control the forecasting method. One approach is to use the sum of forecast errors to evaluate the bias, where the following holds:
+
+n
+biasn = a Et
+t=1
+
+(7.25)
+
+The bias will fluctuate around 0 if the error is truly random and not biased one way or the other. Ideally, if we plot all the errors, the slope of the best straight line passing through should be 0.
+The tracking signal (TS) is the ratio of the bias and the MAD and is given as
+
+TSt
+
+=
+
+biast MADt
+
+(7.26)
+
+If the TS at any period is outside the range ; 6, this is a signal that the forecast is biased and is either underforecasting (TS 6 - 6) or overforecasting (TS 7 + 6). This may happen because the forecasting method is flawed or the underlying demand pattern has shifted. One instance in which a large negative TS will result occurs when demand has a growth trend and the manager is using a forecasting method such as moving average. Because trend is not included, the average of historical demand is always lower than future demand. The negative TS detects that the forecasting method consistently underestimates demand and alerts the manager.
+The tracking signal may also get large when demand has suddenly dropped (as it did for many industries in 2009) or increased by a significant amount making historical data less relevant. If demand has suddenly dropped, it makes sense to increase the weight on current data relative to older data when making forecasts. McClain (1981) recommends the "declining alpha" method when using exponential smoothing where the smoothing constant starts large (to give greater weight to recent data) but then decreases over time. If we are aiming for a long-term smoothing constant of   1­ , a declining alpha approach would be to start with 0  1 and reset the smoothing constant as follows:
+
+at
+
+=
+
+r
+
+at - 1 + at - 1
+
+=
+
+1 1
+
+-
+
+r rt
+
+In the long term, the smoothing constant will converge to   1  with the forecasts becoming more stable over time.
+
+7.7 SELECTING THE BEST SMOOTHING CONSTANT
+When using exponential smoothing, the value of the smoothing constant chosen has a direct impact on the sensitivity of the forecast to recent data. If a manager has a good sense of the underlying demand pattern, it is best to use a smoothing constant that is no larger than 0.2. In general, it is best to pick smoothing constants that minimize the error term that a manager is most comfortable with from among MSE, MAD, and MAPE. In the absence of a preference among error terms, it is best to pick smoothing constants that minimize the MSE.
+We illustrate the impact of picking smoothing constants that minimize different error measures using the 10-period demand data shown in cells B3:B12 of Figure 7-5. The initial level is estimated using Equation 7.11 and is shown in cell C2. The smoothing constant  is obtained using Solver by minimizing the mean squared error MSE (cell F13) at the end of the 10 periods
+
+196 Chapter 7 · Demand Forecasting in a Supply Chain
+FIGURE 7-5 Selecting Smoothing Constant by Minimizing MSE
+as shown in Figure 7-5. The forecast shown in Figure 7-5 uses the resulting   0.54 and gives MSE  2,460, MAD  42.5, and MAPE  2.1 percent.
+The smoothing constant can also be selected using Solver by minimizing the MAD or the MAPE at the end of 10 periods. In Figure 7-6, we show the results from minimizing MAD (cell G13). The forecasts and errors with the resulting   0.32 are shown in Figure 7-6. In this case, the MSE increases to 2,570 (compared to 2,460 in Figure 7-5) while the MAD decreases to 39.2 (compared to 42.5 in Figure 7-5) and the MAPE decreases to 2.0 percent (compared to 2.1 percent in Figure 7-5). The major difference between the two forecasts is in Period 9 (the period with the largest error shown in cell D11), where minimizing MSE picks a smoothing constant that reduces large errors, while minimizing MAD picks a smoothing constant that gives equal weight to reducing all errors even if large errors get somewhat larger.
+
+Chapter 7 · Demand Forecasting in a Supply Chain 197
+FIGURE 7-6 Selecting Smoothing Constant by Minimizing MAD
+In general, it is not a good idea to use smoothing constants much larger than 0.2 for extended periods of time. A larger smoothing constant may be justified for a short period of time when demand is in transition. It should, however, generally be avoided for extended periods of time. 7.8 FORECASTING DEMAND AT TAHOE SALT Recall the Tahoe Salt example earlier in the chapter with the historical sell-through demand from its retailers shown in Table 7-1. The demand data are also shown in column B of Figure 7-7. Tahoe Salt is currently negotiating contracts with suppliers for the four quarters between the second quarter of Year 4 and the first quarter of Year 5. An important input into this negotiation is the forecast of demand that Tahoe Salt and its retailers are building collaboratively. They have assigned a team consisting of two sales managers from the retailers and the vice president of
+
+198 Chapter 7 · Demand Forecasting in a Supply Chain
+
+Cell
+
+Cell Formula
+
+Equation
+
+Copied to
+
+C5 =Average(B2:B5) 7.9 C6:C13
+
+D6 =C5 7.10 D7:D13
+
+E6 =D6-B6 7.8 E7:E13
+
+F6 =Abs(E6)
+
+F7:F13
+
+G6 =Sumsq($E$6:E6)/(A6-4) 7.21 H6 =Sum($F$6:F6)/(A6-4) 7.22 I6 =100*(F6/B6)
+
+G7:G13 H7:H13 I7:I13
+
+J6 =Average($I$6:I6) 7.24 K6 =Sum($E$6:E6)/ H6 7.26
+FIGURE 7-7 Tahoe Salt Forecasts Using Four-Period Moving Average
+
+J7:J13 K7:K13
+
+operations for Tahoe Salt to come up with this forecast. The forecasting team decides to apply each of the adaptive forecasting methods discussed in this chapter to the historical data. The goal is to select the most appropriate forecasting method and then use it to forecast demand for the next four quarters. The team decides to select the forecasting method based on the errors that result when each method is used on the 12 quarters of historical demand data.
+Demand in this case clearly has both a trend and seasonality in the systematic component. Thus, the team initially expects Winter's model to produce the best forecast.
+Moving Average
+The forecasting team initially decides to test a four-period moving average for the forecasting. All calculations are shown in Figure 7-7 and are as discussed in the section on the moving-average method earlier in this chapter. The team uses Equation 7.9 to estimate level and Equation 7.10 to forecast demand.
+As indicated by column K in Figure 7-7, the TS is well within the ; 6 range, which indicates that the forecast using the four-period moving average does not contain any significant bias. It does, however, have a fairly large MAD12 of 9,719, with a MAPE12 of 49 percent. From Figure 7-7, observe that
+L12 = 24,500
+
+Chapter 7 · Demand Forecasting in a Supply Chain 199
+Thus, using a four-period moving average, the forecast for Periods 13 through 16 (using Equation 7.10) is given by
+F13 = F14 = F15 = F16 = L12 = 24,500
+Given that MAD12 is 9,719, the estimate of standard deviation of forecast error, using a four-period moving average, is 1.25 * 9,719 = 12,148. In this case, the standard deviation of forecast error is fairly large relative to the size of the forecast.
+Simple Exponential Smoothing
+The forecasting team next uses a simple exponential smoothing approach with a = 0.1 to forecast demand. This method is also tested on the 12 quarters of historical data. Using Equation 7.11, the team estimates the initial level for Period 0 to be the average demand for Periods 1 through 12. The initial level is the average of the demand entries in cells B3 to B14 in Figure 7-8 and results in
+L0 = 22,083
+
+Cell
+
+Cell Formula
+
+Equation
+
+C3
+
+=0.1*B3+(1-
+
+7.13
+
+0.1)*C2
+
+D3 =C2 7.12
+
+E3 =D3-B3 7.8
+
+F3 =Abs(E3)
+
+G3 =Sumsq($E$3:E3)/ 7.21 A3
+
+H3
+
+=Sum($G$3:G3)/A3
+
+7.22
+
+I3 =100*(F3/B3)
+
+J3
+
+=Average($I$3:I3)
+
+7.24
+
+K3
+
+=Sum($F$3:F3)/H3
+
+7.26
+
+FIGURE 7-8 Tahoe Salt Forecasts Using Simple Exponential Smoothing
+
+Copied to C4:C14
+D4:D14 E4:E14 F4:F14
+G4:G14
+H4:H14 I4:I14
+J4:J14 K4:K14
+
+200 Chapter 7 · Demand Forecasting in a Supply Chain
+The team then uses Equation 7.12 to forecast demand for the succeeding period. The estimate of level is updated each period using Equation 7.13. The results are shown in Figure 7-8.
+As indicated by the TS, which ranges from 1.38 to 2.15, the forecast using simple exponential smoothing with a = 0.1 does not indicate any significant bias. However, it has a fairly large MAD12 of 10,208, with a MAPE12 of 59 percent. From Figure 7-8, observe that
+L12 = 23,490
+Thus, the forecast for the next four quarters (using Equation 7.12) is given by
+F13 = F14 = F15 = F16 = L12 = 23,490
+In this case, MAD12 is 10,208 and MAPE12 is 59 percent. Thus, the estimate of standard deviation of forecast error using simple exponential smoothing is 1.25 * 10,208 = 12,761. In this case, the standard deviation of forecast error is fairly large relative to the size of the forecast.
+Trend-Corrected Exponential Smoothing (Holt's Model)
+The team next investigates the use of Holt's model. In this case, the systematic component of demand is given by
+Systematic component of demand = level + trend
+The team applies the methodology discussed earlier. As a first step, it estimates the level at Period 0 and the initial trend. As described in Example 7-3, this estimate is obtained by running a linear regression between demand, Dt, and time, Period t. From the regression of the available data, the team obtains the following:
+L0 = 12,015 and T0 = 1,549
+The team now applies Holt's model with a = 0.1 and b = 0.2 to obtain the forecasts for each of the 12 quarters for which demand data are available. They make the forecast using Equation 7.14, they update the level using Equation 7.15, and they update the trend using Equation 7.16. The results are shown in Figure 7-9.
+As indicated by a TS that ranges from 2.15 to 2.00, trend-corrected exponential smoothing with a = 0.1 and b = 0.2 does not seem to significantly over- or underforecast. However, the forecast has a fairly large MAD12 of 8,836, with a MAPE12 of 52 percent. From Figure 7-9, observe that
+L12 = 30,443 and T12 = 1,541
+Thus, using Holt's model (Equation 7.14), the forecast for the next four periods is given by the following:1
+F13 = L12 + T12 = 30,443 + 1,541 = 31,984 F14 = L12 + 2T12 = 30,443 + 2 * 1,541 = 33,525 F15 = L12 + 3T12 = 30,443 + 3 * 1,541 = 35,066 F16 = L12 + 4T12 = 30,443 + 4 * 1,541 = 36,607
+In this case, MAD12  8,836. Thus, the estimate of standard deviation of forecast error using Holt's model with a = 0.1 and b = 0.2 is 1.25 * 8,836 = 11,045. In this case, the standard deviation of forecast error relative to the size of the forecast is somewhat smaller than it was with the previous two methods. However, it is still fairly large.
+1 As a result of rounding, calculations done with only significant digits shown in the text may yield a different result. This is the case throughout the book.
+
+Chapter 7 · Demand Forecasting in a Supply Chain 201
+
+Cell Cell Formula C3 =0.1*B3+(1-0.1)*(C2+D2) D3 =0.2(C3-C2)+(1-0.2)D2 E3 =C2+D2 F3 =E3-B3 G3 =Abs(F3)
+
+Equation 7.15 7.16 7.14 7.8
+
+Copied to C4:C14 D4:D14 E4:E14 F4:F14 G4:G14
+
+H3 =Sumsq($F$3:F3)/A3 I3 =Sum($G$3:G3)/A3 J3 =100*(G3/B3)
+
+7.21 7.22
+
+H4:H14 I4:I14 J4:J14
+
+K3 =Average($J$3:J3) 7.24 K4:K14
+L3 =Sum($F$3:F3)/I3 7.26 L4:L14
+FIGURE 7-9 Trend-Corrected Exponential Smoothing
+Trend- and Seasonality-Corrected Exponential Smoothing (Winter's Model)
+The team next investigates the use of Winter's model to make the forecast. As a first step, it estimates the level and trend for Period 0, and seasonal factors for Periods 1 through p  4. To start, the demand is deseasonalized. Then, the team estimates initial level and trend by running a regression between deseasonalized demand and time. This information is used to estimate the seasonal factors. For the demand data in Figure 7-2, as discussed in Example 7-4, the team obtains the following:
+L0 = 18,439 T0 = 524 S1 = 0.47 S2 = 0.68 S3 = 1.17 S4 = 1.67
+It then applies Winter's model with a = 0.05, b = 0.1, g = 0.1 to obtain the forecasts. All calculations are shown in Figure 7-10. The team makes forecasts using Equation 7.17, updates the level using Equation 7.18, updates the trend using Equation 7.19, and updates seasonal factors using Equation 7.20.
+In this case, the MAD of 1,469 and MAPE of 8 percent are significantly lower than with any of the other methods. From Figure 7-10, observe that
+L12 = 24,791 T12 = 532 S13 = 0.47 S14 = 0.68 S15 = 1.17 S16 = 1.67
+
+202 Chapter 7 · Demand Forecasting in a Supply Chain
+
+Cell Cell Formula C3 =0.05*(B3/E3)+(1-0.05)*(C2+D2) D3 =0.1*(C3-C2)+(1-0.1)*D2 E7 =0.1*(B3/C3)+(1-0.1)*E3 F3 =(C2+D2)*E3 G3 =F3-B3 H3 =Abs(G3)
+
+Equation 7.18 7.19 7.20 7.17 7.8
+
+I3 =Sumsq($G$3:G3)/A3 J3 =Sum($H$3:H3)/A3 K3 =100*(H3/B3)
+
+7.21 7.22
+
+L3 =Average($K$3:K3) M3 =Sum($G$3:G3)/J3
+
+7.24 7.26
+
+FIGURE 7-10 Trend- and Seasonality-Corrected Exponential Smoothing
+
+Copied to C4:C14 D4:D14 E8:E18 F4:F18 G4:G14 H4:H14
+I4:I14 J4:J14 K4:K14
+L4:L14 M4:M14
+
+Using Winter's model (Equation 7.17), the forecast for the next four periods is
+F13 = 1L12 + T122S13 = 124,791 + 5322 * 0.47 = 11,940 F14 = 1L12 + 2T122S14 = 124,791 + 2 * 5322 * 0.68 = 17,579 F15 = 1L12 + 3T122S15 = 124,791 + 3 * 5322 * 1.17 = 30,930 F16 = 1L12 + 4T122S16 = 124,791 + 4 * 5322 * 1.67 = 44,928
+In this case, MAD12  1,469. Thus, the estimate of standard deviation of forecast error using Winter's model with a = 0.05, b = 0.1, and g = 0.1 is 1.25 * 1,469 = 1,836. In this case, the standard deviation of forecast error relative to the demand forecast is much smaller than with the other methods.
+The team compiles the error estimates for the four forecasting methods as shown in Table 7-2.
+Based on the error information in Table 7-2, the forecasting team decides to use Winter's model. It is not surprising that Winter's model results in the most accurate forecast, because the
+
+Chapter 7 · Demand Forecasting in a Supply Chain 203
+
+Table 7-2 Error Estimates for Tahoe Salt Forecasting
+
+Forecasting Method
+
+MAD
+
+MAPE (%)
+
+Four-period moving average Simple exponential smoothing Holt's model Winter's model
+
+9,719 10,208
+8,836 1,469
+
+49 59 52 8
+
+TS Range
+1.52 to 2.21 1.38 to 2.15 2.15 to 2.00 2.74 to 4.00
+
+demand data have both a growth trend as well as seasonality. Using Winter's model, the team forecasts the following demand for the coming four quarters:
+Second Quarter, Year 4: 11,940
+Third Quarter, Year 4: 17,579
+Fourth Quarter, Year 4: 30,930
+First Quarter, Year 5: 44,928
+The standard deviation of forecast error is 1,836.
+7.9 THE ROLE OF IT IN FORECASTING
+There is a natural role for IT in forecasting, given the large amount of data involved, the frequency with which forecasting is performed, and the importance of getting the highest quality results possible. The forecasting module within a supply chain IT system, often called the demand planning module, is a core supply chain software product. Utilizing the capabilities of IT in forecasting has several important advantages.
+Commercial demand planning modules come with a variety of forecasting algorithms, which can be quite advanced and are sometimes proprietary. These methodologies often give a more accurate forecast than those produced through the use of a general package such as Excel. Most demand planning applications make it fairly easy to test the various forecasting algorithms against historical data to determine the one that provides the best fit to the observed demand patterns. The availability of a variety of forecasting options is important because different forecasting algorithms provide different levels of quality depending on the actual demand patterns. The IT system can thus be used to best determine forecasting methods not just for the firm overall, but also by product categories and markets.
+A good forecasting package provides forecasts across a wide range of products that are updated in real time by incorporating any new demand information. This helps firms respond quickly to changes in the marketplace and avoid the costs of a delayed reaction. Good demand planning modules link not only to customer orders but often directly to customer sales information as well, thus incorporating the most current data into the demand forecast. Much of the progress in areas such as collaborative planning is due to IT innovations that allow the exchange and incorporation of forecasts between enterprises.
+Finally, as the name demand planning suggests, these modules facilitate the shaping of demand. Good demand planning modules contain tools to perform what-if analysis regarding the impact of potential changes in prices on demand. These tools help analyze the impact of promotions on demand and can be used to determine the extent and timing of promotions. This link is discussed in greater detail in Chapter 9 under sales and operations planning.
+Keep in mind that none of these tools is foolproof. Forecasts are virtually always inaccurate. A good IT system should help track historical forecast errors so they can be incorporated into future decisions. A well-structured forecast, along with a measure of error, can significantly improve decision making. Even with all these sophisticated tools, sometimes it is
+
+204 Chapter 7 · Demand Forecasting in a Supply Chain
+better to rely on human intuition in forecasting. One of the pitfalls of these IT tools is relying on them too much, which eliminates the human element in forecasting. Use the forecasts and the value they deliver, but remember that they cannot assess some of the more qualitative aspects about future demand that you may be able to do on your own.
+Forecasting modules are available from all the major supply chain software companies, including the ERP firms such as SAP and Oracle. A number of statistical analysis software firms, such as SAS and SPSS, have programs that can be used for forecasting. A detailed list of forecasting software vendors is reported in the OR/MS Today forecasting software survey, and a discussion of each vendor is available at http://www.lionhrtpub.com/orms/surveys/FSS/ fss-fr.html.
+7.10 RISK MANAGEMENT IN FORECASTING
+The risks associated with forecast error must be considered when planning for the future. Errors in forecasting can cause significant misallocation of resources in inventory, facilities, transportation, sourcing, pricing, and even in information management. Forecast errors during network design may cause too many, too few, or the wrong type of facilities to be built. Plans are determined from forecasts so the actual inventory, production, transportation, sourcing, and pricing plans that a company produces and follows depend on accurate forecasting. Even on an operational level, forecasting plays a role in the actual day-to-day activities that are executed within a company. As one of the initial processes in each of these phases that affects many other processes, forecasting contains a significant amount of inherent risk.
+A wide range of factors can cause a forecast to be inaccurate, but a few occur so often that they deserve specific mention. Long lead times require forecasts to be made further in advance, thus decreasing the reliability of the forecast. Seasonality also tends to increase forecast error. Forecast errors increase when product life cycles are short, because there are few historical data to build on when producing a forecast. Firms with a few customers often experience lumpy demand that is harder to forecast than demand from many small customers, which tends to be smoother. Forecast quality suffers when it is based on orders placed by intermediaries in a supply chain rather than on end customer demand. This was particularly evident in the telecommunications sector in 2001, when manufacturer forecasts exceeded customer demand by a large amount. Without a view of end customer demand, a firm always has difficulty producing reliable forecasts.
+Two strategies used to mitigate forecast risk are increasing the responsiveness of the supply chain and utilizing opportunities for pooling of demand. Increased responsiveness allows the firm to reduce forecasting errors and thus decrease the associated risk. Zara and Seven-Eleven Japan have been successful by designing and operating responsive supply chains. Zara replenishes its stores several times a week while Seven-Eleven replenishes its stores several times a day. As a result, store managers in each case have to make short-term forecasts that are fairly accurate. Pooling, which we discuss in Chapter 12, attempts to smooth out lumpy demand by bringing together multiple sources of demand. Thus, Amazon has a lower forecast error than Barnes & Noble because it pools geographic demand into its warehouses.
+Improved responsiveness and pooling often come at a cost. Increased speed may require capacity investment, whereas pooling tends to increase transportation cost. To achieve the right balance between risk mitigation and cost, it is important to tailor the mitigation strategies. For instance, when dealing with a commodity for which shortfalls can easily be made up for by spot market purchases, spending large amounts to increase the responsiveness of the supply chain is not warranted. In contrast, for a product with a short life cycle (e.g., trendy clothes as is the case with Zara), investing in responsiveness may be worth the cost. Similarly, the benefit from pooling is likely to be large only when the underlying forecast error is high and the product value is high relative to transportation cost. An investment in pooling efforts may not be justified for
+
+Chapter 7 · Demand Forecasting in a Supply Chain 205
+products with small forecast errors. Blue Nile has been successful pooling high-value diamonds whose demand is difficult to forecast. In contrast, detergent, which is easy to forecast and has high transport costs relative to its value, is typically sold through decentralized retail stores. These ideas are discussed in greater detail in Chapters 4, 12, and 13.
+7.11 FORECASTING IN PRACTICE
+Collaborate in building forecasts. Collaboration with your supply chain partners can often create a much more accurate forecast. It takes an investment of time and effort to build the relationships with your partners to begin sharing information and creating collaborative forecasts. However, the supply chain benefits of collaboration are often an order of magnitude greater than the cost (collaborative planning, forecasting, and replenishment are discussed in greater detail in Chapter 10). The reality today, however, is that most forecasts do not even account for all the information available across the different functions of a firm. As a result, firms should aim to put a sales and operations planning process in place (discussed in Chapter 9) that brings together the sales and operations functions when planning.
+Share only the data that truly provide value. The value of data depends on where one sits in the supply chain. A retailer finds point-of-sale data to be quite valuable in measuring the performance of its stores. However, a manufacturer selling to a distributor who in turn sells to retailers does not need all the point-of-sale detail. The manufacturer finds aggregate demand data to be quite valuable, with marginally more value coming from detailed point-of-sale data. Keeping the data shared to what is truly required decreases investment in IT and improves the chances of successful collaboration.
+Be sure to distinguish between demand and sales. Often, companies make the mistake of looking at historical sales and assuming that this is what the historical demand was. To get true demand, adjustments need to be made for unmet demand due to stockouts, competitor actions, pricing, and promotions. Failure to do so results in forecasts that do not represent the current reality.
+7.12 SUMMARY OF LEARNING OBJECTIVES
+1. Understand the role of forecasting for both an enterprise and a supply chain. Forecasting is a key driver of virtually every design and planning decision made in both an enterprise and a supply chain. Enterprises have always forecasted demand and used it to make decisions. A relatively recent phenomenon, however, is to create collaborative forecasts for an entire supply chain and use these as the basis for decisions. Collaborative forecasting greatly increases the accuracy of forecasts and allows the supply chain to maximize its performance. Without collaboration, supply chain stages farther from demand will likely have poor forecasts that will lead to supply chain inefficiencies and a lack of responsiveness.
+2. Identify the components of a demand forecast. Demand consists of a systematic and a random component. The systematic component measures the expected value of demand. The random component measures fluctuations in demand from the expected value. The systematic component consists of level, trend, and seasonality. Level measures the current deseasonalized demand. Trend measures the current rate of growth or decline in demand. Seasonality indicates predictable seasonal fluctuations in demand.
+3. Forecast demand in a supply chain given historical demand data using time-series methodologies. Time-series methods for forecasting are categorized as static or adaptive. In static methods, the estimates of parameters and demand patterns are not updated as new demand is observed. Static methods include regression. In adaptive methods, the estimates are
+
+206 Chapter 7 · Demand Forecasting in a Supply Chain
+updated each time a new demand is observed. Adaptive methods include moving averages, simple exponential smoothing, Holt's model, and Winter's model. Moving averages and simple exponential smoothing are best used when demand displays no trend or seasonality. Holt's model is best when demand displays a trend but no seasonality. Winter's model is appropriate when demand displays both trend and seasonality.
+4. Analyze demand forecasts to estimate forecast error. Forecast error measures the random component of demand. This measure is important because it reveals how inaccurate a forecast is likely to be and what contingencies a firm may have to plan for. The MSE, MAD, and MAPE are used to estimate the size of the forecast error. The bias and TS are used to estimate if the forecast consistently over- or underforecasts or if demand has deviated significantly from historical norms.
+
+Discussion Questions
+
+1. What role does forecasting play in the supply chain of a build-to-order manufacturer such as Dell?
+2. How could Dell use collaborative forecasting with its suppliers to improve its supply chain?
+3. What role does forecasting play in the supply chain of a mail-order firm such as L.L.Bean?
+4. What systematic and random components would you expect in demand for chocolates?
+5. Why should a manager be suspicious if a forecaster claims to forecast historical demand without any forecast error?
+
+6. Give examples of products that display seasonality of demand.
+7. What is the problem if a manager uses last year's sales data instead of last year's demand to forecast demand for the coming year?
+8. How do static and adaptive forecasting methods differ? 9. What information do the MSE, MAD, and MAPE provide to a
+manager? How can the manager use this information? 10. What information do the bias and TS provide to a manager?
+How can the manager use this information?
+
+Exercises
+1. Consider monthly demand for the ABC Corporation as shown in Table 7-3. Forecast the monthly demand for Year 6 using
+
+the static method for forecasting. Evaluate the bias, TS, MAD, MAPE, and MSE. Evaluate the quality of the forecast.
+
+Table 7-3 Monthly Demand for ABC Corporation
+
+Sales
+
+Year 1
+
+Year 2
+
+Year 3
+
+January February March April May June July August September October November December Total
+
+2,000 3,000 3,000 3,000 4,000 6,000 7,000 6,000 10,000 12,000 14,000 8,000 78,000
+
+3,000 4,000 3,000 5,000 5,000 8,000 3,000 8,000 12,000 12,000 16,000 10,000 89,000
+
+2,000 5,000 5,000 3,000 4,000 6,000 7,000 10,000 15,000 15,000 18,000 8,000 98,000
+
+Year 4
+5,000 4,000 4,000 2,000 5,000 7,000 10,000 14,000 16,000 16,000 20,000 12,000 115,000
+
+Year 5
+5,000 2,000 3,000 2,000 7,000 6,000 8,000 10,000 20,000 20,000 22,000 8,000 113,000
+
+

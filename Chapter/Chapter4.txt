@@ -1,0 +1,836 @@
+4
+{{{
+Designing Distribution Networks and Applications
+to Online Sales
+LEARNING OBJECTIVES
+After reading this chapter, you will be able to 1. Identify the key factors to be considered when designing a distribution network. 2. Discuss the strengths and weaknesses of various distribution options. 3. Understand how online sales have affected the design of distribution networks in different industries.
+In this chapter, we provide an understanding of the role of distribution within a supply chain and identify factors that should be considered when designing a distribution network. We identify several potential designs for distribution networks and evaluate the strengths and weaknesses of each option. We apply these ideas to discuss the evolution of distribution networks in various industries since the advent of online sales. Our goal is to provide managers with a logical framework for selecting the appropriate distribution network given product, competitive, and market characteristics.
+4.1 THE ROLE OF DISTRIBUTION IN THE SUPPLY CHAIN
+Distribution refers to the steps taken to move and store a product from the supplier stage to a customer stage in the supply chain. Distribution occurs between every pair of stages in the supply chain. Raw materials and components are moved from suppliers to manufacturers, whereas finished products are moved from the manufacturer to the end consumer. Distribution is a key driver of the overall profitability of a firm because it affects both the supply chain cost and the customer value directly. In the apparel retail industry, distribution impacts (including its influence on markdowns and lost sales) about 35 percent of the revenue. In India, the outbound distribution cost of cement is about 30 percent of the cost of producing and selling it.
+It would be no exaggeration to state that two of the world's most profitable companies, Wal-Mart and Seven-Eleven Japan, have built the success of their entire business around outstanding distribution design and operation. In the case of Wal-Mart, distribution allows the company to provide high availability levels of relatively common products at a very low cost. In the case of Seven-Eleven Japan, effective distribution provides a very high level of customer responsiveness at a reasonable cost.
+The process of designing a distribution network has two broad phases. In the first phase, the broad structure of the supply chain network is visualized. This stage includes decisions such as whether the product will be sold directly or go through an intermediary. The second phase then takes the broad structure and converts it into specific locations and their capability, capacity, and demand allocation. This chapter focuses on issues that impact the design of the broad distribution network. Chapters 5 and 6 focus on the second phase that starts with the broad network and results in a specific supply chain network. 68
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 69
+The appropriate distribution network can be used to achieve a variety of supply chain objectives ranging from low cost to high responsiveness. As a result, companies in the same industry often select different distribution networks. Next, we discuss industry examples that highlight the variety of distribution network choices and the issues that arise when selecting among these options.
+Until 2007, Dell distributed its PCs directly to end consumers, whereas companies such as HP distributed through resellers. Dell customers waited several days to get a PC, whereas customers could walk away with an HP computer from a reseller. Starting in June 2007, Dell also started selling its PCs through retailers such as Wal-Mart. In the late 1990s, Gateway opened Gateway Country stores, wherein customers could examine the products and have salespeople help them configure a PC that suited their needs. Gateway, however, chose to sell no products at the stores; all PCs were shipped directly from the factory to the customer. By April 2004, Gateway closed all its stores because of their poor financial performance. Apple Computer, in contrast, has opened many retail stores that sell computers. These PC companies have chosen different distribution models. How can we evaluate this wide range of distribution choices? Which ones serve the companies and their customers better?
+P&G has chosen to distribute directly to large supermarket chains while obligating smaller players to buy P&G products from distributors. Products move directly from P&G to the larger chains but move through an additional stage when going to smaller supermarkets. Texas Instruments, which once used only direct sales, now sells about 30 percent of its volume to 98 percent of its customers through distributors, while serving the remaining 2 percent of customers with 70 percent of the volume directly.1 What value do these distributors provide? When should a distribution network include an additional stage such as a distributor? Distributors play a much more significant role for consumer goods distribution in a country such as India compared to the United States. Why might this be the case?
+W.W. Grainger stocks about 200,000 SKUs that can be sent to customers within a day of order placement. The remaining slower moving products are not stocked but instead are shipped directly from the manufacturer when a customer places an order. It takes several days for the customer to receive the product in this case. Are these distribution choices appropriate? How can they be justified?
+As the preceding examples illustrate, firms can make many choices when designing their distribution network. An inappropriate network can have a significant negative effect on the profitability of the firm, as is evident in the failure of companies such as Blockbuster and Webvan. The appropriate choice of distribution network grows the supply chain surplus by satisfying customer needs at the lowest possible cost.
+In the next section, we identify performance measures that need to be considered when designing the distribution network.
+4.2 FACTORS INFLUENCING DISTRIBUTION NETWORK DESIGN
+At the highest level, performance of a distribution network should be evaluated along two dimensions:
+1. Customer needs that are met 2. Cost of meeting customer needs
+Thus, a firm must evaluate the impact on customer service and cost as it compares different distribution network options. The customer needs that are met influence the company's revenues, which along with cost decide the profitability of the delivery network.
+Although customer value is impacted by many factors, we focus on those measures that are influenced by the structure of the distribution network:
+· Response time · Product variety · Product availability
+1 A Tale of Two Electronic Component Distributors, Ananth Raman and Bharat P. Rao, Harvard Business School Case 9­697­064, 1997.
+
+70 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+· Customer experience · Time to market · Order visibility · Returnability
+Response time is the amount of time it takes for a customer to receive an order. Product variety is the number of different products/configurations that are offered by the distribution network. Product availability is the probability of having a product in stock when a customer order arrives. Customer experience includes the ease with which customers can place and receive orders and the extent to which this experience is customized. It also includes purely experiential aspects, such as the possibility of getting a cup of coffee and the value that the sales staff provides. Time to market is the time it takes to bring a new product to the market. Order visibility is the ability of customers to track their orders from placement to delivery. Returnability is the ease with which a customer can return unsatisfactory merchandise and the ability of the network to handle such returns.
+It may seem at first that a customer always wants the highest level of performance along all these dimensions. In practice, however, this is not the case. Customers ordering a book at Amazon are willing to wait longer than those who drive to a nearby Barnes & Noble store to get the same book. In contrast, customers can find a much larger variety of books at Amazon compared to the Barnes & Noble store. Thus, Amazon customers trade off fast response times for high levels of variety.
+Firms that target customers who can tolerate a long response time require only a few locations that may be far from the customer. These companies can focus on increasing the capacity of each location. In contrast, firms that target customers who value short response times need to locate facilities close to them. These firms must have many facilities, each with a low capacity. Thus, a decrease in the response time customers desire increases the number of facilities required in the network, as shown in Figure 4-1. For example, Barnes & Noble provides its customers with books on the same day but requires hundreds of stores to achieve this goal for most of the United States. Amazon, in contrast, takes a few days to deliver a book to its U.S. customers, but it uses about 20 locations to store its books.
+Changing the distribution network design affects the following supply chain costs (notice that these are four of the six supply chain drivers we discussed earlier):
+· Inventories · Transportation · Facilities and handling · Information
+The other two drivers, sourcing and pricing, also affect the choice of the distribution system; the link will be discussed when relevant. As the number of facilities in a supply chain increases, the inventory and resulting inventory costs also increase (see Chapter 12), as shown in Figure 4-2.
+Required Number of Facilities
+
+Desired Response Time
+
+FIGURE 4-1 Relationship Between Desired Response Time and Number of Facilities
+
+Inventory Costs
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 71
+
+Number of Facilities
+FIGURE 4-2 Relationship Between Number of Facilities and Inventory Costs
+To decrease inventory costs, firms try to consolidate and limit the number of facilities in their supply chain network. For example, with fewer facilities, Amazon is able to turn its inventory about 10 times a year, whereas Barnes & Noble, with hundreds of facilities, achieves only about 3 turns per year.
+Inbound transportation costs are the costs incurred in bringing material into a facility. Outbound transportation costs are the costs of sending material out of a facility. Outbound transportation costs per unit tend to be higher than inbound costs because inbound lot sizes are typically larger. For example, an Amazon warehouse receives full truckload shipments of books on the inbound side, but ships out small packages with only a few books per customer on the outbound side. Increasing the number of warehouse locations decreases the average outbound distance to the customer and makes outbound transportation distance a smaller fraction of the total distance traveled by the product. Thus, as long as inbound transportation economies of scale are maintained, increasing the number of facilities decreases total transportation cost, as shown in Figure 4-3. If the number of facilities is increased to a point where inbound lot sizes are also very small and result in a significant loss of economies of scale in inbound transportation, increasing the number of facilities increases total transportation cost, as shown in Figure 4-3.
+Transportation Cost
+
+Number of Facilities
+
+FIGURE 4-3 Relationship Between Number of Facilities and Transportation Cost
+
+72 Chapter 4 · Designing Distribution Networks and Applications to Online Sales Facility Costs
+
+Number of Facilities
+FIGURE 4-4 Relationship Between Number of Facilities and Facility Costs
+Facility costs decrease as the number of facilities is reduced, as shown in Figure 4-4, because a consolidation of facilities allows a firm to exploit economies of scale. While Amazon achieved a property, plant, and equipment turnover (PPET) of 19 in 2009, Barnes & Noble had a PPET of just over 7.
+Total logistics costs are the sum of inventory, transportation, and facility costs for a supply chain network. As the number of facilities increases, total logistics costs first decrease and then increase as shown in Figure 4-5. Each firm should have at least the number of facilities that minimizes total logistics costs. Amazon has more than one warehouse primarily to reduce its logistics costs (and improve response time). If a firm wants to reduce the response time to its customers further, it may have to increase the number of facilities beyond the point that minimizes logistics costs. A firm should add facilities beyond the cost-minimizing point only if managers are confident that the increase in revenues because of better responsiveness is greater than the increase in costs because of the additional facilities.
+Response Time
+Total Logistics Cost
+
+Number of Facilities
+
+FIGURE 4-5 Variation in Logistics Cost and Response Time with Number of Facilities
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 73
+The customer service and cost components listed earlier are the primary measures used to evaluate different delivery network designs. In general, no distribution network will outperform others along all dimensions. Thus, it is important to ensure that the strengths of the distribution network fit with the strategic position of the firm.
+In the next section, we discuss various distribution networks and their relative strengths and weaknesses.
+4.3 DESIGN OPTIONS FOR A DISTRIBUTION NETWORK In this section, we discuss distribution network choices from the manufacturer to the end consumer. When considering distribution between any other pair of stages, such as supplier to manufacturer or even a service company serving its customers through a distribution network, many of the same options still apply. Managers must make two key decisions when designing a distribution network:
+1. Will product be delivered to the customer location or picked up from a prearranged site? 2. Will product flow through an intermediary (or intermediate location)?
+Based on the firm's industry and the answers to these two questions, one of six distinct distribution network designs may be used to move products from factory to customer. These designs are classified as follows:
+1. Manufacturer storage with direct shipping 2. Manufacturer storage with direct shipping and in-transit merge 3. Distributor storage with carrier delivery 4. Distributor storage with last-mile delivery 5. Manufacturer/distributor storage with customer pickup 6. Retail storage with customer pickup
+Manufacturer Storage with Direct Shipping
+In this option, product is shipped directly from the manufacturer to the end customer, bypassing the retailer (who takes the order and initiates the delivery request). This option is also referred to as drop-shipping. The retailer carries no inventory. Information flows from the customer, via the retailer, to the manufacturer, and product is shipped directly from the manufacturer to customers as shown in Figure 4-6. Online retailers such as eBags and Nordstrom.com use drop-shipping to deliver goods to the end consumer. eBags holds few bags in inventory. Nordstrom carries some products in inventory and uses the drop-ship model for slow-moving footwear. W.W. Grainger also uses drop-shipping to deliver slow-moving items to customers.
+The biggest advantage of drop-shipping is the ability to centralize inventories at the manufacturer who can aggregate demand across all retailers that it supplies. As a result, the supply chain is
+Manufacturers
+Retailer
+Customers
+Product Flow Information Flow
+FIGURE 4-6 Manufacturer Storage with Direct Shipping
+
+74 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+able to provide a high level of product availability with lower levels of inventory. A key issue with regard to drop-shipping is the ownership structure of the inventory at the manufacturer. If specified portions of inventory at the manufacturer are allocated to individual retailers, there is little benefit of aggregation even though the inventory is physically aggregated. Benefit of aggregation is achieved only if the manufacturer can allocate at least a portion of the available inventory across retailers on an as-needed basis. The benefits from centralization are highest for high-value, lowdemand items with unpredictable demand. The decision of Nordstrom to drop-ship low-demand shoes satisfies these criteria. Similarly, bags sold by eBags tend to have high value and relatively low demand per SKU. The inventory benefits of aggregation are small for items with predictable demand and low value. Thus, drop-shipping does not offer a significant inventory advantage to an online grocer selling a staple item such as detergent. For slow-moving items, inventory turns can increase by a factor of six or higher if drop-shipping is used instead of storage at retail stores.
+Drop-shipping also offers the manufacturer the opportunity to postpone customization until after a customer has placed an order. Postponement, if implemented, further lowers inventories by aggregating to the component level. For its customized machines, Dell holds inventories as common components and postpones product customization, thus lowering the level of inventory carried.
+Although inventory costs are typically low with drop-shipping, transportation costs are high because the average outbound distance to the end consumer is large, and package carriers are used to ship the product. Package carriers have high shipping costs per unit compared to truckload or less-than-truckload carriers. With drop-shipping, a customer order including items from several manufacturers will involve multiple shipments to the customer. This loss in aggregation of outbound transportation increases cost.
+Supply chains save on the fixed cost of facilities when using drop-shipping because all inventories are centralized at the manufacturer. This eliminates the need for other warehousing space in the supply chain. There can be some savings of handling costs as well, because the transfer from manufacturer to retailer no longer occurs. Handling cost savings must be evaluated carefully, however, because the manufacturer is now required to transfer items to the factory warehouse in full cases and then ship out from the warehouse in single units. The inability of a manufacturer to develop single-unit delivery capabilities can have a significant negative effect on handling cost and response time. Handling costs can be reduced significantly if the manufacturer has the capability to ship orders directly from the production line.
+A good information infrastructure is needed between the retailers and the manufacturer so that the retailer can provide product availability information to the customer, even though the inventory is located at the manufacturer. The customer should also have visibility into order processing at the manufacturer, even with the order being placed with the retailer. Drop-shipping generally requires significant investment in information infrastructure. The information infrastructure requirement is somewhat simpler for direct sellers like Dell because two stages (retailer and manufacturer) do not need to be integrated.
+Response times tend to be long when drop-shipping is used because the order has to be transmitted from the retailer to the manufacturer and shipping distances are generally longer from the manufacturer's centralized site. eBags, for example, states that order processing may take from 1 to 5 days and ground transportation after that may take from 3 to 11 business days. This implies that customer response time at eBags will be 4 to 16 days using ground transportation and drop-shipping.
+Another issue is that the response time need not be identical for every manufacturer that is part of a customer order. Given an order containing products from several sources, the customer will receive multiple partial shipments over time, making receiving more complicated for the customer.
+Manufacturer storage allows a high level of product variety to be available to the customer. With a drop-shipping model, every product at the manufacturer can be made available to the customer without any limits imposed by shelf space. W.W. Grainger is able to offer hundreds of thousands of slow-moving items from thousands of manufacturers using drop-shipping.
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 75
+This would be impossible if each product had to be stored by W.W. Grainger. Drop-shipping allows a new product to be available to the market the day the first unit is produced.
+Drop-shipping provides a good customer experience in the form of delivery to the customer location. The experience, however, suffers when a single order containing products from several manufacturers is delivered in partial shipments.
+Order visibility is important in the context of manufacturer storage, because two stages in the supply chain are involved in every customer order. Failure to provide this capability is likely to have a significant negative effect on customer satisfaction. Order tracking, however, becomes harder to implement in a drop-ship system because it requires complete integration of information systems at both the retailer and the manufacturer. For direct sellers such as Dell, order visibility is simpler to provide.
+A manufacturer storage network is likely to have difficulty handling returns, hurting customer satisfaction. The handling of returns is more expensive under drop-shipping because each order may involve shipments from more than one manufacturer. Returns can be handled in two ways. One is for the customer to return the product directly to the manufacturer. The second approach is for the retailer to set up a separate facility (across all manufacturers) to handle returns. The first approach incurs high transportation and coordination costs, whereas the second approach requires investment in a facility to handle returns.
+The performance characteristics of drop-shipping along various dimensions are summarized in Table 4-1.
+
+Table 4-1 Performance Characteristics of Manufacturer Storage with Direct Shipping Network
+
+Cost Factor
+
+Performance
+
+Inventory
+Transportation Facilities and handling
+Information Service Factor
+
+Lower costs because of aggregation. Benefits of aggregation are highest for low-demand, high-value items. Benefits are large if product customization can be postponed at the manufacturer.
+Higher transportation costs because of increased distance and disaggregate shipping.
+Lower facility costs because of aggregation. Some saving on handling costs if manufacturer can manage small shipments or ship from production line.
+Significant investment in information infrastructure to integrate manufacturer and retailer.
+Performance
+
+Response time
+Product variety Product availability Customer experience Time to market Order visibility Returnability
+
+Long response time of one to two weeks because of increased distance and two stages for order processing. Response time may vary by product, thus complicating receiving.
+Easy to provide a high level of variety.
+Easy to provide a high level of product availability because of aggregation at manufacturer.
+Good in terms of home delivery but can suffer if order from several manufacturers is sent as partial shipments.
+Fast, with the product available as soon as the first unit is produced.
+More difficult but also more important from a customer service perspective.
+Expensive and difficult to implement.
+
+76 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+Given its performance characteristics, manufacturer storage with direct shipping is best suited for a large variety of low-demand, high-value items for which customers are willing to wait for delivery and accept several partial shipments. Manufacturer storage is also suitable if it allows the manufacturer to postpone customization, thus reducing inventories. It is thus ideal for direct sellers that are able to build-to-order. For drop-shipping to be effective, there should be few sourcing locations per order.
+Manufacturer Storage with Direct Shipping and In-Transit Merge
+Unlike pure drop-shipping, under which each product in the order is sent directly from its manufacturer to the end customer, in-transit merge combines pieces of the order coming from different locations so that the customer gets a single delivery. Information and product flows for the in-transit merge network are shown in Figure 4-7. In-transit merge has been used by Dell and can be used by companies implementing drop-shipping. When a customer orders a PC from Dell along with a Sony monitor, the package carrier picks up the PC from the Dell factory and the monitor from the Sony factory; it then merges the two at a hub before making a single delivery to the customer.
+As with drop-shipping, the ability to aggregate inventories and postpone product customization is a significant advantage of in-transit merge. In-transit merge allows Dell and Sony to hold all their inventories at the factory. This approach has the greatest benefits for products with high value whose demand is difficult to forecast, particularly if product customization can be postponed.
+Although an increase in coordination is required, merge in transit decreases transportation costs relative to drop-shipping by aggregating the final delivery.
+Facility and processing costs for the manufacturer and the retailer are similar to those for drop-shipping. The party performing the in-transit merge has higher facility costs because of the merge capability required. Receiving costs at the customer are lower because a single delivery is received. Overall supply chain facility and handling costs are somewhat higher than with drop-shipping.
+A sophisticated information infrastructure is needed to allow in-transit merge. In addition to information, operations at the retailer, manufacturers, and the carrier must be coordinated. The investment in information infrastructure is higher than that for drop-shipping.
+Response times, product variety, availability, and time to market are similar to dropshipping. Response times may be marginally higher because of the need to perform the merge. Customer experience is likely to be better than with drop-shipping, because the customer receives only one delivery for an order instead of many partial shipments. Order visibility is an important requirement. Although the initial setup is difficult because it requires integration of manufacturer, carrier, and retailer, tracking itself becomes easier given the merge that occurs at the carrier hub.
+Factories
+
+Retailer
+
+In-Transit Merge by Carrier
+
+FIGURE 4-7 In-Transit Merge Network
+
+Customers
+Product Flow Information Flow
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 77
+
+Table 4-2 Performance Characteristics of In-Transit Merge
+
+Cost Factor
+
+Performance
+
+Inventory Transportation Facilities and handling
+Information
+
+Similar to drop-shipping. Somewhat lower transportation costs than drop-shipping. Handling costs higher than drop-shipping at carrier; receiving costs lower at customer. Investment is somewhat higher than for drop-shipping.
+
+Service Factor
+
+Performance
+
+Response time Product variety Product availability Customer experience
+Time to market Order visibility Returnability
+
+Similar to drop-shipping; may be marginally higher. Similar to drop-shipping. Similar to drop-shipping. Better than drop-shipping because only a single delivery has to be received. Similar to drop-shipping Similar to drop-shipping. Similar to drop-shipping.
+
+Returnability is similar to that with drop-shipping. Problems in handling returns are likely, and the reverse supply chain will continue to be expensive and difficult to implement, as with drop-shipping.
+The performance of factory storage with in-transit merge is compared with that of drop-shipping in Table 4-2. The main advantages of in-transit merge over drop-shipping are lower transportation cost and improved customer experience. The major disadvantage is the additional effort during the merge itself. Given its performance characteristics, manufacturer storage with in-transit merge is best suited for low- to medium-demand, high-value items the retailer is sourcing from a limited number of manufacturers. Compared to drop-shipping, in-transit merge requires a higher demand from each manufacturer (not necessarily each product) in order to be effective. When there are too many sources, in-transit merge can be difficult to coordinate and implement. In-transit merge is best implemented if there are no more than four or five sourcing locations. The in-transit merge of a Dell PC with a Sony monitor is appropriate because product variety is high, but there are few sourcing locations with relatively large total demand from each sourcing location.
+Distributor Storage with Carrier Delivery
+Under this option, inventory is not held by manufacturers at the factories but is held by distributors/retailers in intermediate warehouses, and package carriers are used to transport products from the intermediate location to the final customer. Amazon and industrial distributors such as W.W. Grainger and McMaster-Carr have used this approach combined with drop-shipping from a manufacturer (or distributor). Information and product flows when using distributor storage with delivery by a package carrier are shown in Figure 4-8.
+Relative to manufacturer storage, distributor storage requires a higher level of inventory because of a loss of aggregation. From an inventory perspective, distributor storage makes sense for products with somewhat higher demand. This is seen in the operations of both Amazon and W.W. Grainger. They stock only the slow- to fast-moving items at their warehouses, with very slow-moving items stocked farther upstream. In some instances, postponement of product differentiation can be implemented with distributor storage, but it does require that the warehouse develop some assembly capability. Distributor storage, however, requires much less
+
+78 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+
+Factories
+
+Warehouse Storage by Distributor/ Retailer
+Customers
+Product Flow Information Flow
+FIGURE 4-8 Distributor Storage with Carrier Delivery
+inventory than a retail network. Amazon achieves about 10 turns of inventory annually using warehouse storage, whereas Barnes & Noble achieves about 3 turns using retail stores.
+Transportation costs are somewhat lower for distributor storage compared to manufacturer storage because an economic mode of transportation (e.g., truckloads) can be employed for inbound shipments to the warehouse, which is closer to the customer. Unlike manufacturer storage, under which multiple shipments may need to go out for a single customer order with multiple items, distributor storage allows outbound orders to the customer to be bundled into a single shipment, further reducing transportation cost. Distributor storage provides savings on the transportation of faster moving items relative to manufacturer storage.
+Compared to manufacturer storage, facility costs (of warehousing) are somewhat higher with distributor storage because of a loss of aggregation. Processing and handling costs are comparable to manufacturer storage unless the factory is able to ship to the end customer directly from the production line. In that case, distributor storage has higher processing costs. From a facility cost perspective, distributor storage is not appropriate for extremely slow-moving items.
+The information infrastructure needed with distributor storage is significantly less complex than that needed with manufacturer storage. The distributor warehouse serves as a buffer between the customer and the manufacturer, decreasing the need to coordinate the two completely. Real-time visibility between customers and the warehouse is needed, whereas real-time visibility between the customer and the manufacturer is not. Visibility between the distributor warehouse and manufacturer can be achieved at a much lower cost than real-time visibility between the customer and manufacturer.
+Response time under distributor storage is better than under manufacturer storage because distributor warehouses are, on average, closer to customers, and the entire order is aggregated at the warehouse before being shipped. Amazon, for example, processes most warehouse-stored items within a day and then it takes three to five business days using ground transportation for the order to reach the customer. W.W. Grainger processes customer orders on the same day and has enough warehouses to deliver most orders the next day using ground transport. Warehouse storage limits to some extent the variety of products that can be offered. W.W. Grainger does not store very low-demand items at its warehouse, relying on manufacturers to drop-ship those products to the customer. Customer convenience is high with distributor storage because a single shipment reaches the customer in response to an order. Time to market under distributor storage is somewhat higher than under manufacturer storage because of the need to stock another stage in the supply chain. Order visibility becomes easier than with manufacturer storage because there is a single shipment from the warehouse to the customer and only one stage of the supply chain is involved directly in filling the customer order. Returnability is better than with manufacturer storage because all returns can be processed at the warehouse itself. The customer also has to return only one package, even if the items are from several manufacturers.
+The performance of distributor storage with carrier delivery is summarized in Table 4-3. Distributor storage with carrier delivery is well suited for slow- to fast-moving items.
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 79
+
+Table 4-3 Performance Characteristics of Distributor Storage with Carrier Delivery
+
+Cost Factor
+
+Performance
+
+Inventory
+Transportation
+Facilities and handling
+Information Service Factor Response time Product variety Product availability
+Customer experience Time to market Order visibility Returnability
+
+Higher than manufacturer storage. Difference is not large for faster moving items but can be large for very slow-moving items. Lower than manufacturer storage. Reduction is highest for faster moving items. Somewhat higher than manufacturer storage. The difference can be large for very slow-moving items. Simpler infrastructure compared to manufacturer storage.
+Performance
+Faster than manufacturer storage. Lower than manufacturer storage. Higher cost to provide the same level of availability as manufacturer storage. Better than manufacturer storage with drop-shipping. Higher than manufacturer storage. Easier than manufacturer storage. Easier than manufacturer storage.
+
+Distributor storage also makes sense when customers want delivery faster than is offered by manufacturer storage but do not need it immediately. Distributor storage can handle somewhat lower variety than manufacturer storage but can handle a much higher level of variety than a chain of retail stores.
+Distributor Storage with Last-Mile Delivery
+Last-mile delivery refers to the distributor/retailer delivering the product to the customer's home instead of using a package carrier. Webvan, Peapod, and Albertsons have used last-mile delivery in the grocery industry. Amazon has launched "local express delivery" to provide same-day delivery to customers. Companies such as Kozmo and Urbanfetch tried to set up home-delivery networks for a variety of products but failed to survive. The automotive spare parts industry is one in which distributor storage with last-mile delivery is the dominant model. It is too expensive for dealers to carry all spare parts in inventory. Thus, original equipment manufacturers (OEMs) tend to carry most spare parts at a local distribution center typically located no more than a couple of hours' drive from their dealers and often managed by a third party. The local distribution center is responsible for delivering needed parts to a set of dealers and makes multiple deliveries per day. Unlike package carrier delivery, last-mile delivery requires the distributor warehouse to be much closer to the customer. Given the limited radius that can be served with last-mile delivery, more warehouses are required compared to when package delivery is used. The warehouse storage with last-mile delivery network is as shown in Figure 4-9.
+Distributor storage with last-mile delivery requires higher levels of inventory than the other options (except for retail stores) because it has a lower level of aggregation. From an inventory perspective, warehouse storage with last-mile delivery is suitable for relatively fast-moving items that are needed quickly and for which some level of aggregation is beneficial. Auto parts required by car dealers fit this description.
+Among all the distribution networks, transportation costs are highest for last-mile delivery, especially when delivering to individuals. This is because package carriers aggregate delivery across many retailers and are able to obtain better economies of scale than are available to a distributor/retailer attempting last-mile delivery. Delivery costs
+
+80 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+
+Factories
+
+Distributor/Retailer Warehouse
+Customers
+Product Flow Information Flow
+FIGURE 4-9 Distributor Storage with Last-Mile Delivery
+(including transportation and processing) can be more than $20 per home delivery in the grocery industry. Last-mile delivery may be somewhat less expensive in large, dense cities. Transportation costs may also be justifiable for bulky products for which the customer is willing to pay for home delivery. Home delivery of water and large bags of rice has proved quite successful in China, where the high population density has helped decrease delivery costs. Transportation costs of last-mile delivery are best justified in settings where the customer is purchasing in large quantities. This is rare for individual customers, but businesses such as auto dealerships purchase large quantities of spare parts on a daily basis and can thus justify daily delivery. Home delivery to individual customers can be justified for bulky items such as five-gallon jugs of water in the United States and large bags of rice in China. In each instance, last-mile delivery is cheaper and more convenient than customers picking up their own bottles or bags.
+Using this option, facility costs are somewhat lower than for a network with retail stores but much higher than for either manufacturer storage or distributor storage with package carrier delivery. Processing costs, however, are much higher than for a network of retail stores because all customer participation is eliminated. A grocery store using last-mile delivery performs all the processing until the product is delivered to the customer's home, unlike a supermarket, where the customer does a lot more work.
+The information infrastructure with last-mile delivery is similar to that for distributor storage with package carrier delivery. However, it requires the additional capability of scheduling deliveries.
+Response times are faster than using package carriers. Kozmo and Urbanfetch tried to provide same-day delivery, whereas online grocers typically provide next-day delivery. Product variety is generally lower than for distributor storage with carrier delivery. The cost of providing product availability is higher than for every option other than retail stores. The customer experience can be good using this option, particularly for bulky, hard-to-carry items. Time to market is even higher than for distributor storage with package carrier delivery because the new product has to penetrate deeper before it is available to the customer. Order visibility is less of an issue given that deliveries are made within 24 hours. The order-tracking feature does become important to handle exceptions in case of incomplete or undelivered orders. Of all the options discussed, returnability is best with last-mile delivery, because trucks making deliveries can also pick up returns from customers. Returns are still more expensive to handle than at a retail store, where a customer can bring the product back.
+The performance characteristics of distributor storage with last-mile delivery are summarized in Table 4-4. In areas with high labor costs, it is hard to justify last-mile delivery to individual consumers on the basis of efficiency or improved margin. It can be justified only if there is a large enough customer segment willing to pay for this convenience. In that case, an effort should be made to couple last-mile delivery with an existing distribution network to exploit economies of scale and improve utilization. An example is Albertsons' use of existing grocery
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 81
+
+Table 4-4 Performance Characteristics of Distributor Storage with Last-Mile Delivery
+
+Cost Factor
+
+Performance
+
+Inventory Transportation
+Facilities and handling
+Information
+
+Higher than distributor storage with package carrier delivery.
+Very high cost given minimal scale economies. Higher than any other distribution option.
+Facility costs higher than manufacturer storage or distributor storage with package carrier delivery, but lower than a chain of retail stores.
+Similar to distributor storage with package carrier delivery.
+
+Service Factor
+
+Performance
+
+Response time Product variety
+Product availability
+Customer experience Time to market Order visibility
+Returnability
+
+Very quick. Same day to next-day delivery.
+Somewhat less than distributor storage with package carrier delivery but larger than retail stores.
+More expensive to provide availability than any other option except retail stores.
+Very good, particularly for bulky items.
+Slightly higher than distributor storage with package carrier delivery.
+Less of an issue and easier to implement than manufacturer storage or distributor storage with package carrier delivery.
+Easier to implement than other previous options. Harder and more expensive than a retail network.
+
+store facilities and labor to provide home delivery. A portion of the grocery store serves as a fulfillment center for online orders and as a replenishment center for the grocery store itself. This helps improve utilization and lower the cost of providing this service. Last-mile delivery may be justifiable if customer orders are large enough to provide some economies of scale, and customers are willing to pay for this convenience. Peapod has changed its pricing policies to reflect this idea. Minimum order size is $60 (with a delivery charge of $9.95), and delivery charges drop to $6.95 for orders totaling more than $100. Peapod offers discounts for deliveries during slower periods based on what its schedule looks like. Last-mile delivery is easier to justify when the customer is a business like an auto dealer purchasing large quantities.
+Manufacturer or Distributor Storage with Customer Pickup
+In this approach, inventory is stored at the manufacturer or distributor warehouse, but customers place their orders online or on the phone and then travel to designated pickup points to collect their merchandise. Orders are shipped from the storage site to the pickup points as needed. Examples include 7dream.com and Otoriyose-bin, operated by Seven-Eleven Japan, which allow customers to pick up online orders at a designated store. A business-to-business (B2B) example is W.W. Grainger, whose customers can pick up their orders at one of the W.W. Grainger retail outlets. Some items are stored at the pickup location, whereas others may come from a central location. In the case of 7dream.com, the order is delivered from a manufacturer or distributor warehouse to the pickup location. In 2007, Wal-Mart launched its "Site to Store" service that allows customers to order thousands of products online at Walmart.com and have them shipped free to a local Wal-Mart store. Items arrive in stores 7 to 10 business days after the order is processed, and customers receive an e-mail notification when their order is ready for pickup.
+The information and product flows shown in Figure 4-10 are similar to those in the Seven-Eleven Japan network. Seven-Eleven has distribution centers where product from
+
+82 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+
+Factories
+
+Retailer
+
+Cross-Dock DC Pickup Sites
+
+Customers Customer Flow Product Flow Information Flow
+FIGURE 4-10 Manufacturer or Distributor Warehouse Storage with Consumer Pickup
+manufacturers is cross-docked and sent to retail outlets on a daily basis. An online retailer delivering an order through Seven-Eleven can be treated as one of the manufacturers, with deliveries cross-docked and sent to the appropriate Seven-Eleven outlet. Serving as an outlet for online orders allows Seven-Eleven to improve utilization of its existing logistical assets.
+Inventory costs using this approach can be kept low, with either manufacturer or distributor storage to exploit aggregation. W.W. Grainger keeps its inventory of fast-moving items at pickup locations, whereas slow-moving items are stocked at a central warehouse or in some cases at the manufacturer.
+Transportation cost is lower than for any solution using package carriers because significant aggregation is possible when delivering orders to a pickup site. This allows the use of truckload or less-than-truckload carriers to transport orders to the pickup site. For a company such as Seven-Eleven Japan, the marginal increase in transportation cost is small because trucks are already making deliveries to the stores, and their utilization can be improved by including online orders. As a result, Seven-Eleven Japan allows customers to pick up orders without a shipping fee.
+Facility costs are high if new pickup sites have to be built. A solution using existing sites can lower the additional facility costs. This, for example, is the case with 7dream.com, Wal-Mart, and W.W. Grainger, for which the stores already exist. Processing costs at the manufacturer or the warehouse are comparable to those of other solutions. Processing costs at the pickup site are high because each order must be matched with a specific customer when he or she arrives. Creating this capability can increase processing costs significantly if appropriate storage and information systems are not provided. Increased processing cost and potential errors at the pickup site are the biggest hurdle to the success of this approach.
+A significant information infrastructure is needed to provide visibility of the order until the customer picks it up. Good coordination is needed among the retailer, the storage location, and the pickup location.
+In this case, a response time comparable to that using package carriers can be achieved. Variety and availability comparable to any manufacturer or distributor storage option can be provided. There is some loss of customer experience, because unlike the other options discussed, customers must pick up their own orders. On the other hand, customers who do not want to pay online can pay by cash using this option. In countries like Japan, where Seven-Eleven has more than 10,000 outlets, it can be argued that the loss of customer convenience is small, because most customers are close to a pickup site and can collect an order at their convenience. In some cases, this option is considered more convenient because it does
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 83
+
+Table 4-5 Performance Characteristics of Network with Consumer Pickup Sites
+
+Cost Factor
+
+Performance
+
+Inventory Transportation Facilities and handling
+Information Service Factor
+
+Can match any other option, depending on the location of inventory.
+Lower than the use of package carriers, especially if using an existing delivery network.
+Facility costs can be high if new facilities have to be built. Costs are lower if existing facilities are used. The increase in handling cost at the pickup site can be significant.
+Significant investment in infrastructure required
+Performance
+
+Response time
+Product variety Product availability Customer experience
+Time to market Order visibility Returnability
+
+Similar to package carrier delivery with manufacturer or distributor storage. Same-day delivery possible for items stored locally at pickup site. Similar to other manufacturer or distributor storage options. Similar to other manufacturer or distributor storage options. Lower than other options because of the lack of home delivery. Experience is sensitive to capability of pickup location. Similar to manufacturer storage options. Difficult but essential. Somewhat easier given that pickup location can handle returns.
+
+not require the customer to be at home at the time of delivery. Time to market for new products can be as short as with manufacturer storage.
+Order visibility is extremely important for customer pickups. The customer must be informed when the order has arrived, and the order should be easily identified once the customer arrives to pick it up. Such a system is hard to implement because it requires integration of several stages in the supply chain. Returns can potentially be handled at the pickup site, making it easier for customers. From a transportation perspective, return flows can be handled using the delivery trucks.
+The performance characteristics of manufacturer or distributor storage with consumer pickup sites are summarized in Table 4-5. The main advantages of a network with consumer pickup sites are that it can lower the delivery cost and expand the set of products sold and customers served online. The major hurdle is the increased handling cost and complexity at the pickup site. Such a network is likely to be most effective if existing retail locations are used as pickup sites, because this type of network improves the economies from existing infrastructure. In particular, such a network can be effective for firms like Seven-Eleven Japan, Wal-Mart, and W.W. Grainger, which have both a network of stores and an online business. Unfortunately, such retail sites are typically designed to allow the customer to do the picking and need to develop the capability of picking a customer-specific order.
+Retail Storage with Customer Pickup
+In this option, often viewed as the most traditional type of supply chain, inventory is stored locally at retail stores. Customers walk into the retail store or place an order online or by phone and pick it up at the retail store. Examples of companies that offer multiple options of order placement include Albertsons, which uses part of the facility as a grocery store and part as an online fulfillment center. Customers can walk into the store or order online. A B2B example is
+
+84 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+W.W. Grainger: Customers can order online, by phone, or in person and pick up their order at one of W.W. Grainger's retail outlets. Albertsons keeps its inventory at the pickup location itself; W.W. Grainger stores some items at the pickup locations, whereas others may come from a central location.
+Local storage increases inventory costs because of the lack of aggregation. For fast- to very fast-moving items, however, there is marginal increase in inventory even with local storage. Albertsons uses local storage because most of its products are relatively fast moving and are stocked at the supermarket in any case. Similarly, W.W. Grainger keeps its inventory of fast-moving items at pickup locations, whereas slow-moving items are stocked at a central warehouse.
+Transportation cost is much lower than with other solutions because inexpensive modes of transport can be used to replenish product at the retail store. Facility costs are high because many local facilities are required. A minimal information infrastructure is needed if customers walk into the store and place orders. For online orders, however, a significant information infrastructure is needed to provide visibility of the order until the customer picks it up.
+Good response times can be achieved with this system because of local storage. For example, both Albertsons and W.W. Grainger offer same-day pickup from their retail locations. Product variety stored locally is lower than under other options. It is more expensive than with all other options to provide a high level of product availability. Customer experience depends on whether or not the customer likes to shop. Time to market is the highest with this option because the new product has to penetrate through the entire supply chain before it is available to customers. Order visibility is extremely important for customer pickups when orders are placed online or by phone. Returns can be handled at the pickup site. Overall, returnability is fairly good using this option.
+The performance characteristics of a network with customer pickup sites and local retail storage are summarized in Table 4-6. The main advantage of a network with retail storage is that it can lower delivery costs and provide a faster response than other networks. The major disadvantage is the increased inventory and facility costs. Such a network is best suited for fast-moving items or items for which customers value rapid response.
+
+Table 4-6 Performance Characteristics of Retail Storage at Consumer Pickup Sites
+
+Cost Factor
+
+Performance
+
+Inventory Transportation Facilities and handling Information
+
+Higher than all other options. Lower than all other options. Higher than other options. The increase in handling cost at the pickup site can be significant for online and phone orders. Some investment in infrastructure required for online and phone orders.
+
+Service Factor
+
+Performance
+
+Response time Product variety Product availability Customer experience Time to market Order visibility Returnability
+
+Same-day (immediate) pickup possible for items stored locally at pickup site. Lower than all other options. More expensive to provide than all other options. Related to whether shopping is viewed as a positive or negative experience by customer. Highest among distribution options. Trivial for in-store orders. Difficult, but essential, for online and phone orders. Easier than other options because retail store can provide a substitute.
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 85
+Selecting a Distribution Network Design
+A network designer needs to consider product characteristics as well as network requirements when deciding on the appropriate delivery network. The various networks considered earlier have different strengths and weaknesses. In Table 4-7, the various delivery networks are ranked relative to one another along different performance dimensions. A ranking of 1 indicates the best performance along a given dimension; as the relative performance worsens, the ranking number increases.
+Only niche companies end up using a single distribution network. Most companies are best served by a combination of delivery networks. The combination used depends on product characteristics and the strategic position that the firm is targeting. The suitability of different delivery designs (from a supply chain perspective) in various situations is shown in Table 4-8.
+An excellent example of a hybrid network is that of W.W. Grainger, which combines all the aforementioned options in its distribution network. The network, however, is tailored to match the characteristics of the product and the needs of the customer. Fast-moving and emergency items are stocked locally, and customers can either pick them up or have them shipped, depending on the urgency. Slower moving items are stocked at a national DC and shipped to the customer within a day or two. Very slow-moving items are typically drop-shipped from the manufacturer and carry a longer lead time. Another hybrid network is used by Amazon, which stocks fast-moving items at most of its warehouses, slower moving items at fewer warehouses, and very slow-moving items may be drop-shipped from distributors or publishers.
+We can now revisit the examples from the computer industry discussed at the beginning of the chapter. Gateway's decision to create a network of retail stores without exploiting any of the supply chain advantages such a network offers was flawed. To fully exploit the benefits of the retail network, Gateway should have stocked its standard configurations (likely to have high demand) at the retail stores, with all other configurations drop-shipped from the factory (perhaps with local pickup at the retail stores if that was economical). Instead, it drop-shipped all configurations from the factory. Apple has opened several retail stores and actually carries products for sale at these stores. This makes sense given the low variety and high demand for Apple products. In fact, Apple has seen consistent growth in sales and profits through its retail outlets.
+
+Table 4-7 Comparative Performance of Delivery Network Designs
+
+Retail Storage
+with Customer
+Pickup
+
+Manufacturer Storage with
+Direct Shipping
+
+Manufacturer Storage with
+In-Transit Merge
+
+Distributor Storage with
+Package Carrier Delivery
+
+Distributor Storage with
+Last-Mile Delivery
+
+Manufacturer Storage with
+Pickup
+
+Response time
+
+1
+
+4
+
+4
+
+3
+
+2
+
+4
+
+Product variety
+
+4
+
+1
+
+1
+
+2
+
+3
+
+1
+
+Product availability
+
+4
+
+1
+
+1
+
+2
+
+3
+
+1
+
+Customer
+
+Varies from
+
+4
+
+3
+
+2
+
+1
+
+5
+
+experience
+
+1 to 5
+
+Time to market
+
+4
+
+1
+
+1
+
+2
+
+3
+
+1
+
+Order visibility
+
+1
+
+5
+
+4
+
+3
+
+2
+
+6
+
+Returnability
+
+15
+
+5
+
+4
+
+3
+
+2
+
+Inventory
+
+41 1 2 3 1
+
+Transportation
+
+1
+
+4
+
+3
+
+2
+
+5
+
+1
+
+Facility and handling
+
+6
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Information 1 4 4 3 2 5
+
+Key: 1 corresponds to the strongest performance and 6 the weakest performance.
+
+86 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+
+Table 4-8 Performance of Delivery Networks for Different Product/Customer Characteristics
+
+Retail Storage
+with Customer
+Pickup
+
+Manufacturer Storage with
+Direct Shipping
+
+Manufacturer Storage with
+In-Transit Merge
+
+Distributor Storage with
+Package Carrier Delivery
+
+Distributor Storage with Last-Mile Delivery
+
+Manufacturer Storage with
+Pickup
+
+High-demand product Medium-demand
+product Low-demand product Very low-demand
+product Many product sources High product value Quick desired response High product variety Low customer effort
+
++2 +1
+-1 -2
++1 -1 +2 -1 -2
+
+-2 -1
++1 +2
+-1 +2 -2 +2 +1
+
+-1 0
+0 +1
+-1 +1 -2
+0 +2
+
+0 +1 -1 +1 0 0
+
++1 -1 +1 0 -2 +1
+
++2 +1
+
+0
+
++1 0 +2
+
+-1 +1 -2
+
++1 0 +2
+
++2 +2 -1
+
+Key: +2 = very suitable; +1 = somewhat suitable; 0 = neutral; -1 = somewhat unsuitable; -2 = very unsuitable.
+
+4.4 ONLINE SALES AND THE DISTRIBUTION NETWORK
+In this section, we use ideas discussed earlier in the chapter to see how the Internet has affected the structure and performance of various distribution networks. The goal is to understand what drove the successful introduction of online sales in some networks and not others, and how these networks are likely to evolve.
+Similar to our consideration with distribution networks, we build a scorecard based on how online sales affect a supply chain's ability to meet customer needs and the cost of meeting those needs. We now detail the contents of each scorecard category.
+Impact of Online Sales on Customer Service
+As with distribution networks considered earlier, we start by studying how online sales affect customer service elements such as response time, product variety, availability, customer experience, time to market, visibility, and returnability. We also look at factors such as direct sales and the ability to offer flexible pricing that help companies selling online.
+RESPONSE TIME TO CUSTOMERS When selling physical products that cannot be downloaded, online sales take longer to fulfill a customer request than does a retail store because of the shipping time involved. Thus, customers who require a short response time may not use the Internet to order a product. There is no such delay, however, for information goods. The Internet has facilitated almost instantaneous access to movies, music, and books in digital form.
+PRODUCT VARIETY A company selling online finds it easier to offer a larger selection of products than a bricks-and-mortar store. For example, Netflix offers a much larger selection of movies than any video rental store. Offering the same selection at a store would require a huge location with a correspondingly large amount of inventory.
+PRODUCT AVAILABILITY By aggregating its inventory, a company selling online improves product availability. Better information on customer preferences also allows firms selling online to improve availability.
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 87
+CUSTOMER EXPERIENCE Online sales affect customer experience in terms of access, customization, and convenience. Unlike most retail stores that are open only during business hours, the Internet allows a customer to place an order at any convenient time. In fact, W.W. Grainger has observed a surge in online orders after their bricks-and-mortar stores close. Online sales also allow a firm to access customers who are geographically distant. Using the Internet, a small specialty retail store located near Chicago can reach customers all over the United States, or even the world. Access to online sales is limited only by the customers' access to the Internet.
+The Internet offers an opportunity to create a personalized buying experience for each customer. For example, Amazon displays products that are related to what customers have recently purchased or browsed. Firms that focus on mass customization can use the Internet to help customers select a product that suits their needs. For example, Dell allows customers to customize their computers by using the options available on the Dell Web site.
+For both consumers and companies, online sales can increase the ease with which one does business. Customers do not have to leave home or work to make a purchase. For many companies selling online, such as Peapod, information from past purchases is used to significantly speed up order placement for the customer.
+FASTER TIME TO MARKET A firm can introduce a new product much more quickly online as compared to physical channels. A firm that sells PCs through physical channels must produce enough units to stock the shelves at its distributors and retailers before it starts to see revenue from the new product. A firm selling online, in contrast, makes a new product available online as soon as the first unit is ready to be produced. This is evident at Walmart.com, where larger new TVs go on sale well before they are sold at Wal-Mart stores.
+ORDER VISIBILITY The Internet makes it possible to provide visibility of order status. From a customer's perspective, it is crucial to provide this visibility because an online order has no physical equivalent to a customer shopping for an item at a retail store.
+RETURNABILITY Returnability is harder with online orders, which typically arrive from a centralized location. It is much easier to return a product purchased at a retail store. The proportion of returns is also likely to be much higher for online orders because customers are unable to touch and feel the product before their purchase. Going online thus increases the cost of reverse flows.
+DIRECT SALES TO CUSTOMERS The Internet allows manufacturers and other members of the supply chain that do not have direct contact with customers in traditional channels to get customer feedback and build a relationship with the customer. Social networking channels such as Facebook and Twitter allow firms to directly pitch products and promotions to customers.
+FLEXIBLE PRICING, PRODUCT PORTFOLIO, AND PROMOTIONS Given the ease of changing prices and assortments online, the Internet allows a company selling online to manage revenues from its available product portfolio much more effectively than do traditional channels. Promotion information can be conveyed to customers quickly and inexpensively using the Internet as long as the business has access to its customer network. Groupon is a company that has used social networking online to push promotions to customers.
+EFFICIENT FUNDS TRANSFER The Internet and cell phones can enhance the convenience and lower the cost of revenue collection, especially in small amounts. For example, after the earthquake in Haiti in 2010, Mercy Corps transferred $40 automatically into each Haitian person's account allowing him or her to buy food at local merchants. This was much more efficient than handing out cash or vouchers.
+
+88 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+Impact of Online Sales on Cost
+On the cost side, online sales affect inventory, facilities, transportation, and information costs. It is important to observe that the impact in each case is not necessarily positive.
+INVENTORY Online sales can lower inventory levels by aggregating inventories far from customers if most customers are willing to wait for delivery. For example, Amazon is able to aggregate its inventory of books at a few warehouses. Barnes & Noble, in contrast, needs more inventory because it must carry a significant portion of its stock at retail stores. A key point to note is that the relative benefit of aggregation is small for high-demand items with low variability but large for low-demand items with high variability.
+Online sales can lower a firm's inventories if it can postpone the introduction of variety until after the customer order is received. The time lag between when a customer places the order and when he or she expects delivery offers a company selling online a window of opportunity to implement postponement. For example, for its online business, Dell keeps its inventory as components and assembles its PCs after receiving the customer order. The amount of component inventory required is much lower than it would be if Dell kept its inventories in the form of assembled PCs. Similarly, Amazon prints some low-volume books to order, allowing it to reduce inventories.
+FACILITIES Two basic types of facilities costs must be included in the analysis: (1) costs related to the number and location of facilities in a network and (2) costs associated with the operations that take place in these facilities. A company selling online can reduce network facility costs by centralizing operations, thereby decreasing the number of facilities required. For example, Netflix is able to satisfy demand for DVD rentals from about 50 warehouses, whereas Blockbuster needed thousands of retail outlets to serve customers.
+With regard to ongoing operating costs, customer participation in selection and order placement allows a company selling online to lower its resource costs relative to staffing a call center. Online sales can also lower a firm's order fulfillment costs because it does not have to fill an order as soon as it arrives. A retail store or supermarket must staff its sales counters so that more cashiers are available when more customers are shopping. As a result, these stores require greater staffing during peak periods. With online sales, if a reasonable buffer of unfilled orders is maintained, the rate of order fulfillment can be made significantly smoother than the rate at which orders arrive, which reduces the peak load for order fulfillment and thus reduces resource requirements and cost.
+On the downside, however, for some products, such as groceries, online sales require the firm to perform tasks currently performed by the customer at retail stores, affecting both handling and transportation costs. In such situations, companies selling online will incur higher handling and delivery costs than a retail store. For example, whereas a customer picks out the required items at a grocery store, an online seller such as Peapod incurs higher handling costs because its employees must pick a customer's order from the warehouse shelves and deliver it to the customer's home.
+TRANSPORTATION The Internet has significantly lowered the cost of "transporting" information goods in digital form such as movies, music, and books. For nondigital products, aggregating inventories increases outbound transportation relative to inbound transportation. Compared to a business with many retail outlets, an online seller with aggregated inventories tends to have higher transportation costs (across the entire supply chain) per unit because of the increased outbound costs.
+INFORMATION An online seller can share demand information throughout its supply chain to improve visibility. The Internet may also be used to share planning and forecasting information within the supply chain, further improving coordination. This helps reduce overall supply chain costs and better match supply and demand. Here we see that information is an enabler of many of the benefits of online sales discussed so far.
+A company selling online incurs additional information costs, however, to build and maintain the information infrastructure. For example, when Amazon purchased Zappos, it had to add about 120,000 product descriptions and more than 2 million photographs to its Web site.
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 89
+
+Table 4-9 The Online Sales Scorecard
+
+Area
+
+Impact
+
+Response time Product variety Product availability Customer experience Time to market Order visibility Direct sales Flexible pricing, portfolio, promotions Efficient funds transfer Inventory Facilities Transportation Information
+
+Key: +2 = very positive; +1 = positive; 0 = neutral; -1 = negative; -2 = very negative.
+
+The blank B2C online sales scorecard shown in Table 4-9 can be used by a firm to summarize the impact of online sales on each of the areas identified earlier.
+The value of setting up online sales is not the same in every industry. Whereas Amazon and Blue Nile have seen their profits increase after going online, Webvan and many other online grocers have gone out of business. The scorecard in Table 4-9 can be used to understand how online sales affect the performance of different supply chain networks. In the next section, we apply the online sales scorecard to several examples.
+Using Online Sales to Sell Computer Hardware: Dell
+The online channel has proved very effective for the sale of computer hardware and by 2009 represented about half the sales in this category. After more than a decade of tremendous success selling its PCs only online, Dell started to sell PCs through retail stores such as Wal-Mart in 2007. Since about 2005, Apple has had considerable success selling its phones and computers through retail stores. This raises the question of the relative value of the online channel and retail stores for selling computer hardware.
+To make this comparison, we compare Dell's supply chain for each channel. As shown in Figure 4-11, when using the online channel, Dell typically starts assembly after receiving a
+
+Customer Dell
+
+Customer Pull
+Retail Store
+
+Pull
+
+Dell
+
+Supplier
+
+Supplier
+
+Dell's Online Supply Chain Dell's Retail Supply Chain
+
+FIGURE 4-11 Supply Chains for Dell's Online and Retail Channels
+
+90 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+customer order (shown by the fact that Dell is above the push/pull boundary). For the retail channel, in contrast, Dell assembles the PC in the push phase of the supply chain often well in advance of the final sale.
+IMPACT OF ONLINE SALES ON CUSTOMER SERVICE FOR COMPUTER HARDWARE
+The main disadvantage for Dell of selling hardware over the Internet is the delay in fulfilling the customer request. Whereas a longer response time is not a big negative for high-value, customized hardware, it is a disadvantage for Dell when trying to sell its low-cost standardized configurations online.
+Dell is able to exploit most of the responsiveness-enhancing opportunities offered by the Internet for customized hardware. The company uses the Internet to offer a wide variety of customized PC configurations with the desired processor, memory, hard drive, and other components. Customization allows Dell to satisfy customers by giving them a product that is close to their specific requirements. The customization options are easy to display over the Internet, allowing Dell to attract customers who value this choice. Dell also uses customized Web pages to enable large business customers to place orders. Clearly, all these capabilities are not as valuable for standardized configurations.
+The Internet allows companies like Dell and Apple to bring new products to market quickly. This is particularly important in the computer and cell phone industry wherein products have short life cycles of a few months. Whereas the Internet allows a new product to be offered as soon as it is produced, the retail channel requires the entire supply chain to be stocked before customers can access the product.
+The Internet channel has allowed companies like Dell to make price changes quickly and efficiently based on product availability and demand. By being available all day, the online channel allows Dell to serve customers at a much lower cost than retail stores.
+Selling online allows Dell to collect payment for its hardware in a matter of days after it is sold. Dell, however, pays its suppliers according to the more traditional schedules in which payment is due in weeks (e.g., 30 days). Given its low levels of inventory, Dell is able to operate its business with negative working capital because it receives payment for its hardware about 44 days before it pays its suppliers for their components. A hardware supply chain including distributors and retailers cannot achieve these results.
+IMPACT OF ONLINE SALES ON COST IN THE PC INDUSTRY
+Inventory Costs. Its online sales offer Dell the ability to reduce its inventories by aggregating them in a few geographic locations, whereas a chain of retail stores selling computers must carry inventory in each store. Dell is able to further reduce inventories by exploiting the time that elapses from the point at which an online order arrives to the point at which it must be shipped. Dell products and assembly lines are designed so that all components on which customers are offered customization can be assembled in a short period of time. This allows Dell to hold component inventories and postpone assembly until after the customer order has been placed. Postponement and component commonality allow Dell to reduce inventories significantly.
+Observe that inventory reduction through aggregation and postponement is much more significant for high-value, customized configurations with low and unpredictable demand compared to low-value, standardized configurations with large and predictable demand.
+Facility Costs. The online channel allows the Dell supply chain to lower facility costs relative to the retail channel because Dell incurs only the cost of the manufacturing facility and warehousing space for components. A brick-and-mortar retail chain must pay for the distribution warehouses and retail stores as well.
+Dell is also able to take advantage of customer participation and save on the cost of call center representatives because customers do all the work when they place an order online.
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 91
+Transportation Costs. As a result of online sales, total transportation costs in the Dell supply chain are higher than in a supply chain selling hardware through distributors and retailers. Dell sends individual PCs to customers from its factories, whereas a manufacturer selling through distributors and retailers sends large shipments on trucks to warehouses and to retailers. The Dell supply chain thus has higher outbound transportation costs. The higher transportation costs for the centralized Dell supply chain are a larger fraction of cost for low-cost, standardized configurations than for high-cost, customized ones.
+Information Costs. Although Dell has made a significant investment in information technology (IT) to implement its build-to-order model, the majority of these IT costs would be incurred regardless of Dell's online sales status. Therefore, online sales do add incrementally to Dell's information costs, but this is not a significant factor given the benefits.
+IMPACT OF ONLINE SALES ON PERFORMANCE AT DELL As summarized in the online sales scorecard in Table 4-10, online sales allow Dell to significantly improve its performance for high-value, customized hardware in terms of both responsiveness and cost. For low-cost, standardized hardware, however, the online channel is significantly less attractive because its main strength, inventory reduction through aggregation, is not as valuable for low-cost, standardized configurations. Simultaneously, the weaknesses of the online channel--poorer responsiveness and higher transportation costs--become more significant for low-cost, standardized configurations.
+A TAILORED SUPPLY CHAIN NETWORK FOR HARDWARE USING RETAIL STORES AND THE
+INTERNET It may seem at first glance that selling hardware online has significant advantages. A careful study, however, indicates that a hybrid model combining retail stores and the online channel can be very effective. This issue becomes more significant as hardware becomes more of a commodity. The online channel is most effective to sell new products or customized hardware configurations whose demand is hard to forecast with the retail channel selling low-cost, standard configurations whose demand is easier to forecast. Manufacturers should introduce new models on the Internet; as demand for some of them grows, these models should be added to the retail channel. Another option is to introduce recommended configurations of new models at
+
+Table 4-10 Impact of Online Sales on Performance at Dell
+
+Area
+
+Impact for Customized Impact for Standard
+
+Hardware
+
+Low-Cost Hardware
+
+Response time Product variety Product availability Customer experience Time to market Order visibility Direct sales Flexible pricing, portfolio,
+promotions Efficient funds transfer Inventory Facilities Transportation Information
+
+-1 +2 +1 +2 +2 +1 +2 +2
++2 +2 +2 -1
+0
+
+-2 0
++1 +1 +1
+0 +1 +1
++2 +1 +1 -2
+0
+
+Key: +2 = very positive; +1 = positive; 0 = neutral; -1 = negative; -2 = very negative.
+
+92 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+retail stores, while selling all customized configurations on the Internet. The manufacturer is thus able to decrease inventories by aggregating all high-variability production and satisfying that demand online. These models should be built to order using as many common components as is feasible. The standard models can be produced using a low-cost approach even if it involves longer lead time. Selling standardized models through distributors and retail stores allows the supply chain to save on transportation costs, which are are a higher fraction of cost for these low-cost configurations. Retailers can be allowed to participate in online sales by having kiosks where customers can configure models of their choice or order standardized models that are out of stock.
+A hardware manufacturer can use the tailored approach outlined earlier to take advantage of the strengths of both online sales and traditional retail and distribution channels. Gateway failed in its effort with retail stores because it did not use any of the supply chain strengths of the bricks-and-mortar channel. Instead of just helping people with configuration at its retail stores, Gateway would have served its customers better by also carrying recommended configurations of its PCs in the stores. This would immediately satisfy customers who wanted the recommended configuration, while allowing Gateway to produce the more customized configurations efficiently. In contrast, Apple has been very successful with its retail channel because it sells a relatively low variety of standardized hardware in large volumes at its stores. Dell has also started using the tailored approach with high-value customized hardware such as servers built to order while lowvalue standardized hardware is produced in low cost countries and sold through retail stores such as Wal-Mart. In the long run, a tailored approach is likely to prevail in the computer hardware and cell phone industry.
+Using Online Sales to Sell Books: Amazon
+Book supply chains have been transformed with the advent of online sales and the launching of Amazon.com in July 1995. Since then, Amazon has added many categories to its product offerings, including music, toys, electronics, software, and home improvement equipment. Whereas the Internet provided some advantage to Amazon for the sale of physical books, this advantage has magnified with the growth in electronic books (e-books).
+IMPACT OF ONLINE SALES ON CUSTOMER SERVICE IN THE BOOK INDUSTRY Online sales have not helped profits for traditional books to the same extent as in the customized PC industry. Unlike the PC industry, in which online sales facilitate direct sales by manufacturers, the Internet has not shortened supply chains in the book industry.
+For traditional books, Amazon can attract only customers who are willing to wait a few days to get a book. Amazon also cannot attract customers who value the ability to leaf through books. The company tries to counter this problem by providing reviews and other information on books to allow customers to get a feel for the book online.
+To counter these drawbacks, Amazon has exploited several opportunities on the Internet to attract customers and increase revenues. Amazon attracts many customers by offering a selection of millions of books. Customers can search for hard-to-find books or those of special interest. A large physical bookstore, in contrast, can carry fewer than a hundred thousand titles. Amazon also uses the Internet to recommend books to customers based on their purchase history. Customers are sent e-mails informing them of new titles that match their interests. Amazon also provides reviews and comments from other customers on the titles available. New titles are quickly introduced and made available online, whereas in a bricks-and-mortar bookstore chain, all retail stores have to be stocked.
+Amazon uses the Internet to allow customers to order a book at any time from the comfort of their own home. If customers know the books they want, they can place the order online and the books will be delivered to their door. There is no need to leave the house and spend an hour or two going to a physical bookstore. This fact allows Amazon to attract customers who value this convenience and are willing to wait for delivery.
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 93
+For e-books, Amazon is able to gain greater advantage using the online channel. For example, customers can download a book in seconds without having to leave home. For people who value time, this experience is superior to buying a traditional book either online or at a bookstore. Product availability is never an issue with e-books, and variety can be added at low marginal cost. In fact, the Internet has allowed the availability of books that are not guaranteed a high enough demand to make them viable for traditional publishers. For very low-volume books, there is no better channel than online as e-books.
+COST IMPACT OF ONLINE SALES ON THE BOOK INDUSTRY Amazon also uses online sales to lower its inventory and some of its facility costs. For traditional books, transportation costs increase as a result of selling books online. For e-books, however, transportation cost is not a factor given that they can be downloaded efficiently on the Internet.
+Inventory Costs. Amazon is able to decrease inventories by aggregating physical inventories in a few geographical locations. A bookstore chain, in contrast, has higher inventories because titles are carried at every store. The reduction of inventories from aggregation is most significant for low-demand books with high demand uncertainty. The benefit is less significant for best sellers with demand that is more predictable. Amazon carries medium- to high-demand titles in inventory, whereas it purchases low-demand titles from publishers in response to a customer order. In some instances, Amazon also prints very low-volume titles with print-on-demand technology. This allows the Amazon supply chain to further reduce inventories of low-demand titles. For e-books, Amazon incurs no inventory costs because they do not have to be stored physically.
+Facility Costs. Its online sales allow Amazon to lower facility costs because it does not need the retail infrastructure that a bookstore chain such as Barnes & Noble must have. Initially, Amazon did not have a warehouse, purchasing all books from distributors. When demand volumes were low, the distributor was a better location to carry inventories because it aggregated demand across other booksellers besides Amazon. As demand has grown, however, Amazon has opened its own warehouses, where it stocks books. Thus, facility costs at Amazon are growing, although they are still much lower than the facility costs for a bookstore chain. For e-books, Amazon needs server capacity to ensure that downloads are quick, but the investment in server capacity is likely to be cheaper than the warehousing required to serve physical demand.
+Transportation Costs. The Amazon supply chain incurs higher transportation costs than a bookstore chain selling through retail stores. Local bookstores do not have the cost of individually shipping books to customers. Amazon, in contrast, incurs the cost of shipping books to its customers from warehouses. The shipping cost from an Amazon warehouse represents a significant fraction of the cost of a book (it can be even higher than 100 percent for an inexpensive book). As demand has grown, Amazon has opened several warehouses in an effort to get closer to customers, decrease its transportation costs, and improve response time. Transportation costs at Amazon in 2009 were more than $1.77 billion; after accounting for transportation revenue, the net loss on outbound transportation was $849 million, a very significant amount. In contrast, the cost of delivering e-books and other digital content to customers is negligible in comparison.
+Information Costs. As with Dell, setting up online sales takes some additional investment in IT, but this is not incrementally significant compared with the IT that is required to run a bricksand-mortar business. Therefore, IT costs for online sales are somewhat higher, but not prohibitively so. The cost of IT infrastructure to support download of e-books, however, is more expensive.
+Impact of Online Sales on Performance at Amazon. Amazon's online sales scorecard is summarized in Table 4-11. A comparison of Tables 4-10 and 4-11 shows that online sales offer far greater advantages when selling computer hardware than when selling physical books. Some key differences between the two products are that (1) product differentiation in hardware can be
+
+94 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+
+Table 4-11 Impact of Online Sales on Performance at Amazon
+
+Area
+
+Physical books
+
+e-books
+
+Response time Product variety Product availability Customer experience Time to market Order visibility Direct sales Flexible pricing, portfolio, promotions Efficient funds transfer Inventory Facilities Transportation Information
+
+-1 +2 +1 +1 +1
+0 0 +1
+0 +1 +1 -2 -1
+
++1 +2 +2 +1 +2
+0 +1 +1
+0 +2 +1 +1 -1
+
+Key: +2 = very positive; +1 = positive; 0 = neutral; -1 = negative; -2 = very negative.
+
+postponed until after the customer has placed an order, whereas physical books are currently published well in advance of a sale and (2) transportation cost represents a much higher portion of the cost of books and a relatively small portion of the cost of PCs. For e-books, however, the Internet offers tremendous advantage relative to traditional bookstores. Amazon has pushed hard after the release of the Kindle, its e-reader, to encourage customers to buy books online.
+Other digital content that Amazon sells includes movies, software, and music. In each instance, the Internet channel offers tremendous advantage relative to physical distribution. With the growth of iTunes at Apple and online sales at Amazon, retail chains built on selling physical formats of music had a difficult time surviving, with most closing by 2010. In the movie business, large DVD retailers like Wal-Mart have continued to do well, but smaller retail formats such as Blockbuster have not survived selling and renting physical DVDs.
+A SUPPLY CHAIN NETWORK FOR BOOKS USING RETAIL STORES AND THE INTERNET In the 1980s, large bookstore chains such as Borders and Barnes & Noble established themselves at the expense of mom-and-pop bookstores primarily through aggregation. Large retail footprints allowed the two chains to carry a greater variety of books while often achieving lower costs than the small bookstores. Both Borders and Barnes & Noble charged full price for low-demand books, while they provided a greater variety and offered a discount on best sellers. Such an approach was effective until Amazon established a dominant position. Amazon uses the Internet to sell low-volume books much more efficiently than either bookstore chain. With the growth in e-books and other retail formats such as Wal-Mart and Costco selling best sellers, the large bookstore chains are stuck in the middle without any area of dominance. Large bookstore chains are in danger of being squeezed from both ends: other retail formats for best-selling books and online sales for other low-volume books and e-books. Borders was shut down and liquidated in 2011 and Barnes & Noble was facing significant challenges.
+Using the Internet to Sell Groceries: Peapod
+The grocery industry saw a spurt in new online sellers in 1998 and l999, although virtually all have gone out of business. Peapod, one of the oldest online grocers, is one of the few left. Given
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 95
+this industry's poor track record, one might surmise that this is an industry not well suited for online sales. Despite the lack of success in this industry, Amazon jumped into it in 2010 starting with a pilot in Seattle. Let us take a look with our scorecard to see where, if at all, the Internet offers an advantage in this industry.
+Peapod started by supplying orders using employees at grocery stores to pick and deliver orders. The company has now moved to supplying orders from centralized fulfillment centers in Chicago and Washington, D.C., and from large supermarkets with adjacent "warerooms" in other areas. Each fulfillment center is much larger than a supermarket and is comparable to a warehouse. The Peapod and supermarket supply chains are comparable except that for a supermarket, some products come from a warehouse whereas the rest come directly from suppliers.
+IMPACT OF ONLINE SALES ON CUSTOMER SERVICE IN THE GROCERY INDUSTRY Peapod and other online groceries have tried to sell convenience and the time savings they offer customers. For many people, grocery shopping is a chore that is time consuming and rarely enjoyable. Peapod allows customers to place orders at any time and have them delivered at home, eliminating a trip to the supermarket. This can be a significant convenience, especially in urban areas, where customers have to walk to a supermarket and carry all their groceries home. In a suburban area, the benefit is smaller because people tend to batch their shopping and can drive to supermarkets with relative ease. The convenience of saving time, however, remains quite valuable.
+The convenience factor related to access is even more significant if a specialty-food provider goes online. Specialty and ethnic food stores are not as accessible as supermarkets, and people often drive long distances to reach them. Offering these foods on the Internet provides easy access to customers and saves a long drive. Peapod, however, offers less variety than a typical supermarket. Most large supermarkets offer sufficiently large variety to cover the needs of most households.
+Peapod is able to increase revenues by creating a personalized shopping experience for customers and delivering customized, one-to-one advertising and promotions. This is done using extensive member profiles that Peapod creates based on online shopping behavior, purchase histories, and surveys. Unlike a supermarket, in which the store does not know what customers have selected until they check out, Peapod can guide online customers based on what they purchase. For example, if a customer buys some pasta, Peapod can suggest a type of pasta sauce or some Parmesan cheese. Over longer periods, Peapod can collect shopping patterns and suggest products that match a customer's preferences. Such suggestions enhance revenues by increasing customers' impulse purchases.
+Peapod also adds to its revenues by giving consumer goods companies a forum for targeted interactive advertising and electronic coupons. Peapod increases revenues by selling data on consumer choices to product manufacturers. Consumer choice data available to an online grocer is more valuable than scanner data from a supermarket because scanner data reveals only the customer's final purchases. An online grocer, in contrast, can record the customer's decision process by, for example, recording a customer's substitution patterns for items that are out of stock. With scanner data, a supermarket cannot record substitutions because it has no way of finding out if the customer looked for something that is out of stock.
+IMPACT OF ONLINE SALES ON COSTS IN THE GROCERY INDUSTRY Peapod and other online grocers use online sales to lower some facility costs and, to an extent, inventory costs. Picking costs and transportation costs, however, are much higher than for traditional supermarkets.
+Inventory Costs. Compared to a supermarket chain, an online grocer such as Peapod can lower inventories by aggregating the inventory in a few large replenishment centers. The degree of aggregation, however, is less than that achieved by Amazon for books or Dell for hardware, because Peapod needs fulfillment centers in every urban area it serves to get food to customers in acceptable condition.
+
+96 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+The benefits of aggregation are further diminished by the fact that the majority of products sold at a supermarket are staple items with steady demand. Thus, aggregation provides a marginal benefit in terms of improved forecast accuracy and reduced inventories (see Chapter 12). The benefits of aggregation are higher for specialty, low-demand items with high demand uncertainty. These products constitute a small fraction of overall sales at a supermarket. Thus, aggregation allows e-grocers to lower their inventory costs only marginally compared to a typical supermarket. If online grocers focused primarily on specialty items such as ethnic foods, the inventory benefits of aggregation would be larger.
+Facility Costs. Peapod's online sales allow it to lower facility costs because it needs only warehouse facilities and can save on the cost of retail outlets such as supermarkets. Processing costs at Peapod to fulfill an order, however, are significantly higher than those for a supermarket and overwhelm the savings from needing fewer facilities. Peapod saves on checkout clerks compared to a supermarket but must pick the customer order, a task the customer performs at a supermarket and one that is much more time consuming than checkout. Thus, online sales result in a loss of customer participation compared to a supermarket and raise overall facility costs.
+Transportation. An online grocer such as Peapod has significantly higher transportation costs than a supermarket. Supermarkets have the advantage of having to bear only inbound transportation cost for products, with customers providing transportation from the supermarket to their homes. Inbound transportation costs tend to be low because supermarkets have large deliveries that enable them to exploit economies of scale in transportation. Peapod, in contrast, has to bear inbound transportation cost to its fulfillment centers and then outbound delivery costs from the fulfillment centers to customer homes. Outbound delivery costs are high, because individual orders must be delivered to each customer's home. The task becomes all the more problematic given the different temperature requirements for different types of food.
+Compared to computers and even books, groceries have a low value-to-weight/volume ratio. For example, paper towels and bathroom tissues have very low value but occupy a lot of space in a truck. Thus, transportation costs are a significant fraction of the cost incurred by online grocers. This makes it difficult for an online grocer to compete with a supermarket on prices.
+Information Costs. Again, the IT infrastructure required for online sales increases costs. In the case of an online grocer, this is somewhat more significant than with the other online channels we have been discussing, because an online grocer takes on a wider range of functions that shoppers do themselves. Therefore, IT costs are higher for an online grocer. As in the other examples, however, IT costs are not a deal breaker for this business model.
+IMPACT OF ONLINE SALES ON PERFORMANCE AT PEAPOD Online sales offer some revenue-enhancement opportunities in the grocery industry. Costs, however, are significantly higher for an online grocer than for a supermarket, as we can see from Table 4-12. A comparison of Tables 4-10, 4-11, and 4-12 shows that online sales offer fewer benefits when selling groceries compared to books and computer hardware. Supermarkets are large enough to enjoy most of the inventory benefits that aggregation offers, without having the additional delivery cost incurred by an online grocer. Online grocers cannot compete with supermarkets on price and can succeed only if there are enough people willing to pay a premium for the convenience of home delivery. Online grocers, however, can provide some cost advantage when selling specialty groceries, whose demand tends to be low and uncertain.
+VALUE OF ONLINE SALES TO A TRADITIONAL GROCERY CHAIN Traditional supermarket chains can benefit by using the online channel to complement the strengths of their existing network. The online channel can be used to offer convenience to customers who are willing to pay for it. Supermarkets can be used to target customers who value lower prices.
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 97
+
+Table 4-12 Impact of Online Sales on Performance at Peapod
+Area
+
+Impact
+
+Response time Product variety Product availability Customer experience Time to market Order visibility Direct sales Flexible pricing, portfolio, promotions Efficient funds transfer Inventory Facilities Transportation Information
+
+-1 0 0 +1 0
+-1 0 +1 0 0
+-1 -2 -1
+
+Key: +2 = very positive; +1 = positive; 0 = neutral; -1 = negative; -2 = very negative.
+
+A supermarket chain with online sales has the opportunity to offer an entire array of services at differing prices based on the amount of work the customer does. The cheapest service involves customers walking into the supermarket and shopping for the products they want. In this case, the customer picks the order from the shelves and provides outbound transportation for it. For an additional charge, a supermarket might allow customers to place orders online to be picked up at a later time. The supermarket personnel would pick the order from the shelves, but the customer would provide outbound transportation. The most expensive service is when the customer places orders online for home delivery. In this case, the supermarket chain is responsible for both picking the order from the shelves and delivering it to the customer's home. The varying services and prices would allow supermarket chains to efficiently satisfy the needs of a variety of customers.
+Among the supermarket chains, Albertsons has taken the lead in combining online sales with physical supermarkets. It has renamed some of its stores Albertsons.com. Half the store remains a traditional supermarket, while the other half is used to fulfill online grocery orders. This allows the firm to exploit economies of scale on inbound transportation while keeping delivery distances to customers short on the outbound side. Customers are allowed to pick up their orders at the store or have the order delivered to their home. Based on our analysis, the Albertsons model is likely to be the most effective method for combining online sales with existing supermarkets in the grocery industry, whereas pure online grocers are likely to be less effective.
+As we have mentioned earlier, the online channel is also more effective for specialty grocers. In fact, Amazon has set up a specialty grocery area on its Web site to go after this market. Amazon has also entered the home delivery grocery market, but it remains to be seen how successful it will be.
+Using the Internet to Rent Movies: Netflix
+Founded in 1997, Netflix had grown to more than 20 million subscribers by 2011 and was the world's largest subscription service sending DVDs by mail and streaming movies and television episodes over the Internet. For $7.99 a month, customers could obtain unlimited streaming of Netflix's digital library and for another $7.99 per month they could have any of more than
+
+98 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+100,000 DVD titles delivered to their home by mail. The growth of Netflix was one of the major factors that drove DVD rental chain Blockbuster into bankruptcy in 2010.
+IMPACT OF ONLINE SALES ON CUSTOMER SERVICE FOR NETFLIX Netflix attracted customers with its staggering selection and an excellent recommendation engine that allowed customers to access titles they were likely to enjoy. Whereas a typical Blockbuster store offered 3,000 titles, Netflix had more than 100,000 titles available. Netflix claimed that 95 percent of its customers received their DVDs within 24 hours of being shipped. In February 2000, Netflix introduced CineMatch, a program that made recommendations based on a customer's rental history and preferences coupled with ratings from other users with similar interests. Netflix had more than 3 billion movie ratings from members, with about 4 million movies being rated per day. The rating system had proven to be especially accurate, and 60 percent of all Netflix users selected their movies based on recommendations tailored to their individual tastes.2 The company used its recommendation technology to keep the DVD shipments moving and a greater number of its older DVD titles in circulation.
+For its digital content, Netflix allowed video streaming through a variety of devices including set-top boxes from Roku, Microsoft Xbox, Sony Play Station 3, and high-definition televisions from Sony and LG. The use of the Internet to view digital content had grown at a considerable rate. It was estimated that 48 percent of customers watched more than 15 minutes of streaming content in the fourth quarter of 2009, up from 28 percent the previous year.3 This proportion was likely to grow in the future.
+A challenge for Netflix was the delay the studios wanted to build in before allowing new movies to be available at Netflix. Given that the studios gained more revenue from DVD sales, they had negotiated a four-week delay from when the DVD was first available for sale to when it was available on Netflix. This was an artificial delay designed to support DVD sales through outlets like Wal-Mart.
+IMPACT OF ONLINE SALES ON COSTS AT NETFLIX Netflix used the Internet to significantly lower its facility and inventory costs relative to Blockbuster.
+Inventory Costs. Netflix aggregated its inventory at about 60 distribution centers in 2010. This allowed Netflix to hold significantly less inventory than Blockbuster, which held most of its inventory at thousands of retail stores. In 2009, about 70 percent of the DVDs shipped by Netflix were titles with release dates older than 13 weeks.4 Movie studios were happy that customers could view their older catalog (which otherwise provided little revenue) and thus offered Netflix these DVDs at cost and shared in the revenue that Netflix earned. Not having to pay for older DVDs further lowered inventory costs at Netflix. In 2009, Netflix carried only $37 million in inventories (on sales of $1.67 billion), while Blockbuster carried $639 million in inventories (on sales of $4.06 billion).
+Facility Costs. Netflix had significantly lower facility costs than Blockbuster because it aggregated its operations in fewer than 60 distribution centers, while Blockbuster had thousands of stores it had to pay for. Whereas $266 million in property and equipment at Netflix supported $1.67 billion of sales in 2009, Blockbuster required $2.37 billion in property and equipment to support $4.06 billion of sales.
+Transportation Costs. Transportation costs at Netflix were considerably higher than at Blockbuster. The Netflix CFO was quoted as stating that the company spent about $600 million in shipping DVDs in 2009. As people moved from DVDs to streaming, transportation costs were
+2 Clive Thompson, "If You Liked This, You're Sure to Love That," New York Times, November 21, 2008, http://www. nytimes.com/2008/11/23/magazine/23Netflix-t.html. 3 Netflix 2009 Annual Report. 4 Ibid.
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 99
+
+Table 4-13 Impact of Online Sales on Netflix Performance Relative to Blockbuster
+
+Area
+
+Impact for DVDs
+
+Impact for Digital Content
+
+Response time Product variety Product availability Customer experience Time to market Order visibility Direct sales Flexible pricing, portfolio, promotions Efficient funds transfer Inventory Facilities Transportation Information
+
+­1 +2 +1 +1 ­1
+0 0 +1 0 +2 +1 ­2 ­1
+
++2 +2 +2 +1 ­1
+0 0 +1 0 +2 +1 0 ­1
+
+Key: +2 = very positive; +1 = positive; 0 = neutral; ­1 = negative; ­2 = very negative.
+
+likely to reduce. In fact, Netflix's strategy was to buy more digital content using its savings in transportation costs as subscribers moved toward watching more content online.
+Information Costs. Information costs are higher to support the Netflix operations relative to Blockbuster. With the growth in digital streaming, information costs are likely to increase.
+Impact of Online Sales on Performance at Netflix. Netflix has significant advantages renting movies over the physical distribution channel of Blockbuster as shown in Table 4-13. These advantages are most pronounced for the wide selection of older movies that studios have in their catalogs. For newer movies, DVD vending machines from Redbox provide an effective channel with relatively low cost. In 2010, Blockbuster considered replacing its stores with thousands of vending machines as a major part of its recovery strategy. These vending machines carry only a few hundred titles consisting of new movies and popular children's videos. They allow customers to go online and reserve movies at specific machines using a credit card. The result is a virtual aggregation of inventories, which improves the matching of supply and demand and reduces inventory expense. They are typically installed in existing retail infrastructure such as grocery stores. Thus, the marginal increase in property, plant, and equipment is small.
+While Netflix exploited the Internet very effectively to mail DVDs from centralized DCs, it will find more challenges as it switches to being primarily a streaming service. It will face strong competition from the likes of Amazon, Apple, Google, and Hulu. The primary challenge for the streaming supply chain is sourcing content because the supply chain has relatively low investment in other assets. Netflix will find it harder to maintain a competitive advantage in this space unlike its competition with Blockbuster.
+4.5 DISTRIBUTION NETWORKS IN PRACTICE
+1. The ownership structure of the distribution network can have as big an impact as the type of distribution network. The bulk of this chapter deals with different types of physical networks and subsequent flows to distribute products successfully. However, equally important is who owns each stage in the distribution network. Distribution networks that have exactly
+
+100 Chapter 4 · Designing Distribution Networks and Applications to Online Sales
+the same physical flow but different ownership structures can have vastly different performance. For example, a manufacturer that owns its distribution network can control the network's actions. However, if the manufacturer does not own the distribution network, as is more often the case, a wide variety of issues need to be taken into account to optimize over the network. Obviously, an independent distributor wants to optimize its own enterprise, not necessarily the entire supply chain. Attempting to optimize over a distribution network with multiple enterprises requires great skill in coordinating the incentives of each of the players and in creating the right relationships. Be sure to consider the impact of both the physical flows and the ownership structure when designing a distribution network.
+2. It is important to have adaptable distribution networks. Distribution networks must be able to adapt to changing technology and environments. An inability to adapt can be very damaging in these times of rapid change. For example, Blockbuster in the movie rental business and Borders in the bookselling business had great success with a network of retail stores. Their inability to adapt to the arrival of the Internet, however, allowed competitors like Amazon and Netflix to gain market share at their expense. If either Blockbuster or Borders had adapted to take advantage of the Internet to create a tailored distribution network, it can be argued that they could have continued their dominance. Wal-Mart is an example of a company that through trial and error adapted its distribution network to take advantage of the Internet along with its existing retail store network.
+3. Product price, commoditization, and criticality affect the type of distribution system preferred by customers. Interactions between a buyer and a seller take time and resources. As a result, it is much more convenient for a buyer to deal with a single enterprise that can deliver a full line of products. For high-value, specialized, or critical products, customers are willing to have a relationship solely around that particular product. For low-value, commoditized products like office supplies, however, most customers prefer a one-stop shop. Thus, while customers are willing to order laptops directly from the manufacturer, they prefer to deal with a stationary supplier or store when looking to buy pens, paper, or staplers. Whereas Apple has been successful with stores selling only Apple products, it is highly unlikely that a stapler manufacturer could succeed without distributing through general stationary stores.
+4. Integrate the Internet with the existing physical network. To extract maximum benefit from the online channel for physical goods, firms should integrate it with their existing supply chain networks. Separating the two networks often results in inefficiencies within the supply chain. This coupling of the online channel with the existing physical network has been referred to as "clicks-and-mortar."
+Albertsons' use of its physical assets to satisfy both online orders and people who want to shop in a supermarket is an effective integration of online sales within a supply chain network. Another example of an effective clicks-and-mortar strategy is Wal-Mart, which allows customers to pick up online orders at its retail stores. The Internet is used to expand the variety available to customers at a Wal-Mart store. Wal-Mart stores stock popular items, whereas customers can order online the colors or sizes that may not be available in the store. This allows the Wal-Mart to centralize low-demand items while increasing the variety available to customers and extracting the maximum benefit from integrating its online sales with its physical network.
+4.6 SUMMARY OF LEARNING OBJECTIVES
+1. Identify the key factors to be considered when designing a distribution network. A manager must consider the customer needs to be met and the cost of meeting these needs when designing the distribution network. Some key customer needs to be considered include response time, product variety/availability, convenience, order visibility, and returnability. Important costs that managers must consider include inventories, transportation, facilities and handling, and
+
+Chapter 4 · Designing Distribution Networks and Applications to Online Sales 101
+information. Increasing the number of facilities decreases the response time and transportation cost but increases inventory and facility cost.
+2. Discuss the strengths and weaknesses of various distribution options. Distribution networks that ship directly to the customer are better suited for a large variety of high-value products that have low and uncertain demand. These networks carry low levels of inventory but incur high transportation cost and provide a slow response time. Distribution networks that carry local inventory are suitable for products with high demand, especially if transportation is a large fraction of total cost. These networks incur higher inventory cost but lower transportation cost and provide a faster response time.
+3. Understand how online sales have affected the design of distribution networks in different industries. The rise of online sales has affected both customer service and costs in supply chains. Online sales allow a firm to offer greater product variety and improve product availability by centralizing inventories. This is especially beneficial for low-volume, high-variety products. The online channel also improves the customer experience by providing 24-hour access and allowing a more customized experience. Selling a product online, however, increases the response time relative to a retail store. A company selling online reduces facility costs if there is no significant loss of customer participation. Transportation costs increase, however, and this is particularly significant for low-value products with predictable demand. Online sales have been most effective for high-value products with uncertain demand, when customers are willing to wait some time before delivery. The Internet is particularly effective for products like music, movies, and books that can be digitized because the two major disadvantages of distributing physical products online--long response times and high transportation cost--disappear.
+
+Discussion Questions
+
+1. What differences in the retail environment may justify the fact that the fast-moving consumer goods supply chain in India has far more distributors than it has in the United States?
+2. A specialty chemical company is considering expanding its operations into Brazil, where five companies dominate the consumption of specialty chemicals. What sort of distribution network should this company utilize?
+3. A distributor has heard that one of the major manufacturers from which it buys is considering going direct to the consumer. What can the distributor do about this? What advantages can it offer the manufacturer that the manufacturer is unlikely to be able to reproduce?
+4. What types of distribution networks are typically best suited for commodity items?
+5. What type of network is best suited to highly differentiated products?
+6. In the future, do you see the value added by distributors decreasing, increasing, or staying about the same?
+
+7. Why has the online channel been more successful in the PC industry compared to the grocery industry? In the future, how valuable is the online channel likely to be in the PC industry?
+8. Is the online channel likely to be more beneficial in the early part or the mature part of a product's life cycle? Why?
+9. Consider the sale of home improvement products at Home Depot or a chain of hardware stores such as True Value. Which can extract the greater benefit from going online? Why?
+10. Amazon sells books, music, electronics, software, toys, and home improvement products online. In which product category does going online offer the greatest advantage compared to a retail store chain? In which product category does the online channel offer the smallest advantage (or a potential cost disadvantage) compared to a retail store chain? Why?
+11. Why should an online seller such as Amazon build more warehouses as its sales volume grows?
+
+Bibliography
+
+Chopra, Sunil. "Designing the Delivery Network for a Supply Chain." Transportation Research, Part E (2003): 39, 123­140.
+Chopra, Sunil. "Movie Rental Business: Blockbuster, Netflix, and Redbox." Kellogg School of Management Case # 5-310-507, 2010.
+
+Chopra, Sunil, and Jan Van Mieghem. "Which e-Business Is Right for Your Supply Chain?" Supply Chain Management Review (July­August 2000): 32­40.
+Evans, Philip, and Thomas S. Wurster. "Getting Real About Virtual Commerce." Harvard Business Review (November­December 1999): 84­94.
+
+
